@@ -9,3 +9,21 @@ remove_design -verilog "F:/FPGA/SME309/lab1/project/control_tb.v"
 add_design "F:/FPGA/SME309/lab1/project/control_tb.v"
 remove_design -verilog "F:/FPGA/SME309/lab1/project/control_tb.v"
 add_simulation "F:/FPGA/SME309/lab1/project/control_tb.v"
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+remove_design -verilog "F:/SME files/SME309/codes/SME209_codes/lab1/project/mem.v"
+add_design "F:/SME files/SME309/codes/SME209_codes/lab1/project/instr_mem.v"
+add_design "F:/SME files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v"
+add_design "F:/SME files/SME309/codes/SME209_codes/lab1/project/source/seg_decoder.v"
+add_constraint "F:/SME files/SME309/codes/SME209_codes/lab1/project/top.fdc"
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
