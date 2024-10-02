@@ -656,7 +656,7 @@
             <data>DIFFIO_L5_G1_11P_GMCLK</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>P15</data>
@@ -1070,7 +1070,7 @@
             <data>DIFFIO_R4_G1_07P_VAA14P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>B1</data>
@@ -1079,7 +1079,7 @@
             <data>DIFFIO_R4_G1_08P_DQS_VAA15P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>B3</data>
@@ -1088,7 +1088,7 @@
             <data>DIFFIO_R4_G1_09P_VAA0P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>D5</data>
@@ -1097,7 +1097,7 @@
             <data>DIFFIO_R4_G1_10P_GSCLK</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>E3</data>
@@ -1106,7 +1106,7 @@
             <data>DIFFIO_R4_G1_11P_GMCLK</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>F4</data>
@@ -1115,7 +1115,7 @@
             <data>DIFFIO_R4_G2_12P_GMCLK</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>E2</data>
@@ -1124,7 +1124,7 @@
             <data>DIFFIO_R4_G2_13P_GSCLK</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>H2</data>
@@ -1133,7 +1133,7 @@
             <data>DIFFIO_R4_G2_14P_DQS</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>C2</data>
@@ -1142,7 +1142,7 @@
             <data>DIFFIO_R4_G2_15P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>H1</data>
@@ -1151,7 +1151,7 @@
             <data>DIFFIO_R4_G2_16P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>F1</data>
@@ -1160,7 +1160,7 @@
             <data>DIFFIO_R4_G2_17P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>G6</data>
@@ -1169,7 +1169,7 @@
             <data>DIFFIO_R4_G3_18P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>G4</data>
@@ -1178,7 +1178,7 @@
             <data>DIFFIO_R4_G3_19P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>J4</data>
@@ -1187,7 +1187,7 @@
             <data>DIFFIO_R4_G3_20P_DQS</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>J3</data>
@@ -1196,7 +1196,7 @@
             <data>DIFFIO_R4_G3_21P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>K2</data>
@@ -1205,7 +1205,7 @@
             <data>DIFFIO_R4_G3_22P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>H6</data>
@@ -1286,7 +1286,7 @@
             <data>DIFFIO_R4_G1_06N_VAA13N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>A3</data>
@@ -1295,7 +1295,7 @@
             <data>DIFFIO_R4_G1_07N_VAA14N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>A1</data>
@@ -1304,7 +1304,7 @@
             <data>DIFFIO_R4_G1_08N_DQS_VAA15N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>B2</data>
@@ -1313,7 +1313,7 @@
             <data>DIFFIO_R4_G1_09N_VAA0N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>D4</data>
@@ -1322,7 +1322,7 @@
             <data>DIFFIO_R4_G1_10N_GSCLK</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>D3</data>
@@ -1331,7 +1331,7 @@
             <data>DIFFIO_R4_G1_11N_GMCLK</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>F3</data>
@@ -1340,7 +1340,7 @@
             <data>DIFFIO_R4_G2_12N_GMCLK</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>D2</data>
@@ -1349,7 +1349,7 @@
             <data>DIFFIO_R4_G2_13N_GSCLK</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>G2</data>
@@ -1358,7 +1358,7 @@
             <data>DIFFIO_R4_G2_14N_DQS</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>C1</data>
@@ -1367,7 +1367,7 @@
             <data>DIFFIO_R4_G2_15N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>G1</data>
@@ -1376,7 +1376,7 @@
             <data>DIFFIO_R4_G2_16N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>E1</data>
@@ -1385,7 +1385,7 @@
             <data>DIFFIO_R4_G2_17N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>F6</data>
@@ -1394,7 +1394,7 @@
             <data>DIFFIO_R4_G3_18N_VREF</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>G3</data>
@@ -1403,7 +1403,7 @@
             <data>DIFFIO_R4_G3_19N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>H4</data>
@@ -1412,7 +1412,7 @@
             <data>DIFFIO_R4_G3_20N_DQS</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>J2</data>
@@ -1421,7 +1421,7 @@
             <data>DIFFIO_R4_G3_21N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>K1</data>
@@ -1457,7 +1457,7 @@
             <data>DIFFIO_R5_G0_00P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>K3</data>
@@ -1682,7 +1682,7 @@
             <data>DIFFIO_R5_G0_00N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>L3</data>
@@ -1691,7 +1691,7 @@
             <data>DIFFIO_R5_G0_01N</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>N1</data>
@@ -1901,6 +1901,1240 @@
             <data></data>
         </row>
     </table>
+    <table id="device_map_timing_constraint" title="Inferred clocks commands" column_number="1">
+        <column_headers>
+            <data>Command</data>
+        </column_headers>
+        <row>
+            <data>create_clock -period {1000} -waveform {0 500} -name {top|clk} [get_ports {clk}] -add</data>
+        </row>
+        <row>
+            <data>set_clock_groups -name {Inferred_clock_group_0} -asynchronous -group [get_clocks {top|clk}]</data>
+        </row>
+    </table>
+    <table id="device_map_logic_constraint" title="IO Constraint" column_number="31">
+        <column_headers>
+            <data>I/O NAME</data>
+            <data>I/O DIRECTION</data>
+            <data>LOC</data>
+            <data>VCCIO</data>
+            <data>IOSTANDARD</data>
+            <data>DRIVE</data>
+            <data>BUS_KEEPER</data>
+            <data>SLEW</data>
+            <data>OFF_CHIP_TERMINATION</data>
+            <data>HYS_DRIVE_MODE</data>
+            <data>VREF_MODE</data>
+            <data>VREF_MODE_VALUE</data>
+            <data>DDR_TERM_MODE</data>
+            <data>DIFF_IN_TERM_MODE</data>
+            <data>OPEN_DRAIN</data>
+            <data>IN_DELAY</data>
+            <data>OUT_DELAY</data>
+            <data>IPT</data>
+            <data>CAL_MODE</data>
+            <data>DDR_RES</data>
+            <data>CP_DIFFOUT_DYN_EN</data>
+            <data>CP_DIFFIN_DYN_EN</data>
+            <data>DIFFOUT_EN0</data>
+            <data>DIFFOUT_EN1</data>
+            <data>IN_MAG</data>
+            <data>HYS</data>
+            <data>DYN_TERM</data>
+            <data>TX_VCM_0</data>
+            <data>TX_VCM_1</data>
+            <data>IO_REGISTER</data>
+            <data>VIRTUAL_IO</data>
+        </column_headers>
+        <row>
+            <data>SevenSegCatHL[0]</data>
+            <data>output</data>
+            <data>D4</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[1]</data>
+            <data>output</data>
+            <data>E3</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[2]</data>
+            <data>output</data>
+            <data>D3</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[3]</data>
+            <data>output</data>
+            <data>F4</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[4]</data>
+            <data>output</data>
+            <data>F3</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[5]</data>
+            <data>output</data>
+            <data>E2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[6]</data>
+            <data>output</data>
+            <data>D2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[7]</data>
+            <data>output</data>
+            <data>H2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[8]</data>
+            <data>output</data>
+            <data>B4</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[9]</data>
+            <data>output</data>
+            <data>A4</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[10]</data>
+            <data>output</data>
+            <data>A3</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[11]</data>
+            <data>output</data>
+            <data>B1</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[12]</data>
+            <data>output</data>
+            <data>A1</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[13]</data>
+            <data>output</data>
+            <data>B3</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[14]</data>
+            <data>output</data>
+            <data>B2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>SevenSegCatHL[15]</data>
+            <data>output</data>
+            <data>D5</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>anode[0]</data>
+            <data>output</data>
+            <data>G1</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>UNUSED</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>anode[1]</data>
+            <data>output</data>
+            <data>F1</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>anode[2]</data>
+            <data>output</data>
+            <data>E1</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>anode[3]</data>
+            <data>output</data>
+            <data>G6</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>anode[4]</data>
+            <data>output</data>
+            <data>G2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>anode[5]</data>
+            <data>output</data>
+            <data>C2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>anode[6]</data>
+            <data>output</data>
+            <data>C1</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>anode[7]</data>
+            <data>output</data>
+            <data>H1</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>led[0]</data>
+            <data>output</data>
+            <data>K2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>led[1]</data>
+            <data>output</data>
+            <data>J2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>led[2]</data>
+            <data>output</data>
+            <data>J3</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>led[3]</data>
+            <data>output</data>
+            <data>H4</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>led[4]</data>
+            <data>output</data>
+            <data>J4</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>led[5]</data>
+            <data>output</data>
+            <data>G3</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>led[6]</data>
+            <data>output</data>
+            <data>G4</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>led[7]</data>
+            <data>output</data>
+            <data>F6</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>4</data>
+            <data>NONE</data>
+            <data>FAST</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>btn_p</data>
+            <data>input</data>
+            <data>M1</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data></data>
+            <data>NONE</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>btn_spddn</data>
+            <data>input</data>
+            <data>L1</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data></data>
+            <data>NONE</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>btn_spdup</data>
+            <data>input</data>
+            <data>L3</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data></data>
+            <data>NONE</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
+            <data>clk</data>
+            <data>input</data>
+            <data>P17</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data></data>
+            <data>UNUSED</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+    </table>
     <table id="device_map_clock_signal" title="Clock Signal" column_number="5">
         <column_headers>
             <data>Driver_Pin_Name</data>
@@ -1909,6 +3143,25 @@
             <data>Net_Name</data>
             <data>Fanout</data>
         </column_headers>
+        <row>
+            <data>O</data>
+            <data>clk_ibuf</data>
+            <data>clkbufg_0</data>
+            <data>nt_clk</data>
+            <data>1</data>
+        </row>
+    </table>
+    <table id="device_map_reset_signal" title="Reset Signal" column_number="3">
+        <column_headers>
+            <data>Net_Name</data>
+            <data>Rst_Source_Inst</data>
+            <data>Fanout</data>
+        </column_headers>
+        <row>
+            <data>ctrl/N0</data>
+            <data>ctrl/N0</data>
+            <data>101</data>
+        </row>
     </table>
     <table id="device_map_high_fanout_singnal" title="High Fanout Signal" column_number="3">
         <column_headers>
@@ -1917,24 +3170,504 @@
             <data>Fanout</data>
         </column_headers>
         <row>
-            <data>nt_anode[0]</data>
-            <data>ss</data>
+            <data>ntclkbufg_0</data>
+            <data>clkbufg_0</data>
+            <data>101</data>
+        </row>
+        <row>
+            <data>ctrl/N0</data>
+            <data>ctrl/N0</data>
+            <data>101</data>
+        </row>
+        <row>
+            <data>nt_led[7]</data>
+            <data>ss/addr_counter[7]</data>
+            <data>33</data>
+        </row>
+        <row>
+            <data>u_key_d/N10</data>
+            <data>u_key_d/N10_3</data>
+            <data>24</data>
+        </row>
+        <row>
+            <data>u_key_d/N44</data>
+            <data>u_key_d/N44_21</data>
+            <data>23</data>
+        </row>
+        <row>
+            <data>status[1]</data>
+            <data>ctrl/status[1]</data>
+            <data>11</data>
+        </row>
+        <row>
+            <data>status[0]</data>
+            <data>ctrl/status[0]</data>
+            <data>11</data>
+        </row>
+        <row>
+            <data>nt_led[2]</data>
+            <data>ss/addr_counter[2]</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>nt_led[1]</data>
+            <data>ss/addr_counter[1]</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>nt_led[0]</data>
+            <data>ss/addr_counter[0]</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>ss/N122_inv</data>
+            <data>ss/N122_inv</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>nt_led[3]</data>
+            <data>ss/addr_counter[3]</data>
             <data>9</data>
+        </row>
+        <row>
+            <data>nt_led[4]</data>
+            <data>ss/addr_counter[4]</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>ss/N122</data>
+            <data>ss/N122_25</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>ss/N90</data>
+            <data>ss/N90_17</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>nt_anode[0]</data>
+            <data>ss/anode_reg[0]</data>
+            <data>8</data>
         </row>
         <row>
             <data>nt_anode[1]</data>
-            <data>ss</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>nt_anode[2]</data>
-            <data>ss</data>
-            <data>9</data>
+            <data>ss/anode_reg[1]</data>
+            <data>8</data>
         </row>
         <row>
             <data>nt_anode[3]</data>
-            <data>ss</data>
-            <data>9</data>
+            <data>ss/anode_reg[3]</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>nt_anode[2]</data>
+            <data>ss/anode_reg[2]</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>ss/num [0]</data>
+            <data>ss/num[0]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>ss/num [1]</data>
+            <data>ss/num[1]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>nt_led[5]</data>
+            <data>ss/addr_counter[5]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>nt_anode[6]</data>
+            <data>ss/anode_reg[6]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>nt_anode[5]</data>
+            <data>ss/anode_reg[5]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>nt_anode[4]</data>
+            <data>ss/anode_reg[4]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>ss/num [2]</data>
+            <data>ss/num[2]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>ss/num [3]</data>
+            <data>ss/num[3]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>N0</data>
+            <data>N0_4</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>nt_led[6]</data>
+            <data>ss/addr_counter[6]</data>
+            <data>6</data>
+        </row>
+        <row>
+            <data>ss/N51</data>
+            <data>ss/N51_4</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [0]</data>
+            <data>ss/clk_counter[0]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>ss/N90_inv</data>
+            <data>ss/N90_inv</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>ss/counter [0]</data>
+            <data>ss/counter[0]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>ss/N131</data>
+            <data>_N533_1_inv</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>ss/counter [1]</data>
+            <data>ss/counter[1]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>u_key_d/counter [0]</data>
+            <data>u_key_d/counter[0]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [1]</data>
+            <data>ss/anode_cnt[1]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>ss/counter [2]</data>
+            <data>ss/counter[2]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>u_key_d/counter [1]</data>
+            <data>u_key_d/counter[1]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>u_key_d/key_status [0]</data>
+            <data>u_key_d/key_status[0]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [24]</data>
+            <data>ss/clk_counter[24]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>u_key_d/key_status [2]</data>
+            <data>u_key_d/key_status[2]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>u_key_d/key_status [1]</data>
+            <data>u_key_d/key_status[1]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [0]</data>
+            <data>ss/anode_cnt[0]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>nt_anode[7]</data>
+            <data>ss/anode_reg[7]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [14]</data>
+            <data>ss/anode_cnt[14]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [3]</data>
+            <data>ss/anode_cnt[3]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [4]</data>
+            <data>ss/anode_cnt[4]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [5]</data>
+            <data>ss/anode_cnt[5]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [6]</data>
+            <data>ss/anode_cnt[6]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [7]</data>
+            <data>ss/anode_cnt[7]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [8]</data>
+            <data>ss/anode_cnt[8]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [9]</data>
+            <data>ss/anode_cnt[9]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [10]</data>
+            <data>ss/anode_cnt[10]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [11]</data>
+            <data>ss/anode_cnt[11]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [12]</data>
+            <data>ss/anode_cnt[12]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [13]</data>
+            <data>ss/anode_cnt[13]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [2]</data>
+            <data>ss/anode_cnt[2]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [15]</data>
+            <data>ss/anode_cnt[15]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/anode_cnt [16]</data>
+            <data>ss/anode_cnt[16]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/_N594</data>
+            <data>ss/N122_20</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [1]</data>
+            <data>ss/clk_counter[1]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [2]</data>
+            <data>ss/clk_counter[2]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>nt_btn_spddn</data>
+            <data>btn_spddn_ibuf</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [4]</data>
+            <data>ss/clk_counter[4]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [5]</data>
+            <data>ss/clk_counter[5]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [6]</data>
+            <data>ss/clk_counter[6]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [7]</data>
+            <data>ss/clk_counter[7]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [8]</data>
+            <data>ss/clk_counter[8]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [9]</data>
+            <data>ss/clk_counter[9]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [10]</data>
+            <data>ss/clk_counter[10]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [11]</data>
+            <data>ss/clk_counter[11]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [12]</data>
+            <data>ss/clk_counter[12]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [13]</data>
+            <data>ss/clk_counter[13]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [14]</data>
+            <data>ss/clk_counter[14]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [15]</data>
+            <data>ss/clk_counter[15]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [16]</data>
+            <data>ss/clk_counter[16]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/_N589</data>
+            <data>ss/N122_15</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [18]</data>
+            <data>ss/clk_counter[18]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [19]</data>
+            <data>ss/clk_counter[19]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [20]</data>
+            <data>ss/clk_counter[20]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [21]</data>
+            <data>ss/clk_counter[21]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [22]</data>
+            <data>ss/clk_counter[22]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [23]</data>
+            <data>ss/clk_counter[23]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/_N584</data>
+            <data>ss/N122_10</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/_N579</data>
+            <data>ss/N122_5</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/_N547</data>
+            <data>ss/N90_14</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/_N546</data>
+            <data>ss/N90_13</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/counter [3]</data>
+            <data>ss/counter[3]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>nt_btn_p</data>
+            <data>btn_p_ibuf</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/_N544</data>
+            <data>ss/N90_11</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>key_check[2]</data>
+            <data>u_key_d/N35_2</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>key_check[1]</data>
+            <data>u_key_d/N35_1</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/valid</data>
+            <data>ss/valid</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>key_check[0]</data>
+            <data>u_key_d/N35_0</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>N14</data>
+            <data>N14</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/_N539</data>
+            <data>ss/N90_6</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ss/N135</data>
+            <data>ss/N135_1</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_key_d/counter [2]</data>
+            <data>u_key_d/counter[2]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_key_d/counter [3]</data>
+            <data>u_key_d/counter[3]</data>
+            <data>2</data>
         </row>
     </table>
     <table id="device_map_resource_usage" title="Resource Usage Summary" column_number="4">
@@ -1952,13 +3685,13 @@
         </row>
         <row>
             <data>FF</data>
-            <data>0</data>
+            <data>103</data>
             <data>71600</data>
-            <data>0</data>
+            <data>1</data>
         </row>
         <row>
             <data>LUT</data>
-            <data>8</data>
+            <data>153</data>
             <data>35800</data>
             <data>1</data>
         </row>
@@ -1970,15 +3703,15 @@
         </row>
         <row>
             <data>DRM</data>
-            <data>0</data>
+            <data>1</data>
             <data>85</data>
-            <data>0</data>
+            <data>2</data>
         </row>
         <row>
             <data>IO</data>
-            <data>33</data>
+            <data>37</data>
             <data>209</data>
-            <data>16</data>
+            <data>18</data>
         </row>
         <row>
             <data>RCKB</data>
@@ -1994,9 +3727,9 @@
         </row>
         <row>
             <data>USCM</data>
-            <data>0</data>
+            <data>1</data>
             <data>32</data>
-            <data>0</data>
+            <data>4</data>
         </row>
         <row>
             <data>CCS</data>
@@ -2100,13 +3833,31 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:6s</data>
-            <data>0h:0m:6s</data>
+            <data>0h:0m:7s</data>
+            <data>0h:0m:7s</data>
             <data>0h:0m:16s</data>
             <data>299</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
+        </row>
+    </table>
+    <table id="device_map_messages" title="Device Map Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="4">The instance clkbufg_0(GTP_CLKBUFG) has been inserted on the net nt_clk in design, driver pin O(instance clk_ibuf) -&gt; load pin CLK(instance ctrl/status[0]).</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: ss/N11_0_1/gateop, insts:16.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: ss/N78_1/gateop, insts:25.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: u_key_d/N18_1_1/gateop, insts:20.</data>
+        </row>
+        <row>
+            <data message="5">Public-4010: Pcf file F:/SME files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf has been covered.</data>
         </row>
     </table>
     <general_container id="device_map_settings">

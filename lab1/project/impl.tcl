@@ -27,3 +27,69 @@ set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
 compile -top_module top
 synthesize -ads -selected_syn_tool_opt 2 
 dev_map 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_netlist 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+add_simulation "F:/SME files/SME309/codes/SME209_codes/lab1/project/source/tb_sevenseg.v"
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+add_design "F:/SME files/SME309/codes/SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v"
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 

@@ -1,69 +1,274 @@
 //
-// Generated (version 2022.1<build 99559>) at Thu Sep 26 20:50:29 2024
+// Generated (version 2022.1<build 99559>) at Sat Sep 28 10:35:52 2024
 //
+
+module control
+(
+    input [2:0] \u_key_d/key_reg ,
+    input [2:0] \u_key_d/key_status ,
+    input clk,
+    input pause,
+    input rst_n,
+    input speeddown,
+    input speedup,
+    output [1:0] status,
+    output N0,
+    output N55,
+    output N57_inv
+);
+    wire [1:0] N49;
+    wire N56;
+    wire N57;
+    wire N105;
+    wire N137;
+    wire [1:0] status_save;
+
+    GTP_INV N0_vname (
+            .Z (N0),
+            .I (rst_n));
+    // defparam N0_vname.orig_name = N0;
+
+    GTP_LUT6 /* \N49_28[0]  */ #(
+            .INIT(64'b1000001110000011101100001011111111000011110000111111000011001100))
+        \N49_28[0]  (
+            .Z (N49[0]),
+            .I0 (status_save[0]),
+            .I1 (status[0]),
+            .I2 (status[1]),
+            .I3 (speeddown),
+            .I4 (speedup),
+            .I5 (pause));
+	// LUT = (I1&I2&~I5)|(~I1&~I2&I4)|(I0&I1&I2)|(I1&~I2&~I3&~I4)|(~I1&~I3&~I4&I5)|(I0&~I3&~I4&I5)|(~I1&I2&I3&~I4) ;
+
+    GTP_LUT6 /* \N49_28[1]  */ #(
+            .INIT(64'b1011110010111100100000001011111111111100111111001100000011110000))
+        \N49_28[1]  (
+            .Z (N49[1]),
+            .I0 (status_save[1]),
+            .I1 (status[0]),
+            .I2 (status[1]),
+            .I3 (speeddown),
+            .I4 (speedup),
+            .I5 (pause));
+	// LUT = (I1&I2&~I5)|(~I1&I2&~I3)|(I1&~I2&I4)|(~I1&I2&I4)|(I0&I1&I2)|(~I2&~I3&~I4&I5)|(I0&~I3&~I4&I5) ;
+
+    GTP_LUT2 /* N55 */ #(
+            .INIT(4'b0001))
+        N55_vname (
+            .Z (N55),
+            .I0 (status[0]),
+            .I1 (status[1]));
+    // defparam N55_vname.orig_name = N55;
+	// LUT = ~I0&~I1 ;
+	// ../control.v:23
+
+    GTP_LUT2 /* N57 */ #(
+            .INIT(4'b0100))
+        N57_vname (
+            .Z (N57),
+            .I0 (status[0]),
+            .I1 (status[1]));
+    // defparam N57_vname.orig_name = N57;
+	// LUT = ~I0&I1 ;
+	// ../control.v:57
+
+    GTP_LUT2 /* N57_inv */ #(
+            .INIT(4'b1011))
+        N57_inv_vname (
+            .Z (N57_inv),
+            .I0 (status[0]),
+            .I1 (status[1]));
+    // defparam N57_inv_vname.orig_name = N57_inv;
+	// LUT = (~I1)|(I0) ;
+
+    GTP_LUT4 /* N105 */ #(
+            .INIT(16'b0010001100000000))
+        N105_vname (
+            .Z (N105),
+            .I0 (\u_key_d/key_reg [1] ),
+            .I1 (\u_key_d/key_reg [2] ),
+            .I2 (\u_key_d/key_status [1] ),
+            .I3 (\u_key_d/key_status [2] ));
+    // defparam N105_vname.orig_name = N105;
+	// LUT = (~I1&~I2&I3)|(I0&~I1&I3) ;
+	// ../control.v:64
+
+    GTP_LUT6D /* N137_0 */ #(
+            .INIT(64'b0111000000000000011100000111000000100010001000100010001000100010))
+        N137_0 (
+            .Z (N137),
+            .Z5 (N56),
+            .I0 (status[0]),
+            .I1 (status[1]),
+            .I2 (N105),
+            .I3 (\u_key_d/key_reg [0] ),
+            .I4 (\u_key_d/key_status [0] ),
+            .I5 (1'b1));
+	// LUT = (~I1&I2&~I4)|(~I0&I2&~I4)|(~I1&I2&I3)|(~I0&I2&I3) ;
+	// Z5 = I0&~I1 ;
+
+    GTP_DFF_P /* \status[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b1))
+        \status[0]  (
+            .Q (status[0]),
+            .CLK (clk),
+            .D (N49[0]),
+            .P (N0));
+	// ../control.v:16
+
+    GTP_DFF_C /* \status[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \status[1]  (
+            .Q (status[1]),
+            .C (N0),
+            .CLK (clk),
+            .D (N49[1]));
+	// ../control.v:16
+
+    GTP_DFF_PE /* \status_save[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b1))
+        \status_save[0]  (
+            .Q (status_save[0]),
+            .CE (N137),
+            .CLK (clk),
+            .D (N56),
+            .P (N0));
+	// ../control.v:16
+
+    GTP_DFF_CE /* \status_save[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \status_save[1]  (
+            .Q (status_save[1]),
+            .C (N0),
+            .CE (N137),
+            .CLK (clk),
+            .D (N57));
+	// ../control.v:16
+
+
+endmodule
+
 
 module Seven_Seg
 (
-    input [31:0] data,
+    input [3:0] N139,
+    input [31:0] data_out,
+    input [31:0] instr_out,
+    input [1:0] status,
+    input N1,
+    input N109,
     input N132,
     input clk,
-    input rst_n,
+    output [7:0] addr,
     output [7:0] anode,
     output [3:0] num,
-    output N1,
-    output _N259_8,
-    output _N259_9
+    output _N533_8,
+    output _N533_9
 );
     wire [16:0] N11;
+    wire N51;
+    wire [7:0] N76;
+    wire [24:0] N78;
     wire N90;
     wire N90_inv;
+    wire N123;
     wire [16:0] N125;
+    wire N126;
+    wire [3:0] N128;
+    wire [24:0] N131;
     wire [3:0] N135;
-    wire _N33;
-    wire _N34;
-    wire _N35;
-    wire _N36;
-    wire _N37;
-    wire _N38;
-    wire _N39;
-    wire _N40;
-    wire _N41;
-    wire _N42;
-    wire _N43;
-    wire _N44;
-    wire _N45;
-    wire _N46;
-    wire _N47;
-    wire _N53;
-    wire _N54;
-    wire _N55;
-    wire _N56;
-    wire _N61;
-    wire _N62;
-    wire _N63;
-    wire _N64;
-    wire _N69;
-    wire _N70;
-    wire _N71;
-    wire _N72;
-    wire _N265;
-    wire _N270;
-    wire _N272;
-    wire _N273;
+    wire N136;
+    wire _N74;
+    wire _N102;
+    wire _N109;
+    wire _N110;
+    wire _N111;
+    wire _N112;
+    wire _N113;
+    wire _N114;
+    wire _N115;
+    wire _N116;
+    wire _N117;
+    wire _N118;
+    wire _N119;
+    wire _N120;
+    wire _N121;
+    wire _N122;
+    wire _N123;
+    wire _N124;
+    wire _N125;
+    wire _N126;
+    wire _N127;
+    wire _N128;
+    wire _N129;
+    wire _N130;
+    wire _N131;
+    wire _N132;
+    wire _N156;
+    wire _N157;
+    wire _N158;
+    wire _N159;
+    wire _N160;
+    wire _N161;
+    wire _N162;
+    wire _N163;
+    wire _N164;
+    wire _N165;
+    wire _N166;
+    wire _N167;
+    wire _N168;
+    wire _N169;
+    wire _N170;
+    wire _N188;
+    wire _N189;
+    wire _N190;
+    wire _N191;
+    wire _N192;
+    wire _N193;
+    wire _N194;
+    wire _N195;
+    wire _N196;
+    wire _N197;
+    wire _N198;
+    wire _N199;
+    wire _N200;
+    wire _N201;
+    wire _N202;
+    wire _N203;
+    wire _N204;
+    wire _N205;
+    wire _N206;
+    wire _N207;
+    wire _N208;
+    wire _N209;
+    wire _N210;
+    wire _N211;
+    wire _N539;
+    wire _N544;
+    wire _N546;
+    wire _N547;
+    wire _N579;
+    wire _N584;
+    wire _N589;
+    wire _N594;
+    wire _N595;
     wire [16:0] anode_cnt;
     wire \anode_cnt[0]_inv ;
-
-    GTP_INV N1_vname (
-            .Z (N1),
-            .I (rst_n));
-    // defparam N1_vname.orig_name = N1;
+    wire [24:0] clk_counter;
+    wire [3:0] count_limit;
+    wire [3:0] counter;
+    wire valid;
 
     GTP_LUT6CARRY /* N11_0_1 */ #(
             .INIT(64'b0110011001100110011001100110011000000000000000000000000000000000), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("TRUE"))
         N11_0_1 (
-            .COUT (_N33),
+            .COUT (_N156),
             .Z (N11[1]),
             .CIN (),
             .I0 (anode_cnt[0]),
@@ -74,16 +279,16 @@ module Seven_Seg
             .I5 (1'b1));
 	// LUT = I1^I0 ;
 	// CARRY = (1'b0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_2 */ #(
             .INIT(64'b0111100001111000011110000111100010000000100000001000000010000000), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_2 (
-            .COUT (_N34),
+            .COUT (_N157),
             .Z (N11[2]),
-            .CIN (_N33),
+            .CIN (_N156),
             .I0 (anode_cnt[0]),
             .I1 (anode_cnt[1]),
             .I2 (anode_cnt[2]),
@@ -92,16 +297,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = (I0&I1&I2&~CIN)|(I0&I1&~I2&CIN)|(~I1&I2&CIN)|(~I0&I2&CIN) ;
 	// CARRY = (I0&I1&I2) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_3 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_3 (
-            .COUT (_N35),
+            .COUT (_N158),
             .Z (N11[3]),
-            .CIN (_N34),
+            .CIN (_N157),
             .I0 (anode_cnt[3]),
             .I1 (),
             .I2 (),
@@ -110,16 +315,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_4 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_4 (
-            .COUT (_N36),
+            .COUT (_N159),
             .Z (N11[4]),
-            .CIN (_N35),
+            .CIN (_N158),
             .I0 (anode_cnt[4]),
             .I1 (),
             .I2 (),
@@ -128,16 +333,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_5 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_5 (
-            .COUT (_N37),
+            .COUT (_N160),
             .Z (N11[5]),
-            .CIN (_N36),
+            .CIN (_N159),
             .I0 (anode_cnt[5]),
             .I1 (),
             .I2 (),
@@ -146,16 +351,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_6 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_6 (
-            .COUT (_N38),
+            .COUT (_N161),
             .Z (N11[6]),
-            .CIN (_N37),
+            .CIN (_N160),
             .I0 (anode_cnt[6]),
             .I1 (),
             .I2 (),
@@ -164,16 +369,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_7 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_7 (
-            .COUT (_N39),
+            .COUT (_N162),
             .Z (N11[7]),
-            .CIN (_N38),
+            .CIN (_N161),
             .I0 (anode_cnt[7]),
             .I1 (),
             .I2 (),
@@ -182,16 +387,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_8 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_8 (
-            .COUT (_N40),
+            .COUT (_N163),
             .Z (N11[8]),
-            .CIN (_N39),
+            .CIN (_N162),
             .I0 (anode_cnt[8]),
             .I1 (),
             .I2 (),
@@ -200,16 +405,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_9 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_9 (
-            .COUT (_N41),
+            .COUT (_N164),
             .Z (N11[9]),
-            .CIN (_N40),
+            .CIN (_N163),
             .I0 (anode_cnt[9]),
             .I1 (),
             .I2 (),
@@ -218,16 +423,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_10 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_10 (
-            .COUT (_N42),
+            .COUT (_N165),
             .Z (N11[10]),
-            .CIN (_N41),
+            .CIN (_N164),
             .I0 (anode_cnt[10]),
             .I1 (),
             .I2 (),
@@ -236,16 +441,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_11 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_11 (
-            .COUT (_N43),
+            .COUT (_N166),
             .Z (N11[11]),
-            .CIN (_N42),
+            .CIN (_N165),
             .I0 (anode_cnt[11]),
             .I1 (),
             .I2 (),
@@ -254,16 +459,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_12 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_12 (
-            .COUT (_N44),
+            .COUT (_N167),
             .Z (N11[12]),
-            .CIN (_N43),
+            .CIN (_N166),
             .I0 (anode_cnt[12]),
             .I1 (),
             .I2 (),
@@ -272,16 +477,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_13 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_13 (
-            .COUT (_N45),
+            .COUT (_N168),
             .Z (N11[13]),
-            .CIN (_N44),
+            .CIN (_N167),
             .I0 (anode_cnt[13]),
             .I1 (),
             .I2 (),
@@ -290,16 +495,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_14 */ #(
             .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_14 (
-            .COUT (_N46),
+            .COUT (_N169),
             .Z (N11[14]),
-            .CIN (_N45),
+            .CIN (_N168),
             .I0 (anode_cnt[14]),
             .I1 (),
             .I2 (),
@@ -308,16 +513,16 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = CIN^I0 ;
 	// CARRY = (I0) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_15 */ #(
             .INIT(64'b0100010001000100010001000100010010001000100010001000100010001000), 
             .I5_TO_CARRY("TRUE"), 
             .I5_TO_LUT("FALSE"))
         N11_0_15 (
-            .COUT (_N47),
+            .COUT (_N170),
             .Z (N125[15]),
-            .CIN (_N46),
+            .CIN (_N169),
             .I0 (anode_cnt[15]),
             .I1 (N90_inv),
             .I2 (),
@@ -326,7 +531,7 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = (I0&I1&~CIN)|(~I0&I1&CIN) ;
 	// CARRY = (I0&I1) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
 
     GTP_LUT6CARRY /* N11_0_16 */ #(
             .INIT(64'b0100010001000100010001000100010010001000100010001000100010001000), 
@@ -335,7 +540,7 @@ module Seven_Seg
         N11_0_16 (
             .COUT (),
             .Z (N125[16]),
-            .CIN (_N47),
+            .CIN (_N170),
             .I0 (anode_cnt[16]),
             .I1 (N90_inv),
             .I2 (),
@@ -344,12 +549,551 @@ module Seven_Seg
             .I5 (1'b0));
 	// LUT = (I0&I1&~CIN)|(~I0&I1&CIN) ;
 	// CARRY = (I0&I1) ? CIN : I5 ;
-	// ../Seven_Seg.v:42
+	// ../Seven_Seg.v:43
+
+    GTP_LUT6 /* N51_4 */ #(
+            .INIT(64'b1000000000000000000000100000000000000000010000000000000000000001))
+        N51_4 (
+            .Z (N51),
+            .I0 (count_limit[0]),
+            .I1 (count_limit[2]),
+            .I2 (counter[3]),
+            .I3 (counter[1]),
+            .I4 (counter[2]),
+            .I5 (counter[0]));
+	// LUT = (~I0&~I1&~I2&~I3&~I4&~I5)|(~I0&I1&I2&~I3&I4&~I5)|(I0&~I1&~I2&I3&~I4&I5)|(I0&I1&I2&I3&I4&I5) ;
+
+    GTP_LUT6D /* N61_ac1 */ #(
+            .INIT(64'b1111111100000000000000000000000000000000000001110000000000000111))
+        N61_ac1 (
+            .Z (_N74),
+            .Z5 (N128[0]),
+            .I0 (status[0]),
+            .I1 (status[1]),
+            .I2 (N51),
+            .I3 (counter[0]),
+            .I4 (counter[1]),
+            .I5 (1'b1));
+	// LUT = I3&I4 ;
+	// Z5 = (~I1&~I2&~I3)|(~I0&~I2&~I3) ;
+
+    GTP_LUT6 /* N76_ac5 */ #(
+            .INIT(64'b1000000000000000000000000000000000000000000000000000000000000000))
+        N76_ac5 (
+            .Z (_N102),
+            .I0 (addr[1]),
+            .I1 (addr[2]),
+            .I2 (addr[3]),
+            .I3 (addr[4]),
+            .I4 (addr[5]),
+            .I5 (addr[0]));
+	// LUT = I0&I1&I2&I3&I4&I5 ;
+
+    GTP_LUT6D /* N76_sum1 */ #(
+            .INIT(64'b0110011001100110011001100110011001111000011110000111100001111000))
+        N76_sum1 (
+            .Z (N76[1]),
+            .Z5 (N76[2]),
+            .I0 (addr[0]),
+            .I1 (addr[1]),
+            .I2 (addr[2]),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b1));
+	// LUT = I1^I0 ;
+	// Z5 = (I0&I1&~I2)|(~I1&I2)|(~I0&I2) ;
+
+    GTP_LUT5 /* N76_sum4 */ #(
+            .INIT(32'b01111111100000001111111100000000))
+        N76_sum4 (
+            .Z (N76[4]),
+            .I0 (addr[1]),
+            .I1 (addr[2]),
+            .I2 (addr[3]),
+            .I3 (addr[4]),
+            .I4 (addr[0]));
+	// LUT = (I3&~I4)|(~I2&I3)|(~I1&I3)|(~I0&I3)|(I0&I1&I2&~I3&I4) ;
+
+    GTP_LUT6 /* N76_sum5 */ #(
+            .INIT(64'b0111111111111111100000000000000011111111111111110000000000000000))
+        N76_sum5 (
+            .Z (N76[5]),
+            .I0 (addr[1]),
+            .I1 (addr[2]),
+            .I2 (addr[3]),
+            .I3 (addr[4]),
+            .I4 (addr[5]),
+            .I5 (addr[0]));
+	// LUT = (I4&~I5)|(~I3&I4)|(~I2&I4)|(~I1&I4)|(~I0&I4)|(I0&I1&I2&I3&~I4&I5) ;
+
+    GTP_LUT6D /* N76_sum6 */ #(
+            .INIT(64'b0101101001011010010110100101101001101100011011000110110001101100))
+        N76_sum6 (
+            .Z (N76[6]),
+            .Z5 (N76[7]),
+            .I0 (addr[6]),
+            .I1 (addr[7]),
+            .I2 (_N102),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b1));
+	// LUT = I2^I0 ;
+	// Z5 = (I1&~I2)|(I0&~I1&I2)|(~I0&I1) ;
+
+    GTP_LUT6CARRY /* N78_1 */ #(
+            .INIT(64'b0110011001100110011001100110011000000000000000000000000000000000), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("TRUE"))
+        N78_1 (
+            .COUT (_N109),
+            .Z (N78[0]),
+            .CIN (),
+            .I0 (valid),
+            .I1 (clk_counter[0]),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b1));
+	// LUT = I1^I0 ;
+	// CARRY = (1'b0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_2 */ #(
+            .INIT(64'b0111100001111000011110000111100010000000100000001000000010000000), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_2 (
+            .COUT (_N110),
+            .Z (N78[1]),
+            .CIN (_N109),
+            .I0 (valid),
+            .I1 (clk_counter[0]),
+            .I2 (clk_counter[1]),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&I1&I2&~CIN)|(I0&I1&~I2&CIN)|(~I1&I2&CIN)|(~I0&I2&CIN) ;
+	// CARRY = (I0&I1&I2) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_3 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_3 (
+            .COUT (_N111),
+            .Z (N78[2]),
+            .CIN (_N110),
+            .I0 (clk_counter[2]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_4 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_4 (
+            .COUT (_N112),
+            .Z (N78[3]),
+            .CIN (_N111),
+            .I0 (clk_counter[3]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_5 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_5 (
+            .COUT (_N113),
+            .Z (N78[4]),
+            .CIN (_N112),
+            .I0 (clk_counter[4]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_6 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_6 (
+            .COUT (_N114),
+            .Z (N78[5]),
+            .CIN (_N113),
+            .I0 (clk_counter[5]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_7 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_7 (
+            .COUT (_N115),
+            .Z (N78[6]),
+            .CIN (_N114),
+            .I0 (clk_counter[6]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_8 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_8 (
+            .COUT (_N116),
+            .Z (N78[7]),
+            .CIN (_N115),
+            .I0 (clk_counter[7]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_9 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_9 (
+            .COUT (_N117),
+            .Z (N78[8]),
+            .CIN (_N116),
+            .I0 (clk_counter[8]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_10 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_10 (
+            .COUT (_N118),
+            .Z (N78[9]),
+            .CIN (_N117),
+            .I0 (clk_counter[9]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_11 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_11 (
+            .COUT (_N119),
+            .Z (N78[10]),
+            .CIN (_N118),
+            .I0 (clk_counter[10]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_12 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_12 (
+            .COUT (_N120),
+            .Z (N78[11]),
+            .CIN (_N119),
+            .I0 (clk_counter[11]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_13 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_13 (
+            .COUT (_N121),
+            .Z (N78[12]),
+            .CIN (_N120),
+            .I0 (clk_counter[12]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_14 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_14 (
+            .COUT (_N122),
+            .Z (N78[13]),
+            .CIN (_N121),
+            .I0 (clk_counter[13]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_15 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_15 (
+            .COUT (_N123),
+            .Z (N78[14]),
+            .CIN (_N122),
+            .I0 (clk_counter[14]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_16 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_16 (
+            .COUT (_N124),
+            .Z (N78[15]),
+            .CIN (_N123),
+            .I0 (clk_counter[15]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_17 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_17 (
+            .COUT (_N125),
+            .Z (N78[16]),
+            .CIN (_N124),
+            .I0 (clk_counter[16]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_18 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_18 (
+            .COUT (_N126),
+            .Z (N78[17]),
+            .CIN (_N125),
+            .I0 (clk_counter[17]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_19 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_19 (
+            .COUT (_N127),
+            .Z (N78[18]),
+            .CIN (_N126),
+            .I0 (clk_counter[18]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_20 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_20 (
+            .COUT (_N128),
+            .Z (N78[19]),
+            .CIN (_N127),
+            .I0 (clk_counter[19]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_21 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_21 (
+            .COUT (_N129),
+            .Z (N78[20]),
+            .CIN (_N128),
+            .I0 (clk_counter[20]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_22 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_22 (
+            .COUT (_N130),
+            .Z (N78[21]),
+            .CIN (_N129),
+            .I0 (clk_counter[21]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_23 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_23 (
+            .COUT (_N131),
+            .Z (N78[22]),
+            .CIN (_N130),
+            .I0 (clk_counter[22]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_24 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_24 (
+            .COUT (_N132),
+            .Z (N78[23]),
+            .CIN (_N131),
+            .I0 (clk_counter[23]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
+
+    GTP_LUT6CARRY /* N78_25 */ #(
+            .INIT(64'b0101010101010101010101010101010110101010101010101010101010101010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N78_25 (
+            .COUT (),
+            .Z (N78[24]),
+            .CIN (_N132),
+            .I0 (clk_counter[24]),
+            .I1 (),
+            .I2 (),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = CIN^I0 ;
+	// CARRY = (I0) ? CIN : I5 ;
+	// ../Seven_Seg.v:106
 
     GTP_LUT2 /* N90_6 */ #(
             .INIT(4'b1000))
         N90_6 (
-            .Z (_N265),
+            .Z (_N539),
             .I0 (anode_cnt[2]),
             .I1 (anode_cnt[3]));
 	// LUT = I0&I1 ;
@@ -357,7 +1101,7 @@ module Seven_Seg
     GTP_LUT4 /* N90_11 */ #(
             .INIT(16'b0000000000000001))
         N90_11 (
-            .Z (_N270),
+            .Z (_N544),
             .I0 (anode_cnt[8]),
             .I1 (anode_cnt[11]),
             .I2 (anode_cnt[12]),
@@ -367,7 +1111,7 @@ module Seven_Seg
     GTP_LUT4 /* N90_13 */ #(
             .INIT(16'b1000000000000000))
         N90_13 (
-            .Z (_N272),
+            .Z (_N546),
             .I0 (anode_cnt[4]),
             .I1 (anode_cnt[7]),
             .I2 (anode_cnt[9]),
@@ -377,7 +1121,7 @@ module Seven_Seg
     GTP_LUT6D /* N90_14 */ #(
             .INIT(64'b0000001000000000000000000000000001010101010101010101010101010101))
         N90_14 (
-            .Z (_N273),
+            .Z (_N547),
             .Z5 (\anode_cnt[0]_inv ),
             .I0 (anode_cnt[0]),
             .I1 (anode_cnt[5]),
@@ -394,10 +1138,10 @@ module Seven_Seg
             .Z (N90),
             .I0 (anode_cnt[1]),
             .I1 (anode_cnt[14]),
-            .I2 (_N265),
-            .I3 (_N270),
-            .I4 (_N272),
-            .I5 (_N273));
+            .I2 (_N539),
+            .I3 (_N544),
+            .I4 (_N546),
+            .I5 (_N547));
 	// LUT = I0&~I1&I2&I3&I4&I5 ;
 
     GTP_LUT6 /* N90_inv */ #(
@@ -406,224 +1150,807 @@ module Seven_Seg
             .Z (N90_inv),
             .I0 (anode_cnt[1]),
             .I1 (anode_cnt[14]),
-            .I2 (_N265),
-            .I3 (_N270),
-            .I4 (_N272),
-            .I5 (_N273));
+            .I2 (_N539),
+            .I3 (_N544),
+            .I4 (_N546),
+            .I5 (_N547));
     // defparam N90_inv_vname.orig_name = N90_inv;
 	// LUT = (~I5)|(~I4)|(~I3)|(~I2)|(~I0)|(I1) ;
 
-    GTP_LUT6D /* \N125[0]  */ #(
-            .INIT(64'b1010000010100000101000001010000011000000110000001100000011000000))
-        \N125[0]  (
-            .Z (N125[5]),
+    GTP_LUT5 /* N123_5 */ #(
+            .INIT(32'b00000000000000000000000000000001))
+        N123_5 (
+            .Z (_N579),
+            .I0 (clk_counter[5]),
+            .I1 (clk_counter[6]),
+            .I2 (clk_counter[7]),
+            .I3 (clk_counter[8]),
+            .I4 (clk_counter[9]));
+	// LUT = ~I0&~I1&~I2&~I3&~I4 ;
+
+    GTP_LUT6 /* N123_10 */ #(
+            .INIT(64'b0000000000000000000000000000000000000000000000000000000000001000))
+        N123_10 (
+            .Z (_N584),
+            .I0 (clk_counter[1]),
+            .I1 (clk_counter[2]),
+            .I2 (clk_counter[14]),
+            .I3 (clk_counter[16]),
+            .I4 (clk_counter[22]),
+            .I5 (clk_counter[24]));
+	// LUT = I0&I1&~I2&~I3&~I4&~I5 ;
+
+    GTP_LUT6 /* N123_15 */ #(
+            .INIT(64'b1000000000000000000000000000000000000000000000000000000000000000))
+        N123_15 (
+            .Z (_N589),
+            .I0 (clk_counter[3]),
+            .I1 (clk_counter[4]),
+            .I2 (clk_counter[10]),
+            .I3 (clk_counter[11]),
+            .I4 (clk_counter[12]),
+            .I5 (clk_counter[13]));
+	// LUT = I0&I1&I2&I3&I4&I5 ;
+
+    GTP_LUT6 /* N123_20 */ #(
+            .INIT(64'b1000000000000000000000000000000000000000000000000000000000000000))
+        N123_20 (
+            .Z (_N594),
+            .I0 (clk_counter[15]),
+            .I1 (clk_counter[17]),
+            .I2 (clk_counter[18]),
+            .I3 (clk_counter[19]),
+            .I4 (clk_counter[20]),
+            .I5 (clk_counter[21]));
+	// LUT = I0&I1&I2&I3&I4&I5 ;
+
+    GTP_LUT2 /* N123_21 */ #(
+            .INIT(4'b1000))
+        N123_21 (
+            .Z (_N595),
+            .I0 (clk_counter[23]),
+            .I1 (clk_counter[0]));
+	// LUT = I0&I1 ;
+
+    GTP_LUT6 /* N123_25 */ #(
+            .INIT(64'b1000000000000000000000000000000000000000000000000000000000000000))
+        N123_25 (
+            .Z (N123),
+            .I0 (clk_counter[23]),
+            .I1 (clk_counter[0]),
+            .I2 (_N579),
+            .I3 (_N584),
+            .I4 (_N589),
+            .I5 (_N594));
+	// LUT = I0&I1&I2&I3&I4&I5 ;
+
+    GTP_LUT6D /* \N125[2]  */ #(
+            .INIT(64'b1100000011000000110000001100000010100000101000001010000010100000))
+        \N125[2]  (
+            .Z (N125[9]),
             .Z5 (N125[7]),
-            .I0 (N11[5]),
-            .I1 (N11[7]),
+            .I0 (N11[7]),
+            .I1 (N11[9]),
             .I2 (N90_inv),
             .I3 (),
             .I4 (),
             .I5 (1'b1));
-	// LUT = I0&I2 ;
-	// Z5 = I1&I2 ;
-	// ../Seven_Seg.v:32
+	// LUT = I1&I2 ;
+	// Z5 = I0&I2 ;
+	// ../Seven_Seg.v:33
 
-    GTP_LUT6D /* \N125[2]  */ #(
-            .INIT(64'b1010000010100000101000001010000011000000110000001100000011000000))
-        \N125[2]  (
-            .Z (N125[9]),
-            .Z5 (N125[10]),
-            .I0 (N11[9]),
+    GTP_LUT6D /* \N125[3]  */ #(
+            .INIT(64'b1100000011000000110000001100000010100000101000001010000010100000))
+        \N125[3]  (
+            .Z (N125[10]),
+            .Z5 (N125[5]),
+            .I0 (N11[5]),
             .I1 (N11[10]),
             .I2 (N90_inv),
             .I3 (),
             .I4 (),
             .I5 (1'b1));
-	// LUT = I0&I2 ;
-	// Z5 = I1&I2 ;
-	// ../Seven_Seg.v:32
+	// LUT = I1&I2 ;
+	// Z5 = I0&I2 ;
+	// ../Seven_Seg.v:33
+
+    GTP_LUT6D /* \N128[1]_0  */ #(
+            .INIT(64'b0000000000000111000001110000000001110000011100000111000001110000))
+        \N128[1]_0  (
+            .Z (N128[1]),
+            .Z5 (N126),
+            .I0 (status[0]),
+            .I1 (status[1]),
+            .I2 (N51),
+            .I3 (counter[0]),
+            .I4 (counter[1]),
+            .I5 (1'b1));
+	// LUT = (~I1&~I2&I3&~I4)|(~I0&~I2&I3&~I4)|(~I1&~I2&~I3&I4)|(~I0&~I2&~I3&I4) ;
+	// Z5 = (~I1&I2)|(~I0&I2) ;
+	// ../Seven_Seg.v:73
+
+    GTP_LUT6 /* \N128[2]_0  */ #(
+            .INIT(64'b0000000000000000000000000000000000000000011011000110110001101100))
+        \N128[2]_0  (
+            .Z (N128[2]),
+            .I0 (counter[1]),
+            .I1 (counter[2]),
+            .I2 (counter[0]),
+            .I3 (status[0]),
+            .I4 (status[1]),
+            .I5 (N51));
+	// LUT = (I1&~I2&~I4&~I5)|(~I0&I1&~I4&~I5)|(I1&~I2&~I3&~I5)|(~I0&I1&~I3&~I5)|(I0&~I1&I2&~I4&~I5)|(I0&~I1&I2&~I3&~I5) ;
+	// ../Seven_Seg.v:73
+
+    GTP_LUT6 /* \N128[3]_0  */ #(
+            .INIT(64'b0000000000000000000000000000000000000110011001100000101010101010))
+        \N128[3]_0  (
+            .Z (N128[3]),
+            .I0 (counter[3]),
+            .I1 (counter[2]),
+            .I2 (status[0]),
+            .I3 (status[1]),
+            .I4 (_N74),
+            .I5 (N51));
+	// LUT = (I0&~I3&~I4&~I5)|(I0&~I2&~I4&~I5)|(I0&~I1&~I3&~I5)|(I0&~I1&~I2&~I5)|(~I0&I1&~I3&I4&~I5)|(~I0&I1&~I2&I4&~I5) ;
+	// ../Seven_Seg.v:73
+
+    GTP_LUT6 /* \N131[0]  */ #(
+            .INIT(64'b0010101010101010101010101010101010101010101010101010101010101010))
+        \N131[0]  (
+            .Z (N131[0]),
+            .I0 (N78[0]),
+            .I1 (_N579),
+            .I2 (_N584),
+            .I3 (_N589),
+            .I4 (_N594),
+            .I5 (_N595));
+	// LUT = (I0&~I5)|(I0&~I4)|(I0&~I3)|(I0&~I2)|(I0&~I1) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[1]  */ #(
+            .INIT(64'b0010101010101010101010101010101010101010101010101010101010101010))
+        \N131[1]  (
+            .Z (N131[1]),
+            .I0 (N78[1]),
+            .I1 (_N579),
+            .I2 (_N584),
+            .I3 (_N589),
+            .I4 (_N594),
+            .I5 (_N595));
+	// LUT = (I0&~I5)|(I0&~I4)|(I0&~I3)|(I0&~I2)|(I0&~I1) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[2]  */ #(
+            .INIT(64'b0010101010101010101010101010101010101010101010101010101010101010))
+        \N131[2]  (
+            .Z (N131[2]),
+            .I0 (N78[2]),
+            .I1 (_N579),
+            .I2 (_N584),
+            .I3 (_N589),
+            .I4 (_N594),
+            .I5 (_N595));
+	// LUT = (I0&~I5)|(I0&~I4)|(I0&~I3)|(I0&~I2)|(I0&~I1) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[3]  */ #(
+            .INIT(64'b0010101010101010101010101010101010101010101010101010101010101010))
+        \N131[3]  (
+            .Z (N131[3]),
+            .I0 (N78[3]),
+            .I1 (_N579),
+            .I2 (_N584),
+            .I3 (_N589),
+            .I4 (_N594),
+            .I5 (_N595));
+	// LUT = (I0&~I5)|(I0&~I4)|(I0&~I3)|(I0&~I2)|(I0&~I1) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[4]  */ #(
+            .INIT(64'b0010101010101010101010101010101010101010101010101010101010101010))
+        \N131[4]  (
+            .Z (N131[4]),
+            .I0 (N78[4]),
+            .I1 (_N579),
+            .I2 (_N584),
+            .I3 (_N589),
+            .I4 (_N594),
+            .I5 (_N595));
+	// LUT = (I0&~I5)|(I0&~I4)|(I0&~I3)|(I0&~I2)|(I0&~I1) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[5]  */ #(
+            .INIT(64'b0010101010101010101010101010101010101010101010101010101010101010))
+        \N131[5]  (
+            .Z (N131[5]),
+            .I0 (N78[5]),
+            .I1 (_N579),
+            .I2 (_N584),
+            .I3 (_N589),
+            .I4 (_N594),
+            .I5 (_N595));
+	// LUT = (I0&~I5)|(I0&~I4)|(I0&~I3)|(I0&~I2)|(I0&~I1) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[6]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[6]  (
+            .Z (N131[10]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[10]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[7]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[7]  (
+            .Z (N131[11]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[11]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[8]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[8]  (
+            .Z (N131[12]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[12]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[9]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[9]  (
+            .Z (N131[13]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[13]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[10]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[10]  (
+            .Z (N131[15]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[15]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[11]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[11]  (
+            .Z (N131[17]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[17]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[12]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[12]  (
+            .Z (N131[18]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[18]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[13]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[13]  (
+            .Z (N131[19]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[19]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[14]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[14]  (
+            .Z (N131[20]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[20]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[15]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[15]  (
+            .Z (N131[21]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[21]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6 /* \N131[16]  */ #(
+            .INIT(64'b0111111111111111111111111111111100000000000000000000000000000000))
+        \N131[16]  (
+            .Z (N131[23]),
+            .I0 (_N579),
+            .I1 (_N584),
+            .I2 (_N589),
+            .I3 (_N594),
+            .I4 (_N595),
+            .I5 (N78[23]));
+	// LUT = (~I4&I5)|(~I3&I5)|(~I2&I5)|(~I1&I5)|(~I0&I5) ;
+	// ../Seven_Seg.v:96
 
     GTP_LUT6D /* N132_53 */ #(
-            .INIT(64'b1000000000000000100000000000000010010111011111111001011101111111))
+            .INIT(64'b1001011101111111100101110111111110000000000000001000000000000000))
         N132_53 (
-            .Z (_N259_9),
-            .Z5 (_N259_8),
+            .Z (_N533_8),
+            .Z5 (_N533_9),
             .I0 (anode[0]),
             .I1 (anode[1]),
             .I2 (anode[2]),
             .I3 (anode[7]),
             .I4 (),
             .I5 (1'b1));
-	// LUT = I0&I1&I2&I3 ;
-	// Z5 = (~I2&~I3)|(~I1&~I3)|(~I0&~I3)|(I0&I1&I2&I3)|(~I1&~I2)|(~I0&~I2)|(~I0&~I1) ;
+	// LUT = (~I2&~I3)|(~I1&~I3)|(~I0&~I3)|(I0&I1&I2&I3)|(~I1&~I2)|(~I0&~I2)|(~I0&~I1) ;
+	// Z5 = I0&I1&I2&I3 ;
+
+    GTP_LUT6 /* \N135_0[0]  */ #(
+            .INIT(64'b1111111100000000111100001111000011001100110011001010101010101010))
+        \N135_0[0]  (
+            .Z (_N188),
+            .I0 (data_out[24]),
+            .I1 (data_out[28]),
+            .I2 (instr_out[24]),
+            .I3 (instr_out[28]),
+            .I4 (anode[6]),
+            .I5 (addr[7]));
+	// LUT = (I0&~I4&~I5)|(I1&I4&~I5)|(I2&~I4&I5)|(I3&I4&I5) ;
+
+    GTP_LUT6 /* \N135_0[1]  */ #(
+            .INIT(64'b1111111100000000111100001111000011001100110011001010101010101010))
+        \N135_0[1]  (
+            .Z (_N189),
+            .I0 (data_out[25]),
+            .I1 (data_out[29]),
+            .I2 (instr_out[25]),
+            .I3 (instr_out[29]),
+            .I4 (anode[6]),
+            .I5 (addr[7]));
+	// LUT = (I0&~I4&~I5)|(I1&I4&~I5)|(I2&~I4&I5)|(I3&I4&I5) ;
+
+    GTP_LUT6 /* \N135_0[2]  */ #(
+            .INIT(64'b1111111100000000111100001111000011001100110011001010101010101010))
+        \N135_0[2]  (
+            .Z (_N190),
+            .I0 (data_out[26]),
+            .I1 (data_out[30]),
+            .I2 (instr_out[26]),
+            .I3 (instr_out[30]),
+            .I4 (anode[6]),
+            .I5 (addr[7]));
+	// LUT = (I0&~I4&~I5)|(I1&I4&~I5)|(I2&~I4&I5)|(I3&I4&I5) ;
+
+    GTP_LUT6 /* \N135_0[3]  */ #(
+            .INIT(64'b1111111100000000111100001111000011001100110011001010101010101010))
+        \N135_0[3]  (
+            .Z (_N191),
+            .I0 (data_out[27]),
+            .I1 (data_out[31]),
+            .I2 (instr_out[27]),
+            .I3 (instr_out[31]),
+            .I4 (anode[6]),
+            .I5 (addr[7]));
+	// LUT = (I0&~I4&~I5)|(I1&I4&~I5)|(I2&~I4&I5)|(I3&I4&I5) ;
 
     GTP_LUT5 /* \N135_1[0]  */ #(
-            .INIT(32'b11110000101010101100110010101010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_1[0]  (
-            .Z (_N53),
-            .I0 (data[20]),
-            .I1 (data[24]),
-            .I2 (data[28]),
-            .I3 (anode[5]),
-            .I4 (anode[6]));
-	// LUT = (I0&~I3)|(I1&I3&~I4)|(I2&I3&I4) ;
+            .Z (_N192),
+            .I0 (data_out[20]),
+            .I1 (instr_out[20]),
+            .I2 (anode[5]),
+            .I3 (addr[7]),
+            .I4 (_N188));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_1[1]  */ #(
-            .INIT(32'b11110000101010101100110010101010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_1[1]  (
-            .Z (_N54),
-            .I0 (data[21]),
-            .I1 (data[25]),
-            .I2 (data[29]),
-            .I3 (anode[5]),
-            .I4 (anode[6]));
-	// LUT = (I0&~I3)|(I1&I3&~I4)|(I2&I3&I4) ;
+            .Z (_N193),
+            .I0 (data_out[21]),
+            .I1 (instr_out[21]),
+            .I2 (anode[5]),
+            .I3 (addr[7]),
+            .I4 (_N189));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_1[2]  */ #(
-            .INIT(32'b11110000101010101100110010101010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_1[2]  (
-            .Z (_N55),
-            .I0 (data[22]),
-            .I1 (data[26]),
-            .I2 (data[30]),
-            .I3 (anode[5]),
-            .I4 (anode[6]));
-	// LUT = (I0&~I3)|(I1&I3&~I4)|(I2&I3&I4) ;
+            .Z (_N194),
+            .I0 (data_out[22]),
+            .I1 (instr_out[22]),
+            .I2 (anode[5]),
+            .I3 (addr[7]),
+            .I4 (_N190));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_1[3]  */ #(
-            .INIT(32'b11110000101010101100110010101010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_1[3]  (
-            .Z (_N56),
-            .I0 (data[23]),
-            .I1 (data[27]),
-            .I2 (data[31]),
-            .I3 (anode[5]),
-            .I4 (anode[6]));
-	// LUT = (I0&~I3)|(I1&I3&~I4)|(I2&I3&I4) ;
+            .Z (_N195),
+            .I0 (data_out[23]),
+            .I1 (instr_out[23]),
+            .I2 (anode[5]),
+            .I3 (addr[7]),
+            .I4 (_N191));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
+
+    GTP_LUT5 /* \N135_2[0]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
+        \N135_2[0]  (
+            .Z (_N196),
+            .I0 (data_out[16]),
+            .I1 (instr_out[16]),
+            .I2 (anode[4]),
+            .I3 (addr[7]),
+            .I4 (_N192));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
+
+    GTP_LUT5 /* \N135_2[1]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
+        \N135_2[1]  (
+            .Z (_N197),
+            .I0 (data_out[17]),
+            .I1 (instr_out[17]),
+            .I2 (anode[4]),
+            .I3 (addr[7]),
+            .I4 (_N193));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
+
+    GTP_LUT5 /* \N135_2[2]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
+        \N135_2[2]  (
+            .Z (_N198),
+            .I0 (data_out[18]),
+            .I1 (instr_out[18]),
+            .I2 (anode[4]),
+            .I3 (addr[7]),
+            .I4 (_N194));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
+
+    GTP_LUT5 /* \N135_2[3]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
+        \N135_2[3]  (
+            .Z (_N199),
+            .I0 (data_out[19]),
+            .I1 (instr_out[19]),
+            .I2 (anode[4]),
+            .I3 (addr[7]),
+            .I4 (_N195));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_3[0]  */ #(
-            .INIT(32'b11111010110010100000101011001010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_3[0]  (
-            .Z (_N61),
-            .I0 (data[12]),
-            .I1 (data[16]),
+            .Z (_N200),
+            .I0 (data_out[12]),
+            .I1 (instr_out[12]),
             .I2 (anode[3]),
-            .I3 (anode[4]),
-            .I4 (_N53));
-	// LUT = (I0&~I2)|(I1&I2&~I3)|(I2&I3&I4) ;
+            .I3 (addr[7]),
+            .I4 (_N196));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_3[1]  */ #(
-            .INIT(32'b11111010110010100000101011001010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_3[1]  (
-            .Z (_N62),
-            .I0 (data[13]),
-            .I1 (data[17]),
+            .Z (_N201),
+            .I0 (data_out[13]),
+            .I1 (instr_out[13]),
             .I2 (anode[3]),
-            .I3 (anode[4]),
-            .I4 (_N54));
-	// LUT = (I0&~I2)|(I1&I2&~I3)|(I2&I3&I4) ;
+            .I3 (addr[7]),
+            .I4 (_N197));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_3[2]  */ #(
-            .INIT(32'b11111010110010100000101011001010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_3[2]  (
-            .Z (_N63),
-            .I0 (data[14]),
-            .I1 (data[18]),
+            .Z (_N202),
+            .I0 (data_out[14]),
+            .I1 (instr_out[14]),
             .I2 (anode[3]),
-            .I3 (anode[4]),
-            .I4 (_N55));
-	// LUT = (I0&~I2)|(I1&I2&~I3)|(I2&I3&I4) ;
+            .I3 (addr[7]),
+            .I4 (_N198));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_3[3]  */ #(
-            .INIT(32'b11111010110010100000101011001010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_3[3]  (
-            .Z (_N64),
-            .I0 (data[15]),
-            .I1 (data[19]),
+            .Z (_N203),
+            .I0 (data_out[15]),
+            .I1 (instr_out[15]),
             .I2 (anode[3]),
-            .I3 (anode[4]),
-            .I4 (_N56));
-	// LUT = (I0&~I2)|(I1&I2&~I3)|(I2&I3&I4) ;
+            .I3 (addr[7]),
+            .I4 (_N199));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
+
+    GTP_LUT5 /* \N135_4[0]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
+        \N135_4[0]  (
+            .Z (_N204),
+            .I0 (data_out[8]),
+            .I1 (instr_out[8]),
+            .I2 (anode[2]),
+            .I3 (addr[7]),
+            .I4 (_N200));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
+
+    GTP_LUT5 /* \N135_4[1]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
+        \N135_4[1]  (
+            .Z (_N205),
+            .I0 (data_out[9]),
+            .I1 (instr_out[9]),
+            .I2 (anode[2]),
+            .I3 (addr[7]),
+            .I4 (_N201));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
+
+    GTP_LUT5 /* \N135_4[2]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
+        \N135_4[2]  (
+            .Z (_N206),
+            .I0 (data_out[10]),
+            .I1 (instr_out[10]),
+            .I2 (anode[2]),
+            .I3 (addr[7]),
+            .I4 (_N202));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
+
+    GTP_LUT5 /* \N135_4[3]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
+        \N135_4[3]  (
+            .Z (_N207),
+            .I0 (data_out[11]),
+            .I1 (instr_out[11]),
+            .I2 (anode[2]),
+            .I3 (addr[7]),
+            .I4 (_N203));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_5[0]  */ #(
-            .INIT(32'b11111010110010100000101011001010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_5[0]  (
-            .Z (_N69),
-            .I0 (data[4]),
-            .I1 (data[8]),
+            .Z (_N208),
+            .I0 (data_out[4]),
+            .I1 (instr_out[4]),
             .I2 (anode[1]),
-            .I3 (anode[2]),
-            .I4 (_N61));
-	// LUT = (I0&~I2)|(I1&I2&~I3)|(I2&I3&I4) ;
+            .I3 (addr[7]),
+            .I4 (_N204));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_5[1]  */ #(
-            .INIT(32'b11111010110010100000101011001010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_5[1]  (
-            .Z (_N70),
-            .I0 (data[5]),
-            .I1 (data[9]),
+            .Z (_N209),
+            .I0 (data_out[5]),
+            .I1 (instr_out[5]),
             .I2 (anode[1]),
-            .I3 (anode[2]),
-            .I4 (_N62));
-	// LUT = (I0&~I2)|(I1&I2&~I3)|(I2&I3&I4) ;
+            .I3 (addr[7]),
+            .I4 (_N205));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_5[2]  */ #(
-            .INIT(32'b11111010110010100000101011001010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_5[2]  (
-            .Z (_N71),
-            .I0 (data[6]),
-            .I1 (data[10]),
+            .Z (_N210),
+            .I0 (data_out[6]),
+            .I1 (instr_out[6]),
             .I2 (anode[1]),
-            .I3 (anode[2]),
-            .I4 (_N63));
-	// LUT = (I0&~I2)|(I1&I2&~I3)|(I2&I3&I4) ;
+            .I3 (addr[7]),
+            .I4 (_N206));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
     GTP_LUT5 /* \N135_5[3]  */ #(
-            .INIT(32'b11111010110010100000101011001010))
+            .INIT(32'b11111100111110100000110000001010))
         \N135_5[3]  (
-            .Z (_N72),
-            .I0 (data[7]),
-            .I1 (data[11]),
+            .Z (_N211),
+            .I0 (data_out[7]),
+            .I1 (instr_out[7]),
             .I2 (anode[1]),
-            .I3 (anode[2]),
-            .I4 (_N64));
-	// LUT = (I0&~I2)|(I1&I2&~I3)|(I2&I3&I4) ;
+            .I3 (addr[7]),
+            .I4 (_N207));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
-    GTP_LUT3 /* \N135_6[0]  */ #(
-            .INIT(8'b11100010))
+    GTP_LUT5 /* \N135_6[0]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
         \N135_6[0]  (
             .Z (N135[0]),
-            .I0 (data[0]),
-            .I1 (anode[0]),
-            .I2 (_N69));
-	// LUT = (I0&~I1)|(I1&I2) ;
+            .I0 (data_out[0]),
+            .I1 (instr_out[0]),
+            .I2 (anode[0]),
+            .I3 (addr[7]),
+            .I4 (_N208));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
-    GTP_LUT3 /* \N135_6[1]  */ #(
-            .INIT(8'b11100010))
+    GTP_LUT5 /* \N135_6[1]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
         \N135_6[1]  (
             .Z (N135[1]),
-            .I0 (data[1]),
-            .I1 (anode[0]),
-            .I2 (_N70));
-	// LUT = (I0&~I1)|(I1&I2) ;
+            .I0 (data_out[1]),
+            .I1 (instr_out[1]),
+            .I2 (anode[0]),
+            .I3 (addr[7]),
+            .I4 (_N209));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
-    GTP_LUT3 /* \N135_6[2]  */ #(
-            .INIT(8'b11100010))
+    GTP_LUT5 /* \N135_6[2]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
         \N135_6[2]  (
             .Z (N135[2]),
-            .I0 (data[2]),
-            .I1 (anode[0]),
-            .I2 (_N71));
-	// LUT = (I0&~I1)|(I1&I2) ;
+            .I0 (data_out[2]),
+            .I1 (instr_out[2]),
+            .I2 (anode[0]),
+            .I3 (addr[7]),
+            .I4 (_N210));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
 
-    GTP_LUT3 /* \N135_6[3]  */ #(
-            .INIT(8'b11100010))
+    GTP_LUT5 /* \N135_6[3]  */ #(
+            .INIT(32'b11111100111110100000110000001010))
         \N135_6[3]  (
             .Z (N135[3]),
-            .I0 (data[3]),
-            .I1 (anode[0]),
-            .I2 (_N72));
-	// LUT = (I0&~I1)|(I1&I2) ;
+            .I0 (data_out[3]),
+            .I1 (instr_out[3]),
+            .I2 (anode[0]),
+            .I3 (addr[7]),
+            .I4 (_N211));
+	// LUT = (I2&I4)|(I0&~I2&~I3)|(I1&~I2&I3) ;
+
+    GTP_LUT2 /* N136_1 */ #(
+            .INIT(4'b0111))
+        N136_1 (
+            .Z (N136),
+            .I0 (status[0]),
+            .I1 (status[1]));
+	// LUT = (~I1)|(~I0) ;
+
+    GTP_DFF_CE /* \addr_counter[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \addr_counter[0]  (
+            .Q (addr[0]),
+            .C (N1),
+            .CE (N123),
+            .CLK (clk),
+            .D (N76[0]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_CE /* \addr_counter[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \addr_counter[1]  (
+            .Q (addr[1]),
+            .C (N1),
+            .CE (N123),
+            .CLK (clk),
+            .D (N76[1]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_CE /* \addr_counter[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \addr_counter[2]  (
+            .Q (addr[2]),
+            .C (N1),
+            .CE (N123),
+            .CLK (clk),
+            .D (N76[2]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_CE /* \addr_counter[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \addr_counter[3]  (
+            .Q (addr[3]),
+            .C (N1),
+            .CE (N123),
+            .CLK (clk),
+            .D (N76[3]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_CE /* \addr_counter[4]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \addr_counter[4]  (
+            .Q (addr[4]),
+            .C (N1),
+            .CE (N123),
+            .CLK (clk),
+            .D (N76[4]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_CE /* \addr_counter[5]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \addr_counter[5]  (
+            .Q (addr[5]),
+            .C (N1),
+            .CE (N123),
+            .CLK (clk),
+            .D (N76[5]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_CE /* \addr_counter[6]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \addr_counter[6]  (
+            .Q (addr[6]),
+            .C (N1),
+            .CE (N123),
+            .CLK (clk),
+            .D (N76[6]));
+	// ../Seven_Seg.v:96
+
+    GTP_LUT6D /* \addr_counter[7:0]_inv  */ #(
+            .INIT(64'b0101010101010101010101010101010101111111100000000111111110000000))
+        \addr_counter[7:0]_inv  (
+            .Z (N76[0]),
+            .Z5 (N76[3]),
+            .I0 (addr[0]),
+            .I1 (addr[1]),
+            .I2 (addr[2]),
+            .I3 (addr[3]),
+            .I4 (),
+            .I5 (1'b1));
+	// LUT = ~I0 ;
+	// Z5 = (I0&I1&I2&~I3)|(~I2&I3)|(~I1&I3)|(~I0&I3) ;
+
+    GTP_DFF_CE /* \addr_counter[7]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \addr_counter[7]  (
+            .Q (addr[7]),
+            .C (N1),
+            .CE (N123),
+            .CLK (clk),
+            .D (N76[7]));
+	// ../Seven_Seg.v:96
 
     GTP_DFF_C /* \anode_cnt[0]  */ #(
             .GRS_EN("TRUE"), 
@@ -633,7 +1960,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (\anode_cnt[0]_inv ));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[1]  */ #(
             .GRS_EN("TRUE"), 
@@ -643,7 +1970,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[1]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[2]  */ #(
             .GRS_EN("TRUE"), 
@@ -653,7 +1980,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[2]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[3]  */ #(
             .GRS_EN("TRUE"), 
@@ -663,7 +1990,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[3]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[4]  */ #(
             .GRS_EN("TRUE"), 
@@ -673,7 +2000,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[4]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[5]  */ #(
             .GRS_EN("TRUE"), 
@@ -683,7 +2010,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N125[5]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[6]  */ #(
             .GRS_EN("TRUE"), 
@@ -693,7 +2020,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[6]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[7]  */ #(
             .GRS_EN("TRUE"), 
@@ -703,7 +2030,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N125[7]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[8]  */ #(
             .GRS_EN("TRUE"), 
@@ -713,7 +2040,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[8]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[9]  */ #(
             .GRS_EN("TRUE"), 
@@ -723,7 +2050,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N125[9]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[10]  */ #(
             .GRS_EN("TRUE"), 
@@ -733,7 +2060,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N125[10]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[11]  */ #(
             .GRS_EN("TRUE"), 
@@ -743,7 +2070,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[11]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[12]  */ #(
             .GRS_EN("TRUE"), 
@@ -753,7 +2080,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[12]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[13]  */ #(
             .GRS_EN("TRUE"), 
@@ -763,7 +2090,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[13]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[14]  */ #(
             .GRS_EN("TRUE"), 
@@ -773,7 +2100,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N11[14]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[15]  */ #(
             .GRS_EN("TRUE"), 
@@ -783,7 +2110,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N125[15]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_C /* \anode_cnt[16]  */ #(
             .GRS_EN("TRUE"), 
@@ -793,7 +2120,7 @@ module Seven_Seg
             .C (N1),
             .CLK (clk),
             .D (N125[16]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_CE /* \anode_reg[0]  */ #(
             .GRS_EN("TRUE"), 
@@ -804,7 +2131,7 @@ module Seven_Seg
             .CE (N90),
             .CLK (clk),
             .D (anode[7]));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_PE /* \anode_reg[1]  */ #(
             .GRS_EN("TRUE"), 
@@ -815,7 +2142,7 @@ module Seven_Seg
             .CLK (clk),
             .D (anode[0]),
             .P (N1));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_PE /* \anode_reg[2]  */ #(
             .GRS_EN("TRUE"), 
@@ -826,7 +2153,7 @@ module Seven_Seg
             .CLK (clk),
             .D (anode[1]),
             .P (N1));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_PE /* \anode_reg[3]  */ #(
             .GRS_EN("TRUE"), 
@@ -837,7 +2164,7 @@ module Seven_Seg
             .CLK (clk),
             .D (anode[2]),
             .P (N1));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_PE /* \anode_reg[4]  */ #(
             .GRS_EN("TRUE"), 
@@ -848,7 +2175,7 @@ module Seven_Seg
             .CLK (clk),
             .D (anode[3]),
             .P (N1));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_PE /* \anode_reg[5]  */ #(
             .GRS_EN("TRUE"), 
@@ -859,7 +2186,7 @@ module Seven_Seg
             .CLK (clk),
             .D (anode[4]),
             .P (N1));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_PE /* \anode_reg[6]  */ #(
             .GRS_EN("TRUE"), 
@@ -870,7 +2197,7 @@ module Seven_Seg
             .CLK (clk),
             .D (anode[5]),
             .P (N1));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
 
     GTP_DFF_PE /* \anode_reg[7]  */ #(
             .GRS_EN("TRUE"), 
@@ -881,7 +2208,315 @@ module Seven_Seg
             .CLK (clk),
             .D (anode[6]),
             .P (N1));
-	// ../Seven_Seg.v:32
+	// ../Seven_Seg.v:33
+
+    GTP_DFF_C /* \clk_counter[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[0]  (
+            .Q (clk_counter[0]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[0]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[1]  (
+            .Q (clk_counter[1]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[1]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[2]  (
+            .Q (clk_counter[2]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[2]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[3]  (
+            .Q (clk_counter[3]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[3]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[4]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[4]  (
+            .Q (clk_counter[4]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[4]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[5]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[5]  (
+            .Q (clk_counter[5]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[5]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[6]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[6]  (
+            .Q (clk_counter[6]),
+            .C (N1),
+            .CLK (clk),
+            .D (N78[6]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[7]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[7]  (
+            .Q (clk_counter[7]),
+            .C (N1),
+            .CLK (clk),
+            .D (N78[7]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[8]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[8]  (
+            .Q (clk_counter[8]),
+            .C (N1),
+            .CLK (clk),
+            .D (N78[8]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[9]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[9]  (
+            .Q (clk_counter[9]),
+            .C (N1),
+            .CLK (clk),
+            .D (N78[9]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[10]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[10]  (
+            .Q (clk_counter[10]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[10]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[11]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[11]  (
+            .Q (clk_counter[11]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[11]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[12]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[12]  (
+            .Q (clk_counter[12]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[12]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[13]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[13]  (
+            .Q (clk_counter[13]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[13]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[14]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[14]  (
+            .Q (clk_counter[14]),
+            .C (N1),
+            .CLK (clk),
+            .D (N78[14]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[15]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[15]  (
+            .Q (clk_counter[15]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[15]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[16]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[16]  (
+            .Q (clk_counter[16]),
+            .C (N1),
+            .CLK (clk),
+            .D (N78[16]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[17]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[17]  (
+            .Q (clk_counter[17]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[17]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[18]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[18]  (
+            .Q (clk_counter[18]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[18]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[19]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[19]  (
+            .Q (clk_counter[19]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[19]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[20]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[20]  (
+            .Q (clk_counter[20]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[20]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[21]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[21]  (
+            .Q (clk_counter[21]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[21]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[22]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[22]  (
+            .Q (clk_counter[22]),
+            .C (N1),
+            .CLK (clk),
+            .D (N78[22]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[23]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[23]  (
+            .Q (clk_counter[23]),
+            .C (N1),
+            .CLK (clk),
+            .D (N131[23]));
+	// ../Seven_Seg.v:96
+
+    GTP_DFF_C /* \clk_counter[24]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \clk_counter[24]  (
+            .Q (clk_counter[24]),
+            .C (N1),
+            .CLK (clk),
+            .D (N78[24]));
+	// ../Seven_Seg.v:96
+
+    GTP_DLATCH /* \count_limit[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \count_limit[0]  (
+            .Q (count_limit[0]),
+            .D (N139[0]),
+            .G (N136));
+	// ../Seven_Seg.v:62
+
+    GTP_DLATCH /* \count_limit[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \count_limit[2]  (
+            .Q (count_limit[2]),
+            .D (N109),
+            .G (N136));
+	// ../Seven_Seg.v:62
+
+    GTP_DFF_C /* \counter[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[0]  (
+            .Q (counter[0]),
+            .C (N1),
+            .CLK (clk),
+            .D (N128[0]));
+	// ../Seven_Seg.v:73
+
+    GTP_DFF_C /* \counter[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[1]  (
+            .Q (counter[1]),
+            .C (N1),
+            .CLK (clk),
+            .D (N128[1]));
+	// ../Seven_Seg.v:73
+
+    GTP_DFF_C /* \counter[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[2]  (
+            .Q (counter[2]),
+            .C (N1),
+            .CLK (clk),
+            .D (N128[2]));
+	// ../Seven_Seg.v:73
+
+    GTP_DFF_C /* \counter[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[3]  (
+            .Q (counter[3]),
+            .C (N1),
+            .CLK (clk),
+            .D (N128[3]));
+	// ../Seven_Seg.v:73
 
     GTP_DLATCH /* \num[0]  */ #(
             .GRS_EN("TRUE"), 
@@ -919,14 +2554,27 @@ module Seven_Seg
             .G (N132));
 	// ../Seven_Seg.v:22
 
+    GTP_DFF_C /* valid */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        valid_vname (
+            .Q (valid),
+            .C (N1),
+            .CLK (clk),
+            .D (N126));
+    // defparam valid_vname.orig_name = valid;
+	// ../Seven_Seg.v:73
+
 
 endmodule
 
 
 module data_mem
 (
+    input [6:0] data_addr,
     input N0,
     input clk,
+    input rd_en,
     output [31:0] data_out
 );
     wire \data_mem_DOA[8]_floating ;
@@ -1021,16 +2669,16 @@ module data_mem
         data_mem (
             .DOA ({\data_mem_DOA[17]_floating , data_out[15], data_out[14], data_out[13], data_out[12], data_out[11], data_out[10], data_out[9], data_out[8], \data_mem_DOA[8]_floating , data_out[7], data_out[6], data_out[5], data_out[4], data_out[3], data_out[2], data_out[1], data_out[0]}),
             .DOB ({\data_mem_DOB[17]_floating , data_out[31], data_out[30], data_out[29], data_out[28], data_out[27], data_out[26], data_out[25], data_out[24], \data_mem_DOB[8]_floating , data_out[23], data_out[22], data_out[21], data_out[20], data_out[19], data_out[18], data_out[17], data_out[16]}),
-            .ADDRA ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
-            .ADDRB ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}),
+            .ADDRA ({1'b0, 1'b0, data_addr[6], data_addr[5], data_addr[4], data_addr[3], data_addr[2], data_addr[1], data_addr[0], 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .ADDRB ({1'b0, 1'b0, data_addr[6], data_addr[5], data_addr[4], data_addr[3], data_addr[2], data_addr[1], data_addr[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}),
             .BWEA ({1'b1, 1'b1, 1'b1, 1'b1}),
             .BWEB (),
             .DIA ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
             .DIB ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
             .ADDRA_HOLD (1'b0),
             .ADDRB_HOLD (1'b0),
-            .CEA (1'b1),
-            .CEB (1'b1),
+            .CEA (rd_en),
+            .CEB (rd_en),
             .CLKA (clk),
             .CLKB (clk),
             .ORCEA (),
@@ -1040,6 +2688,936 @@ module data_mem
             .WEA (1'b0),
             .WEB (1'b0));
 	// ../source/data_mem.v:9
+
+
+endmodule
+
+
+module instr_mem
+(
+    input [6:0] instr_addr,
+    input N0,
+    input clk,
+    input rd_en,
+    output [31:0] instr_out
+);
+    wire \instr_mem_DOA[8]_floating ;
+    wire \instr_mem_DOA[17]_floating ;
+    wire \instr_mem_DOB[8]_floating ;
+    wire \instr_mem_DOB[17]_floating ;
+
+    GTP_DRM18K_E1 /* instr_mem */ #(
+            .GRS_EN("TRUE"), 
+            .DATA_WIDTH_A(32), 
+            .DATA_WIDTH_B(32), 
+            .DOA_REG(0), 
+            .DOB_REG(0), 
+            .DOA_REG_CLKINV(0), 
+            .DOB_REG_CLKINV(0), 
+            .RSTA_VAL(18'b000000000000000000), 
+            .RSTB_VAL(18'b000000000000000000), 
+            .RST_TYPE("ASYNC"), 
+            .RAM_MODE("SINGLE_PORT"), 
+            .WRITE_MODE_A("NORMAL_WRITE"), 
+            .WRITE_MODE_B("NORMAL_WRITE"), 
+            .INIT_00(288'b011100011010100000000000111000000000011100011010100000000000000001100000011100011010100000000000000000000101011100011010100000001000000000000000011100011010100000000000011000000000011100011010100000000000000000100000011100011010100000000000000000000001011100011010100000000000000000000000), 
+            .INIT_01(288'b001100111010011100010000001000001010001010011000000100001010111001110000010101110010110000000101010001101001011011000010010110001110100011110001010101110011100011010101000001101101000001110010010001001011011011101100010000110011111111011111011001001001011100011010110000010000000000000000), 
+            .INIT_02(288'b011001100010000000000100100010110100011100001000000010011010110001001101010101010000100111000111100010000000001101110011011100000000111001100110001011111000001110000101000010100000010100011010111011000000000010000110000111001000111011000101110001001000011010111001011011000001111011111010), 
+            .INIT_03(288'b010110110011000010010010101001101011000100011011010000001011010001010000001011011000001101001110011001001100000111111010111011010111101010110001010011010001100100011000110001011010001011101011101011001110001011111111010011100011010100010000001001110111011110000001110011010111100000001111), 
+            .INIT_04(288'b011010001000110111010110011010010100000110100011000101001000100001100000000111111001111011011110000011111110011110000011100110010111111010001011001100111000010001001000001011100101001000110010011100011001011000111000011101001001101101001100110011100111000001001011000101010100110011100101), 
+            .INIT_05(288'b000110001010111001001101100010011011001010111010011101001000101001001110000000010000011001001111001000000010011000000001000111010100001001010101011010010010111001010010111000111101011101110000000110010011000000001101000100100000101010000101111010101101001001000000111101000100000010101001), 
+            .INIT_06(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100111000111100011011000010000010000111110010010101010000010010100011010110100010000001010011111001111100001110010011111010011100000011010010000111000011111001011011101001111000), 
+            .INIT_07(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_08(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_09(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0A(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0B(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0C(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0D(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0E(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0F(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_10(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_11(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_12(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_13(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_14(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_15(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_16(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_17(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_18(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_19(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1A(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1B(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1C(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1D(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1E(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1F(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_20(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_21(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_22(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_23(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_24(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_25(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_26(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_27(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_28(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_29(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_2A(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_2B(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_2C(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_2D(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_2E(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_2F(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_30(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_31(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_32(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_33(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_34(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_35(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_36(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_37(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_38(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_39(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_3A(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_3B(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_3C(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_3D(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_3E(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_3F(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_FILE("NONE"), 
+            .BLOCK_X(0), 
+            .BLOCK_Y(0), 
+            .RAM_DATA_WIDTH(9), 
+            .RAM_ADDR_WIDTH(11), 
+            .INIT_FORMAT("BIN"))
+        instr_mem (
+            .DOA ({\instr_mem_DOA[17]_floating , instr_out[15], instr_out[14], instr_out[13], instr_out[12], instr_out[11], instr_out[10], instr_out[9], instr_out[8], \instr_mem_DOA[8]_floating , instr_out[7], instr_out[6], instr_out[5], instr_out[4], instr_out[3], instr_out[2], instr_out[1], instr_out[0]}),
+            .DOB ({\instr_mem_DOB[17]_floating , instr_out[31], instr_out[30], instr_out[29], instr_out[28], instr_out[27], instr_out[26], instr_out[25], instr_out[24], \instr_mem_DOB[8]_floating , instr_out[23], instr_out[22], instr_out[21], instr_out[20], instr_out[19], instr_out[18], instr_out[17], instr_out[16]}),
+            .ADDRA ({1'b0, 1'b0, instr_addr[6], instr_addr[5], instr_addr[4], instr_addr[3], instr_addr[2], instr_addr[1], instr_addr[0], 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .ADDRB ({1'b0, 1'b0, instr_addr[6], instr_addr[5], instr_addr[4], instr_addr[3], instr_addr[2], instr_addr[1], instr_addr[0], 1'b1, 1'b1, 1'b1, 1'b1, 1'b1}),
+            .BWEA ({1'b1, 1'b1, 1'b1, 1'b1}),
+            .BWEB (),
+            .DIA ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .DIB ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .ADDRA_HOLD (1'b0),
+            .ADDRB_HOLD (1'b0),
+            .CEA (rd_en),
+            .CEB (rd_en),
+            .CLKA (clk),
+            .CLKB (clk),
+            .ORCEA (),
+            .ORCEB (),
+            .RSTA (N0),
+            .RSTB (N0),
+            .WEA (1'b0),
+            .WEB (1'b0));
+	// ../instr_mem.v:12
+
+
+endmodule
+
+
+module key_d
+(
+    input [2:0] key,
+    input N7,
+    input clk,
+    input nt_btn_p,
+    input nt_btn_spddn,
+    input nt_btn_spdup,
+    output [2:0] key_out,
+    output [2:0] key_reg,
+    output [2:0] key_status
+);
+    wire N10;
+    wire N44;
+    wire [20:0] N49;
+    wire _N135;
+    wire _N136;
+    wire _N137;
+    wire _N138;
+    wire _N139;
+    wire _N140;
+    wire _N141;
+    wire _N142;
+    wire _N143;
+    wire _N144;
+    wire _N145;
+    wire _N146;
+    wire _N147;
+    wire _N148;
+    wire _N149;
+    wire _N150;
+    wire _N151;
+    wire _N152;
+    wire _N153;
+    wire _N557;
+    wire _N562;
+    wire _N567;
+    wire [20:0] counter;
+    wire [2:0] key_prev;
+
+    GTP_LUT6 /* N10_3 */ #(
+            .INIT(64'b1111111011101111111110111011111111111101110111111111011101111111))
+        N10_3 (
+            .Z (N10),
+            .I0 (nt_btn_p),
+            .I1 (nt_btn_spddn),
+            .I2 (nt_btn_spdup),
+            .I3 (key_prev[0]),
+            .I4 (key_prev[1]),
+            .I5 (key_prev[2]));
+	// LUT = (~I0&~I5)|(~I1&~I4)|(~I2&~I3)|(I0&I5)|(I1&I4)|(I2&I3) ;
+
+    GTP_LUT6CARRY /* N18_1_1 */ #(
+            .INIT(64'b0000000000000110000000000000011000000000000000000000000000000000), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("TRUE"))
+        N18_1_1 (
+            .COUT (_N135),
+            .Z (N49[1]),
+            .CIN (),
+            .I0 (counter[0]),
+            .I1 (counter[1]),
+            .I2 (N10),
+            .I3 (N44),
+            .I4 (),
+            .I5 (1'b1));
+	// LUT = (I0&~I1&~I2&~I3)|(~I0&I1&~I2&~I3) ;
+	// CARRY = (1'b0) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_2 */ #(
+            .INIT(64'b0000000000000111000000000000100000000000000010000000000000000000), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_2 (
+            .COUT (_N136),
+            .Z (N49[2]),
+            .CIN (_N135),
+            .I0 (counter[0]),
+            .I1 (counter[1]),
+            .I2 (N10),
+            .I3 (N44),
+            .I4 (counter[2]),
+            .I5 (1'b0));
+	// LUT = (I0&I1&~I2&~I3&I4&~CIN)|(I0&I1&~I2&~I3&~I4&CIN)|(~I1&~I2&~I3&I4&CIN)|(~I0&~I2&~I3&I4&CIN) ;
+	// CARRY = (I0&I1&~I2&~I3&I4) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_3 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_3 (
+            .COUT (_N137),
+            .Z (N49[3]),
+            .CIN (_N136),
+            .I0 (counter[3]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_4 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_4 (
+            .COUT (_N138),
+            .Z (N49[4]),
+            .CIN (_N137),
+            .I0 (counter[4]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_5 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_5 (
+            .COUT (_N139),
+            .Z (N49[5]),
+            .CIN (_N138),
+            .I0 (counter[5]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_6 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_6 (
+            .COUT (_N140),
+            .Z (N49[6]),
+            .CIN (_N139),
+            .I0 (counter[6]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_7 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_7 (
+            .COUT (_N141),
+            .Z (N49[7]),
+            .CIN (_N140),
+            .I0 (counter[7]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_8 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_8 (
+            .COUT (_N142),
+            .Z (N49[8]),
+            .CIN (_N141),
+            .I0 (counter[8]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_9 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_9 (
+            .COUT (_N143),
+            .Z (N49[9]),
+            .CIN (_N142),
+            .I0 (counter[9]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_10 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_10 (
+            .COUT (_N144),
+            .Z (N49[10]),
+            .CIN (_N143),
+            .I0 (counter[10]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_11 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_11 (
+            .COUT (_N145),
+            .Z (N49[11]),
+            .CIN (_N144),
+            .I0 (counter[11]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_12 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_12 (
+            .COUT (_N146),
+            .Z (N49[12]),
+            .CIN (_N145),
+            .I0 (counter[12]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_13 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_13 (
+            .COUT (_N147),
+            .Z (N49[13]),
+            .CIN (_N146),
+            .I0 (counter[13]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_14 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_14 (
+            .COUT (_N148),
+            .Z (N49[14]),
+            .CIN (_N147),
+            .I0 (counter[14]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_15 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_15 (
+            .COUT (_N149),
+            .Z (N49[15]),
+            .CIN (_N148),
+            .I0 (counter[15]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_16 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_16 (
+            .COUT (_N150),
+            .Z (N49[16]),
+            .CIN (_N149),
+            .I0 (counter[16]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_17 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_17 (
+            .COUT (_N151),
+            .Z (N49[17]),
+            .CIN (_N150),
+            .I0 (counter[17]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_18 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_18 (
+            .COUT (_N152),
+            .Z (N49[18]),
+            .CIN (_N151),
+            .I0 (counter[18]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_19 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_19 (
+            .COUT (_N153),
+            .Z (N49[19]),
+            .CIN (_N152),
+            .I0 (counter[19]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT6CARRY /* N18_1_20 */ #(
+            .INIT(64'b0000000100000001000000010000000100000010000000100000001000000010), 
+            .I5_TO_CARRY("TRUE"), 
+            .I5_TO_LUT("FALSE"))
+        N18_1_20 (
+            .COUT (),
+            .Z (N49[20]),
+            .CIN (_N153),
+            .I0 (counter[20]),
+            .I1 (N10),
+            .I2 (N44),
+            .I3 (),
+            .I4 (),
+            .I5 (1'b0));
+	// LUT = (I0&~I1&~I2&~CIN)|(~I0&~I1&~I2&CIN) ;
+	// CARRY = (I0&~I1&~I2) ? CIN : I5 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:43
+
+    GTP_LUT2 /* N35_0 */ #(
+            .INIT(4'b0100))
+        N35_0 (
+            .Z (key_out[0]),
+            .I0 (key_reg[0]),
+            .I1 (key_status[0]));
+	// LUT = ~I0&I1 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:68
+
+    GTP_LUT2 /* N35_1 */ #(
+            .INIT(4'b0100))
+        N35_1 (
+            .Z (key_out[1]),
+            .I0 (key_reg[1]),
+            .I1 (key_status[1]));
+	// LUT = ~I0&I1 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:68
+
+    GTP_LUT2 /* N35_2 */ #(
+            .INIT(4'b0100))
+        N35_2 (
+            .Z (key_out[2]),
+            .I0 (key_reg[2]),
+            .I1 (key_status[2]));
+	// LUT = ~I0&I1 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:68
+
+    GTP_LUT6 /* N44_6 */ #(
+            .INIT(64'b0000000000000000000000000000000000000000000000000000000000000001))
+        N44_6 (
+            .Z (_N557),
+            .I0 (counter[7]),
+            .I1 (counter[8]),
+            .I2 (counter[9]),
+            .I3 (counter[11]),
+            .I4 (counter[12]),
+            .I5 (counter[13]));
+	// LUT = ~I0&~I1&~I2&~I3&~I4&~I5 ;
+
+    GTP_LUT6 /* N44_11 */ #(
+            .INIT(64'b0000000000000000000000000000000000000000000000001000000000000000))
+        N44_11 (
+            .Z (_N562),
+            .I0 (counter[1]),
+            .I1 (counter[2]),
+            .I2 (counter[3]),
+            .I3 (counter[4]),
+            .I4 (counter[14]),
+            .I5 (counter[16]));
+	// LUT = I0&I1&I2&I3&~I4&~I5 ;
+
+    GTP_LUT6 /* N44_16 */ #(
+            .INIT(64'b1000000000000000000000000000000000000000000000000000000000000000))
+        N44_16 (
+            .Z (_N567),
+            .I0 (counter[5]),
+            .I1 (counter[6]),
+            .I2 (counter[10]),
+            .I3 (counter[15]),
+            .I4 (counter[17]),
+            .I5 (counter[18]));
+	// LUT = I0&I1&I2&I3&I4&I5 ;
+
+    GTP_LUT6 /* N44_21 */ #(
+            .INIT(64'b1000000000000000000000000000000000000000000000000000000000000000))
+        N44_21 (
+            .Z (N44),
+            .I0 (counter[19]),
+            .I1 (counter[20]),
+            .I2 (counter[0]),
+            .I3 (_N557),
+            .I4 (_N562),
+            .I5 (_N567));
+	// LUT = I0&I1&I2&I3&I4&I5 ;
+
+    GTP_LUT2 /* \N49[0]  */ #(
+            .INIT(4'b0001))
+        \N49[0]  (
+            .Z (N49[0]),
+            .I0 (counter[0]),
+            .I1 (N10));
+	// LUT = ~I0&~I1 ;
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[0]  (
+            .Q (counter[0]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[0]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[1]  (
+            .Q (counter[1]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[1]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[2]  (
+            .Q (counter[2]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[2]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[3]  (
+            .Q (counter[3]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[3]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[4]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[4]  (
+            .Q (counter[4]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[4]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[5]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[5]  (
+            .Q (counter[5]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[5]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[6]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[6]  (
+            .Q (counter[6]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[6]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[7]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[7]  (
+            .Q (counter[7]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[7]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[8]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[8]  (
+            .Q (counter[8]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[8]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[9]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[9]  (
+            .Q (counter[9]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[9]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[10]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[10]  (
+            .Q (counter[10]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[10]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[11]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[11]  (
+            .Q (counter[11]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[11]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[12]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[12]  (
+            .Q (counter[12]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[12]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[13]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[13]  (
+            .Q (counter[13]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[13]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[14]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[14]  (
+            .Q (counter[14]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[14]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[15]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[15]  (
+            .Q (counter[15]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[15]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[16]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[16]  (
+            .Q (counter[16]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[16]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[17]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[17]  (
+            .Q (counter[17]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[17]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[18]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[18]  (
+            .Q (counter[18]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[18]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[19]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[19]  (
+            .Q (counter[19]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[19]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \counter[20]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \counter[20]  (
+            .Q (counter[20]),
+            .C (N7),
+            .CLK (clk),
+            .D (N49[20]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_CE /* \key_prev[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \key_prev[0]  (
+            .Q (key_prev[0]),
+            .C (N7),
+            .CE (N10),
+            .CLK (clk),
+            .D (key[0]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_CE /* \key_prev[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \key_prev[1]  (
+            .Q (key_prev[1]),
+            .C (N7),
+            .CE (N10),
+            .CLK (clk),
+            .D (key[1]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_CE /* \key_prev[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \key_prev[2]  (
+            .Q (key_prev[2]),
+            .C (N7),
+            .CE (N10),
+            .CLK (clk),
+            .D (key[2]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:27
+
+    GTP_DFF_C /* \key_reg[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \key_reg[0]  (
+            .Q (key_reg[0]),
+            .C (N7),
+            .CLK (clk),
+            .D (key_status[0]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:59
+
+    GTP_DFF_C /* \key_reg[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \key_reg[1]  (
+            .Q (key_reg[1]),
+            .C (N7),
+            .CLK (clk),
+            .D (key_status[1]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:59
+
+    GTP_DFF_C /* \key_reg[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \key_reg[2]  (
+            .Q (key_reg[2]),
+            .C (N7),
+            .CLK (clk),
+            .D (key_status[2]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:59
+
+    GTP_DFF_CE /* \key_status[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \key_status[0]  (
+            .Q (key_status[0]),
+            .C (N7),
+            .CE (N44),
+            .CLK (clk),
+            .D (key_prev[0]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:49
+
+    GTP_DFF_CE /* \key_status[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \key_status[1]  (
+            .Q (key_status[1]),
+            .C (N7),
+            .CE (N44),
+            .CLK (clk),
+            .D (key_prev[1]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:49
+
+    GTP_DFF_CE /* \key_status[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \key_status[2]  (
+            .Q (key_status[2]),
+            .C (N7),
+            .CE (N44),
+            .CLK (clk),
+            .D (key_prev[2]));
+	// ../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v:49
 
 
 endmodule
@@ -1058,16 +3636,31 @@ module top
 );
 	// SDC constraint : (object clk) (id 1000) (clock top|clk) (inferred)
     wire N0;
-    wire _N259_8;
-    wire _N259_9;
+    wire N14;
+    wire N16;
+    wire N17;
+    wire N18;
+    wire _N533_8;
+    wire _N533_9;
+    wire \ctrl/N0 ;
+    wire \ctrl/N55 ;
+    wire \ctrl/N57_inv ;
     wire [31:0] data_out;
+    wire [31:0] instr_out;
+    wire [2:0] key_check;
     wire [15:0] nt_SevenSegCatHL;
     wire [7:0] nt_anode;
+    wire nt_btn_p;
+    wire nt_btn_spddn;
+    wire nt_btn_spdup;
     wire nt_clk;
+    wire [7:0] nt_led;
     wire nt_rst_n;
-    wire \ss/N1 ;
     wire \ss/N132 ;
     wire [3:0] \ss/num ;
+    wire [1:0] status;
+    wire [2:0] \u_key_d/key_reg ;
+    wire [2:0] \u_key_d/key_status ;
 
     GTP_GRS GRS_INST (
             .GRS_N (1'b1));
@@ -1082,53 +3675,8 @@ module top
             .I3 (nt_anode[2]));
 	// LUT = I0&I1&I2&I3 ;
 
-    GTP_LUT6D /* \N6[0]  */ #(
-            .INIT(64'b1010101110101010111010101010111111010101011101011101011101011101))
-        \N6[0]  (
-            .Z (nt_SevenSegCatHL[0]),
-            .Z5 (nt_SevenSegCatHL[11]),
-            .I0 (N0),
-            .I1 (\ss/num [0] ),
-            .I2 (\ss/num [1] ),
-            .I3 (\ss/num [2] ),
-            .I4 (\ss/num [3] ),
-            .I5 (1'b1));
-	// LUT = (~I2&~I3&~I4)|(I1&I2&I3&~I4)|(~I1&~I2&I3&I4)|(I0) ;
-	// Z5 = (I1&~I2&~I3&~I4)|(~I1&~I2&I3&~I4)|(~I1&I2&~I3&I4)|(I1&I2&I3)|(~I0) ;
-	// ../top.v:22
-
-    GTP_LUT6D /* \N6[4]  */ #(
-            .INIT(64'b1111101110101010101010101011101010101010101011101110111111101110))
-        \N6[4]  (
-            .Z (nt_SevenSegCatHL[4]),
-            .Z5 (nt_SevenSegCatHL[2]),
-            .I0 (N0),
-            .I1 (\ss/num [0] ),
-            .I2 (\ss/num [1] ),
-            .I3 (\ss/num [2] ),
-            .I4 (\ss/num [3] ),
-            .I5 (1'b1));
-	// LUT = (~I1&I2&~I3&~I4)|(I2&I3&I4)|(~I1&I3&I4)|(I0) ;
-	// Z5 = (~I2&I3&~I4)|(I1&~I4)|(I1&~I2&~I3)|(I0) ;
-	// ../top.v:22
-
-    GTP_LUT6D /* \N6[5]  */ #(
-            .INIT(64'b1111101111101010101111101010101011101010101110101110101110101110))
-        \N6[5]  (
-            .Z (nt_SevenSegCatHL[5]),
-            .Z5 (nt_SevenSegCatHL[3]),
-            .I0 (N0),
-            .I1 (\ss/num [0] ),
-            .I2 (\ss/num [1] ),
-            .I3 (\ss/num [2] ),
-            .I4 (\ss/num [3] ),
-            .I5 (1'b1));
-	// LUT = (I1&~I2&I3&~I4)|(~I1&I3&I4)|(I1&I2&I4)|(~I1&I2&I3)|(I0) ;
-	// Z5 = (I1&~I2&~I3&~I4)|(~I1&~I2&I3&~I4)|(~I1&I2&~I3&I4)|(I1&I2&I3)|(I0) ;
-	// ../top.v:22
-
     GTP_LUT6D /* \N6[6]  */ #(
-            .INIT(64'b1010111011101010101010111010111010101110101010101110101011111110))
+            .INIT(64'b1010101110101010111010101010111111111011111010101011111010101010))
         \N6[6]  (
             .Z (nt_SevenSegCatHL[6]),
             .Z5 (nt_SevenSegCatHL[1]),
@@ -1138,45 +3686,15 @@ module top
             .I3 (\ss/num [2] ),
             .I4 (\ss/num [3] ),
             .I5 (1'b1));
-	// LUT = (I1&~I2&~I3&~I4)|(~I1&~I2&I3&~I4)|(I1&I2&~I3&I4)|(I1&~I2&I3&I4)|(I0) ;
-	// Z5 = (I2&~I3&~I4)|(I1&~I3&~I4)|(I1&I2&~I4)|(I1&~I2&I3&I4)|(I0) ;
+	// LUT = (~I2&~I3&~I4)|(I1&I2&I3&~I4)|(~I1&~I2&I3&I4)|(I0) ;
+	// Z5 = (I1&~I2&I3&~I4)|(~I1&I3&I4)|(I1&I2&I4)|(~I1&I2&I3)|(I0) ;
 	// ../top.v:22
 
     GTP_LUT6D /* \N6[7]  */ #(
-            .INIT(64'b0101011101010101110101010101111101011101010101011101010111111101))
+            .INIT(64'b0101110111010101010101110101110111101010101110101110101110101110))
         \N6[7]  (
             .Z (nt_SevenSegCatHL[8]),
-            .Z5 (nt_SevenSegCatHL[9]),
-            .I0 (N0),
-            .I1 (\ss/num [0] ),
-            .I2 (\ss/num [1] ),
-            .I3 (\ss/num [2] ),
-            .I4 (\ss/num [3] ),
-            .I5 (1'b1));
-	// LUT = (~I2&~I3&~I4)|(I1&I2&I3&~I4)|(~I1&~I2&I3&I4)|(~I0) ;
-	// Z5 = (I2&~I3&~I4)|(I1&~I3&~I4)|(I1&I2&~I4)|(I1&~I2&I3&I4)|(~I0) ;
-	// ../top.v:22
-
-    GTP_LUT6D /* \N6[11]  */ #(
-            .INIT(64'b1111011101010101010101010111010101010101010111011101111111011101))
-        \N6[11]  (
-            .Z (nt_SevenSegCatHL[12]),
-            .Z5 (nt_SevenSegCatHL[10]),
-            .I0 (N0),
-            .I1 (\ss/num [0] ),
-            .I2 (\ss/num [1] ),
-            .I3 (\ss/num [2] ),
-            .I4 (\ss/num [3] ),
-            .I5 (1'b1));
-	// LUT = (~I1&I2&~I3&~I4)|(I2&I3&I4)|(~I1&I3&I4)|(~I0) ;
-	// Z5 = (~I2&I3&~I4)|(I1&~I4)|(I1&~I2&~I3)|(~I0) ;
-	// ../top.v:22
-
-    GTP_LUT6D /* \N6[13]  */ #(
-            .INIT(64'b0101110111010101010101110101110111110111110101010111110101010101))
-        \N6[13]  (
-            .Z (nt_SevenSegCatHL[14]),
-            .Z5 (nt_SevenSegCatHL[13]),
+            .Z5 (nt_SevenSegCatHL[3]),
             .I0 (N0),
             .I1 (\ss/num [0] ),
             .I2 (\ss/num [1] ),
@@ -1184,8 +3702,112 @@ module top
             .I4 (\ss/num [3] ),
             .I5 (1'b1));
 	// LUT = (I1&~I2&~I3&~I4)|(~I1&~I2&I3&~I4)|(I1&I2&~I3&I4)|(I1&~I2&I3&I4)|(~I0) ;
+	// Z5 = (I1&~I2&~I3&~I4)|(~I1&~I2&I3&~I4)|(~I1&I2&~I3&I4)|(I1&I2&I3)|(I0) ;
+	// ../top.v:22
+
+    GTP_LUT6D /* \N6[9]  */ #(
+            .INIT(64'b1111011101010101010101010111010111111011101010101010101010111010))
+        \N6[9]  (
+            .Z (nt_SevenSegCatHL[10]),
+            .Z5 (nt_SevenSegCatHL[2]),
+            .I0 (N0),
+            .I1 (\ss/num [0] ),
+            .I2 (\ss/num [1] ),
+            .I3 (\ss/num [2] ),
+            .I4 (\ss/num [3] ),
+            .I5 (1'b1));
+	// LUT = (~I1&I2&~I3&~I4)|(I2&I3&I4)|(~I1&I3&I4)|(~I0) ;
+	// Z5 = (~I1&I2&~I3&~I4)|(I2&I3&I4)|(~I1&I3&I4)|(I0) ;
+	// ../top.v:22
+
+    GTP_LUT6D /* \N6[10]  */ #(
+            .INIT(64'b1101010101110101110101110101110111110111110101010111110101010101))
+        \N6[10]  (
+            .Z (nt_SevenSegCatHL[11]),
+            .Z5 (nt_SevenSegCatHL[9]),
+            .I0 (N0),
+            .I1 (\ss/num [0] ),
+            .I2 (\ss/num [1] ),
+            .I3 (\ss/num [2] ),
+            .I4 (\ss/num [3] ),
+            .I5 (1'b1));
+	// LUT = (I1&~I2&~I3&~I4)|(~I1&~I2&I3&~I4)|(~I1&I2&~I3&I4)|(I1&I2&I3)|(~I0) ;
 	// Z5 = (I1&~I2&I3&~I4)|(~I1&I3&I4)|(I1&I2&I4)|(~I1&I2&I3)|(~I0) ;
 	// ../top.v:22
+
+    GTP_LUT6D /* \N6[11]  */ #(
+            .INIT(64'b0101010101011101110111111101110110101110101010101110101011111110))
+        \N6[11]  (
+            .Z (nt_SevenSegCatHL[12]),
+            .Z5 (nt_SevenSegCatHL[5]),
+            .I0 (N0),
+            .I1 (\ss/num [0] ),
+            .I2 (\ss/num [1] ),
+            .I3 (\ss/num [2] ),
+            .I4 (\ss/num [3] ),
+            .I5 (1'b1));
+	// LUT = (~I2&I3&~I4)|(I1&~I4)|(I1&~I2&~I3)|(~I0) ;
+	// Z5 = (I2&~I3&~I4)|(I1&~I3&~I4)|(I1&I2&~I4)|(I1&~I2&I3&I4)|(I0) ;
+	// ../top.v:22
+
+    GTP_LUT6D /* \N6[12]  */ #(
+            .INIT(64'b0101110101010101110101011111110110101010101011101110111111101110))
+        \N6[12]  (
+            .Z (nt_SevenSegCatHL[13]),
+            .Z5 (nt_SevenSegCatHL[4]),
+            .I0 (N0),
+            .I1 (\ss/num [0] ),
+            .I2 (\ss/num [1] ),
+            .I3 (\ss/num [2] ),
+            .I4 (\ss/num [3] ),
+            .I5 (1'b1));
+	// LUT = (I2&~I3&~I4)|(I1&~I3&~I4)|(I1&I2&~I4)|(I1&~I2&I3&I4)|(~I0) ;
+	// Z5 = (~I2&I3&~I4)|(I1&~I4)|(I1&~I2&~I3)|(I0) ;
+	// ../top.v:22
+
+    GTP_LUT6D /* \N6[13]  */ #(
+            .INIT(64'b0101011101010101110101010101111110101110111010101010101110101110))
+        \N6[13]  (
+            .Z (nt_SevenSegCatHL[14]),
+            .Z5 (nt_SevenSegCatHL[0]),
+            .I0 (N0),
+            .I1 (\ss/num [0] ),
+            .I2 (\ss/num [1] ),
+            .I3 (\ss/num [2] ),
+            .I4 (\ss/num [3] ),
+            .I5 (1'b1));
+	// LUT = (~I2&~I3&~I4)|(I1&I2&I3&~I4)|(~I1&~I2&I3&I4)|(~I0) ;
+	// Z5 = (I1&~I2&~I3&~I4)|(~I1&~I2&I3&~I4)|(I1&I2&~I3&I4)|(I1&~I2&I3&I4)|(I0) ;
+	// ../top.v:22
+
+    GTP_INV N14_vname (
+            .Z (N14),
+            .I (nt_led[7]));
+    // defparam N14_vname.orig_name = N14;
+
+    GTP_LUT1 /* N16 */ #(
+            .INIT(2'b01))
+        N16_vname (
+            .Z (N16),
+            .I0 (nt_btn_p));
+    // defparam N16_vname.orig_name = N16;
+	// LUT = ~I0 ;
+
+    GTP_LUT1 /* N17 */ #(
+            .INIT(2'b01))
+        N17_vname (
+            .Z (N17),
+            .I0 (nt_btn_spddn));
+    // defparam N17_vname.orig_name = N17;
+	// LUT = ~I0 ;
+
+    GTP_LUT1 /* N18 */ #(
+            .INIT(2'b01))
+        N18_vname (
+            .Z (N18),
+            .I0 (nt_btn_spdup));
+    // defparam N18_vname.orig_name = N18;
+	// LUT = ~I0 ;
 
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="D4", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \SevenSegCatHL_obuf[0]  */ #(
             .IOSTANDARD("DEFAULT"), 
@@ -1331,16 +3953,16 @@ module top
             .I (1'b1));
 	// ../top.v:15
 
-    GTP_LUT6 /* _N259_1_inv */ #(
+    GTP_LUT6 /* _N533_1_inv */ #(
             .INIT(64'b0110100010000000111010001000000000000000000000001000000000000000))
-        _N259_1_inv (
+        _N533_1_inv (
             .Z (\ss/N132 ),
             .I0 (nt_anode[3]),
             .I1 (nt_anode[4]),
             .I2 (nt_anode[5]),
             .I3 (nt_anode[6]),
-            .I4 (_N259_8),
-            .I5 (_N259_9));
+            .I4 (_N533_8),
+            .I5 (_N533_9));
 	// LUT = (I0&I1&I2&I3&~I4)|(I0&I1&I2&~I3&I5)|(I0&I1&~I2&I3&I5)|(I0&~I1&I2&I3&I5)|(~I0&I1&I2&I3&I5) ;
 
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="G1", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_UNUSED="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \anode_obuf[0]  */ #(
@@ -1415,6 +4037,30 @@ module top
             .I (nt_anode[7]));
 	// ../top.v:14
 
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="M1", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    GTP_INBUF /* btn_p_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        btn_p_ibuf (
+            .O (nt_btn_p),
+            .I (btn_p));
+	// ../top.v:9
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="L1", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    GTP_INBUF /* btn_spddn_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        btn_spddn_ibuf (
+            .O (nt_btn_spddn),
+            .I (btn_spddn));
+	// ../top.v:11
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="L3", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    GTP_INBUF /* btn_spdup_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        btn_spdup_ibuf (
+            .O (nt_btn_spdup),
+            .I (btn_spdup));
+	// ../top.v:10
+
 (* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="P17", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_UNUSED="TRUE" *)    GTP_INBUF /* clk_ibuf */ #(
             .IOSTANDARD("DEFAULT"), 
             .TERM_DDR("ON"))
@@ -1423,13 +4069,27 @@ module top
             .I (clk));
 	// ../top.v:12
 
+    control ctrl (
+            .status (status),
+            .\u_key_d/key_reg  ({\u_key_d/key_reg [2] , \u_key_d/key_reg [1] , \u_key_d/key_reg [0] }),
+            .\u_key_d/key_status  ({\u_key_d/key_status [2] , \u_key_d/key_status [1] , \u_key_d/key_status [0] }),
+            .N0 (\ctrl/N0 ),
+            .N55 (\ctrl/N55 ),
+            .N57_inv (\ctrl/N57_inv ),
+            .clk (nt_clk),
+            .pause (key_check[2]),
+            .rst_n (nt_rst_n),
+            .speeddown (key_check[1]),
+            .speedup (key_check[0]));
+	// ../top.v:33
+
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="K2", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[0]  */ #(
             .IOSTANDARD("DEFAULT"), 
             .SLEW_RATE("SLOW"), 
             .DRIVE_STRENGTH("8"))
         \led_obuf[0]  (
             .O (led[0]),
-            .I (1'b0));
+            .I (nt_led[0]));
 	// ../top.v:16
 
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="J2", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[1]  */ #(
@@ -1438,7 +4098,7 @@ module top
             .DRIVE_STRENGTH("8"))
         \led_obuf[1]  (
             .O (led[1]),
-            .I (1'b0));
+            .I (nt_led[1]));
 	// ../top.v:16
 
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="J3", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[2]  */ #(
@@ -1447,7 +4107,7 @@ module top
             .DRIVE_STRENGTH("8"))
         \led_obuf[2]  (
             .O (led[2]),
-            .I (1'b0));
+            .I (nt_led[2]));
 	// ../top.v:16
 
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="H4", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[3]  */ #(
@@ -1456,7 +4116,7 @@ module top
             .DRIVE_STRENGTH("8"))
         \led_obuf[3]  (
             .O (led[3]),
-            .I (1'b0));
+            .I (nt_led[3]));
 	// ../top.v:16
 
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="J4", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[4]  */ #(
@@ -1465,7 +4125,7 @@ module top
             .DRIVE_STRENGTH("8"))
         \led_obuf[4]  (
             .O (led[4]),
-            .I (1'b0));
+            .I (nt_led[4]));
 	// ../top.v:16
 
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="G3", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[5]  */ #(
@@ -1474,7 +4134,7 @@ module top
             .DRIVE_STRENGTH("8"))
         \led_obuf[5]  (
             .O (led[5]),
-            .I (1'b0));
+            .I (nt_led[5]));
 	// ../top.v:16
 
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="G4", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[6]  */ #(
@@ -1483,7 +4143,7 @@ module top
             .DRIVE_STRENGTH("8"))
         \led_obuf[6]  (
             .O (led[6]),
-            .I (1'b0));
+            .I (nt_led[6]));
 	// ../top.v:16
 
 (* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="F6", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[7]  */ #(
@@ -1492,7 +4152,7 @@ module top
             .DRIVE_STRENGTH("8"))
         \led_obuf[7]  (
             .O (led[7]),
-            .I (1'b0));
+            .I (nt_led[7]));
 	// ../top.v:16
 
     GTP_INBUF /* rst_n_ibuf */ #(
@@ -1504,22 +4164,48 @@ module top
 	// ../top.v:13
 
     Seven_Seg ss (
+            .addr (nt_led),
             .anode (nt_anode),
             .num ({\ss/num [3] , \ss/num [2] , \ss/num [1] , \ss/num [0] }),
-            .data (data_out),
-            .N1 (\ss/N1 ),
-            ._N259_8 (_N259_8),
-            ._N259_9 (_N259_9),
+            .N139 ({1'bz, 1'bz, 1'bz, \ctrl/N57_inv }),
+            .data_out (data_out),
+            .instr_out (instr_out),
+            .status (status),
+            ._N533_8 (_N533_8),
+            ._N533_9 (_N533_9),
+            .N1 (\ctrl/N0 ),
+            .N109 (\ctrl/N55 ),
             .N132 (\ss/N132 ),
-            .clk (nt_clk),
-            .rst_n (nt_rst_n));
+            .clk (nt_clk));
 	// ../top.v:42
 
     data_mem u_data_mem (
             .data_out (data_out),
-            .N0 (\ss/N1 ),
-            .clk (nt_clk));
-	// ../top.v:62
+            .data_addr ({nt_led[6], nt_led[5], nt_led[4], nt_led[3], nt_led[2], nt_led[1], nt_led[0]}),
+            .N0 (\ctrl/N0 ),
+            .clk (nt_clk),
+            .rd_en (N14));
+	// ../top.v:64
+
+    instr_mem u_instr_mem (
+            .instr_out (instr_out),
+            .instr_addr ({nt_led[6], nt_led[5], nt_led[4], nt_led[3], nt_led[2], nt_led[1], nt_led[0]}),
+            .N0 (\ctrl/N0 ),
+            .clk (nt_clk),
+            .rd_en (nt_led[7]));
+	// ../top.v:56
+
+    key_d u_key_d (
+            .key_out (key_check),
+            .key_reg ({\u_key_d/key_reg [2] , \u_key_d/key_reg [1] , \u_key_d/key_reg [0] }),
+            .key_status ({\u_key_d/key_status [2] , \u_key_d/key_status [1] , \u_key_d/key_status [0] }),
+            .key ({N16, N17, N18}),
+            .N7 (\ctrl/N0 ),
+            .clk (nt_clk),
+            .nt_btn_p (nt_btn_p),
+            .nt_btn_spddn (nt_btn_spddn),
+            .nt_btn_spdup (nt_btn_spdup));
+	// ../top.v:74
 
 
 endmodule

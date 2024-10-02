@@ -33,9 +33,9 @@ assign data=(addr[7])? instr_out:data_out;
 control ctrl(
     .rst_n(rst_n),
     .clk(clk), 
-    .pause(btn_p), 
-    .speedup(btn_spdup), 
-    .speeddown(btn_spddn), 
+    .pause(key_check[2]), 
+    .speedup(key_check[0]), 
+    .speeddown(key_check[1]), 
     .status(status)
 );
 
@@ -45,7 +45,9 @@ Seven_Seg ss
     .clk(clk), 
     .data(data), 
     .anode(anode), 
-    .dp(dp), 
+    .dp(dp),
+    .addr(addr),
+    .status(status), 
     .cathode(cathode)
 );
 
@@ -67,4 +69,13 @@ data_mem u_data_mem(
     .data_out(data_out)
 );
 
+//key_d
+wire [2:0]  key_check;
+    key_d   u_key_d(
+    	.clk     (clk),
+        .rst_n   (rst_n),
+        .key     ({~btn_p, ~btn_spddn, ~btn_spdup}),
+        .key_out (key_check )
+    );
+ 
 endmodule

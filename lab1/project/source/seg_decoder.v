@@ -6,23 +6,23 @@ module seg_decoder (
     assign cathode = decoder;
     always @(*)  begin
         case (char)
-            4'h0:   decoder = 7'h01;
-            4'h1:   decoder = 7'h4F;
-            4'h2:   decoder = 7'h12;
-            4'h3:   decoder = 7'h06;
-            4'h4:   decoder = 7'h4C;
-            4'h5:   decoder = 7'h24;
-            4'h6:   decoder = 7'h20;
-            4'h7:   decoder = 7'h0F;
-            4'h8:   decoder = 7'h00;
-            4'h9:   decoder = 7'h04;
-            4'hA:   decoder = 7'h08;
-            4'hB:   decoder = 7'h60;
-            4'hC:   decoder = 7'h31;
-            4'hD:   decoder = 7'h42;
-            4'hE:   decoder = 7'h30;
-            4'hF:   decoder = 7'h38;
-            default: decoder = 7'h00;
+		4'd0: decoder = 8'b1100_0000;
+		4'd1: decoder = 8'b1111_1001;
+		4'd2: decoder = 8'b1010_0100;
+		4'd3: decoder = 8'b1011_0000;
+		4'd4: decoder = 8'b1001_1001;
+		4'd5: decoder = 8'b1001_0010;
+		4'd6: decoder = 8'b1000_0010;
+		4'd7: decoder = 8'b1111_1000;
+		4'd8: decoder = 8'b1000_0000;
+		4'd9: decoder = 8'b1001_0000;
+		4'ha: decoder = 8'b1000_1000;
+		4'hb: decoder = 8'b1000_0011;
+		4'hc: decoder = 8'b1100_0110;
+		4'hd: decoder = 8'b1010_0001;
+		4'he: decoder = 8'b1000_0110;
+		4'hf: decoder = 8'b1000_1110;
+		default:decoder = 8'b1100_0000;
         endcase
     end
 endmodule
