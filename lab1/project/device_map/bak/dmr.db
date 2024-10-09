@@ -3195,13 +3195,38 @@
             <data>23</data>
         </row>
         <row>
-            <data>status[1]</data>
-            <data>ctrl/status[1]</data>
-            <data>11</data>
+            <data>ss/_N579</data>
+            <data>ss/N123_5</data>
+            <data>18</data>
+        </row>
+        <row>
+            <data>ss/_N584</data>
+            <data>ss/N123_10</data>
+            <data>18</data>
+        </row>
+        <row>
+            <data>ss/_N589</data>
+            <data>ss/N123_15</data>
+            <data>18</data>
+        </row>
+        <row>
+            <data>ss/_N594</data>
+            <data>ss/N123_20</data>
+            <data>18</data>
+        </row>
+        <row>
+            <data>ss/_N595</data>
+            <data>ss/N123_21</data>
+            <data>17</data>
         </row>
         <row>
             <data>status[0]</data>
             <data>ctrl/status[0]</data>
+            <data>11</data>
+        </row>
+        <row>
+            <data>status[1]</data>
+            <data>ctrl/status[1]</data>
             <data>11</data>
         </row>
         <row>
@@ -3220,28 +3245,13 @@
             <data>10</data>
         </row>
         <row>
-            <data>ss/N122_inv</data>
-            <data>ss/N122_inv</data>
-            <data>10</data>
-        </row>
-        <row>
             <data>nt_led[3]</data>
             <data>ss/addr_counter[3]</data>
             <data>9</data>
         </row>
         <row>
-            <data>nt_led[4]</data>
-            <data>ss/addr_counter[4]</data>
-            <data>8</data>
-        </row>
-        <row>
-            <data>ss/N122</data>
-            <data>ss/N122_25</data>
-            <data>8</data>
-        </row>
-        <row>
-            <data>ss/N90</data>
-            <data>ss/N90_17</data>
+            <data>ss/N123</data>
+            <data>ss/N123_25</data>
             <data>8</data>
         </row>
         <row>
@@ -3255,23 +3265,28 @@
             <data>8</data>
         </row>
         <row>
-            <data>nt_anode[3]</data>
-            <data>ss/anode_reg[3]</data>
-            <data>8</data>
-        </row>
-        <row>
             <data>nt_anode[2]</data>
             <data>ss/anode_reg[2]</data>
             <data>8</data>
         </row>
         <row>
-            <data>ss/num [0]</data>
-            <data>ss/num[0]</data>
-            <data>7</data>
+            <data>nt_led[4]</data>
+            <data>ss/addr_counter[4]</data>
+            <data>8</data>
         </row>
         <row>
-            <data>ss/num [1]</data>
-            <data>ss/num[1]</data>
+            <data>nt_anode[3]</data>
+            <data>ss/anode_reg[3]</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>ss/N90</data>
+            <data>ss/N90_17</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>nt_anode[4]</data>
+            <data>ss/anode_reg[4]</data>
             <data>7</data>
         </row>
         <row>
@@ -3285,18 +3300,23 @@
             <data>7</data>
         </row>
         <row>
-            <data>nt_anode[5]</data>
-            <data>ss/anode_reg[5]</data>
+            <data>ss/num [1]</data>
+            <data>ss/num[1]</data>
             <data>7</data>
         </row>
         <row>
-            <data>nt_anode[4]</data>
-            <data>ss/anode_reg[4]</data>
+            <data>ss/num [0]</data>
+            <data>ss/num[0]</data>
             <data>7</data>
         </row>
         <row>
             <data>ss/num [2]</data>
             <data>ss/num[2]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>nt_anode[5]</data>
+            <data>ss/anode_reg[5]</data>
             <data>7</data>
         </row>
         <row>
@@ -3315,18 +3335,8 @@
             <data>6</data>
         </row>
         <row>
-            <data>ss/N51</data>
-            <data>ss/N51_4</data>
-            <data>4</data>
-        </row>
-        <row>
-            <data>ss/clk_counter [0]</data>
-            <data>ss/clk_counter[0]</data>
-            <data>4</data>
-        </row>
-        <row>
-            <data>ss/N90_inv</data>
-            <data>ss/N90_inv</data>
+            <data>ss/N132</data>
+            <data>_N533_1_inv</data>
             <data>4</data>
         </row>
         <row>
@@ -3335,8 +3345,8 @@
             <data>4</data>
         </row>
         <row>
-            <data>ss/N131</data>
-            <data>_N533_1_inv</data>
+            <data>ss/anode_cnt [1]</data>
+            <data>ss/anode_cnt[1]</data>
             <data>4</data>
         </row>
         <row>
@@ -3350,13 +3360,23 @@
             <data>4</data>
         </row>
         <row>
-            <data>ss/anode_cnt [1]</data>
-            <data>ss/anode_cnt[1]</data>
+            <data>ss/N90_inv</data>
+            <data>ss/N90_inv</data>
             <data>4</data>
         </row>
         <row>
-            <data>ss/counter [2]</data>
-            <data>ss/counter[2]</data>
+            <data>ss/N51</data>
+            <data>ss/N51_4</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>ss/clk_counter [0]</data>
+            <data>ss/clk_counter[0]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>nt_anode[7]</data>
+            <data>ss/anode_reg[7]</data>
             <data>3</data>
         </row>
         <row>
@@ -3365,18 +3385,13 @@
             <data>3</data>
         </row>
         <row>
+            <data>ss/anode_cnt [0]</data>
+            <data>ss/anode_cnt[0]</data>
+            <data>3</data>
+        </row>
+        <row>
             <data>u_key_d/key_status [0]</data>
             <data>u_key_d/key_status[0]</data>
-            <data>3</data>
-        </row>
-        <row>
-            <data>ss/clk_counter [24]</data>
-            <data>ss/clk_counter[24]</data>
-            <data>3</data>
-        </row>
-        <row>
-            <data>u_key_d/key_status [2]</data>
-            <data>u_key_d/key_status[2]</data>
             <data>3</data>
         </row>
         <row>
@@ -3385,39 +3400,24 @@
             <data>3</data>
         </row>
         <row>
-            <data>ss/anode_cnt [0]</data>
-            <data>ss/anode_cnt[0]</data>
+            <data>ss/clk_counter [23]</data>
+            <data>ss/clk_counter[23]</data>
             <data>3</data>
         </row>
         <row>
-            <data>nt_anode[7]</data>
-            <data>ss/anode_reg[7]</data>
+            <data>u_key_d/key_status [2]</data>
+            <data>u_key_d/key_status[2]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>ss/counter [2]</data>
+            <data>ss/counter[2]</data>
             <data>3</data>
         </row>
         <row>
             <data>ss/anode_cnt [14]</data>
             <data>ss/anode_cnt[14]</data>
             <data>3</data>
-        </row>
-        <row>
-            <data>ss/anode_cnt [3]</data>
-            <data>ss/anode_cnt[3]</data>
-            <data>2</data>
-        </row>
-        <row>
-            <data>ss/anode_cnt [4]</data>
-            <data>ss/anode_cnt[4]</data>
-            <data>2</data>
-        </row>
-        <row>
-            <data>ss/anode_cnt [5]</data>
-            <data>ss/anode_cnt[5]</data>
-            <data>2</data>
-        </row>
-        <row>
-            <data>ss/anode_cnt [6]</data>
-            <data>ss/anode_cnt[6]</data>
-            <data>2</data>
         </row>
         <row>
             <data>ss/anode_cnt [7]</data>
@@ -3455,8 +3455,8 @@
             <data>2</data>
         </row>
         <row>
-            <data>ss/anode_cnt [2]</data>
-            <data>ss/anode_cnt[2]</data>
+            <data>ss/anode_cnt [6]</data>
+            <data>ss/anode_cnt[6]</data>
             <data>2</data>
         </row>
         <row>
@@ -3470,8 +3470,8 @@
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N594</data>
-            <data>ss/N122_20</data>
+            <data>ss/anode_cnt [5]</data>
+            <data>ss/anode_cnt[5]</data>
             <data>2</data>
         </row>
         <row>
@@ -3555,8 +3555,8 @@
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N589</data>
-            <data>ss/N122_15</data>
+            <data>ss/clk_counter [17]</data>
+            <data>ss/clk_counter[17]</data>
             <data>2</data>
         </row>
         <row>
@@ -3565,8 +3565,8 @@
             <data>2</data>
         </row>
         <row>
-            <data>ss/clk_counter [19]</data>
-            <data>ss/clk_counter[19]</data>
+            <data>ss/anode_cnt [4]</data>
+            <data>ss/anode_cnt[4]</data>
             <data>2</data>
         </row>
         <row>
@@ -3585,28 +3585,28 @@
             <data>2</data>
         </row>
         <row>
-            <data>ss/clk_counter [23]</data>
-            <data>ss/clk_counter[23]</data>
+            <data>ss/anode_cnt [3]</data>
+            <data>ss/anode_cnt[3]</data>
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N584</data>
-            <data>ss/N122_10</data>
+            <data>ss/clk_counter [24]</data>
+            <data>ss/clk_counter[24]</data>
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N579</data>
-            <data>ss/N122_5</data>
+            <data>ss/anode_cnt [2]</data>
+            <data>ss/anode_cnt[2]</data>
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N547</data>
-            <data>ss/N90_14</data>
+            <data>nt_btn_spdup</data>
+            <data>btn_spdup_ibuf</data>
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N546</data>
-            <data>ss/N90_13</data>
+            <data>ctrl/N137</data>
+            <data>ctrl/N137_0</data>
             <data>2</data>
         </row>
         <row>
@@ -3620,8 +3620,8 @@
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N544</data>
-            <data>ss/N90_11</data>
+            <data>ss/_N547</data>
+            <data>ss/N90_14</data>
             <data>2</data>
         </row>
         <row>
@@ -3650,13 +3650,13 @@
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N539</data>
-            <data>ss/N90_6</data>
+            <data>ss/_N546</data>
+            <data>ss/N90_13</data>
             <data>2</data>
         </row>
         <row>
-            <data>ss/N135</data>
-            <data>ss/N135_1</data>
+            <data>ss/_N544</data>
+            <data>ss/N90_11</data>
             <data>2</data>
         </row>
         <row>
@@ -3691,7 +3691,7 @@
         </row>
         <row>
             <data>LUT</data>
-            <data>153</data>
+            <data>161</data>
             <data>35800</data>
             <data>1</data>
         </row>
@@ -3833,9 +3833,9 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:7s</data>
-            <data>0h:0m:7s</data>
-            <data>0h:0m:16s</data>
+            <data>0h:0m:5s</data>
+            <data>0h:0m:5s</data>
+            <data>0h:0m:11s</data>
             <data>299</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>

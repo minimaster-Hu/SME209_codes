@@ -93,3 +93,26 @@ dev_map
 pnr 
 report_timing 
 gen_bit_stream 
+add_simulation "F:/SME files/SME309/codes/SME209_codes/lab1/project/source/tb_top.v"
+add_simulation "F:/SME files/SME309/codes/SME209_codes/lab1/project/source/tb_data_mem.v"
+add_simulation "F:/SME files/SME309/codes/SME209_codes/lab1/project/source/tb_instr_mem.v"
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+remove_simulation "F:/SME_files/SME309/codes/SME209_codes/lab1/project/control_tb.v"
+add_simulation "F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/control_tb.v"
+remove_design -verilog "F:/SME_files/SME309/codes/SME209_codes/lab1/project/instr_mem.v"
+remove_design -verilog "F:/SME_files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v"
+remove_design -verilog "F:/SME_files/SME309/codes/SME209_codes/lab1/project/control.v"
+remove_design -verilog "F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v"
+add_design "F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/control.v"
+add_design "F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/instr_mem.v"
+add_design "F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/Seven_Seg.v"
+add_design "F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/top.v"
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 

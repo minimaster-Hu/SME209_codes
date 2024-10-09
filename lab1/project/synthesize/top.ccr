@@ -1,4 +1,4 @@
-##### Written on 2024/09/28 10:35:51 ###############################
+##### Written on 2024/10/09 19:14:47 ###############################
 
 
 ##### INFO ##################################################
@@ -10,7 +10,7 @@ Top Module :
 	top
 
 Constraint File(s) : 
-	F:/SME files/SME309/codes/SME209_codes/lab1/project/top.fdc
+	F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.fdc
 
 ##### SUMMARY ######################################################
 
@@ -24,31 +24,31 @@ Inapplicable constraints(except overwritten constraints):
 
 define_attribute {p:SevenSegCatHL[14]} {PAP_IO_LOC} {B2}
 
-	C: ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 114)] | Port SevenSegCatHL[14] has been placed at location B2, whose type is share pin.
+	C: ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 114)] | Port SevenSegCatHL[14] has been placed at location B2, whose type is share pin.
 
 define_attribute {p:SevenSegCatHL[13]} {PAP_IO_LOC} {B3}
 
-	C: ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 122)] | Port SevenSegCatHL[13] has been placed at location B3, whose type is share pin.
+	C: ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 122)] | Port SevenSegCatHL[13] has been placed at location B3, whose type is share pin.
 
 define_attribute {p:SevenSegCatHL[12]} {PAP_IO_LOC} {A1}
 
-	C: ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 130)] | Port SevenSegCatHL[12] has been placed at location A1, whose type is share pin.
+	C: ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 130)] | Port SevenSegCatHL[12] has been placed at location A1, whose type is share pin.
 
 define_attribute {p:SevenSegCatHL[11]} {PAP_IO_LOC} {B1}
 
-	C: ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 138)] | Port SevenSegCatHL[11] has been placed at location B1, whose type is share pin.
+	C: ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 138)] | Port SevenSegCatHL[11] has been placed at location B1, whose type is share pin.
 
 define_attribute {p:SevenSegCatHL[10]} {PAP_IO_LOC} {A3}
 
-	C: ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 146)] | Port SevenSegCatHL[10] has been placed at location A3, whose type is share pin.
+	C: ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 146)] | Port SevenSegCatHL[10] has been placed at location A3, whose type is share pin.
 
 define_attribute {p:SevenSegCatHL[9]} {PAP_IO_LOC} {A4}
 
-	C: ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 154)] | Port SevenSegCatHL[9] has been placed at location A4, whose type is share pin.
+	C: ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 154)] | Port SevenSegCatHL[9] has been placed at location A4, whose type is share pin.
 
 define_attribute {p:SevenSegCatHL[8]} {PAP_IO_LOC} {B4}
 
-	C: ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 162)] | Port SevenSegCatHL[8] has been placed at location B4, whose type is share pin.
+	C: ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.fdc(line number: 162)] | Port SevenSegCatHL[8] has been placed at location B4, whose type is share pin.
 
 
 Constraints with issues:

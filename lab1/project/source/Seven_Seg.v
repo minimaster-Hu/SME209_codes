@@ -2,7 +2,7 @@
 
 module Seven_Seg
 #(
-    parameter CLK_FREQ = 28'd100_000_000
+    parameter CLK_FREQ = 28'd50_000_000
 )
 (
     input rst_n,    
@@ -11,7 +11,7 @@ module Seven_Seg
     input [31:0] data,      // 32-bit MEM contents willing to display on 7-segments
     output [7:0] addr,
     output [7:0] anode,     // anodes for 7-segments    //anode Ñô¼« cathode Òõ¼«
-    output          dp,     // dot point for 7-segments
+    output       dp,     // dot point for 7-segments
     output [6:0] cathode    // cathodes for 7-segments
 );
    
@@ -98,7 +98,7 @@ always @(posedge clk or negedge rst_n) begin
         clk_counter<=25'b0;
         addr_counter<=8'b0;   
     end
-    else if(clk_counter==QUARTER_JUMP/2) begin
+    else if(clk_counter==QUARTER_JUMP) begin
         clk_counter<=25'b0;
         addr_counter<=addr_counter+1'd1;
     end

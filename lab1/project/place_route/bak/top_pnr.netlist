@@ -4723,7 +4723,7 @@ I4;1
 I5;1
 
 Inst
-ss/N78_7/gateop_perm;gopA
+ss/N78_11/gateop_perm;gopA
 Pin
 COUT;2
 Y;2
@@ -4775,7 +4775,7 @@ I4;1
 I5;1
 
 Inst
-ss/N78_15/gateop_perm;gopA
+ss/N78_16/gateop_perm;gopA
 Pin
 COUT;2
 Y;2
@@ -4788,7 +4788,7 @@ I4;1
 I5;1
 
 Inst
-ss/N78_17/gateop_perm;gopA
+ss/N78_18/gateop_perm;gopA
 Pin
 COUT;2
 Y;2
@@ -4853,7 +4853,7 @@ I4;1
 I5;1
 
 Inst
-ss/N78_23/gateop_perm;gopA
+ss/N78_24/gateop_perm;gopA
 Pin
 COUT;2
 Y;2
@@ -4866,21 +4866,15 @@ I4;1
 I5;1
 
 Inst
-ss/N90_6/gateop_LUT6DL5Q_perm;gopLUT6L5Q
+ss/N90_6/gateop_perm;gopLUT6
 Pin
-CECO;2
-L5Q;2
 L6;2
-RSCO;2
-CE;1
-CLK;1
 I0;1
 I1;1
 I2;1
 I3;1
 I4;1
 I5;1
-RS;1
 
 Inst
 ss/N90_11/gateop_perm;gopLUT6
@@ -4927,7 +4921,7 @@ I4;1
 I5;1
 
 Inst
-ss/N122_5/gateop_perm;gopLUT6
+ss/N123_5/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -4938,7 +4932,7 @@ I4;1
 I5;1
 
 Inst
-ss/N122_10/LUT6_inst_perm;gopLUT6
+ss/N123_10/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -4949,7 +4943,7 @@ I4;1
 I5;1
 
 Inst
-ss/N122_15/LUT6_inst_perm;gopLUT6
+ss/N123_15/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -4960,7 +4954,7 @@ I4;1
 I5;1
 
 Inst
-ss/N122_20/LUT6_inst_perm;gopLUT6
+ss/N123_20/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -4971,7 +4965,24 @@ I4;1
 I5;1
 
 Inst
-ss/N122_25/LUT6_inst_perm;gopLUT6
+ss/N123_21/gateop_LUT6DL5Q_perm;gopLUT6L5Q
+Pin
+CECO;2
+L5Q;2
+L6;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/N123_25/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -4982,18 +4993,7 @@ I4;1
 I5;1
 
 Inst
-ss/N122_inv/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-ss/N131_53/LUT6D_inst_perm;gopLUT6L5
+ss/N132_53/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -5005,7 +5005,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_0[0]/LUT6_inst_perm;gopLUT6
+ss/N135_0[0]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5016,7 +5016,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_0[1]/LUT6_inst_perm;gopLUT6
+ss/N135_0[1]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5027,7 +5027,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_0[2]/LUT6_inst_perm;gopLUT6
+ss/N135_0[2]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5038,7 +5038,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_0[3]/LUT6_inst_perm;gopLUT6
+ss/N135_0[3]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5049,7 +5049,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_1[0]/gateop_perm;gopLUT6
+ss/N135_1[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5060,7 +5060,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_1[1]/gateop_perm;gopLUT6
+ss/N135_1[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5071,7 +5071,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_1[2]/gateop_perm;gopLUT6
+ss/N135_1[2]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5082,7 +5082,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_1[3]/gateop_perm;gopLUT6
+ss/N135_1[3]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5093,7 +5093,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_2[0]/gateop_perm;gopLUT6
+ss/N135_2[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5104,7 +5104,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_2[1]/gateop_perm;gopLUT6
+ss/N135_2[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5115,7 +5115,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_2[2]/gateop_perm;gopLUT6
+ss/N135_2[2]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5126,7 +5126,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_2[3]/gateop_perm;gopLUT6
+ss/N135_2[3]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5137,7 +5137,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_3[0]/gateop_perm;gopLUT6
+ss/N135_3[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5148,7 +5148,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_3[1]/gateop_perm;gopLUT6
+ss/N135_3[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5159,7 +5159,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_3[2]/gateop_perm;gopLUT6
+ss/N135_3[2]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5170,7 +5170,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_3[3]/gateop_perm;gopLUT6
+ss/N135_3[3]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5181,7 +5181,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_4[0]/gateop_perm;gopLUT6
+ss/N135_4[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5192,7 +5192,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_4[1]/gateop_perm;gopLUT6
+ss/N135_4[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5203,7 +5203,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_4[2]/gateop_perm;gopLUT6
+ss/N135_4[2]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5214,7 +5214,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_4[3]/gateop_perm;gopLUT6
+ss/N135_4[3]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5225,7 +5225,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_5[0]/gateop_perm;gopLUT6
+ss/N135_5[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5236,7 +5236,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_5[1]/gateop_perm;gopLUT6
+ss/N135_5[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5247,7 +5247,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_5[2]/gateop_perm;gopLUT6
+ss/N135_5[2]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5258,7 +5258,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_5[3]/gateop_perm;gopLUT6
+ss/N135_5[3]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5269,7 +5269,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_6[0]/gateop_perm;gopLUT6
+ss/N135_6[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5280,7 +5280,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_6[1]/gateop_perm;gopLUT6
+ss/N135_6[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5291,7 +5291,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_6[2]/gateop_perm;gopLUT6
+ss/N135_6[2]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5302,7 +5302,7 @@ I4;1
 I5;1
 
 Inst
-ss/N134_6[3]/gateop_perm;gopLUT6
+ss/N135_6[3]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5313,7 +5313,7 @@ I4;1
 I5;1
 
 Inst
-ss/N135_1/gateop_perm;gopLUT6
+ss/N136_1/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -5751,10 +5751,9 @@ D;1
 RS;1
 
 Inst
-ss/clk_counter[3]/opit_0_inv_L6QL5Q1_perm;gopLUT6QL5Q
+ss/clk_counter[0]/opit_0_inv_L6Q_perm;gopLUT6Q
 Pin
 CECO;2
-L5Q;2
 L6;2
 L6Q;2
 RSCO;2
@@ -5769,10 +5768,9 @@ I5;1
 RS;1
 
 Inst
-ss/clk_counter[4]/opit_0_inv_L6QL5Q1_perm;gopLUT6QL5Q
+ss/clk_counter[1]/opit_0_inv_L6Q_perm;gopLUT6Q
 Pin
 CECO;2
-L5Q;2
 L6;2
 L6Q;2
 RSCO;2
@@ -5787,14 +5785,83 @@ I5;1
 RS;1
 
 Inst
-ss/clk_counter[6]/opit_0_inv_L6QL5Q_perm;gopLUT6QL5Q
+ss/clk_counter[2]/opit_0_inv_L6Q_perm;gopLUT6Q
 Pin
 CECO;2
-L5Q;2
 L6;2
 L6Q;2
 RSCO;2
 CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[3]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[4]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[5]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[6]/opit_0_inv_AQ_perm;gopAL6Q
+Pin
+CECO;2
+COUT;2
+Q;2
+RSCO;2
+Y;2
+CE;1
+CIN;1
 CLK;1
 I0;1
 I1;1
@@ -5862,7 +5929,75 @@ I5;1
 RS;1
 
 Inst
-ss/clk_counter[10]/opit_0_inv_AQ_perm;gopAL6Q
+ss/clk_counter[10]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[11]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[12]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[13]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[14]/opit_0_inv_AQ_perm;gopAL6Q
 Pin
 CECO;2
 COUT;2
@@ -5881,10 +6016,9 @@ I5;1
 RS;1
 
 Inst
-ss/clk_counter[13]/opit_0_inv_L6QL5Q_perm;gopLUT6QL5Q
+ss/clk_counter[15]/opit_0_inv_L6Q_perm;gopLUT6Q
 Pin
 CECO;2
-L5Q;2
 L6;2
 L6Q;2
 RSCO;2
@@ -5899,7 +6033,7 @@ I5;1
 RS;1
 
 Inst
-ss/clk_counter[15]/opit_0_inv_AQ_perm;gopAL6Q
+ss/clk_counter[16]/opit_0_inv_AQ_perm;gopAL6Q
 Pin
 CECO;2
 COUT;2
@@ -5918,10 +6052,9 @@ I5;1
 RS;1
 
 Inst
-ss/clk_counter[16]/opit_0_inv_L6QL5Q_perm;gopLUT6QL5Q
+ss/clk_counter[17]/opit_0_inv_L6Q_perm;gopLUT6Q
 Pin
 CECO;2
-L5Q;2
 L6;2
 L6Q;2
 RSCO;2
@@ -5936,7 +6069,75 @@ I5;1
 RS;1
 
 Inst
-ss/clk_counter[17]/opit_0_inv_AQ_perm;gopAL6Q
+ss/clk_counter[18]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[19]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[20]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[21]/opit_0_inv_L6Q_perm;gopLUT6Q
+Pin
+CECO;2
+L6;2
+L6Q;2
+RSCO;2
+CE;1
+CLK;1
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+RS;1
+
+Inst
+ss/clk_counter[22]/opit_0_inv_AQ_perm;gopAL6Q
 Pin
 CECO;2
 COUT;2
@@ -5955,69 +6156,13 @@ I5;1
 RS;1
 
 Inst
-ss/clk_counter[20]/opit_0_inv_L6QL5Q1_perm;gopLUT6QL5Q
+ss/clk_counter[23]/opit_0_inv_L6Q_perm;gopLUT6Q
 Pin
 CECO;2
-L5Q;2
 L6;2
 L6Q;2
 RSCO;2
 CE;1
-CLK;1
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-RS;1
-
-Inst
-ss/clk_counter[21]/opit_0_inv_L6QL5Q1_perm;gopLUT6QL5Q
-Pin
-CECO;2
-L5Q;2
-L6;2
-L6Q;2
-RSCO;2
-CE;1
-CLK;1
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-RS;1
-
-Inst
-ss/clk_counter[22]/opit_0_inv_L6QL5Q1_perm;gopLUT6QL5Q
-Pin
-CECO;2
-L5Q;2
-L6;2
-L6Q;2
-RSCO;2
-CE;1
-CLK;1
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-RS;1
-
-Inst
-ss/clk_counter[23]/opit_0_inv_AQ_perm;gopAL6Q
-Pin
-CECO;2
-COUT;2
-Q;2
-RSCO;2
-Y;2
-CE;1
-CIN;1
 CLK;1
 I0;1
 I1;1
@@ -6445,24 +6590,7 @@ I4;1
 I5;1
 
 Inst
-u_key_d/N35_0/gateop_LUT6DL5Q_perm;gopLUT6L5Q
-Pin
-CECO;2
-L5Q;2
-L6;2
-RSCO;2
-CE;1
-CLK;1
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-RS;1
-
-Inst
-u_key_d/N35_2/gateop_LUT6DL5_perm;gopLUT6L5
+u_key_d/N35_1/gateop_LUT6DL5_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -6916,9 +7044,10 @@ I5;1
 RS;1
 
 Inst
-u_key_d/key_prev[1]/opit_0_inv_L6Q_perm;gopLUT6Q
+u_key_d/key_prev[1]/opit_0_inv_L6Q_LUT6DQL5_perm;gopLUT6QL5
 Pin
 CECO;2
+L5;2
 L6;2
 L6Q;2
 RSCO;2
@@ -7197,6 +7326,76 @@ Pin
 Z;2
 
 Inst
+GND_36;gopGND
+Pin
+Z;2
+
+Inst
+GND_37;gopGND
+Pin
+Z;2
+
+Inst
+GND_38;gopGND
+Pin
+Z;2
+
+Inst
+GND_39;gopGND
+Pin
+Z;2
+
+Inst
+GND_40;gopGND
+Pin
+Z;2
+
+Inst
+GND_41;gopGND
+Pin
+Z;2
+
+Inst
+GND_42;gopGND
+Pin
+Z;2
+
+Inst
+GND_43;gopGND
+Pin
+Z;2
+
+Inst
+GND_44;gopGND
+Pin
+Z;2
+
+Inst
+GND_45;gopGND
+Pin
+Z;2
+
+Inst
+GND_46;gopGND
+Pin
+Z;2
+
+Inst
+GND_47;gopGND
+Pin
+Z;2
+
+Inst
+GND_48;gopGND
+Pin
+Z;2
+
+Inst
+GND_49;gopGND
+Pin
+Z;2
+
+Inst
 VCC_0;gopVCC
 Pin
 Z;2
@@ -7307,31 +7506,6 @@ Pin
 Z;2
 
 Inst
-VCC_22;gopVCC
-Pin
-Z;2
-
-Inst
-VCC_23;gopVCC
-Pin
-Z;2
-
-Inst
-VCC_24;gopVCC
-Pin
-Z;2
-
-Inst
-VCC_25;gopVCC
-Pin
-Z;2
-
-Inst
-VCC_26;gopVCC
-Pin
-Z;2
-
-Inst
 HCKBROUTE_0;gopHCKB
 Pin
 CLKOUT;2
@@ -7438,10 +7612,9 @@ rst_n_ibuf/ntDO_N;
 ss/N51;
 ss/N90;
 ss/N90_inv;
-ss/N122;
-ss/N122_inv;
-ss/N131;
-ss/N135;
+ss/N123;
+ss/N132;
+ss/N136;
 ss/_N74;
 ss/_N102;
 ss/_N109;
@@ -7515,6 +7688,7 @@ ss/_N579;
 ss/_N584;
 ss/_N589;
 ss/_N594;
+ss/_N595;
 ss/valid;
 u_key_d/N10;
 u_key_d/N44;
@@ -7681,21 +7855,21 @@ ss/N78 [2];
 ss/N78 [3];
 ss/N78 [4];
 ss/N78 [5];
-ss/N78 [6];
+ss/N78 [10];
 ss/N78 [11];
 ss/N78 [12];
 ss/N78 [13];
-ss/N78 [14];
-ss/N78 [16];
+ss/N78 [15];
+ss/N78 [17];
 ss/N78 [18];
 ss/N78 [19];
 ss/N78 [20];
 ss/N78 [21];
-ss/N78 [22];
-ss/N134 [0];
-ss/N134 [1];
-ss/N134 [2];
-ss/N134 [3];
+ss/N78 [23];
+ss/N135 [0];
+ss/N135 [1];
+ss/N135 [2];
+ss/N135 [3];
 ss/anode_cnt [0];
 ss/anode_cnt [1];
 ss/anode_cnt [2];
@@ -7798,6 +7972,10 @@ ntR14;
 ntR15;
 ntR16;
 ntR17;
+ntR18;
+ntR19;
+ntR20;
+ntR21;
 _GND0;
 _GND1;
 _GND2;
@@ -7834,6 +8012,20 @@ _GND32;
 _GND33;
 _GND34;
 _GND35;
+_GND36;
+_GND37;
+_GND38;
+_GND39;
+_GND40;
+_GND41;
+_GND42;
+_GND43;
+_GND44;
+_GND45;
+_GND46;
+_GND47;
+_GND48;
+_GND49;
 _VCC0;
 _VCC1;
 _VCC2;
@@ -7856,11 +8048,6 @@ _VCC18;
 _VCC19;
 _VCC20;
 _VCC21;
-_VCC22;
-_VCC23;
-_VCC24;
-_VCC25;
-_VCC26;
 _N0;
 
 Clock

@@ -2816,48 +2816,48 @@
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>47</data>
+            <data>58</data>
             <data>6575</data>
             <data>1</data>
             <row>
                 <data>  FF</data>
-                <data>47</data>
+                <data>64</data>
                 <data>52600</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>120</data>
+                <data>151</data>
                 <data>26300</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>32</data>
+                <data>58</data>
                 <data>26300</data>
                 <data>1</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>19</data>
+            <data>21</data>
             <data>2375</data>
             <data>1</data>
             <row>
                 <data>  FF</data>
-                <data>56</data>
+                <data>39</data>
                 <data>19000</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>63</data>
+                <data>54</data>
                 <data>9500</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>36</data>
+                <data>18</data>
                 <data>9500</data>
                 <data>1</data>
             </row>
@@ -2912,7 +2912,7 @@
         </row>
         <row>
             <data>Use of HARD0</data>
-            <data>27</data>
+            <data>22</data>
             <data>5850</data>
             <data>1</data>
         </row>
@@ -3121,7 +3121,7 @@
         </column_headers>
         <row>
             <data>top</data>
-            <data>147</data>
+            <data>155</data>
             <data>103</data>
             <data>0</data>
             <data>0</data>
@@ -3174,8 +3174,8 @@
             </row>
             <row>
                 <data>ss</data>
-                <data>104</data>
-                <data>69</data>
+                <data>113</data>
+                <data>70</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -3255,8 +3255,8 @@
             </row>
             <row>
                 <data>u_key_d</data>
+                <data>29</data>
                 <data>30</data>
-                <data>31</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -3293,10 +3293,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:10s</data>
             <data>0h:0m:12s</data>
-            <data>0h:0m:34s</data>
-            <data>891</data>
+            <data>0h:0m:14s</data>
+            <data>0h:0m:25s</data>
+            <data>890</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -3332,19 +3332,19 @@
             <data message="4">Column Clock Check open.</data>
         </row>
         <row>
-            <data message="4">LUT6D pack result: There are 65 LUT6 in collection, pack success:6</data>
+            <data message="4">LUT6D pack result: There are 81 LUT6 in collection, pack success:6</data>
         </row>
         <row>
-            <data message="4">LUT6D pack result: There are 53 LUT6 in collection, pack success:0</data>
+            <data message="4">LUT6D pack result: There are 69 LUT6 in collection, pack success:0</data>
         </row>
         <row>
             <data message="4">clock_dedicated_route = 0</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from CLMA_285_396:Y1 to CLMS_279_415:CLK is routed by SRB.</data>
+            <data message="6">Route-2036: The clock path from CLMS_273_403:Y1 to CLMS_267_409:CLK is routed by SRB.</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from CLMA_273_348:Y2 to CLMS_267_355:CLK is routed by SRB.</data>
+            <data message="6">Route-2036: The clock path from CLMS_273_361:Y3 to CLMS_273_355:CLK is routed by SRB.</data>
         </row>
     </table>
     <general_container id="pnr_settings">
@@ -3610,7 +3610,7 @@
                     <data>clkbufg_0/gopclkbufg</data>
                     <data>USCM_167_270</data>
                     <data>ntclkbufg_0</data>
-                    <data>81</data>
+                    <data>89</data>
                     <data>0</data>
                     <data>clk_ibuf/opit_1</data>
                     <data>DI_TO_CLK</data>

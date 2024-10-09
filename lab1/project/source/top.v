@@ -75,7 +75,7 @@ wire [2:0]  key_check;
     	.clk     (clk),
         .rst_n   (rst_n),
         .key     ({~btn_p, ~btn_spddn, ~btn_spdup}),
-        .key_out (key_check )
+        .key_out (key_check)
     );
  
 endmodule

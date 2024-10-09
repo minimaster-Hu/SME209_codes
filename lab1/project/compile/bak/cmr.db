@@ -6,31 +6,31 @@
             <data>File Type</data>
         </column_headers>
         <row>
-            <data>F:/SME files/SME309/codes/SME209_codes/lab1/project/control.v</data>
+            <data>F:/SME_files/SME309/codes/SME209_codes/lab1/project/control.v</data>
             <data>Verilog</data>
         </row>
         <row>
-            <data>F:/SME files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v</data>
+            <data>F:/SME_files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v</data>
             <data>Verilog</data>
         </row>
         <row>
-            <data>F:/SME files/SME309/codes/SME209_codes/lab1/project/top.v</data>
+            <data>F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v</data>
             <data>Verilog</data>
         </row>
         <row>
-            <data>F:/SME files/SME309/codes/SME209_codes/lab1/project/instr_mem.v</data>
+            <data>F:/SME_files/SME309/codes/SME209_codes/lab1/project/instr_mem.v</data>
             <data>Verilog</data>
         </row>
         <row>
-            <data>F:/SME files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v</data>
+            <data>F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v</data>
             <data>Verilog</data>
         </row>
         <row>
-            <data>F:/SME files/SME309/codes/SME209_codes/lab1/project/source/seg_decoder.v</data>
+            <data>F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/seg_decoder.v</data>
             <data>Verilog</data>
         </row>
         <row>
-            <data>F:/SME files/SME309/codes/SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v</data>
+            <data>F:/SME_files/SME309/codes/SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v</data>
             <data>Verilog</data>
         </row>
     </table>
@@ -45,9 +45,9 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:1s</data>
-            <data>0h:0m:1s</data>
-            <data>0h:0m:7s</data>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:4s</data>
             <data>132</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
@@ -60,112 +60,112 @@
             <data message="4">Enable Verilog2k features and keywords</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file F:/SME files/SME309/codes/SME209_codes/lab1/project/control.v</data>
+            <data message="4">Verilog-0001: Analyzing file F:/SME_files/SME309/codes/SME209_codes/lab1/project/control.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/control.v(line number: 3)] Analyzing module control (library work)</data>
+            <data message="4">Verilog-0002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/control.v(line number: 3)] Analyzing module control (library work)</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file F:/SME files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v</data>
+            <data message="4">Verilog-0001: Analyzing file F:/SME_files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 3)] Analyzing module Seven_Seg (library work)</data>
+            <data message="4">Verilog-0002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 3)] Analyzing module Seven_Seg (library work)</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file F:/SME files/SME309/codes/SME209_codes/lab1/project/top.v</data>
+            <data message="4">Verilog-0001: Analyzing file F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 3)] Analyzing module top (library work)</data>
+            <data message="4">Verilog-0002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 3)] Analyzing module top (library work)</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file F:/SME files/SME309/codes/SME209_codes/lab1/project/instr_mem.v</data>
+            <data message="4">Verilog-0001: Analyzing file F:/SME_files/SME309/codes/SME209_codes/lab1/project/instr_mem.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/instr_mem.v(line number: 3)] Analyzing module instr_mem (library work)</data>
+            <data message="4">Verilog-0002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/instr_mem.v(line number: 3)] Analyzing module instr_mem (library work)</data>
         </row>
         <row>
-            <data message="5">Verilog-2010: [F:/SME files/SME309/codes/SME209_codes/lab1/project/instr_mem.v(line number: 27)] Ignore initial statements except memory $readmemh/$readmemb initialization statements</data>
+            <data message="5">Verilog-2010: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/instr_mem.v(line number: 27)] Ignore initial statements except memory $readmemh/$readmemb initialization statements</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file F:/SME files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v</data>
+            <data message="4">Verilog-0001: Analyzing file F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v(line number: 1)] Analyzing module data_mem (library work)</data>
+            <data message="4">Verilog-0002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v(line number: 1)] Analyzing module data_mem (library work)</data>
         </row>
         <row>
-            <data message="5">Verilog-2010: [F:/SME files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v(line number: 24)] Ignore initial statements except memory $readmemh/$readmemb initialization statements</data>
+            <data message="5">Verilog-2010: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v(line number: 24)] Ignore initial statements except memory $readmemh/$readmemb initialization statements</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file F:/SME files/SME309/codes/SME209_codes/lab1/project/source/seg_decoder.v</data>
+            <data message="4">Verilog-0001: Analyzing file F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/seg_decoder.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/source/seg_decoder.v(line number: 1)] Analyzing module seg_decoder (library work)</data>
+            <data message="4">Verilog-0002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/seg_decoder.v(line number: 1)] Analyzing module seg_decoder (library work)</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file F:/SME files/SME309/codes/SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v</data>
+            <data message="4">Verilog-0001: Analyzing file F:/SME_files/SME309/codes/SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [F:/SME files/SME309/codes/SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v(line number: 3)] Analyzing module key_d (library work)</data>
+            <data message="4">Verilog-0002: [F:/SME_files/SME309/codes/SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v(line number: 3)] Analyzing module key_d (library work)</data>
         </row>
         <row>
             <data message="4">Module &quot;top&quot; is set as top module.</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 3)] Elaborating module top</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 3)] Elaborating module top</data>
         </row>
         <row>
             <data message="4">Module instance {top} parameter value:
     CLK_FREQ = 32'b00000101111101011110000100000000</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 33)] Elaborating instance ctrl</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 33)] Elaborating instance ctrl</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [F:/SME files/SME309/codes/SME209_codes/lab1/project/control.v(line number: 3)] Elaborating module control</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/control.v(line number: 3)] Elaborating module control</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 42)] Elaborating instance ss</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 42)] Elaborating instance ss</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [F:/SME files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 3)] Elaborating module Seven_Seg</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 3)] Elaborating module Seven_Seg</data>
         </row>
         <row>
             <data message="4">Module instance {top.ss} parameter value:
     CLK_FREQ = 28'b0101111101011110000100000000</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 24)] Elaborating instance uu_seg_decoder</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 24)] Elaborating instance uu_seg_decoder</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [F:/SME files/SME309/codes/SME209_codes/lab1/project/source/seg_decoder.v(line number: 1)] Elaborating module seg_decoder</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/seg_decoder.v(line number: 1)] Elaborating module seg_decoder</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 56)] Elaborating instance u_instr_mem</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 56)] Elaborating instance u_instr_mem</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [F:/SME files/SME309/codes/SME209_codes/lab1/project/instr_mem.v(line number: 3)] Elaborating module instr_mem</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/instr_mem.v(line number: 3)] Elaborating module instr_mem</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 64)] Elaborating instance u_data_mem</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 64)] Elaborating instance u_data_mem</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [F:/SME files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v(line number: 1)] Elaborating module data_mem</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/data_mem.v(line number: 1)] Elaborating module data_mem</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 74)] Elaborating instance u_key_d</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/top.v(line number: 74)] Elaborating instance u_key_d</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [F:/SME files/SME309/codes/SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v(line number: 3)] Elaborating module key_d</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v(line number: 3)] Elaborating module key_d</data>
         </row>
         <row>
             <data message="4">Module instance {top.u_key_d} parameter value:
     CLK_FREQ = 32'b00000101111101011110000100000000</data>
         </row>
         <row>
-            <data message="5">Sdm-2004: [F:/SME files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 22)] Latch is generated for signal num, possible missing assignment in an if or case statement.</data>
+            <data message="5">Sdm-2004: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 22)] Latch is generated for signal num, possible missing assignment in an if or case statement.</data>
         </row>
         <row>
-            <data message="5">Sdm-2004: [F:/SME files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 62)] Latch is generated for signal count_limit, possible missing assignment in an if or case statement.</data>
+            <data message="5">Sdm-2004: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/Seven_Seg.v(line number: 62)] Latch is generated for signal count_limit, possible missing assignment in an if or case statement.</data>
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>
@@ -189,7 +189,7 @@
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on N125 (bmsWIDEMUX).</data>
+            <data message="4">Constant propagation done on N126 (bmsWIDEMUX).</data>
         </row>
     </table>
     <general_container id="compile_settings">
@@ -228,7 +228,7 @@
                     <row>
                         <data>Include Path Order: 
  (Relative to Verilog File)</data>
-                        <data>F:/SME files/SME309/codes/SME209_codes/lab1/project	</data>
+                        <data>F:/SME_files/SME309/codes/SME209_codes/lab1/project	</data>
                     </row>
                     <row>
                         <data>Parameters/Generics</data>
