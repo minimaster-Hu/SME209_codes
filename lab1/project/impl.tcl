@@ -116,3 +116,17 @@ dev_map
 pnr 
 report_timing 
 gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -dir {D:/Program Files/PDS/PDS_2022.1/syn/bin/synplify_pro.exe} -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 

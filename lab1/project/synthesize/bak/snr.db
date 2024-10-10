@@ -35,7 +35,7 @@
         <row>
             <data>top</data>
             <data>161</data>
-            <data>103</data>
+            <data>101</data>
             <data>0</data>
             <data>0</data>
             <data>1</data>
@@ -52,7 +52,7 @@
             <data>37</data>
             <data>0</data>
             <data>0</data>
-            <data>61</data>
+            <data>59</data>
             <data>0</data>
             <data>0</data>
             <data>0</data>
@@ -95,8 +95,8 @@
             </row>
             <row>
                 <data>ss</data>
-                <data>113</data>
-                <data>69</data>
+                <data>114</data>
+                <data>68</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -113,7 +113,7 @@
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
-                <data>41</data>
+                <data>40</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -188,8 +188,8 @@
             </row>
             <row>
                 <data>u_key_d</data>
+                <data>28</data>
                 <data>29</data>
-                <data>30</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -206,7 +206,7 @@
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
-                <data>20</data>
+                <data>19</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -259,7 +259,7 @@
                             <data>ss/N136_1/Z</data>
                         </row>
                         <row>
-                            <data>_N533_1_inv/Z</data>
+                            <data>_N529_1_inv/Z</data>
                         </row>
                     </row>
                     <row>
@@ -569,7 +569,7 @@
             <data>1.000MHz</data>
             <data>0.000</data>
             <data>500.000</data>
-            <data>101</data>
+            <data>99</data>
             <data>0</data>
             <data/>
             <data>{ clk }</data>
@@ -584,9 +584,9 @@
         </column_headers>
         <row>
             <data>top|clk</data>
-            <data>369.959MHz</data>
+            <data>372.578MHz</data>
             <data>1.000MHz</data>
-            <data>997.297</data>
+            <data>997.316</data>
         </row>
     </table>
     <table id="synthesize_report_clock_interaction" title="Clock Interaction" column_number="12">
@@ -609,228 +609,225 @@
             <data>top|clk</data>
             <data>YES</data>
             <data>Timed</data>
-            <data>997.297</data>
+            <data>997.316</data>
             <data>0.000</data>
             <data>0</data>
-            <data>150</data>
+            <data>148</data>
             <data>0.671</data>
             <data>0.000</data>
             <data>0</data>
-            <data>150</data>
+            <data>148</data>
         </row>
     </table>
     <table id="synthesize_report_clock_network" title="Clock Network" column_number="1" tree="">
         <column_headers/>
         <row>
-            <data>top|clk (1.00MHZ) (drive 101 loads) (min_rise, max_rise, min_fall, max_fall)</data>
+            <data>top|clk (1.00MHZ) (drive 99 loads) (min_rise, max_rise, min_fall, max_fall)</data>
             <row>
-                <data file_id="../top.v" line_number="12">clk (0.000, 0.000, 0.000, 0.000)</data>
+                <data file_id="../source/top.v" line_number="12">clk (0.000, 0.000, 0.000, 0.000)</data>
                 <row>
-                    <data file_id="../top.v" line_number="12">clk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
+                    <data file_id="../source/top.v" line_number="12">clk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
                     <row>
-                        <data file_id="../top.v" line_number="12">clk_ibuf/O (0.960, 0.960, 0.861, 0.861)</data>
+                        <data file_id="../source/top.v" line_number="12">clk_ibuf/O (0.960, 0.960, 0.861, 0.861)</data>
                         <row>
-                            <data file_id="../top.v" line_number="12">nt_clk (net)</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk (net)</data>
                             <row>
-                                <data file_id="../control.v" line_number="16">ctrl/status[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/control.v" line_number="16">ctrl/status[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../control.v" line_number="16">ctrl/status[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/control.v" line_number="16">ctrl/status[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../control.v" line_number="16">ctrl/status_save[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/control.v" line_number="16">ctrl/status_save[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../control.v" line_number="16">ctrl/status_save[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/control.v" line_number="16">ctrl/status_save[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/addr_counter[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/addr_counter[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/addr_counter[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/addr_counter[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/addr_counter[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/addr_counter[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/addr_counter[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/addr_counter[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/addr_counter[4]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/addr_counter[4]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/addr_counter[5]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/addr_counter[5]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/addr_counter[6]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/addr_counter[6]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/addr_counter[7]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/addr_counter[7]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[4]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[4]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[5]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[5]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[6]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[6]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[7]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[7]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[8]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[8]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[9]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[9]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[10]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[10]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[11]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[11]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[12]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[12]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[13]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[13]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[14]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[14]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[15]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_cnt[15]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_cnt[16]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_reg[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_reg[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_reg[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_reg[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_reg[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_reg[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_reg[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_reg[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_reg[4]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_reg[4]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_reg[5]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_reg[5]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_reg[6]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_reg[6]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="33">ss/anode_reg[7]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="33">ss/anode_reg[7]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[4]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[4]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[5]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[5]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[6]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[6]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[7]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[7]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[8]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[8]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[9]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[9]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[10]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[10]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[11]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[11]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[12]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[12]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[13]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[13]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[14]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[14]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[15]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[15]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[16]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[16]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[17]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[17]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[18]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[18]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[19]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[19]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[20]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[20]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[21]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[21]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[22]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[22]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[23]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[23]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="96">ss/clk_counter[24]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="96">ss/clk_counter[24]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="73">ss/counter[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="73">ss/counter[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="73">ss/counter[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="73">ss/counter[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="73">ss/counter[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="73">ss/counter[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="73">ss/counter[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../Seven_Seg.v" line_number="73">ss/counter[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
-                            </row>
-                            <row>
-                                <data file_id="../Seven_Seg.v" line_number="73">ss/valid/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/Seven_Seg.v" line_number="73">ss/valid/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
                                 <data file_id="../source/data_mem.v" line_number="9">u_data_mem/data_mem/CLKA (3.380, 3.380, 3.281, 3.281)</data>
@@ -839,10 +836,10 @@
                                 <data file_id="../source/data_mem.v" line_number="9">u_data_mem/data_mem/CLKB (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../instr_mem.v" line_number="12">u_instr_mem/instr_mem/CLKA (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/instr_mem.v" line_number="12">u_instr_mem/instr_mem/CLKA (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../instr_mem.v" line_number="12">u_instr_mem/instr_mem/CLKB (3.380, 3.380, 3.281, 3.281)</data>
+                                <data file_id="../source/instr_mem.v" line_number="12">u_instr_mem/instr_mem/CLKB (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
                                 <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
@@ -905,9 +902,6 @@
                                 <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[19]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[20]/CLK (3.380, 3.380, 3.281, 3.281)</data>
-                            </row>
-                            <row>
                                 <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/key_prev[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
@@ -952,10 +946,10 @@
         <row>
             <data>top|clk</data>
             <data>top|clk</data>
-            <data>997.297</data>
+            <data>997.316</data>
             <data>0.000</data>
             <data>0</data>
-            <data>150</data>
+            <data>148</data>
         </row>
     </table>
     <table id="synthesize_report_timing_hold" title="Hold Summary" column_number="6">
@@ -973,7 +967,7 @@
             <data>0.671</data>
             <data>0.000</data>
             <data>0</data>
-            <data>150</data>
+            <data>148</data>
         </row>
     </table>
     <table id="synthesize_report_timing_mpw" title="Minimum Pulse Width Summary" column_number="5">
@@ -989,7 +983,7 @@
             <data>499.040</data>
             <data>0.000</data>
             <data>0</data>
-            <data>101</data>
+            <data>99</data>
         </row>
     </table>
     <table id="synthesize_report_timing_path_setup" title="Setup Path Summary" column_number="17">
@@ -1013,744 +1007,10 @@
             <data>Route delay</data>
         </column_headers>
         <row>
-            <data>997.297</data>
-            <data>22</data>
-            <data>23</data>
-            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[1]/CLK</data>
-            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[20]/D</data>
-            <data/>
-            <data>top|clk</data>
-            <data>top|clk</data>
-            <data>rise-rise</data>
-            <data>0.000</data>
-            <data>3.380</data>
-            <data>3.380</data>
-            <data>0.000</data>
-            <data>1000.000</data>
-            <data>2.517</data>
-            <data>1.052 (41.8%)</data>
-            <data>1.465 (58.2%)</data>
-            <general_container>
-                <data>Path #1: setup slack is 997.297(MET)</data>
-                <table_container>
-                    <table id="arrival" title="Data arrival time is 5.897" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock top|clk (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>0.960</data>
-                            <data>0.960</data>
-                            <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=101)</data>
-                            <data>2.420</data>
-                            <data>3.380</data>
-                            <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[1]/CLK (GTP_DFF_C)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>tco</data>
-                            <data>0.203</data>
-                            <data>3.583</data>
-                            <data>r</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[1]/Q (GTP_DFF_C)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=3)</data>
-                            <data>0.467</data>
-                            <data>4.050</data>
-                            <data> </data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="17">u_key_d/counter [1]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data object_valid="true">u_key_d/N44_11/I0 (GTP_LUT6)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.145</data>
-                            <data>4.195</data>
-                            <data>r</data>
-                            <data object_valid="true">u_key_d/N44_11/Z (GTP_LUT6)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.385</data>
-                            <data>4.580</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N562</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data object_valid="true">u_key_d/N44_21/I4 (GTP_LUT6)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.081</data>
-                            <data>4.661</data>
-                            <data>r</data>
-                            <data object_valid="true">u_key_d/N44_21/Z (GTP_LUT6)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=23)</data>
-                            <data>0.613</data>
-                            <data>5.274</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/N44</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_1/I3 (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.159</data>
-                            <data>5.433</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_1/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.433</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N135</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_2/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.455</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_2/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.455</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N136</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_3/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.477</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_3/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.477</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N137</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_4/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.499</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_4/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.499</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N138</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_5/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.521</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_5/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.521</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N139</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_6/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.543</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_6/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.543</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N140</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_7/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.565</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_7/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.565</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N141</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_8/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.587</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_8/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.587</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N142</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_9/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.609</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_9/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.609</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N143</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_10/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.631</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_10/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.631</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N144</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_11/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.653</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_11/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.653</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N145</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_12/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.675</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_12/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.675</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N146</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_13/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.697</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_13/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.697</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N147</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_14/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.719</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_14/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.719</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N148</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_15/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.741</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_15/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.741</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N149</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_16/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.763</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_16/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.763</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N150</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_17/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.785</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_17/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.785</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N151</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_18/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.807</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_18/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.807</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N152</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_19/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.022</data>
-                            <data>5.829</data>
-                            <data>f</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_19/COUT (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.829</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/_N153</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_20/CIN (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.068</data>
-                            <data>5.897</data>
-                            <data>r</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_20/Z (GTP_LUT6CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.897</data>
-                            <data> </data>
-                            <data object_valid="true">u_key_d/N49 [20]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[20]/D (GTP_DFF_C)</data>
-                        </row>
-                    </table>
-                </table_container>
-                <table_container>
-                    <table id="require" title="Data required time is 1003.194" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock top|clk (rising edge)</data>
-                            <data/>
-                            <data>1000.000</data>
-                            <data>1000.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>1000.000</data>
-                            <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>1000.000</data>
-                            <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>0.960</data>
-                            <data>1000.960</data>
-                            <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=101)</data>
-                            <data>2.420</data>
-                            <data>1003.380</data>
-                            <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[20]/CLK (GTP_DFF_C)</data>
-                        </row>
-                        <row>
-                            <data>clock pessimism</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>1003.380</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clock uncertainty</data>
-                            <data/>
-                            <data>-0.050</data>
-                            <data>1003.330</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>Setup time</data>
-                            <data/>
-                            <data>-0.136</data>
-                            <data>1003.194</data>
-                            <data/>
-                            <data/>
-                        </row>
-                    </table>
-                </table_container>
-            </general_container>
-        </row>
-        <row>
-            <data>997.319</data>
+            <data>997.316</data>
             <data>21</data>
-            <data>23</data>
-            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[1]/CLK</data>
+            <data>22</data>
+            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[6]/CLK</data>
             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[19]/D</data>
             <data/>
             <data>top|clk</data>
@@ -1761,13 +1021,13 @@
             <data>3.380</data>
             <data>0.000</data>
             <data>1000.000</data>
-            <data>2.495</data>
-            <data>1.030 (41.3%)</data>
-            <data>1.465 (58.7%)</data>
+            <data>2.498</data>
+            <data>1.067 (42.7%)</data>
+            <data>1.431 (57.3%)</data>
             <general_container>
-                <data>Path #2: setup slack is 997.319(MET)</data>
+                <data>Path #1: setup slack is 997.316(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.875" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.878" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1790,7 +1050,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -1798,7 +1058,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1806,7 +1066,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -1814,15 +1074,15 @@
                             <data>0.960</data>
                             <data>0.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1830,7 +1090,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[1]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[6]/CLK (GTP_DFF_C)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1838,15 +1098,15 @@
                             <data>0.203</data>
                             <data>3.583</data>
                             <data>r</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[1]/Q (GTP_DFF_C)</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[6]/Q (GTP_DFF_C)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=3)</data>
-                            <data>0.467</data>
-                            <data>4.050</data>
+                            <data>net (fanout=2)</data>
+                            <data>0.437</data>
+                            <data>4.020</data>
                             <data> </data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="17">u_key_d/counter [1]</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="17">u_key_d/counter [6]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1854,23 +1114,23 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_key_d/N44_11/I0 (GTP_LUT6)</data>
+                            <data object_valid="true">u_key_d/N44_5/I0 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.145</data>
-                            <data>4.195</data>
+                            <data>0.167</data>
+                            <data>4.187</data>
                             <data>r</data>
-                            <data object_valid="true">u_key_d/N44_11/Z (GTP_LUT6)</data>
+                            <data object_valid="true">u_key_d/N44_5/Z (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.385</data>
-                            <data>4.580</data>
+                            <data>4.572</data>
                             <data> </data>
-                            <data object_valid="true">u_key_d/_N562</data>
+                            <data object_valid="true">u_key_d/_N551</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1878,21 +1138,21 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_key_d/N44_21/I4 (GTP_LUT6)</data>
+                            <data object_valid="true">u_key_d/N44_20/I3 (GTP_LUT6)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.081</data>
-                            <data>4.661</data>
+                            <data>0.096</data>
+                            <data>4.668</data>
                             <data>r</data>
-                            <data object_valid="true">u_key_d/N44_21/Z (GTP_LUT6)</data>
+                            <data object_valid="true">u_key_d/N44_20/Z (GTP_LUT6)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=23)</data>
-                            <data>0.613</data>
-                            <data>5.274</data>
+                            <data>net (fanout=22)</data>
+                            <data>0.609</data>
+                            <data>5.277</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/N44</data>
                         </row>
@@ -1908,7 +1168,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.159</data>
-                            <data>5.433</data>
+                            <data>5.436</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_1/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -1916,7 +1176,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.433</data>
+                            <data>5.436</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N135</data>
                         </row>
@@ -1932,7 +1192,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.455</data>
+                            <data>5.458</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_2/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -1940,7 +1200,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.455</data>
+                            <data>5.458</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N136</data>
                         </row>
@@ -1956,7 +1216,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.477</data>
+                            <data>5.480</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_3/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -1964,7 +1224,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.477</data>
+                            <data>5.480</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N137</data>
                         </row>
@@ -1980,7 +1240,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.499</data>
+                            <data>5.502</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_4/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -1988,7 +1248,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.499</data>
+                            <data>5.502</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N138</data>
                         </row>
@@ -2004,7 +1264,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.521</data>
+                            <data>5.524</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_5/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2012,7 +1272,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.521</data>
+                            <data>5.524</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N139</data>
                         </row>
@@ -2028,7 +1288,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.543</data>
+                            <data>5.546</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_6/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2036,7 +1296,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.543</data>
+                            <data>5.546</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N140</data>
                         </row>
@@ -2052,7 +1312,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.565</data>
+                            <data>5.568</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_7/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2060,7 +1320,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.565</data>
+                            <data>5.568</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N141</data>
                         </row>
@@ -2076,7 +1336,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.587</data>
+                            <data>5.590</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_8/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2084,7 +1344,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.587</data>
+                            <data>5.590</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N142</data>
                         </row>
@@ -2100,7 +1360,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.609</data>
+                            <data>5.612</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_9/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2108,7 +1368,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.609</data>
+                            <data>5.612</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N143</data>
                         </row>
@@ -2124,7 +1384,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.631</data>
+                            <data>5.634</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_10/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2132,7 +1392,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.631</data>
+                            <data>5.634</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N144</data>
                         </row>
@@ -2148,7 +1408,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.653</data>
+                            <data>5.656</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_11/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2156,7 +1416,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.653</data>
+                            <data>5.656</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N145</data>
                         </row>
@@ -2172,7 +1432,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.675</data>
+                            <data>5.678</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_12/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2180,7 +1440,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.675</data>
+                            <data>5.678</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N146</data>
                         </row>
@@ -2196,7 +1456,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.697</data>
+                            <data>5.700</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_13/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2204,7 +1464,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.697</data>
+                            <data>5.700</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N147</data>
                         </row>
@@ -2220,7 +1480,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.719</data>
+                            <data>5.722</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_14/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2228,7 +1488,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.719</data>
+                            <data>5.722</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N148</data>
                         </row>
@@ -2244,7 +1504,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.741</data>
+                            <data>5.744</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_15/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2252,7 +1512,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.741</data>
+                            <data>5.744</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N149</data>
                         </row>
@@ -2268,7 +1528,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.763</data>
+                            <data>5.766</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_16/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2276,7 +1536,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.763</data>
+                            <data>5.766</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N150</data>
                         </row>
@@ -2292,7 +1552,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.785</data>
+                            <data>5.788</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_17/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2300,7 +1560,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.785</data>
+                            <data>5.788</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N151</data>
                         </row>
@@ -2316,7 +1576,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.807</data>
+                            <data>5.810</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_18/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2324,7 +1584,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.807</data>
+                            <data>5.810</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N152</data>
                         </row>
@@ -2340,7 +1600,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.068</data>
-                            <data>5.875</data>
+                            <data>5.878</data>
                             <data>r</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_19/Z (GTP_LUT6CARRY)</data>
                         </row>
@@ -2348,7 +1608,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.875</data>
+                            <data>5.878</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/N49 [19]</data>
                         </row>
@@ -2386,7 +1646,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -2394,7 +1654,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2402,7 +1662,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -2410,15 +1670,15 @@
                             <data>0.960</data>
                             <data>1000.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>1003.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2457,10 +1717,10 @@
             </general_container>
         </row>
         <row>
-            <data>997.341</data>
+            <data>997.338</data>
             <data>20</data>
-            <data>23</data>
-            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[1]/CLK</data>
+            <data>22</data>
+            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[6]/CLK</data>
             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[18]/D</data>
             <data/>
             <data>top|clk</data>
@@ -2471,13 +1731,13 @@
             <data>3.380</data>
             <data>0.000</data>
             <data>1000.000</data>
-            <data>2.473</data>
-            <data>1.008 (40.8%)</data>
-            <data>1.465 (59.2%)</data>
+            <data>2.476</data>
+            <data>1.045 (42.2%)</data>
+            <data>1.431 (57.8%)</data>
             <general_container>
-                <data>Path #3: setup slack is 997.341(MET)</data>
+                <data>Path #2: setup slack is 997.338(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.853" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.856" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -2500,7 +1760,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -2508,7 +1768,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2516,7 +1776,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -2524,15 +1784,15 @@
                             <data>0.960</data>
                             <data>0.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2540,7 +1800,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[1]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[6]/CLK (GTP_DFF_C)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2548,15 +1808,15 @@
                             <data>0.203</data>
                             <data>3.583</data>
                             <data>r</data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[1]/Q (GTP_DFF_C)</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[6]/Q (GTP_DFF_C)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=3)</data>
-                            <data>0.467</data>
-                            <data>4.050</data>
+                            <data>net (fanout=2)</data>
+                            <data>0.437</data>
+                            <data>4.020</data>
                             <data> </data>
-                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="17">u_key_d/counter [1]</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="17">u_key_d/counter [6]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2564,23 +1824,23 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_key_d/N44_11/I0 (GTP_LUT6)</data>
+                            <data object_valid="true">u_key_d/N44_5/I0 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.145</data>
-                            <data>4.195</data>
+                            <data>0.167</data>
+                            <data>4.187</data>
                             <data>r</data>
-                            <data object_valid="true">u_key_d/N44_11/Z (GTP_LUT6)</data>
+                            <data object_valid="true">u_key_d/N44_5/Z (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.385</data>
-                            <data>4.580</data>
+                            <data>4.572</data>
                             <data> </data>
-                            <data object_valid="true">u_key_d/_N562</data>
+                            <data object_valid="true">u_key_d/_N551</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2588,21 +1848,21 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_key_d/N44_21/I4 (GTP_LUT6)</data>
+                            <data object_valid="true">u_key_d/N44_20/I3 (GTP_LUT6)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.081</data>
-                            <data>4.661</data>
+                            <data>0.096</data>
+                            <data>4.668</data>
                             <data>r</data>
-                            <data object_valid="true">u_key_d/N44_21/Z (GTP_LUT6)</data>
+                            <data object_valid="true">u_key_d/N44_20/Z (GTP_LUT6)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=23)</data>
-                            <data>0.613</data>
-                            <data>5.274</data>
+                            <data>net (fanout=22)</data>
+                            <data>0.609</data>
+                            <data>5.277</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/N44</data>
                         </row>
@@ -2618,7 +1878,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.159</data>
-                            <data>5.433</data>
+                            <data>5.436</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_1/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2626,7 +1886,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.433</data>
+                            <data>5.436</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N135</data>
                         </row>
@@ -2642,7 +1902,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.455</data>
+                            <data>5.458</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_2/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2650,7 +1910,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.455</data>
+                            <data>5.458</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N136</data>
                         </row>
@@ -2666,7 +1926,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.477</data>
+                            <data>5.480</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_3/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2674,7 +1934,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.477</data>
+                            <data>5.480</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N137</data>
                         </row>
@@ -2690,7 +1950,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.499</data>
+                            <data>5.502</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_4/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2698,7 +1958,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.499</data>
+                            <data>5.502</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N138</data>
                         </row>
@@ -2714,7 +1974,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.521</data>
+                            <data>5.524</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_5/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2722,7 +1982,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.521</data>
+                            <data>5.524</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N139</data>
                         </row>
@@ -2738,7 +1998,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.543</data>
+                            <data>5.546</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_6/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2746,7 +2006,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.543</data>
+                            <data>5.546</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N140</data>
                         </row>
@@ -2762,7 +2022,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.565</data>
+                            <data>5.568</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_7/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2770,7 +2030,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.565</data>
+                            <data>5.568</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N141</data>
                         </row>
@@ -2786,7 +2046,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.587</data>
+                            <data>5.590</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_8/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2794,7 +2054,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.587</data>
+                            <data>5.590</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N142</data>
                         </row>
@@ -2810,7 +2070,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.609</data>
+                            <data>5.612</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_9/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2818,7 +2078,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.609</data>
+                            <data>5.612</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N143</data>
                         </row>
@@ -2834,7 +2094,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.631</data>
+                            <data>5.634</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_10/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2842,7 +2102,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.631</data>
+                            <data>5.634</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N144</data>
                         </row>
@@ -2858,7 +2118,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.653</data>
+                            <data>5.656</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_11/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2866,7 +2126,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.653</data>
+                            <data>5.656</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N145</data>
                         </row>
@@ -2882,7 +2142,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.675</data>
+                            <data>5.678</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_12/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2890,7 +2150,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.675</data>
+                            <data>5.678</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N146</data>
                         </row>
@@ -2906,7 +2166,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.697</data>
+                            <data>5.700</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_13/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2914,7 +2174,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.697</data>
+                            <data>5.700</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N147</data>
                         </row>
@@ -2930,7 +2190,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.719</data>
+                            <data>5.722</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_14/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2938,7 +2198,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.719</data>
+                            <data>5.722</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N148</data>
                         </row>
@@ -2954,7 +2214,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.741</data>
+                            <data>5.744</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_15/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2962,7 +2222,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.741</data>
+                            <data>5.744</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N149</data>
                         </row>
@@ -2978,7 +2238,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.763</data>
+                            <data>5.766</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_16/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -2986,7 +2246,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.763</data>
+                            <data>5.766</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N150</data>
                         </row>
@@ -3002,7 +2262,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.022</data>
-                            <data>5.785</data>
+                            <data>5.788</data>
                             <data>f</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_17/COUT (GTP_LUT6CARRY)</data>
                         </row>
@@ -3010,7 +2270,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.785</data>
+                            <data>5.788</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/_N151</data>
                         </row>
@@ -3026,7 +2286,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.068</data>
-                            <data>5.853</data>
+                            <data>5.856</data>
                             <data>r</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_18/Z (GTP_LUT6CARRY)</data>
                         </row>
@@ -3034,7 +2294,7 @@
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.853</data>
+                            <data>5.856</data>
                             <data> </data>
                             <data object_valid="true">u_key_d/N49 [18]</data>
                         </row>
@@ -3072,7 +2332,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3080,7 +2340,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3088,7 +2348,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3096,15 +2356,15 @@
                             <data>0.960</data>
                             <data>1000.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>1003.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3113,6 +2373,668 @@
                             <data/>
                             <data>r</data>
                             <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[18]/CLK (GTP_DFF_C)</data>
+                        </row>
+                        <row>
+                            <data>clock pessimism</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>1003.380</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clock uncertainty</data>
+                            <data/>
+                            <data>-0.050</data>
+                            <data>1003.330</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>Setup time</data>
+                            <data/>
+                            <data>-0.136</data>
+                            <data>1003.194</data>
+                            <data/>
+                            <data/>
+                        </row>
+                    </table>
+                </table_container>
+            </general_container>
+        </row>
+        <row>
+            <data>997.360</data>
+            <data>19</data>
+            <data>22</data>
+            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[6]/CLK</data>
+            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[17]/D</data>
+            <data/>
+            <data>top|clk</data>
+            <data>top|clk</data>
+            <data>rise-rise</data>
+            <data>0.000</data>
+            <data>3.380</data>
+            <data>3.380</data>
+            <data>0.000</data>
+            <data>1000.000</data>
+            <data>2.454</data>
+            <data>1.023 (41.7%)</data>
+            <data>1.431 (58.3%)</data>
+            <general_container>
+                <data>Path #3: setup slack is 997.360(MET)</data>
+                <table_container>
+                    <table id="arrival" title="Data arrival time is 5.834" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock top|clk (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data/>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>0.960</data>
+                            <data>0.960</data>
+                            <data>r</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=99)</data>
+                            <data>2.420</data>
+                            <data>3.380</data>
+                            <data/>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[6]/CLK (GTP_DFF_C)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>tco</data>
+                            <data>0.203</data>
+                            <data>3.583</data>
+                            <data>r</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[6]/Q (GTP_DFF_C)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.437</data>
+                            <data>4.020</data>
+                            <data> </data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="17">u_key_d/counter [6]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">u_key_d/N44_5/I0 (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.167</data>
+                            <data>4.187</data>
+                            <data>r</data>
+                            <data object_valid="true">u_key_d/N44_5/Z (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.385</data>
+                            <data>4.572</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N551</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">u_key_d/N44_20/I3 (GTP_LUT6)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.096</data>
+                            <data>4.668</data>
+                            <data>r</data>
+                            <data object_valid="true">u_key_d/N44_20/Z (GTP_LUT6)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=22)</data>
+                            <data>0.609</data>
+                            <data>5.277</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/N44</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_1/I3 (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.159</data>
+                            <data>5.436</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_1/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.436</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N135</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_2/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.458</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_2/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.458</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N136</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_3/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.480</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_3/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.480</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N137</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_4/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.502</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_4/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.502</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N138</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_5/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.524</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_5/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.524</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N139</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_6/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.546</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_6/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.546</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N140</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_7/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.568</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_7/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.568</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N141</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_8/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.590</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_8/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.590</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N142</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_9/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.612</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_9/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.612</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N143</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_10/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.634</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_10/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.634</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N144</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_11/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.656</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_11/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.656</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N145</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_12/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.678</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_12/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.678</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N146</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_13/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.700</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_13/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.700</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N147</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_14/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.722</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_14/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.722</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N148</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_15/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.744</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_15/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.744</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N149</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_16/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.022</data>
+                            <data>5.766</data>
+                            <data>f</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_16/COUT (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.766</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/_N150</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_17/CIN (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.068</data>
+                            <data>5.834</data>
+                            <data>r</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="43">u_key_d/N18_1_17/Z (GTP_LUT6CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.834</data>
+                            <data> </data>
+                            <data object_valid="true">u_key_d/N49 [17]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[17]/D (GTP_DFF_C)</data>
+                        </row>
+                    </table>
+                </table_container>
+                <table_container>
+                    <table id="require" title="Data required time is 1003.194" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock top|clk (rising edge)</data>
+                            <data/>
+                            <data>1000.000</data>
+                            <data>1000.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>1000.000</data>
+                            <data>r</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>1000.000</data>
+                            <data/>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>0.960</data>
+                            <data>1000.960</data>
+                            <data>r</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=99)</data>
+                            <data>2.420</data>
+                            <data>1003.380</data>
+                            <data/>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../../../../SME309_Microprocessor_Wang.Q.F/Lab1/Lab1_code_v/rtl/key_d.v" line_number="27">u_key_d/counter[17]/CLK (GTP_DFF_C)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -3207,7 +3129,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3215,7 +3137,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3223,7 +3145,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3231,15 +3153,15 @@
                             <data>0.960</data>
                             <data>0.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3299,7 +3221,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3307,7 +3229,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3315,7 +3237,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3323,15 +3245,15 @@
                             <data>0.960</data>
                             <data>0.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3413,7 +3335,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3421,7 +3343,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3429,7 +3351,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3437,15 +3359,15 @@
                             <data>0.960</data>
                             <data>0.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3505,7 +3427,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3513,7 +3435,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3521,7 +3443,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3529,15 +3451,15 @@
                             <data>0.960</data>
                             <data>0.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3619,7 +3541,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3627,7 +3549,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3635,7 +3557,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3643,15 +3565,15 @@
                             <data>0.960</data>
                             <data>0.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3711,7 +3633,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk (port)</data>
+                            <data file_id="../source/top.v" line_number="12">clk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3719,7 +3641,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk</data>
+                            <data file_id="../source/top.v" line_number="12">clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3727,7 +3649,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3735,15 +3657,15 @@
                             <data>0.960</data>
                             <data>0.960</data>
                             <data>r</data>
-                            <data file_id="../top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/top.v" line_number="12">clk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=101)</data>
+                            <data>net (fanout=99)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
-                            <data file_id="../top.v" line_number="12">nt_clk</data>
+                            <data file_id="../source/top.v" line_number="12">nt_clk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3830,7 +3752,7 @@
 Total LUTs: 161 of 35800 (0.45%)
 	LUTs as dram: 0 of 9500 (0.00%)
 	LUTs as logic: 161
-Total Registers: 97 of 71600 (0.14%)
+Total Registers: 95 of 71600 (0.13%)
 Total Latches: 6
 
 DRM36K/FIFO:
@@ -3844,7 +3766,7 @@ Total I/O ports = 37 of 209 (17.70%)
         </comment>
         <row>
             <data>GTP_DFF_C                   </data>
-            <data>72</data>
+            <data>70</data>
         </row>
         <row>
             <data>GTP_DFF_CE                  </data>
@@ -3876,31 +3798,35 @@ Total I/O ports = 37 of 209 (17.70%)
         </row>
         <row>
             <data>GTP_LUT1                     </data>
-            <data>3</data>
-        </row>
-        <row>
-            <data>GTP_LUT2                    </data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>GTP_LUT4                     </data>
             <data>4</data>
         </row>
         <row>
+            <data>GTP_LUT2                    </data>
+            <data>11</data>
+        </row>
+        <row>
+            <data>GTP_LUT3                     </data>
+            <data>1</data>
+        </row>
+        <row>
+            <data>GTP_LUT4                     </data>
+            <data>5</data>
+        </row>
+        <row>
             <data>GTP_LUT5                    </data>
-            <data>26</data>
+            <data>27</data>
         </row>
         <row>
             <data>GTP_LUT6                    </data>
-            <data>40</data>
+            <data>39</data>
         </row>
         <row>
             <data>GTP_LUT6CARRY               </data>
-            <data>61</data>
+            <data>59</data>
         </row>
         <row>
             <data>GTP_LUT6D                   </data>
-            <data>17</data>
+            <data>15</data>
         </row>
         <row>
             <data>GTP_INBUF                  </data>
@@ -3932,9 +3858,9 @@ Total I/O ports = 37 of 209 (17.70%)
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:4s</data>
-            <data>0h:0m:4s</data>
-            <data>0h:0m:11s</data>
+            <data>0h:0m:7s</data>
+            <data>0h:0m:7s</data>
+            <data>0h:0m:20s</data>
             <data>284</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>

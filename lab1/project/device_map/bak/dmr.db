@@ -3160,7 +3160,7 @@
         <row>
             <data>ctrl/N0</data>
             <data>ctrl/N0</data>
-            <data>101</data>
+            <data>99</data>
         </row>
     </table>
     <table id="device_map_high_fanout_singnal" title="High Fanout Signal" column_number="3">
@@ -3172,12 +3172,12 @@
         <row>
             <data>ntclkbufg_0</data>
             <data>clkbufg_0</data>
-            <data>101</data>
+            <data>99</data>
         </row>
         <row>
             <data>ctrl/N0</data>
             <data>ctrl/N0</data>
-            <data>101</data>
+            <data>99</data>
         </row>
         <row>
             <data>nt_led[7]</data>
@@ -3187,35 +3187,35 @@
         <row>
             <data>u_key_d/N10</data>
             <data>u_key_d/N10_3</data>
-            <data>24</data>
-        </row>
-        <row>
-            <data>u_key_d/N44</data>
-            <data>u_key_d/N44_21</data>
             <data>23</data>
         </row>
         <row>
-            <data>ss/_N579</data>
+            <data>u_key_d/N44</data>
+            <data>u_key_d/N44_20</data>
+            <data>22</data>
+        </row>
+        <row>
+            <data>ss/_N573</data>
             <data>ss/N123_5</data>
             <data>18</data>
         </row>
         <row>
-            <data>ss/_N584</data>
+            <data>ss/_N578</data>
             <data>ss/N123_10</data>
             <data>18</data>
         </row>
         <row>
-            <data>ss/_N589</data>
+            <data>ss/_N583</data>
             <data>ss/N123_15</data>
             <data>18</data>
         </row>
         <row>
-            <data>ss/_N594</data>
+            <data>ss/_N588</data>
             <data>ss/N123_20</data>
             <data>18</data>
         </row>
         <row>
-            <data>ss/_N595</data>
+            <data>ss/_N589</data>
             <data>ss/N123_21</data>
             <data>17</data>
         </row>
@@ -3281,7 +3281,7 @@
         </row>
         <row>
             <data>ss/N90</data>
-            <data>ss/N90_17</data>
+            <data>ss/N90_16</data>
             <data>8</data>
         </row>
         <row>
@@ -3335,18 +3335,18 @@
             <data>6</data>
         </row>
         <row>
+            <data>ss/anode_cnt [0]</data>
+            <data>ss/anode_cnt[0]</data>
+            <data>5</data>
+        </row>
+        <row>
             <data>ss/N132</data>
-            <data>_N533_1_inv</data>
+            <data>_N529_1_inv</data>
             <data>4</data>
         </row>
         <row>
             <data>ss/counter [0]</data>
             <data>ss/counter[0]</data>
-            <data>4</data>
-        </row>
-        <row>
-            <data>ss/anode_cnt [1]</data>
-            <data>ss/anode_cnt[1]</data>
             <data>4</data>
         </row>
         <row>
@@ -3385,13 +3385,13 @@
             <data>3</data>
         </row>
         <row>
-            <data>ss/anode_cnt [0]</data>
-            <data>ss/anode_cnt[0]</data>
+            <data>u_key_d/key_status [0]</data>
+            <data>u_key_d/key_status[0]</data>
             <data>3</data>
         </row>
         <row>
-            <data>u_key_d/key_status [0]</data>
-            <data>u_key_d/key_status[0]</data>
+            <data>ss/anode_cnt [1]</data>
+            <data>ss/anode_cnt[1]</data>
             <data>3</data>
         </row>
         <row>
@@ -3415,8 +3415,8 @@
             <data>3</data>
         </row>
         <row>
-            <data>ss/anode_cnt [14]</data>
-            <data>ss/anode_cnt[14]</data>
+            <data>ss/anode_cnt [15]</data>
+            <data>ss/anode_cnt[15]</data>
             <data>3</data>
         </row>
         <row>
@@ -3455,18 +3455,13 @@
             <data>2</data>
         </row>
         <row>
+            <data>ss/anode_cnt [14]</data>
+            <data>ss/anode_cnt[14]</data>
+            <data>2</data>
+        </row>
+        <row>
             <data>ss/anode_cnt [6]</data>
             <data>ss/anode_cnt[6]</data>
-            <data>2</data>
-        </row>
-        <row>
-            <data>ss/anode_cnt [15]</data>
-            <data>ss/anode_cnt[15]</data>
-            <data>2</data>
-        </row>
-        <row>
-            <data>ss/anode_cnt [16]</data>
-            <data>ss/anode_cnt[16]</data>
             <data>2</data>
         </row>
         <row>
@@ -3620,8 +3615,8 @@
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N547</data>
-            <data>ss/N90_14</data>
+            <data>ss/_N541</data>
+            <data>ss/N90_12</data>
             <data>2</data>
         </row>
         <row>
@@ -3650,13 +3645,13 @@
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N546</data>
-            <data>ss/N90_13</data>
+            <data>ss/_N540</data>
+            <data>ss/N90_11</data>
             <data>2</data>
         </row>
         <row>
-            <data>ss/_N544</data>
-            <data>ss/N90_11</data>
+            <data>ss/_N539</data>
+            <data>ss/N90_10</data>
             <data>2</data>
         </row>
         <row>
@@ -3667,6 +3662,11 @@
         <row>
             <data>u_key_d/counter [3]</data>
             <data>u_key_d/counter[3]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_key_d/counter [4]</data>
+            <data>u_key_d/counter[4]</data>
             <data>2</data>
         </row>
     </table>
@@ -3685,7 +3685,7 @@
         </row>
         <row>
             <data>FF</data>
-            <data>103</data>
+            <data>101</data>
             <data>71600</data>
             <data>1</data>
         </row>
@@ -3833,10 +3833,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:5s</data>
-            <data>0h:0m:5s</data>
-            <data>0h:0m:11s</data>
-            <data>299</data>
+            <data>0h:0m:8s</data>
+            <data>0h:0m:8s</data>
+            <data>0h:0m:24s</data>
+            <data>300</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -3848,16 +3848,16 @@
             <data message="4">The instance clkbufg_0(GTP_CLKBUFG) has been inserted on the net nt_clk in design, driver pin O(instance clk_ibuf) -&gt; load pin CLK(instance ctrl/status[0]).</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: ss/N11_0_1/gateop, insts:16.</data>
+            <data message="4">Infer CARRY group, base inst: ss/N11_0_1/gateop, insts:15.</data>
         </row>
         <row>
             <data message="4">Infer CARRY group, base inst: ss/N78_1/gateop, insts:25.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: u_key_d/N18_1_1/gateop, insts:20.</data>
+            <data message="4">Infer CARRY group, base inst: u_key_d/N18_1_1/gateop, insts:19.</data>
         </row>
         <row>
-            <data message="5">Public-4010: Pcf file F:/SME files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf has been covered.</data>
+            <data message="5">Public-4010: Pcf file F:/SME_files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf has been covered.</data>
         </row>
     </table>
     <general_container id="device_map_settings">

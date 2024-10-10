@@ -3,7 +3,7 @@
 module top
 #
 (
-    parameter CLK_FREQ = 100_000_000
+    parameter CLK_FREQ = 50_000_000
 )
 (
     input btn_p,                // pause button

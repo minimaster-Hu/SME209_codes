@@ -2816,48 +2816,48 @@
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>58</data>
+            <data>59</data>
             <data>6575</data>
             <data>1</data>
             <row>
                 <data>  FF</data>
-                <data>64</data>
+                <data>60</data>
                 <data>52600</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>151</data>
+                <data>143</data>
                 <data>26300</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>58</data>
+                <data>47</data>
                 <data>26300</data>
                 <data>1</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>21</data>
+            <data>19</data>
             <data>2375</data>
             <data>1</data>
             <row>
                 <data>  FF</data>
-                <data>39</data>
+                <data>41</data>
                 <data>19000</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>54</data>
+                <data>63</data>
                 <data>9500</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>18</data>
+                <data>27</data>
                 <data>9500</data>
                 <data>1</data>
             </row>
@@ -2912,7 +2912,7 @@
         </row>
         <row>
             <data>Use of HARD0</data>
-            <data>22</data>
+            <data>25</data>
             <data>5850</data>
             <data>1</data>
         </row>
@@ -3121,8 +3121,8 @@
         </column_headers>
         <row>
             <data>top</data>
-            <data>155</data>
-            <data>103</data>
+            <data>153</data>
+            <data>101</data>
             <data>0</data>
             <data>0</data>
             <data>1</data>
@@ -3174,8 +3174,8 @@
             </row>
             <row>
                 <data>ss</data>
-                <data>113</data>
-                <data>70</data>
+                <data>111</data>
+                <data>68</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -3293,10 +3293,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:12s</data>
-            <data>0h:0m:14s</data>
+            <data>0h:0m:23s</data>
             <data>0h:0m:25s</data>
-            <data>890</data>
+            <data>0h:0m:52s</data>
+            <data>893</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -3305,25 +3305,25 @@
     <table id="pnr_messages" title="Place &amp; Route Messages" column_number="1">
         <column_headers/>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 11)] | Port SevenSegCatHL[8] has been placed at location B4, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 11)] | Port SevenSegCatHL[8] has been placed at location B4, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 12)] | Port SevenSegCatHL[9] has been placed at location A4, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 12)] | Port SevenSegCatHL[9] has been placed at location A4, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 13)] | Port SevenSegCatHL[10] has been placed at location A3, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 13)] | Port SevenSegCatHL[10] has been placed at location A3, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 14)] | Port SevenSegCatHL[11] has been placed at location B1, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 14)] | Port SevenSegCatHL[11] has been placed at location B1, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 15)] | Port SevenSegCatHL[12] has been placed at location A1, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 15)] | Port SevenSegCatHL[12] has been placed at location A1, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 16)] | Port SevenSegCatHL[13] has been placed at location B3, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 16)] | Port SevenSegCatHL[13] has been placed at location B3, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/SME files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 17)] | Port SevenSegCatHL[14] has been placed at location B2, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/device_map/top.pcf(line number: 17)] | Port SevenSegCatHL[14] has been placed at location B2, whose type is share pin.</data>
         </row>
         <row>
             <data message="5">ConstraintEditor-4019: Port 'rst_n' unspecified I/O constraint.</data>
@@ -3332,7 +3332,7 @@
             <data message="4">Column Clock Check open.</data>
         </row>
         <row>
-            <data message="4">LUT6D pack result: There are 81 LUT6 in collection, pack success:6</data>
+            <data message="4">LUT6D pack result: There are 85 LUT6 in collection, pack success:8</data>
         </row>
         <row>
             <data message="4">LUT6D pack result: There are 69 LUT6 in collection, pack success:0</data>
@@ -3341,10 +3341,10 @@
             <data message="4">clock_dedicated_route = 0</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from CLMS_273_403:Y1 to CLMS_267_409:CLK is routed by SRB.</data>
+            <data message="6">Route-2036: The clock path from CLMA_279_408:Y1 to CLMA_279_420:CLK is routed by SRB.</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from CLMS_273_361:Y3 to CLMS_273_355:CLK is routed by SRB.</data>
+            <data message="6">Route-2036: The clock path from CLMA_273_360:Y3 to CLMS_267_361:CLK is routed by SRB.</data>
         </row>
     </table>
     <general_container id="pnr_settings">
@@ -3610,7 +3610,7 @@
                     <data>clkbufg_0/gopclkbufg</data>
                     <data>USCM_167_270</data>
                     <data>ntclkbufg_0</data>
-                    <data>89</data>
+                    <data>87</data>
                     <data>0</data>
                     <data>clk_ibuf/opit_1</data>
                     <data>DI_TO_CLK</data>

@@ -45,10 +45,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:1s</data>
-            <data>0h:0m:1s</data>
-            <data>0h:0m:5s</data>
-            <data>131</data>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:4s</data>
+            <data>132</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -115,7 +115,7 @@
         </row>
         <row>
             <data message="4">Module instance {top} parameter value:
-    CLK_FREQ = 32'b00000101111101011110000100000000</data>
+    CLK_FREQ = 32'b00000010111110101111000010000000</data>
         </row>
         <row>
             <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab1/project/source/top.v(line number: 33)] Elaborating instance ctrl</data>
