@@ -76,7 +76,7 @@ always @(posedge clk or negedge rst_n) begin
         status<=status_save;
         end
         else begin
-        status<=status;
+        status<=2'd3;
         status_save<=status_save;
         end
     end

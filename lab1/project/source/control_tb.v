@@ -25,7 +25,7 @@ end
 
 initial begin
     pause = 0; speedup = 0; speeddown = 0;
-    #1650 pause = 1;
+    #1600 pause = 1;
     #3200 pause = 0;
     #500 speedup = 1;
     #1600 pause = 1;

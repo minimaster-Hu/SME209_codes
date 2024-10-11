@@ -1,7 +1,7 @@
 
 ----------------------------------------------------------------------------------------------------
 | Tool Version : Fabric Compiler (version 2022.1 <build 99559>)
-| Date         : Thu Oct 10 11:06:22 2024
+| Date         : Thu Oct 10 19:54:36 2024
 | Design       : top
 | Device       : PG2L50H
 | Speed Grade  : -6
@@ -1317,4 +1317,4 @@ Flow Command: report_timing
 Peak memory: 799 MB
 Total CPU  time to report_timing completion : 0h:0m:4s
 Process Total CPU  time to report_timing completion : 0h:0m:4s
-Total real time to report_timing completion : 0h:0m:23s
+Total real time to report_timing completion : 0h:0m:21s

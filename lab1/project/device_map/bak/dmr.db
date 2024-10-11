@@ -3833,10 +3833,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:8s</data>
-            <data>0h:0m:8s</data>
-            <data>0h:0m:24s</data>
-            <data>300</data>
+            <data>0h:0m:5s</data>
+            <data>0h:0m:5s</data>
+            <data>0h:0m:15s</data>
+            <data>299</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
