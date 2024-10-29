@@ -8,7 +8,7 @@ module Decoder(
     output reg ALUSrc,
     output reg [1:0] ImmSrc,
     output reg [2:0] RegSrc,
-    output reg ALUControl,
+    output reg [1:0]ALUControl,
     output reg [1:0] FlagW,
     output reg NoWrite
     ); 
@@ -35,20 +35,22 @@ module Decoder(
 
 //ALU decoder
     always @(*) begin
-        casex({ALUOp,Funct[4:0]})
+        casex({ALUOp[1:0],Funct[4:0]})
             // Not DP
-            6'b0xxxxx: {ALUControl,FlagW,NoWrite} = 5'b00000;
+            7'b00xxxxx: {ALUControl,FlagW,NoWrite} = 5'b00000; // Pos Offset
+            7'b01xxxxx: {ALUControl,FlagW,NoWrite} = 5'b01000; // Neg Offset
             // DP
-            6'b101000: {ALUControl,FlagW,NoWrite} = 5'b00000;
-            6'b101001: {ALUControl,FlagW,NoWrite} = 5'b00110;
-            6'b100100: {ALUControl,FlagW,NoWrite} = 5'b01000;
-            6'b100101: {ALUControl,FlagW,NoWrite} = 5'b01110;
-            6'b100000: {ALUControl,FlagW,NoWrite} = 5'b10000;
-            6'b100001: {ALUControl,FlagW,NoWrite} = 5'b10100;
-            6'b111000: {ALUControl,FlagW,NoWrite} = 5'b11000;
-            6'b111001: {ALUControl,FlagW,NoWrite} = 5'b11100;
-            6'b110101: {ALUControl,FlagW,NoWrite} = 5'b01111;
-            6'b110111: {ALUControl,FlagW,NoWrite} = 5'b00111;
+            7'b1101000: {ALUControl,FlagW,NoWrite} = 5'b00000;
+            7'b1101001: {ALUControl,FlagW,NoWrite} = 5'b00110;
+            7'b1100100: {ALUControl,FlagW,NoWrite} = 5'b01000;
+            7'b1100101: {ALUControl,FlagW,NoWrite} = 5'b01110;
+            7'b1100000: {ALUControl,FlagW,NoWrite} = 5'b10000;
+            7'b1100001: {ALUControl,FlagW,NoWrite} = 5'b10100;
+            7'b1111000: {ALUControl,FlagW,NoWrite} = 5'b11000;
+            7'b1111001: {ALUControl,FlagW,NoWrite} = 5'b11100;
+            // CMP/CMN
+            7'b1110101: {ALUControl,FlagW,NoWrite} = 5'b01111;
+            7'b1110111: {ALUControl,FlagW,NoWrite} = 5'b00111;
             default:    {ALUControl,FlagW,NoWrite} = 5'b00000;
         endcase
     end
