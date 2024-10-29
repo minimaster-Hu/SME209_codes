@@ -9,6 +9,16 @@ module ProgramCounter(
 ); 
 
 //fill your Verilog code here
+wire[31:0] next_pc;
+assign next_PC = PCSrc ? Result: PC_Plus_4;
+assign PC_Plus_4=PC+3'd4;
 
+always@(posedge CLK or negedge Reset)begin 
+    if(!Reset)begin
+        PC<=32'b0;
+    end
+    else PC<=next_pc;
+end
 
 endmodule
+//finished

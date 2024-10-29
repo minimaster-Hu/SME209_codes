@@ -10,7 +10,12 @@ module RegisterFile(
     output [31:0] RD1,
     output [31:0] RD2
     );
+   
+     reg[31:0] RD1_reg;
+    assign RD1=RD1_reg;
     
+    reg[31:0] RD2_reg;
+    assign RD1=RD1_reg;
     // declare RegBank
     reg [31:0] RegBank[0:14] ;
 
@@ -30,5 +35,15 @@ module RegisterFile(
     wire [31:0] R13 = RegBank[13];
     wire [31:0] R14 = RegBank[14];
  
-    
+always@(*)begin
+    if(A1&&A1!=15)begin
+    RD1_reg=RegBank[A1];
+    end
+    else if(A1==15) RD1_reg=R15;
+    if(A2&&A2!=15)begin
+    RD2_reg=RegBank[A2];
+    end
+    else if(A2==15) RD2_reg=R15;
+end
 endmodule
+//finished
