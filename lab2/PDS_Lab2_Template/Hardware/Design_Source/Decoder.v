@@ -13,7 +13,7 @@ module Decoder(
     output reg NoWrite
     ); 
     
-    reg [1:0]ALUOp ; 
+    reg ALUOp ; 
     reg Branch ;
     wire [1:0] op = Instr[27:26];
     wire[5:0] Funct;
@@ -21,24 +21,22 @@ module Decoder(
 
 //main decoder
     always @(*) begin
-        casex({op,Funct[5],Funct[3],Funct[0]})
-            5'b000xx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0000xx10011; 
-            5'b001xx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0001001x011;
-            5'b01x10: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0x110101000;
-            5'b01x00: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0x110101001;
-            5'b01x11: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0101011x000;
-            5'b01x01: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0101011x001;
-            5'b10xxx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b1001100x100;
-            default:  {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b00000000000;
+        casex({op,Funct[5],Funct[0]})
+            4'b000x: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0000xx1001; 
+            4'b001x: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0001001x01;
+            4'b01x0: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0x11010100;
+            4'b01x0: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0x11010100;
+            4'b01x1: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0101011x00;
+            4'b10xx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b1001100x10;
+            default: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0000000000;
         endcase
     end
 
 //ALU decoder
     always @(*) begin
-        casex({ALUOp[1:0],Funct[4:0]})
+        casex({ALUOp,Funct[4:0]})
             // Not DP
-            7'b00xxxxx: {ALUControl,FlagW,NoWrite} = 5'b00000; // Pos Offset
-            7'b01xxxxx: {ALUControl,FlagW,NoWrite} = 5'b01000; // Neg Offset
+            7'b0xxxxx: {ALUControl,FlagW,NoWrite} = 5'b00000;
             // DP
             7'b1101000: {ALUControl,FlagW,NoWrite} = 5'b00000;
             7'b1101001: {ALUControl,FlagW,NoWrite} = 5'b00110;
