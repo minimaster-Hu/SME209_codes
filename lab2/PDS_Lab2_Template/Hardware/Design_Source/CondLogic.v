@@ -15,12 +15,23 @@ module CondLogic(
     
     reg CondEx ;
     reg N = 0, Z = 0, C = 0, V = 0 ;
-        always @(posedge CLK) begin
-            if(FlagW[1] && CondEx) {N, Z} <= ALUFlags[3:2];
-            else {N,Z} <= {N,Z};
-            if(FlagW[0] && CondEx) {C, V} <= ALUFlags[1:0];   
-            else  {C,V} <= {C,V};
+    always@(posedge CLK)begin
+        if(FlagW[1] & CondEx)begin
+            {N,Z} <= ALUFlags[3:2];
         end
+        else begin
+            {N,Z} <= {N,Z};
+        end
+    end
+    
+    always@(posedge CLK)begin
+        if(FlagW[0] & CondEx)begin
+            {C,V} <= ALUFlags[1:0];
+        end    
+        else begin
+            {C,V} <= {C,V};
+        end
+    end 
  
    always @(*) begin
         case(Cond)

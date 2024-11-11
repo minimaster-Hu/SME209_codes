@@ -14,36 +14,41 @@ module ControlUnit(
     ); 
     
     wire [3:0] Cond;
-    wire PSC, RegW, MemW;
+    wire PCS, RegW, MemW,NoWrite;
     wire [1:0] FlagW;
 
     assign Cond=Instr[31:28];
 
 
     CondLogic CondLogic1(
-     CLK,
-     PCS,
-     RegW,
-     MemW,
-     FlagW,
-     Cond,
-     ALUFlags,
+     .CLK(CLK),
+     .PCS(PCS),
+     .RegW(RegW),
+     .MemW(MemW),
+     .FlagW(FlagW),
+     .Cond(Cond),
+     .ALUFlags(ALUFlags),
+     .NoWrite(NoWrite),
 
-     PCSrc,
-     RegWrite,
-     MemWrite
+     .PCSrc(PCSrc),
+     .RegWrite(RegWrite),
+     .MemWrite(MemWrite)
     );
 
     Decoder Decoder1(
-     Instr,
-     PCS,
-     RegW,
-     MemW,
-     MemtoReg,
-     ALUSrc,
-     ImmSrc,
-     RegSrc,
-     ALUControl,
-     FlagW
+     .Instr(Instr),
+     
+     .PCS(PCS),
+     .RegW(RegW),
+     .MemW(MemW),
+     .MemtoReg(MemtoReg),
+     .ALUSrc(ALUSrc),
+     .ImmSrc(ImmSrc),
+     .RegSrc(RegSrc),
+     
+//     NoWrite,
+     .ALUControl(ALUControl),
+     .FlagW(FlagW),
+     .NoWrite(NoWrite)
     );
 endmodule

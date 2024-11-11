@@ -7,18 +7,22 @@ module Decoder(
     output reg MemtoReg,
     output reg ALUSrc,
     output reg [1:0] ImmSrc,
-    output reg [2:0] RegSrc,
-    output reg ALUControl,
+    output reg [1:0] RegSrc,
+    output reg [1:0] ALUControl,
     output reg [1:0] FlagW,
     output reg NoWrite
     ); 
     
-    reg [1:0]ALUOp ; 
-    reg Branch ;
-    wire [1:0] op = Instr[27:26];
-    wire[5:0] Funct;
-    assign Funct[5:0] = Instr[25:20];
+    reg [1:0] ALUOp; 
+    reg Branch;
 
+    wire [3:0] Rd;
+    wire [1:0] op;
+    wire [5:0] Funct;
+
+    assign Rd = Instr[15:12];
+    assign op = Instr[27:26];
+    assign Funct = Instr[25:20];
 //main decoder
     always @(*) begin
         casex({op,Funct[5],Funct[3],Funct[0]})
@@ -45,8 +49,8 @@ module Decoder(
     always @(*) begin
         casex({ALUOp[1:0],Funct[4:0]})
             // Not DP
-            7'b00xxxxx: {ALUControl,FlagW,NoWrite} = 5'b00000; // Pos Offset
-            7'b01xxxxx: {ALUControl,FlagW,NoWrite} = 5'b01000; // Neg Offset
+            7'b00xxxxx: {ALUControl,FlagW,NoWrite} = 5'b00000;
+            7'b01xxxxx: {ALUControl,FlagW,NoWrite} = 5'b01000; 
             // DP
             7'b1101000: {ALUControl,FlagW,NoWrite} = 5'b00000;
             7'b1101001: {ALUControl,FlagW,NoWrite} = 5'b00110;
@@ -62,4 +66,6 @@ module Decoder(
             default:    {ALUControl,FlagW,NoWrite} = 5'b00000;
         endcase
     end
+
+    assign PCS = ((Rd == 4'd15) & RegW) | Branch;
 endmodule
