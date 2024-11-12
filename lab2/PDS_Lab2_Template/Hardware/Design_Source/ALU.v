@@ -27,16 +27,3 @@ module ALU(
     assign V = ~(Src_A[31]^Src_B[31]^ALUControl[0]) & (Src_A[31]^Sum[31]) & ~ALUControl[1]; 
 
     endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-

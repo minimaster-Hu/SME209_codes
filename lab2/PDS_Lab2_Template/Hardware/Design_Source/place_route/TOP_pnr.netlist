@@ -2110,6 +2110,18 @@ I4;1
 I5;1
 
 Inst
+N32[2]/gateop_LUT6DL5_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
 N32[4]/gateop_LUT6DL5_perm;gopLUT6L5
 Pin
 L5;2
@@ -2420,6 +2432,17 @@ Inst
 N108[13]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+N117_6/gateop_perm;gopLUT6
+Pin
 L6;2
 I0;1
 I1;1
@@ -5731,10 +5754,9 @@ D;1
 RS;1
 
 Inst
-genblk1.clk_counter[0]/opit_0_inv_L6Q_LUT6DQL5_perm;gopLUT6QL5
+genblk1.clk_counter[0]/opit_0_inv_L6Q_perm;gopLUT6Q
 Pin
 CECO;2
-L5;2
 L6;2
 L6Q;2
 RSCO;2
@@ -7267,9 +7289,8 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/ALU1/N11_23/gateop_LUT6DL5_perm;gopLUT6L5
+wrapper1/ARM1/ALU1/N11_23/gateop_perm;gopLUT6
 Pin
-L5;2
 L6;2
 I0;1
 I1;1
@@ -7378,7 +7399,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/ALU1/N56_5/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/ALU1/N56_5/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -7389,7 +7410,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/ALU1/N56_6/gateop_perm;gopLUT6
+wrapper1/ARM1/ALU1/N56_10/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -7400,18 +7421,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/ALU1/N56_11/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/ALU1/N56_18/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/ALU1/N56_18/gateop_LUT6DL5_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -7435,7 +7445,30 @@ I4;1
 I5;1
 
 Inst
+wrapper1/ARM1/ALU1/N56_24/gateop_LUT6DL5_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
 wrapper1/ARM1/ALU1/N56_26/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/ALU1/N56_29/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -7501,8 +7534,20 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N0_4[5]/gateop_perm;gopLUT6
+wrapper1/ARM1/N0_4[0]/gateop_perm;gopLUT6
 Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N0_4[5]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
 L6;2
 I0;1
 I1;1
@@ -8276,7 +8321,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[5]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_15[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8287,7 +8332,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[12]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_16[31]_4/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8298,7 +8343,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[13]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[5]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8309,7 +8354,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[14]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[12]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8320,7 +8365,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[15]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[13]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8331,7 +8376,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[16]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[14]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8342,7 +8387,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[17]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[15]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8353,7 +8398,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[18]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[16]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8364,7 +8409,47 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[19]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[17]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_17[18]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_17[19]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8375,7 +8460,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[20]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[20]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8386,7 +8471,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[21]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[21]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8397,7 +8482,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[22]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[22]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8408,7 +8493,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[23]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[23]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8419,7 +8504,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[24]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[24]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8430,7 +8515,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[25]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[25]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8441,7 +8526,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[26]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[26]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8452,7 +8537,67 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[27]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[27]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_17[28]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_17[29]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_17[30]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8463,7 +8608,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[28]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_17[31]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8474,7 +8619,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[29]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_18[7]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8485,7 +8630,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[30]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_18[8]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8496,7 +8641,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_20[31]/gateop_perm;gopLUT6
+wrapper1/ARM1/N20_18[9]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8507,7 +8652,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_21[1]/gateop_perm;gopLUT6
+wrapper1/ARM1/N20_18[10]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8518,7 +8663,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_21[2]/gateop_perm;gopLUT6
+wrapper1/ARM1/N20_18[11]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8529,7 +8674,504 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_21[3]/gateop_perm;gopLUT6
+wrapper1/ARM1/N20_19[5]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[12]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[13]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[14]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[15]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[16]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[17]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[18]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[19]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[20]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[21]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[22]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[23]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[24]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[25]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[26]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[27]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[28]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[29]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[30]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_19[31]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_20[0]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_20[1]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_20[2]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_20[3]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_20[4]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_20[6]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_20[7]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_20[8]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_20[9]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_20[10]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_20[11]_muxf7_perm;gopLUT7L6AB
+Pin
+L6A;2
+L6B;2
+L7;2
+A0;1
+A1;1
+A2;1
+A3;1
+A4;1
+A5;1
+B0;1
+B1;1
+B2;1
+B3;1
+B4;1
+B5;1
+M;1
+
+Inst
+wrapper1/ARM1/N20_21[0]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_21[1]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_21[2]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_21[3]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_21[4]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/N20_21[5]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8562,7 +9204,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_22[4]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[8]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8573,7 +9215,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_22[8]/gateop_perm;gopLUT6
+wrapper1/ARM1/N20_21[9]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8584,7 +9226,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_22[10]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[10]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8595,7 +9237,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_22[11]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[11]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8606,127 +9248,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[5]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_23[12]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_23[13]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_23[14]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_23[15]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_23[16]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_23[17]/gateop_perm;gopLUT6
+wrapper1/ARM1/N20_21[12]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8737,7 +9259,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[18]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[13]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8748,7 +9270,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[19]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[14]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8759,7 +9281,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[20]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[15]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8770,7 +9292,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[21]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[16]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8781,7 +9303,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[22]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[17]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8792,7 +9314,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[23]/gateop_perm;gopLUT6
+wrapper1/ARM1/N20_21[18]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8803,7 +9325,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[24]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[19]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8814,7 +9336,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[25]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[20]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8825,7 +9347,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[26]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[21]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8836,7 +9358,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[27]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[22]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8847,7 +9369,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[28]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[23]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8858,7 +9380,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[29]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[24]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8869,7 +9391,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[30]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[25]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8880,7 +9402,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_23[31]/gateop_perm;gopLUT6
+wrapper1/ARM1/N20_21[26]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -8891,245 +9413,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_24[0]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_24[1]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_24[2]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_24[3]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_24[4]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_24[6]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_24[7]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_24[8]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_24[9]_muxf8_perm;gopLUT8L7BDL6ABCD
-Pin
-L6A;2
-L6B;2
-L6C;2
-L6D;2
-L7B;2
-L7D;2
-L8;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-C0;1
-C1;1
-C2;1
-C3;1
-C4;1
-C5;1
-D0;1
-D1;1
-D2;1
-D3;1
-D4;1
-D5;1
-M0;1
-M1;1
-M2;1
-
-Inst
-wrapper1/ARM1/N20_24[10]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_24[11]_muxf7_perm;gopLUT7L6AB
-Pin
-L6A;2
-L6B;2
-L7;2
-A0;1
-A1;1
-A2;1
-A3;1
-A4;1
-A5;1
-B0;1
-B1;1
-B2;1
-B3;1
-B4;1
-B5;1
-M;1
-
-Inst
-wrapper1/ARM1/N20_25[0]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[27]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9140,7 +9424,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[1]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[28]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9151,7 +9435,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[2]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[29]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9162,7 +9446,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[3]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[30]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9173,7 +9457,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[4]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/N20_21[31]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9184,7 +9468,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[5]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[16]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9195,7 +9479,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[6]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[17]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9206,7 +9490,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[7]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[18]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9217,7 +9501,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[8]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[19]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9228,7 +9512,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[9]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[20]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9239,7 +9523,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[10]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[21]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9250,7 +9534,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[11]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[22]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9261,7 +9545,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[12]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[23]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9272,205 +9556,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/N20_25[13]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[14]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[15]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[16]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[17]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[18]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[19]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[20]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[21]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[22]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[23]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[24]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[25]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[26]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[27]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[28]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[29]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[30]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/N20_25[31]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[24]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9492,7 +9578,62 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[2]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N2[26]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N2[27]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N2[28]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N2[29]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N2[30]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N2[31]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9547,7 +9688,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[16]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[17]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9558,7 +9699,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[17]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[19]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9569,7 +9710,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[18]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[20]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9580,7 +9721,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[19]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[21]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9591,7 +9732,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[20]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[22]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9602,7 +9743,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[21]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[23]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9613,8 +9754,9 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[22]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[25]/LUT6D_inst_perm;gopLUT6L5
 Pin
+L5;2
 L6;2
 I0;1
 I1;1
@@ -9624,8 +9766,9 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[23]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[27]/LUT6D_inst_perm;gopLUT6L5
 Pin
+L5;2
 L6;2
 I0;1
 I1;1
@@ -9635,8 +9778,9 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[24]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[29]/LUT6D_inst_perm;gopLUT6L5
 Pin
+L5;2
 L6;2
 I0;1
 I1;1
@@ -9646,96 +9790,9 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N5[25]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N5[31]/LUT6D_inst_perm;gopLUT6L5
 Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N5[26]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N5[27]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N5[28]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N5[29]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N5[30]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N5[31]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N8[0]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N8[1]/LUT6_inst_perm;gopLUT6
-Pin
+L5;2
 L6;2
 I0;1
 I1;1
@@ -9888,7 +9945,95 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N8[17]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N8[18]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N8[20]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N8[22]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N8[24]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N8[26]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N8[28]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N8[30]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N11[0]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N11[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9921,6 +10066,17 @@ I4;1
 I5;1
 
 Inst
+wrapper1/ARM1/Shifter1/N11[4]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
 wrapper1/ARM1/Shifter1/N11[5]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
@@ -9932,7 +10088,18 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N11[17]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/Shifter1/N11[17]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N11[18]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -9944,7 +10111,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N11[18]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N11[19]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -9955,19 +10122,9 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N11[19]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N11[20]/LUT6D_inst_perm;gopLUT6L5
 Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N11[20]/LUT6_inst_perm;gopLUT6
-Pin
+L5;2
 L6;2
 I0;1
 I1;1
@@ -9978,17 +10135,6 @@ I5;1
 
 Inst
 wrapper1/ARM1/Shifter1/N11[21]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N11[22]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10010,17 +10156,6 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N11[24]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
 wrapper1/ARM1/Shifter1/N11[25]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
@@ -10032,8 +10167,9 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N11[26]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N11[26]/LUT6D_inst_perm;gopLUT6L5
 Pin
+L5;2
 L6;2
 I0;1
 I1;1
@@ -10054,8 +10190,9 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N11[28]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N11[28]/LUT6D_inst_perm;gopLUT6L5
 Pin
+L5;2
 L6;2
 I0;1
 I1;1
@@ -10076,8 +10213,9 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N11[30]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N11[30]/LUT6D_inst_perm;gopLUT6L5
 Pin
+L5;2
 L6;2
 I0;1
 I1;1
@@ -10098,7 +10236,73 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N16[0]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N16[2]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N16[3]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N16[4]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N16[5]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N16[6]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N16[7]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N16[8]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10110,6 +10314,17 @@ I5;1
 
 Inst
 wrapper1/ARM1/Shifter1/N16[9]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N16[10]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10175,7 +10390,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[0]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N16[26]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10186,7 +10401,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[1]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N16[27]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10197,7 +10412,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[2]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N16[30]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10208,7 +10423,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[3]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10219,7 +10434,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[4]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10230,7 +10445,55 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[5]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[2]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N19[3]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N19[6]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N19[7]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N19[8]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10241,7 +10504,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[6]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[10]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10252,7 +10515,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[7]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[11]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10263,7 +10526,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[8]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[12]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10274,7 +10537,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[9]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[13]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10285,7 +10548,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[10]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[14]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10296,29 +10559,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N19[12]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N19[14]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N19[15]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[15]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10373,7 +10614,62 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N22[7]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N19[20]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N19[22]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N19[23]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N19[28]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N19[29]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N22[5]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10395,61 +10691,6 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N22[11]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N22[13]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N22[14]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N22[15]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N22[16]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
 wrapper1/ARM1/Shifter1/N22[17]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
@@ -10461,18 +10702,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N22[18]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N22[19]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N22[18]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10505,7 +10735,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N22[22]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N26[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10516,7 +10746,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N22[23]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N26[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10527,7 +10757,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N22[24]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N26[2]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10538,7 +10768,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N22[25]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N26[4]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10549,7 +10779,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N22[26]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N26[5]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10560,7 +10790,469 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N22[27]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/Shifter1/N26[6]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[7]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[8]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[9]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[10]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[11]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[12]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[13]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[14]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[15]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[16]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[17]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[19]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[20]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[21]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[22]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[23]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[24]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[26]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N26[27]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N32[29]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N32[30]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[8]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[9]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[10]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[11]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[12]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[13]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[14]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[15]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[16]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[17]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[18]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[19]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[20]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[21]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N35[22]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N38[19]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N38[20]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N38[21]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N38[22]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N38[23]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N38[24]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -10572,84 +11264,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N25[0]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[1]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[2]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[3]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[4]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[5]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[6]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[7]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/Shifter1/N38[25]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -10661,7 +11276,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N25[8]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N38[26]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -10672,456 +11287,9 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N25[9]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/Shifter1/N38[27]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[10]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[12]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[15]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[17]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[19]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[20]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[21]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[23]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[25]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[26]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[27]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[28]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[29]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N25[30]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N30[16]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N30[25]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N30[28]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N30[29]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N30[30]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N34[5]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N34[6]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N34[7]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N34[21]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N34[22]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N34[23]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[1]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[2]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[3]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[4]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[8]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[10]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[11]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[18]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[19]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[20]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[21]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[22]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[24]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[25]/gateop_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N38[26]/gateop_perm;gopLUT6
-Pin
 L6;2
 I0;1
 I1;1
@@ -11142,7 +11310,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N38[29]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N41[2]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11153,7 +11321,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N38[30]/gateop_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N41[3]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11164,7 +11332,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N42[0]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N41[4]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11175,7 +11343,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N42[16]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N41[5]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11186,7 +11354,150 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N42[17]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/Shifter1/N41[6]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[7]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[8]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[9]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[10]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[11]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[12]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[13]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[14]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[15]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[16]/LUT6_inst_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[17]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[18]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[19]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -11198,18 +11509,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N42[23]/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/Shifter1/N42[31]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/Shifter1/N41[20]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -11221,7 +11521,55 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[0]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N41[21]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[22]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[23]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[26]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N41[27]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11232,7 +11580,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[1]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N41[28]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11243,7 +11591,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[2]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N41[29]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11254,7 +11602,31 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[3]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N41[30]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N44[0]/gateop_LUT6DL5_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N44[23]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11265,7 +11637,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[4]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N44[24]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11276,7 +11648,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[5]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N44[25]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11287,7 +11659,79 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[6]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N48[12]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N48[14]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N48[15]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N48[19]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N48[21]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N48[23]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N48[24]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11298,7 +11742,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[7]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N48[25]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11309,7 +11753,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[8]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N50[18]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11320,7 +11764,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[9]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N50[27]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11331,7 +11775,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[10]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N50[28]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11342,7 +11786,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[11]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N50[29]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11353,7 +11797,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[12]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N50[30]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11364,7 +11808,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[13]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N50[31]/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11375,7 +11819,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[14]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[0]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11386,7 +11830,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[15]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[1]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11397,7 +11841,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[16]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[2]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11408,7 +11852,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[17]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[3]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11419,7 +11863,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[18]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[4]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11430,7 +11874,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[19]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[5]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11441,7 +11885,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[20]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[6]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11452,7 +11896,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[21]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[7]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11463,7 +11907,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[22]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[8]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11474,7 +11918,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[23]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[9]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11485,7 +11929,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[24]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[10]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11496,7 +11940,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[25]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[11]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11507,7 +11951,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[26]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[12]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11518,7 +11962,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[27]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[13]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11529,7 +11973,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[28]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[14]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11540,7 +11984,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[29]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[15]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11551,7 +11995,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[30]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[16]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11562,7 +12006,106 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/Shifter1/N55[31]/LUT6_inst_perm;gopLUT6
+wrapper1/ARM1/Shifter1/N52[19]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N52[20]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N52[21]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N52[22]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N52[23]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N52[24]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N52[25]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N52[26]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N52[30]/gateop_perm;gopLUT6
+Pin
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/Shifter1/N52[31]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -11575,18 +12118,6 @@ I5;1
 Inst
 wrapper1/ARM1/u_Control/CondLogic1/N0_1/gateop_perm;gopLUT6
 Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/u_Control/CondLogic1/N62_3/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
 L6;2
 I0;1
 I1;1
@@ -11691,6 +12222,18 @@ I4;1
 I5;1
 
 Inst
+wrapper1/ARM1/u_Control/Decoder1/N206_1_4/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
 wrapper1/ARM1/u_Control/Decoder1/N206_1_6/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
@@ -11704,18 +12247,6 @@ I5;1
 Inst
 wrapper1/ARM1/u_Control/Decoder1/N210_1_4/LUT6_inst_perm;gopLUT6
 Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/u_Control/Decoder1/N1043/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
 L6;2
 I0;1
 I1;1
@@ -12469,7 +13000,7 @@ I5;1
 RS;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N3[6]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N3[4]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12481,7 +13012,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N3[10]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N3[5]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12494,6 +13025,30 @@ I5;1
 
 Inst
 wrapper1/ARM1/u_RegisterFile/N3[14]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/u_RegisterFile/N3[15]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/u_RegisterFile/N3[16]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12518,6 +13073,18 @@ I5;1
 
 Inst
 wrapper1/ARM1/u_RegisterFile/N3[18]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/ARM1/u_RegisterFile/N3[19]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12554,42 +13121,6 @@ I5;1
 
 Inst
 wrapper1/ARM1/u_RegisterFile/N3[23]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/u_RegisterFile/N3[24]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/u_RegisterFile/N3[25]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/u_RegisterFile/N3[26]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12661,7 +13192,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N7[8]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N7[6]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12673,7 +13204,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N7[9]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N7[8]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12721,7 +13252,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N7[17]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N7[13]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12733,7 +13264,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N7[18]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N7[14]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12745,7 +13276,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N7[19]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N7[23]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12757,7 +13288,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N7[20]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N7[24]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12769,19 +13300,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N7[21]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/ARM1/u_RegisterFile/N7[22]/LUT6D_inst_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N7[25]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -12841,6 +13360,18 @@ I4;1
 I5;1
 
 Inst
+wrapper1/ARM1/u_RegisterFile/N7[30]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
 wrapper1/ARM1/u_RegisterFile/N7[31]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
@@ -12864,9 +13395,8 @@ I4;1
 I5;1
 
 Inst
-wrapper1/ARM1/u_RegisterFile/N11_4/gateop_LUT6DL5_perm;gopLUT6L5
+wrapper1/ARM1/u_RegisterFile/N11_4/gateop_perm;gopLUT6
 Pin
-L5;2
 L6;2
 I0;1
 I1;1
@@ -15382,9 +15912,8 @@ D;1
 RS;1
 
 Inst
-wrapper1/N326_mux1/gateop_LUT6DL5_perm;gopLUT6L5
+wrapper1/N326_mux8_6/gateop_perm;gopLUT6
 Pin
-L5;2
 L6;2
 I0;1
 I1;1
@@ -15405,7 +15934,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/N328_23/LUT6_inst_perm;gopLUT6
+wrapper1/N328_29/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -15416,18 +15945,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/N328_30/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/N328_32/LUT6_inst_perm;gopLUT6
+wrapper1/N328_31/LUT6_inst_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -15439,29 +15957,6 @@ I5;1
 
 Inst
 wrapper1/N328_33/LUT6_inst_perm;gopLUT6
-Pin
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/N339/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/N347[3]/gateop_perm;gopLUT6
 Pin
 L6;2
 I0;1
@@ -15494,6 +15989,18 @@ I4;1
 I5;1
 
 Inst
+wrapper1/N364[6]/gateop_LUT6DL5_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
 wrapper1/N364[9]/gateop_LUT6DL5_perm;gopLUT6L5
 Pin
 L5;2
@@ -15506,7 +16013,7 @@ I4;1
 I5;1
 
 Inst
-wrapper1/N364[11]/gateop_LUT6DL5_perm;gopLUT6L5
+wrapper1/N364[10]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -15518,7 +16025,19 @@ I4;1
 I5;1
 
 Inst
-wrapper1/N364[12]/gateop_LUT6DL5_perm;gopLUT6L5
+wrapper1/N364[11]/LUT6D_inst_perm;gopLUT6L5
+Pin
+L5;2
+L6;2
+I0;1
+I1;1
+I2;1
+I3;1
+I4;1
+I5;1
+
+Inst
+wrapper1/N364[13]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -15531,18 +16050,6 @@ I5;1
 
 Inst
 wrapper1/N364[14]/LUT6D_inst_perm;gopLUT6L5
-Pin
-L5;2
-L6;2
-I0;1
-I1;1
-I2;1
-I3;1
-I4;1
-I5;1
-
-Inst
-wrapper1/N364[15]/LUT6D_inst_perm;gopLUT6L5
 Pin
 L5;2
 L6;2
@@ -15827,6 +16334,136 @@ Z;2
 
 Inst
 GND_52;gopGND
+Pin
+Z;2
+
+Inst
+GND_53;gopGND
+Pin
+Z;2
+
+Inst
+GND_54;gopGND
+Pin
+Z;2
+
+Inst
+GND_55;gopGND
+Pin
+Z;2
+
+Inst
+GND_56;gopGND
+Pin
+Z;2
+
+Inst
+GND_57;gopGND
+Pin
+Z;2
+
+Inst
+GND_58;gopGND
+Pin
+Z;2
+
+Inst
+GND_59;gopGND
+Pin
+Z;2
+
+Inst
+GND_60;gopGND
+Pin
+Z;2
+
+Inst
+GND_61;gopGND
+Pin
+Z;2
+
+Inst
+GND_62;gopGND
+Pin
+Z;2
+
+Inst
+GND_63;gopGND
+Pin
+Z;2
+
+Inst
+GND_64;gopGND
+Pin
+Z;2
+
+Inst
+GND_65;gopGND
+Pin
+Z;2
+
+Inst
+GND_66;gopGND
+Pin
+Z;2
+
+Inst
+GND_67;gopGND
+Pin
+Z;2
+
+Inst
+GND_68;gopGND
+Pin
+Z;2
+
+Inst
+GND_69;gopGND
+Pin
+Z;2
+
+Inst
+GND_70;gopGND
+Pin
+Z;2
+
+Inst
+GND_71;gopGND
+Pin
+Z;2
+
+Inst
+GND_72;gopGND
+Pin
+Z;2
+
+Inst
+GND_73;gopGND
+Pin
+Z;2
+
+Inst
+GND_74;gopGND
+Pin
+Z;2
+
+Inst
+GND_75;gopGND
+Pin
+Z;2
+
+Inst
+GND_76;gopGND
+Pin
+Z;2
+
+Inst
+GND_77;gopGND
+Pin
+Z;2
+
+Inst
+GND_78;gopGND
 Pin
 Z;2
 
@@ -16141,7 +16778,63 @@ Pin
 Z;2
 
 Inst
+VCC_62;gopVCC
+Pin
+Z;2
+
+Inst
+VCC_63;gopVCC
+Pin
+Z;2
+
+Inst
+VCC_64;gopVCC
+Pin
+Z;2
+
+Inst
+VCC_65;gopVCC
+Pin
+Z;2
+
+Inst
+VCC_66;gopVCC
+Pin
+Z;2
+
+Inst
+VCC_67;gopVCC
+Pin
+Z;2
+
+Inst
+VCC_68;gopVCC
+Pin
+Z;2
+
+Inst
+VCC_69;gopVCC
+Pin
+Z;2
+
+Inst
+VCC_70;gopVCC
+Pin
+Z;2
+
+Inst
+VCC_71;gopVCC
+Pin
+Z;2
+
+Inst
 HCKBROUTE_0;gopHCKB
+Pin
+CLKOUT;2
+CLKIN;1
+
+Inst
+HCKBROUTE_1;gopHCKB
 Pin
 CLKOUT;2
 CLKIN;1
@@ -16284,25 +16977,25 @@ _N423;
 _N424;
 _N425;
 _N426;
+_N599;
+_N600;
+_N601;
 _N602;
 _N603;
 _N604;
 _N605;
 _N606;
-_N607;
-_N608;
-_N609;
+_N611;
+_N612;
+_N613;
 _N614;
-_N615;
-_N616;
-_N617;
-_N1305;
-_N1307;
-_N1820;
-_N1827;
-_N1832;
-_N1834;
-_N1835;
+_N1280;
+_N1282;
+_N1801;
+_N1808;
+_N1813;
+_N1815;
+_N1816;
 nt_CLK_undiv;
 nt_PAUSE_n;
 nt_RESET_n;
@@ -16340,48 +17033,47 @@ wrapper1/ARM1/ALU1/_N380;
 wrapper1/ARM1/ALU1/_N381;
 wrapper1/ARM1/ALU1/_N382;
 wrapper1/ARM1/ALU1/_N383;
-wrapper1/ARM1/ALU1/_N632_inv;
-wrapper1/ARM1/ALU1/_N634;
-wrapper1/ARM1/ALU1/_N635;
-wrapper1/ARM1/ALU1/_N636;
-wrapper1/ARM1/ALU1/_N637;
-wrapper1/ARM1/ALU1/_N638;
-wrapper1/ARM1/ALU1/_N639;
-wrapper1/ARM1/ALU1/_N640;
-wrapper1/ARM1/ALU1/_N641;
-wrapper1/ARM1/ALU1/_N642;
-wrapper1/ARM1/ALU1/_N643;
-wrapper1/ARM1/ALU1/_N644;
-wrapper1/ARM1/ALU1/_N645;
-wrapper1/ARM1/ALU1/_N646;
-wrapper1/ARM1/ALU1/_N647;
-wrapper1/ARM1/ALU1/_N648;
-wrapper1/ARM1/ALU1/_N649;
-wrapper1/ARM1/ALU1/_N650;
-wrapper1/ARM1/ALU1/_N651;
-wrapper1/ARM1/ALU1/_N652;
-wrapper1/ARM1/ALU1/_N653;
-wrapper1/ARM1/ALU1/_N654;
-wrapper1/ARM1/ALU1/_N655;
-wrapper1/ARM1/ALU1/_N656;
-wrapper1/ARM1/ALU1/_N657;
-wrapper1/ARM1/ALU1/_N658;
-wrapper1/ARM1/ALU1/_N659;
-wrapper1/ARM1/ALU1/_N660;
-wrapper1/ARM1/ALU1/_N661;
-wrapper1/ARM1/ALU1/_N662;
-wrapper1/ARM1/ALU1/_N663;
-wrapper1/ARM1/ALU1/_N664;
-wrapper1/ARM1/ALU1/_N665;
-wrapper1/ARM1/ALU1/_N1788;
-wrapper1/ARM1/ALU1/_N1789;
-wrapper1/ARM1/ALU1/_N1790;
-wrapper1/ARM1/ALU1/_N1794;
-wrapper1/ARM1/ALU1/_N1799;
-wrapper1/ARM1/Extend1/_N1760;
-wrapper1/ARM1/Extend1/_N1765;
-wrapper1/ARM1/Extend1/_N1770;
-wrapper1/ARM1/Extend1/_N1772;
+wrapper1/ARM1/ALU1/_N853_inv;
+wrapper1/ARM1/ALU1/_N855;
+wrapper1/ARM1/ALU1/_N856;
+wrapper1/ARM1/ALU1/_N857;
+wrapper1/ARM1/ALU1/_N858;
+wrapper1/ARM1/ALU1/_N859;
+wrapper1/ARM1/ALU1/_N860;
+wrapper1/ARM1/ALU1/_N861;
+wrapper1/ARM1/ALU1/_N862;
+wrapper1/ARM1/ALU1/_N863;
+wrapper1/ARM1/ALU1/_N864;
+wrapper1/ARM1/ALU1/_N865;
+wrapper1/ARM1/ALU1/_N866;
+wrapper1/ARM1/ALU1/_N867;
+wrapper1/ARM1/ALU1/_N868;
+wrapper1/ARM1/ALU1/_N869;
+wrapper1/ARM1/ALU1/_N870;
+wrapper1/ARM1/ALU1/_N871;
+wrapper1/ARM1/ALU1/_N872;
+wrapper1/ARM1/ALU1/_N873;
+wrapper1/ARM1/ALU1/_N874;
+wrapper1/ARM1/ALU1/_N875;
+wrapper1/ARM1/ALU1/_N876;
+wrapper1/ARM1/ALU1/_N877;
+wrapper1/ARM1/ALU1/_N878;
+wrapper1/ARM1/ALU1/_N879;
+wrapper1/ARM1/ALU1/_N880;
+wrapper1/ARM1/ALU1/_N881;
+wrapper1/ARM1/ALU1/_N882;
+wrapper1/ARM1/ALU1/_N883;
+wrapper1/ARM1/ALU1/_N884;
+wrapper1/ARM1/ALU1/_N885;
+wrapper1/ARM1/ALU1/_N886;
+wrapper1/ARM1/ALU1/_N1769;
+wrapper1/ARM1/ALU1/_N1774;
+wrapper1/ARM1/ALU1/_N1780;
+wrapper1/ARM1/ALU1/_N1783;
+wrapper1/ARM1/Extend1/_N1741;
+wrapper1/ARM1/Extend1/_N1746;
+wrapper1/ARM1/Extend1/_N1751;
+wrapper1/ARM1/Extend1/_N1753;
 wrapper1/ARM1/MemtoReg;
 wrapper1/ARM1/PCSrc;
 wrapper1/ARM1/RegWrite;
@@ -16413,7 +17105,45 @@ wrapper1/ARM1/_N317;
 wrapper1/ARM1/_N318;
 wrapper1/ARM1/_N319;
 wrapper1/ARM1/_N320;
+wrapper1/ARM1/_N623;
+wrapper1/ARM1/_N692;
+wrapper1/ARM1/_N699;
+wrapper1/ARM1/_N700;
+wrapper1/ARM1/_N701;
+wrapper1/ARM1/_N702;
+wrapper1/ARM1/_N703;
+wrapper1/ARM1/_N704;
+wrapper1/ARM1/_N705;
+wrapper1/ARM1/_N706;
+wrapper1/ARM1/_N707;
+wrapper1/ARM1/_N708;
+wrapper1/ARM1/_N709;
+wrapper1/ARM1/_N710;
+wrapper1/ARM1/_N711;
+wrapper1/ARM1/_N712;
+wrapper1/ARM1/_N713;
+wrapper1/ARM1/_N714;
+wrapper1/ARM1/_N715;
+wrapper1/ARM1/_N716;
+wrapper1/ARM1/_N717;
+wrapper1/ARM1/_N718;
+wrapper1/ARM1/_N726;
+wrapper1/ARM1/_N727;
+wrapper1/ARM1/_N728;
+wrapper1/ARM1/_N729;
+wrapper1/ARM1/_N730;
+wrapper1/ARM1/_N756;
+wrapper1/ARM1/_N763;
+wrapper1/ARM1/_N764;
+wrapper1/ARM1/_N765;
+wrapper1/ARM1/_N766;
 wrapper1/ARM1/_N767;
+wrapper1/ARM1/_N768;
+wrapper1/ARM1/_N769;
+wrapper1/ARM1/_N770;
+wrapper1/ARM1/_N771;
+wrapper1/ARM1/_N772;
+wrapper1/ARM1/_N773;
 wrapper1/ARM1/_N774;
 wrapper1/ARM1/_N775;
 wrapper1/ARM1/_N776;
@@ -16428,55 +17158,16 @@ wrapper1/ARM1/_N784;
 wrapper1/ARM1/_N785;
 wrapper1/ARM1/_N786;
 wrapper1/ARM1/_N787;
-wrapper1/ARM1/_N788;
 wrapper1/ARM1/_N789;
 wrapper1/ARM1/_N790;
 wrapper1/ARM1/_N791;
 wrapper1/ARM1/_N792;
 wrapper1/ARM1/_N793;
-wrapper1/ARM1/_N795;
-wrapper1/ARM1/_N796;
-wrapper1/ARM1/_N797;
-wrapper1/ARM1/_N800;
-wrapper1/ARM1/_N801;
-wrapper1/ARM1/_N830;
-wrapper1/ARM1/_N834;
-wrapper1/ARM1/_N836;
-wrapper1/ARM1/_N837;
-wrapper1/ARM1/_N863;
-wrapper1/ARM1/_N870;
-wrapper1/ARM1/_N871;
-wrapper1/ARM1/_N872;
-wrapper1/ARM1/_N873;
-wrapper1/ARM1/_N874;
-wrapper1/ARM1/_N875;
-wrapper1/ARM1/_N876;
-wrapper1/ARM1/_N877;
-wrapper1/ARM1/_N878;
-wrapper1/ARM1/_N879;
-wrapper1/ARM1/_N880;
-wrapper1/ARM1/_N881;
-wrapper1/ARM1/_N882;
-wrapper1/ARM1/_N883;
-wrapper1/ARM1/_N884;
-wrapper1/ARM1/_N885;
-wrapper1/ARM1/_N886;
-wrapper1/ARM1/_N887;
-wrapper1/ARM1/_N888;
-wrapper1/ARM1/_N889;
-wrapper1/ARM1/_N890;
-wrapper1/ARM1/_N891;
-wrapper1/ARM1/_N892;
-wrapper1/ARM1/_N893;
-wrapper1/ARM1/_N894;
-wrapper1/ARM1/_N896;
-wrapper1/ARM1/_N897;
-wrapper1/ARM1/_N898;
-wrapper1/ARM1/_N899;
-wrapper1/ARM1/_N900;
-wrapper1/ARM1/_N901;
-wrapper1/ARM1/_N962;
-wrapper1/ARM1/_N1736;
+wrapper1/ARM1/_N794;
+wrapper1/ARM1/_N922;
+wrapper1/ARM1/_N927;
+wrapper1/ARM1/_N1715;
+wrapper1/ARM1/_N1732;
 wrapper1/ARM1/u_Control/CondLogic1/CondEx;
 wrapper1/ARM1/u_Control/CondLogic1/N0;
 wrapper1/ARM1/u_Control/CondLogic1/Z;
@@ -16487,11 +17178,11 @@ wrapper1/ARM1/u_Control/Decoder1/N210;
 wrapper1/ARM1/u_Control/Decoder1/N1043;
 wrapper1/ARM1/u_Control/Decoder1/N1046;
 wrapper1/ARM1/u_Control/Decoder1/N1057;
-wrapper1/ARM1/u_Control/Decoder1/_N1782;
-wrapper1/ARM1/u_Control/Decoder1/_N1805;
-wrapper1/ARM1/u_Control/Decoder1/_N1806;
+wrapper1/ARM1/u_Control/Decoder1/_N1763;
+wrapper1/ARM1/u_Control/Decoder1/_N1786;
+wrapper1/ARM1/u_Control/Decoder1/_N1787;
 wrapper1/ARM1/u_Control/RegW;
-wrapper1/ARM1/u_Control/_N1810;
+wrapper1/ARM1/u_Control/_N1791;
 wrapper1/ARM1/u_PC/_N323;
 wrapper1/ARM1/u_PC/_N324;
 wrapper1/ARM1/u_PC/_N325;
@@ -16523,7 +17214,6 @@ wrapper1/ARM1/u_PC/_N350;
 wrapper1/ARM1/u_RegisterFile/N10;
 wrapper1/ARM1/u_RegisterFile/N11;
 wrapper1/N350;
-wrapper1/_N61;
 wrapper1/_N428;
 wrapper1/_N429;
 wrapper1/_N430;
@@ -16558,21 +17248,22 @@ wrapper1/_N459;
 wrapper1/_N460;
 wrapper1/_N461;
 wrapper1/_N462;
-wrapper1/_N957;
-wrapper1/_N1295;
-wrapper1/_N1297;
-wrapper1/_N1312;
-wrapper1/_N1347;
-wrapper1/_N1402;
-wrapper1/_N1405;
-wrapper1/_N1407;
-wrapper1/_N1409;
-wrapper1/_N1411;
-wrapper1/_N1708_1;
-wrapper1/_N1726;
-wrapper1/_N1740;
-wrapper1/_N1747;
-wrapper1/_N1749;
+wrapper1/_N1260;
+wrapper1/_N1262;
+wrapper1/_N1273;
+wrapper1/_N1313;
+wrapper1/_N1370;
+wrapper1/_N1371;
+wrapper1/_N1372;
+wrapper1/_N1373;
+wrapper1/_N1374;
+wrapper1/_N1375;
+wrapper1/_N1376;
+wrapper1/_N1685_1;
+wrapper1/_N1704;
+wrapper1/_N1705;
+wrapper1/_N1725;
+wrapper1/_N1727;
 wrapper1/dec_DATA_VAR;
 DIP[0];
 DIP[1];
@@ -16749,19 +17440,13 @@ wrapper1/ALUResult [5];
 wrapper1/ALUResult [6];
 wrapper1/ALUResult [7];
 wrapper1/ALUResult [8];
-wrapper1/ALUResult [9];
 wrapper1/ALUResult [10];
-wrapper1/ALUResult [11];
-wrapper1/ALUResult [14];
-wrapper1/ALUResult [15];
-wrapper1/ALUResult [16];
-wrapper1/ALUResult [17];
-wrapper1/ALUResult [20];
-wrapper1/ALUResult [21];
-wrapper1/ALUResult [24];
-wrapper1/ALUResult [25];
+wrapper1/ALUResult [12];
+wrapper1/ALUResult [13];
 wrapper1/ALUResult [28];
 wrapper1/ALUResult [29];
+wrapper1/ALUResult [30];
+wrapper1/ALUResult [31];
 wrapper1/ARM1/ALU1/A_or_B [0];
 wrapper1/ARM1/ALU1/A_or_B [1];
 wrapper1/ARM1/ALU1/A_or_B [2];
@@ -16795,17 +17480,22 @@ wrapper1/ARM1/ALU1/A_or_B [29];
 wrapper1/ARM1/ALU1/A_or_B [30];
 wrapper1/ARM1/ALU1/A_or_B [31];
 wrapper1/ARM1/ALUControl [0];
-wrapper1/ARM1/ALUFlags [3];
-wrapper1/ARM1/ALUResult [12];
-wrapper1/ARM1/ALUResult [13];
+wrapper1/ARM1/ALUResult [9];
+wrapper1/ARM1/ALUResult [11];
+wrapper1/ARM1/ALUResult [14];
+wrapper1/ARM1/ALUResult [15];
+wrapper1/ARM1/ALUResult [16];
+wrapper1/ARM1/ALUResult [17];
 wrapper1/ARM1/ALUResult [18];
 wrapper1/ARM1/ALUResult [19];
+wrapper1/ARM1/ALUResult [20];
+wrapper1/ARM1/ALUResult [21];
 wrapper1/ARM1/ALUResult [22];
 wrapper1/ARM1/ALUResult [23];
+wrapper1/ARM1/ALUResult [24];
+wrapper1/ARM1/ALUResult [25];
 wrapper1/ARM1/ALUResult [26];
 wrapper1/ARM1/ALUResult [27];
-wrapper1/ARM1/ALUResult [30];
-wrapper1/ARM1/Instr [8];
 wrapper1/ARM1/PC [0];
 wrapper1/ARM1/PC [1];
 wrapper1/ARM1/PC [10];
@@ -16928,208 +17618,273 @@ wrapper1/ARM1/Result [28];
 wrapper1/ARM1/Result [29];
 wrapper1/ARM1/Result [30];
 wrapper1/ARM1/Result [31];
-wrapper1/ARM1/Shifter1/ASRA [16];
-wrapper1/ARM1/Shifter1/ASRA [25];
-wrapper1/ARM1/Shifter1/ASRA [28];
-wrapper1/ARM1/Shifter1/ASRA [29];
-wrapper1/ARM1/Shifter1/ASRA [30];
-wrapper1/ARM1/Shifter1/ASRB [5];
-wrapper1/ARM1/Shifter1/ASRB [6];
-wrapper1/ARM1/Shifter1/ASRB [7];
-wrapper1/ARM1/Shifter1/ASRB [21];
-wrapper1/ARM1/Shifter1/ASRB [22];
-wrapper1/ARM1/Shifter1/ASRB [23];
-wrapper1/ARM1/Shifter1/ASRC [1];
-wrapper1/ARM1/Shifter1/ASRC [2];
-wrapper1/ARM1/Shifter1/ASRC [3];
-wrapper1/ARM1/Shifter1/ASRC [4];
-wrapper1/ARM1/Shifter1/ASRC [8];
-wrapper1/ARM1/Shifter1/ASRC [10];
-wrapper1/ARM1/Shifter1/ASRC [11];
-wrapper1/ARM1/Shifter1/ASRC [17];
-wrapper1/ARM1/Shifter1/ASRC [18];
-wrapper1/ARM1/Shifter1/ASRC [19];
-wrapper1/ARM1/Shifter1/ASRC [20];
-wrapper1/ARM1/Shifter1/ASRC [21];
-wrapper1/ARM1/Shifter1/ASRC [22];
-wrapper1/ARM1/Shifter1/ASRC [24];
-wrapper1/ARM1/Shifter1/ASRC [25];
-wrapper1/ARM1/Shifter1/ASRC [26];
-wrapper1/ARM1/Shifter1/ASRC [27];
-wrapper1/ARM1/Shifter1/ASRC [28];
-wrapper1/ARM1/Shifter1/ASRC [29];
-wrapper1/ARM1/Shifter1/ASRC [30];
-wrapper1/ARM1/Shifter1/ASRD [0];
-wrapper1/ARM1/Shifter1/ASRD [16];
-wrapper1/ARM1/Shifter1/ASRD [17];
-wrapper1/ARM1/Shifter1/ASRD [23];
-wrapper1/ARM1/Shifter1/ASRD [31];
-wrapper1/ARM1/Shifter1/LSLA [25];
-wrapper1/ARM1/Shifter1/LSLB [2];
-wrapper1/ARM1/Shifter1/LSLB [12];
-wrapper1/ARM1/Shifter1/LSLB [13];
-wrapper1/ARM1/Shifter1/LSLB [14];
-wrapper1/ARM1/Shifter1/LSLB [15];
-wrapper1/ARM1/Shifter1/LSLB [16];
-wrapper1/ARM1/Shifter1/LSLB [17];
-wrapper1/ARM1/Shifter1/LSLB [18];
-wrapper1/ARM1/Shifter1/LSLB [19];
-wrapper1/ARM1/Shifter1/LSLB [20];
-wrapper1/ARM1/Shifter1/LSLB [21];
-wrapper1/ARM1/Shifter1/LSLB [22];
-wrapper1/ARM1/Shifter1/LSLB [23];
-wrapper1/ARM1/Shifter1/LSLB [24];
-wrapper1/ARM1/Shifter1/LSLB [25];
-wrapper1/ARM1/Shifter1/LSLB [26];
-wrapper1/ARM1/Shifter1/LSLB [27];
-wrapper1/ARM1/Shifter1/LSLB [28];
-wrapper1/ARM1/Shifter1/LSLB [29];
-wrapper1/ARM1/Shifter1/LSLB [30];
-wrapper1/ARM1/Shifter1/LSLB [31];
-wrapper1/ARM1/Shifter1/LSLC [0];
-wrapper1/ARM1/Shifter1/LSLC [1];
-wrapper1/ARM1/Shifter1/LSLC [4];
-wrapper1/ARM1/Shifter1/LSLC [5];
-wrapper1/ARM1/Shifter1/LSLC [6];
-wrapper1/ARM1/Shifter1/LSLC [7];
-wrapper1/ARM1/Shifter1/LSLC [8];
-wrapper1/ARM1/Shifter1/LSLC [9];
-wrapper1/ARM1/Shifter1/LSLC [10];
-wrapper1/ARM1/Shifter1/LSLC [11];
-wrapper1/ARM1/Shifter1/LSLC [12];
-wrapper1/ARM1/Shifter1/LSLC [13];
-wrapper1/ARM1/Shifter1/LSLC [14];
-wrapper1/ARM1/Shifter1/LSLC [15];
-wrapper1/ARM1/Shifter1/LSLC [16];
-wrapper1/ARM1/Shifter1/LSLC [17];
-wrapper1/ARM1/Shifter1/LSLD [2];
-wrapper1/ARM1/Shifter1/LSLD [3];
-wrapper1/ARM1/Shifter1/LSLD [5];
-wrapper1/ARM1/Shifter1/LSLD [6];
-wrapper1/ARM1/Shifter1/LSLD [7];
-wrapper1/ARM1/Shifter1/LSLD [16];
-wrapper1/ARM1/Shifter1/LSLD [17];
-wrapper1/ARM1/Shifter1/LSLD [18];
-wrapper1/ARM1/Shifter1/LSLD [19];
-wrapper1/ARM1/Shifter1/LSLD [20];
-wrapper1/ARM1/Shifter1/LSLD [21];
-wrapper1/ARM1/Shifter1/LSLD [22];
-wrapper1/ARM1/Shifter1/LSLD [23];
-wrapper1/ARM1/Shifter1/LSLD [24];
-wrapper1/ARM1/Shifter1/LSLD [25];
-wrapper1/ARM1/Shifter1/LSLD [26];
-wrapper1/ARM1/Shifter1/LSLD [27];
-wrapper1/ARM1/Shifter1/LSLD [28];
-wrapper1/ARM1/Shifter1/LSLD [29];
-wrapper1/ARM1/Shifter1/LSLD [30];
-wrapper1/ARM1/Shifter1/LSLD [31];
-wrapper1/ARM1/Shifter1/LSRA [0];
-wrapper1/ARM1/Shifter1/LSRA [9];
-wrapper1/ARM1/Shifter1/LSRA [11];
-wrapper1/ARM1/Shifter1/LSRA [12];
-wrapper1/ARM1/Shifter1/LSRA [13];
-wrapper1/ARM1/Shifter1/LSRA [14];
-wrapper1/ARM1/Shifter1/LSRA [15];
-wrapper1/ARM1/Shifter1/LSRB [0];
-wrapper1/ARM1/Shifter1/LSRB [1];
-wrapper1/ARM1/Shifter1/LSRB [2];
-wrapper1/ARM1/Shifter1/LSRB [3];
-wrapper1/ARM1/Shifter1/LSRB [4];
-wrapper1/ARM1/Shifter1/LSRB [5];
-wrapper1/ARM1/Shifter1/LSRB [6];
-wrapper1/ARM1/Shifter1/LSRB [7];
-wrapper1/ARM1/Shifter1/LSRB [8];
-wrapper1/ARM1/Shifter1/LSRB [9];
-wrapper1/ARM1/Shifter1/LSRB [10];
-wrapper1/ARM1/Shifter1/LSRB [12];
-wrapper1/ARM1/Shifter1/LSRB [14];
-wrapper1/ARM1/Shifter1/LSRB [15];
-wrapper1/ARM1/Shifter1/LSRB [16];
-wrapper1/ARM1/Shifter1/LSRB [17];
-wrapper1/ARM1/Shifter1/LSRB [18];
-wrapper1/ARM1/Shifter1/LSRB [19];
-wrapper1/ARM1/Shifter1/LSRC [7];
-wrapper1/ARM1/Shifter1/LSRC [9];
-wrapper1/ARM1/Shifter1/LSRC [11];
-wrapper1/ARM1/Shifter1/LSRC [13];
-wrapper1/ARM1/Shifter1/LSRC [14];
-wrapper1/ARM1/Shifter1/LSRC [15];
-wrapper1/ARM1/Shifter1/LSRC [16];
-wrapper1/ARM1/Shifter1/LSRC [17];
-wrapper1/ARM1/Shifter1/LSRC [18];
-wrapper1/ARM1/Shifter1/LSRC [19];
-wrapper1/ARM1/Shifter1/LSRC [20];
-wrapper1/ARM1/Shifter1/LSRC [21];
-wrapper1/ARM1/Shifter1/LSRC [22];
-wrapper1/ARM1/Shifter1/LSRC [23];
-wrapper1/ARM1/Shifter1/LSRC [24];
-wrapper1/ARM1/Shifter1/LSRC [25];
-wrapper1/ARM1/Shifter1/LSRC [26];
-wrapper1/ARM1/Shifter1/LSRC [27];
-wrapper1/ARM1/Shifter1/LSRD [0];
-wrapper1/ARM1/Shifter1/LSRD [1];
-wrapper1/ARM1/Shifter1/LSRD [2];
-wrapper1/ARM1/Shifter1/LSRD [3];
-wrapper1/ARM1/Shifter1/LSRD [4];
-wrapper1/ARM1/Shifter1/LSRD [5];
-wrapper1/ARM1/Shifter1/LSRD [6];
-wrapper1/ARM1/Shifter1/LSRD [7];
-wrapper1/ARM1/Shifter1/LSRD [8];
-wrapper1/ARM1/Shifter1/LSRD [9];
-wrapper1/ARM1/Shifter1/LSRD [10];
-wrapper1/ARM1/Shifter1/LSRD [11];
-wrapper1/ARM1/Shifter1/LSRD [12];
-wrapper1/ARM1/Shifter1/LSRD [13];
-wrapper1/ARM1/Shifter1/LSRD [14];
-wrapper1/ARM1/Shifter1/LSRD [15];
-wrapper1/ARM1/Shifter1/LSRD [16];
-wrapper1/ARM1/Shifter1/LSRD [17];
-wrapper1/ARM1/Shifter1/LSRD [18];
-wrapper1/ARM1/Shifter1/LSRD [19];
-wrapper1/ARM1/Shifter1/LSRD [20];
-wrapper1/ARM1/Shifter1/LSRD [21];
-wrapper1/ARM1/Shifter1/LSRD [22];
-wrapper1/ARM1/Shifter1/LSRD [23];
-wrapper1/ARM1/Shifter1/LSRD [24];
-wrapper1/ARM1/Shifter1/LSRD [25];
-wrapper1/ARM1/Shifter1/LSRD [26];
-wrapper1/ARM1/Shifter1/LSRD [27];
-wrapper1/ARM1/Shifter1/LSRD [28];
-wrapper1/ARM1/Shifter1/LSRD [29];
-wrapper1/ARM1/Shifter1/LSRD [30];
-wrapper1/ARM1/Shifter1/LSRD [31];
-wrapper1/ARM1/Shifter1/RORD [0];
-wrapper1/ARM1/Shifter1/RORD [1];
-wrapper1/ARM1/Shifter1/RORD [2];
-wrapper1/ARM1/Shifter1/RORD [3];
-wrapper1/ARM1/Shifter1/RORD [4];
-wrapper1/ARM1/Shifter1/RORD [5];
-wrapper1/ARM1/Shifter1/RORD [6];
-wrapper1/ARM1/Shifter1/RORD [7];
-wrapper1/ARM1/Shifter1/RORD [8];
-wrapper1/ARM1/Shifter1/RORD [9];
-wrapper1/ARM1/Shifter1/RORD [10];
-wrapper1/ARM1/Shifter1/RORD [11];
-wrapper1/ARM1/Shifter1/RORD [12];
-wrapper1/ARM1/Shifter1/RORD [13];
-wrapper1/ARM1/Shifter1/RORD [14];
-wrapper1/ARM1/Shifter1/RORD [15];
-wrapper1/ARM1/Shifter1/RORD [16];
-wrapper1/ARM1/Shifter1/RORD [17];
-wrapper1/ARM1/Shifter1/RORD [18];
-wrapper1/ARM1/Shifter1/RORD [19];
-wrapper1/ARM1/Shifter1/RORD [20];
-wrapper1/ARM1/Shifter1/RORD [21];
-wrapper1/ARM1/Shifter1/RORD [22];
-wrapper1/ARM1/Shifter1/RORD [23];
-wrapper1/ARM1/Shifter1/RORD [24];
-wrapper1/ARM1/Shifter1/RORD [25];
-wrapper1/ARM1/Shifter1/RORD [26];
-wrapper1/ARM1/Shifter1/RORD [27];
-wrapper1/ARM1/Shifter1/RORD [28];
-wrapper1/ARM1/Shifter1/RORD [29];
-wrapper1/ARM1/Shifter1/RORD [30];
-wrapper1/ARM1/Shifter1/RORD [31];
+wrapper1/ARM1/Shifter1/ASR1 [29];
+wrapper1/ARM1/Shifter1/ASR1 [30];
+wrapper1/ARM1/Shifter1/ASR2 [8];
+wrapper1/ARM1/Shifter1/ASR2 [9];
+wrapper1/ARM1/Shifter1/ASR2 [10];
+wrapper1/ARM1/Shifter1/ASR2 [11];
+wrapper1/ARM1/Shifter1/ASR2 [12];
+wrapper1/ARM1/Shifter1/ASR2 [13];
+wrapper1/ARM1/Shifter1/ASR2 [14];
+wrapper1/ARM1/Shifter1/ASR2 [15];
+wrapper1/ARM1/Shifter1/ASR2 [16];
+wrapper1/ARM1/Shifter1/ASR2 [17];
+wrapper1/ARM1/Shifter1/ASR2 [18];
+wrapper1/ARM1/Shifter1/ASR2 [19];
+wrapper1/ARM1/Shifter1/ASR2 [20];
+wrapper1/ARM1/Shifter1/ASR2 [21];
+wrapper1/ARM1/Shifter1/ASR2 [22];
+wrapper1/ARM1/Shifter1/ASR3 [19];
+wrapper1/ARM1/Shifter1/ASR3 [20];
+wrapper1/ARM1/Shifter1/ASR3 [21];
+wrapper1/ARM1/Shifter1/ASR3 [22];
+wrapper1/ARM1/Shifter1/ASR3 [23];
+wrapper1/ARM1/Shifter1/ASR3 [24];
+wrapper1/ARM1/Shifter1/ASR3 [25];
+wrapper1/ARM1/Shifter1/ASR3 [26];
+wrapper1/ARM1/Shifter1/ASR3 [27];
+wrapper1/ARM1/Shifter1/ASR3 [28];
+wrapper1/ARM1/Shifter1/ASR4 [2];
+wrapper1/ARM1/Shifter1/ASR4 [3];
+wrapper1/ARM1/Shifter1/ASR4 [4];
+wrapper1/ARM1/Shifter1/ASR4 [5];
+wrapper1/ARM1/Shifter1/ASR4 [6];
+wrapper1/ARM1/Shifter1/ASR4 [7];
+wrapper1/ARM1/Shifter1/ASR4 [8];
+wrapper1/ARM1/Shifter1/ASR4 [9];
+wrapper1/ARM1/Shifter1/ASR4 [10];
+wrapper1/ARM1/Shifter1/ASR4 [11];
+wrapper1/ARM1/Shifter1/ASR4 [12];
+wrapper1/ARM1/Shifter1/ASR4 [13];
+wrapper1/ARM1/Shifter1/ASR4 [14];
+wrapper1/ARM1/Shifter1/ASR4 [15];
+wrapper1/ARM1/Shifter1/ASR4 [16];
+wrapper1/ARM1/Shifter1/ASR4 [17];
+wrapper1/ARM1/Shifter1/ASR4 [18];
+wrapper1/ARM1/Shifter1/ASR4 [19];
+wrapper1/ARM1/Shifter1/ASR4 [20];
+wrapper1/ARM1/Shifter1/ASR4 [21];
+wrapper1/ARM1/Shifter1/ASR4 [22];
+wrapper1/ARM1/Shifter1/ASR4 [23];
+wrapper1/ARM1/Shifter1/ASR4 [26];
+wrapper1/ARM1/Shifter1/ASR4 [27];
+wrapper1/ARM1/Shifter1/ASR4 [28];
+wrapper1/ARM1/Shifter1/ASR4 [29];
+wrapper1/ARM1/Shifter1/ASR4 [30];
+wrapper1/ARM1/Shifter1/ASR5 [0];
+wrapper1/ARM1/Shifter1/ASR5 [23];
+wrapper1/ARM1/Shifter1/ASR5 [24];
+wrapper1/ARM1/Shifter1/ASR5 [25];
+wrapper1/ARM1/Shifter1/LSL1 [16];
+wrapper1/ARM1/Shifter1/LSL1 [17];
+wrapper1/ARM1/Shifter1/LSL1 [18];
+wrapper1/ARM1/Shifter1/LSL1 [19];
+wrapper1/ARM1/Shifter1/LSL1 [20];
+wrapper1/ARM1/Shifter1/LSL1 [21];
+wrapper1/ARM1/Shifter1/LSL1 [22];
+wrapper1/ARM1/Shifter1/LSL1 [23];
+wrapper1/ARM1/Shifter1/LSL1 [24];
+wrapper1/ARM1/Shifter1/LSL1 [25];
+wrapper1/ARM1/Shifter1/LSL1 [26];
+wrapper1/ARM1/Shifter1/LSL1 [27];
+wrapper1/ARM1/Shifter1/LSL1 [28];
+wrapper1/ARM1/Shifter1/LSL1 [29];
+wrapper1/ARM1/Shifter1/LSL1 [30];
+wrapper1/ARM1/Shifter1/LSL1 [31];
+wrapper1/ARM1/Shifter1/LSL2 [12];
+wrapper1/ARM1/Shifter1/LSL2 [13];
+wrapper1/ARM1/Shifter1/LSL2 [14];
+wrapper1/ARM1/Shifter1/LSL2 [15];
+wrapper1/ARM1/Shifter1/LSL2 [17];
+wrapper1/ARM1/Shifter1/LSL2 [19];
+wrapper1/ARM1/Shifter1/LSL2 [20];
+wrapper1/ARM1/Shifter1/LSL2 [21];
+wrapper1/ARM1/Shifter1/LSL2 [22];
+wrapper1/ARM1/Shifter1/LSL2 [23];
+wrapper1/ARM1/Shifter1/LSL2 [25];
+wrapper1/ARM1/Shifter1/LSL2 [27];
+wrapper1/ARM1/Shifter1/LSL2 [29];
+wrapper1/ARM1/Shifter1/LSL2 [31];
+wrapper1/ARM1/Shifter1/LSL3 [4];
+wrapper1/ARM1/Shifter1/LSL3 [5];
+wrapper1/ARM1/Shifter1/LSL3 [6];
+wrapper1/ARM1/Shifter1/LSL3 [7];
+wrapper1/ARM1/Shifter1/LSL3 [8];
+wrapper1/ARM1/Shifter1/LSL3 [9];
+wrapper1/ARM1/Shifter1/LSL3 [10];
+wrapper1/ARM1/Shifter1/LSL3 [11];
+wrapper1/ARM1/Shifter1/LSL3 [12];
+wrapper1/ARM1/Shifter1/LSL3 [13];
+wrapper1/ARM1/Shifter1/LSL3 [14];
+wrapper1/ARM1/Shifter1/LSL3 [15];
+wrapper1/ARM1/Shifter1/LSL3 [16];
+wrapper1/ARM1/Shifter1/LSL3 [18];
+wrapper1/ARM1/Shifter1/LSL3 [20];
+wrapper1/ARM1/Shifter1/LSL3 [22];
+wrapper1/ARM1/Shifter1/LSL3 [24];
+wrapper1/ARM1/Shifter1/LSL3 [26];
+wrapper1/ARM1/Shifter1/LSL3 [28];
+wrapper1/ARM1/Shifter1/LSL3 [30];
+wrapper1/ARM1/Shifter1/LSL4 [0];
+wrapper1/ARM1/Shifter1/LSL4 [1];
+wrapper1/ARM1/Shifter1/LSL4 [2];
+wrapper1/ARM1/Shifter1/LSL4 [3];
+wrapper1/ARM1/Shifter1/LSL4 [4];
+wrapper1/ARM1/Shifter1/LSL4 [5];
+wrapper1/ARM1/Shifter1/LSL4 [6];
+wrapper1/ARM1/Shifter1/LSL4 [11];
+wrapper1/ARM1/Shifter1/LSL4 [12];
+wrapper1/ARM1/Shifter1/LSL4 [13];
+wrapper1/ARM1/Shifter1/LSL4 [14];
+wrapper1/ARM1/Shifter1/LSL4 [15];
+wrapper1/ARM1/Shifter1/LSL4 [16];
+wrapper1/ARM1/Shifter1/LSL4 [17];
+wrapper1/ARM1/Shifter1/LSL4 [18];
+wrapper1/ARM1/Shifter1/LSL4 [19];
+wrapper1/ARM1/Shifter1/LSL4 [20];
+wrapper1/ARM1/Shifter1/LSL4 [21];
+wrapper1/ARM1/Shifter1/LSL4 [22];
+wrapper1/ARM1/Shifter1/LSL4 [23];
+wrapper1/ARM1/Shifter1/LSL4 [24];
+wrapper1/ARM1/Shifter1/LSL4 [25];
+wrapper1/ARM1/Shifter1/LSL4 [26];
+wrapper1/ARM1/Shifter1/LSL4 [27];
+wrapper1/ARM1/Shifter1/LSL4 [28];
+wrapper1/ARM1/Shifter1/LSL4 [29];
+wrapper1/ARM1/Shifter1/LSL4 [30];
+wrapper1/ARM1/Shifter1/LSL4 [31];
+wrapper1/ARM1/Shifter1/LSR1 [2];
+wrapper1/ARM1/Shifter1/LSR1 [3];
+wrapper1/ARM1/Shifter1/LSR1 [4];
+wrapper1/ARM1/Shifter1/LSR1 [5];
+wrapper1/ARM1/Shifter1/LSR1 [6];
+wrapper1/ARM1/Shifter1/LSR1 [7];
+wrapper1/ARM1/Shifter1/LSR1 [8];
+wrapper1/ARM1/Shifter1/LSR1 [9];
+wrapper1/ARM1/Shifter1/LSR1 [10];
+wrapper1/ARM1/Shifter1/LSR1 [11];
+wrapper1/ARM1/Shifter1/LSR1 [12];
+wrapper1/ARM1/Shifter1/LSR1 [13];
+wrapper1/ARM1/Shifter1/LSR1 [14];
+wrapper1/ARM1/Shifter1/LSR1 [15];
+wrapper1/ARM1/Shifter1/LSR1 [26];
+wrapper1/ARM1/Shifter1/LSR1 [27];
+wrapper1/ARM1/Shifter1/LSR1 [30];
+wrapper1/ARM1/Shifter1/LSR2 [0];
+wrapper1/ARM1/Shifter1/LSR2 [1];
+wrapper1/ARM1/Shifter1/LSR2 [2];
+wrapper1/ARM1/Shifter1/LSR2 [3];
+wrapper1/ARM1/Shifter1/LSR2 [4];
+wrapper1/ARM1/Shifter1/LSR2 [5];
+wrapper1/ARM1/Shifter1/LSR2 [6];
+wrapper1/ARM1/Shifter1/LSR2 [7];
+wrapper1/ARM1/Shifter1/LSR2 [8];
+wrapper1/ARM1/Shifter1/LSR2 [10];
+wrapper1/ARM1/Shifter1/LSR2 [11];
+wrapper1/ARM1/Shifter1/LSR2 [12];
+wrapper1/ARM1/Shifter1/LSR2 [13];
+wrapper1/ARM1/Shifter1/LSR2 [14];
+wrapper1/ARM1/Shifter1/LSR2 [15];
+wrapper1/ARM1/Shifter1/LSR2 [16];
+wrapper1/ARM1/Shifter1/LSR2 [17];
+wrapper1/ARM1/Shifter1/LSR2 [18];
+wrapper1/ARM1/Shifter1/LSR2 [19];
+wrapper1/ARM1/Shifter1/LSR2 [20];
+wrapper1/ARM1/Shifter1/LSR2 [22];
+wrapper1/ARM1/Shifter1/LSR2 [23];
+wrapper1/ARM1/Shifter1/LSR2 [28];
+wrapper1/ARM1/Shifter1/LSR2 [29];
+wrapper1/ARM1/Shifter1/LSR3 [2];
+wrapper1/ARM1/Shifter1/LSR3 [3];
+wrapper1/ARM1/Shifter1/LSR3 [5];
+wrapper1/ARM1/Shifter1/LSR3 [9];
+wrapper1/ARM1/Shifter1/LSR3 [17];
+wrapper1/ARM1/Shifter1/LSR3 [18];
+wrapper1/ARM1/Shifter1/LSR3 [20];
+wrapper1/ARM1/Shifter1/LSR3 [21];
+wrapper1/ARM1/Shifter1/LSR3 [24];
+wrapper1/ARM1/Shifter1/LSR3 [25];
+wrapper1/ARM1/Shifter1/LSR3 [27];
+wrapper1/ARM1/Shifter1/LSR4 [0];
+wrapper1/ARM1/Shifter1/LSR4 [1];
+wrapper1/ARM1/Shifter1/LSR4 [2];
+wrapper1/ARM1/Shifter1/LSR4 [3];
+wrapper1/ARM1/Shifter1/LSR4 [4];
+wrapper1/ARM1/Shifter1/LSR4 [5];
+wrapper1/ARM1/Shifter1/LSR4 [6];
+wrapper1/ARM1/Shifter1/LSR4 [7];
+wrapper1/ARM1/Shifter1/LSR4 [8];
+wrapper1/ARM1/Shifter1/LSR4 [9];
+wrapper1/ARM1/Shifter1/LSR4 [10];
+wrapper1/ARM1/Shifter1/LSR4 [11];
+wrapper1/ARM1/Shifter1/LSR4 [12];
+wrapper1/ARM1/Shifter1/LSR4 [13];
+wrapper1/ARM1/Shifter1/LSR4 [14];
+wrapper1/ARM1/Shifter1/LSR4 [15];
+wrapper1/ARM1/Shifter1/LSR4 [16];
+wrapper1/ARM1/Shifter1/LSR4 [17];
+wrapper1/ARM1/Shifter1/LSR4 [19];
+wrapper1/ARM1/Shifter1/LSR4 [20];
+wrapper1/ARM1/Shifter1/LSR4 [21];
+wrapper1/ARM1/Shifter1/LSR4 [22];
+wrapper1/ARM1/Shifter1/LSR4 [23];
+wrapper1/ARM1/Shifter1/LSR4 [24];
+wrapper1/ARM1/Shifter1/LSR4 [25];
+wrapper1/ARM1/Shifter1/LSR4 [26];
+wrapper1/ARM1/Shifter1/LSR4 [27];
+wrapper1/ARM1/Shifter1/LSR4 [30];
+wrapper1/ARM1/Shifter1/ROR2 [8];
+wrapper1/ARM1/Shifter1/ROR2 [9];
+wrapper1/ARM1/Shifter1/ROR2 [10];
+wrapper1/ARM1/Shifter1/ROR2 [11];
+wrapper1/ARM1/Shifter1/ROR2 [12];
+wrapper1/ARM1/Shifter1/ROR2 [13];
+wrapper1/ARM1/Shifter1/ROR2 [14];
+wrapper1/ARM1/Shifter1/ROR2 [15];
+wrapper1/ARM1/Shifter1/ROR2 [16];
+wrapper1/ARM1/Shifter1/ROR2 [19];
+wrapper1/ARM1/Shifter1/ROR2 [20];
+wrapper1/ARM1/Shifter1/ROR2 [21];
+wrapper1/ARM1/Shifter1/ROR2 [22];
+wrapper1/ARM1/Shifter1/ROR2 [23];
+wrapper1/ARM1/Shifter1/ROR2 [24];
+wrapper1/ARM1/Shifter1/ROR2 [25];
+wrapper1/ARM1/Shifter1/ROR2 [26];
+wrapper1/ARM1/Shifter1/ROR3 [17];
+wrapper1/ARM1/Shifter1/ROR3 [18];
+wrapper1/ARM1/Shifter1/ROR3 [27];
+wrapper1/ARM1/Shifter1/ROR3 [28];
+wrapper1/ARM1/Shifter1/ROR3 [29];
+wrapper1/ARM1/Shifter1/ROR3 [30];
+wrapper1/ARM1/Shifter1/ROR3 [31];
+wrapper1/ARM1/Shifter1/ROR4 [0];
+wrapper1/ARM1/Shifter1/ROR4 [1];
+wrapper1/ARM1/Shifter1/ROR4 [2];
+wrapper1/ARM1/Shifter1/ROR4 [3];
+wrapper1/ARM1/Shifter1/ROR4 [4];
+wrapper1/ARM1/Shifter1/ROR4 [5];
+wrapper1/ARM1/Shifter1/ROR4 [6];
+wrapper1/ARM1/Shifter1/ROR4 [7];
+wrapper1/ARM1/Shifter1/ROR4 [8];
+wrapper1/ARM1/Shifter1/ROR4 [9];
+wrapper1/ARM1/Shifter1/ROR4 [10];
+wrapper1/ARM1/Shifter1/ROR4 [11];
+wrapper1/ARM1/Shifter1/ROR4 [12];
+wrapper1/ARM1/Shifter1/ROR4 [13];
+wrapper1/ARM1/Shifter1/ROR4 [14];
+wrapper1/ARM1/Shifter1/ROR4 [15];
+wrapper1/ARM1/Shifter1/ROR4 [16];
+wrapper1/ARM1/Shifter1/ROR4 [19];
+wrapper1/ARM1/Shifter1/ROR4 [20];
+wrapper1/ARM1/Shifter1/ROR4 [21];
+wrapper1/ARM1/Shifter1/ROR4 [22];
+wrapper1/ARM1/Shifter1/ROR4 [23];
+wrapper1/ARM1/Shifter1/ROR4 [24];
+wrapper1/ARM1/Shifter1/ROR4 [25];
+wrapper1/ARM1/Shifter1/ROR4 [26];
+wrapper1/ARM1/Shifter1/ROR4 [30];
+wrapper1/ARM1/Shifter1/ROR4 [31];
 wrapper1/ARM1/Src_A [0];
 wrapper1/ARM1/Src_A [1];
 wrapper1/ARM1/Src_A [2];
@@ -17261,6 +18016,7 @@ wrapper1/ARM1/u_RegisterFile/N6 [31];
 wrapper1/Instr [5];
 wrapper1/Instr [6];
 wrapper1/Instr [7];
+wrapper1/Instr [8];
 wrapper1/Instr [9];
 wrapper1/Instr [10];
 wrapper1/Instr [11];
@@ -17417,6 +18173,32 @@ _GND49;
 _GND50;
 _GND51;
 _GND52;
+_GND53;
+_GND54;
+_GND55;
+_GND56;
+_GND57;
+_GND58;
+_GND59;
+_GND60;
+_GND61;
+_GND62;
+_GND63;
+_GND64;
+_GND65;
+_GND66;
+_GND67;
+_GND68;
+_GND69;
+_GND70;
+_GND71;
+_GND72;
+_GND73;
+_GND74;
+_GND75;
+_GND76;
+_GND77;
+_GND78;
 _VCC0;
 _VCC1;
 _VCC2;
@@ -17479,7 +18261,18 @@ _VCC58;
 _VCC59;
 _VCC60;
 _VCC61;
+_VCC62;
+_VCC63;
+_VCC64;
+_VCC65;
+_VCC66;
+_VCC67;
+_VCC68;
+_VCC69;
+_VCC70;
+_VCC71;
 _N0;
+_N1;
 
 Clock
 TOP|CLK_undiv;1000

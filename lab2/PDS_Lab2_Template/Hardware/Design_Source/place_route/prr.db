@@ -2931,48 +2931,48 @@
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>196</data>
+            <data>207</data>
             <data>6575</data>
-            <data>3</data>
+            <data>4</data>
             <row>
                 <data>  FF</data>
-                <data>52</data>
+                <data>78</data>
                 <data>52600</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>635</data>
+                <data>680</data>
                 <data>26300</data>
                 <data>3</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>31</data>
+                <data>48</data>
                 <data>26300</data>
                 <data>1</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>68</data>
+            <data>75</data>
             <data>2375</data>
-            <data>3</data>
+            <data>4</data>
             <row>
                 <data>  FF</data>
-                <data>40</data>
+                <data>14</data>
                 <data>19000</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>226</data>
+                <data>251</data>
                 <data>9500</data>
                 <data>3</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>30</data>
+                <data>13</data>
                 <data>9500</data>
                 <data>1</data>
             </row>
@@ -3027,15 +3027,15 @@
         </row>
         <row>
             <data>Use of HARD0</data>
-            <data>63</data>
+            <data>74</data>
             <data>5850</data>
             <data>2</data>
         </row>
         <row>
             <data>Use of HCKB</data>
-            <data>1</data>
-            <data>72</data>
             <data>2</data>
+            <data>72</data>
+            <data>3</data>
         </row>
         <row>
             <data>Use of HCKMUX_TEST</data>
@@ -3236,7 +3236,7 @@
         </column_headers>
         <row>
             <data>TOP</data>
-            <data>812</data>
+            <data>856</data>
             <data>92</data>
             <data>108</data>
             <data>0</data>
@@ -3248,7 +3248,7 @@
             <data>0</data>
             <data>0</data>
             <data>0</data>
-            <data>1</data>
+            <data>2</data>
             <data>0</data>
             <data>42</data>
             <data>0</data>
@@ -3262,7 +3262,7 @@
             <data>1</data>
             <row>
                 <data>wrapper1</data>
-                <data>735</data>
+                <data>777</data>
                 <data>41</data>
                 <data>108</data>
                 <data>0</data>
@@ -3288,7 +3288,7 @@
                 <data>0</data>
                 <row>
                     <data>ARM1</data>
-                    <data>619</data>
+                    <data>663</data>
                     <data>33</data>
                     <data>44</data>
                     <data>0</data>
@@ -3314,7 +3314,7 @@
                     <data>0</data>
                     <row>
                         <data>ALU1</data>
-                        <data>105</data>
+                        <data>106</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -3368,7 +3368,7 @@
                     </row>
                     <row>
                         <data>Shifter1</data>
-                        <data>189</data>
+                        <data>238</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -3395,7 +3395,7 @@
                     </row>
                     <row>
                         <data>u_Control</data>
-                        <data>17</data>
+                        <data>16</data>
                         <data>1</data>
                         <data>0</data>
                         <data>0</data>
@@ -3421,7 +3421,7 @@
                         <data>0</data>
                         <row>
                             <data>CondLogic1</data>
-                            <data>5</data>
+                            <data>4</data>
                             <data>1</data>
                             <data>0</data>
                             <data>0</data>
@@ -3543,10 +3543,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:13s</data>
-            <data>0h:0m:16s</data>
-            <data>0h:0m:38s</data>
-            <data>923</data>
+            <data>0h:0m:19s</data>
+            <data>0h:0m:22s</data>
+            <data>0h:0m:39s</data>
+            <data>927</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -3579,16 +3579,16 @@
             <data message="4">Column Clock Check open.</data>
         </row>
         <row>
-            <data message="4">LUT6D pack result: There are 464 LUT6 in collection, pack success:11</data>
+            <data message="4">LUT6D pack result: There are 497 LUT6 in collection, pack success:10</data>
         </row>
         <row>
-            <data message="4">LUT6D pack result: There are 442 LUT6 in collection, pack success:0</data>
+            <data message="4">LUT6D pack result: There are 477 LUT6 in collection, pack success:0</data>
         </row>
         <row>
             <data message="4">clock_dedicated_route = 0</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from CLMS_279_409:Q3 to CLMS_207_337:CLK is routed by SRB.</data>
+            <data message="6">Route-2036: The clock path from CLMA_279_324:Q3 to CLMS_207_397:CLK is routed by SRB.</data>
         </row>
     </table>
     <general_container id="pnr_settings">
