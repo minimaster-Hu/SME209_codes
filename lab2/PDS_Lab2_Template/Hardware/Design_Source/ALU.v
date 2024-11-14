@@ -19,11 +19,12 @@ module ALU(
     assign A_and_B = Src_A & Src_B;
     assign A_or_B  = Src_A | Src_B;
 
+    //control[1:0] 00:加法 01:减法 10:与 11：或
     assign ALUResult = ALUControl[1]? (ALUControl[0]? A_or_B: A_and_B): Sum;
 
     assign N = ALUResult[31];
     assign Z = ALUResult == 32'b0;
-    assign C = Cout & ~ALUControl[1];
+    assign C = Cout & (~ALUControl[1]);
     assign V = ~(Src_A[31]^Src_B[31]^ALUControl[0]) & (Src_A[31]^Sum[31]) & ~ALUControl[1]; 
 
     endmodule

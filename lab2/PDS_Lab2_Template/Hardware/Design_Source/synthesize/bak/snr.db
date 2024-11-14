@@ -52,7 +52,7 @@
             <data>42</data>
             <data>0</data>
             <data>0</data>
-            <data>131</data>
+            <data>162</data>
             <data>0</data>
             <data>15</data>
             <data>0</data>
@@ -82,7 +82,7 @@
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
-                <data>91</data>
+                <data>122</data>
                 <data>0</data>
                 <data>15</data>
                 <data>0</data>
@@ -94,7 +94,7 @@
                 <data>0</data>
                 <row>
                     <data>ARM1</data>
-                    <data>667</data>
+                    <data>668</data>
                     <data>33</data>
                     <data>44</data>
                     <data>0</data>
@@ -112,7 +112,7 @@
                     <data>0</data>
                     <data>0</data>
                     <data>0</data>
-                    <data>91</data>
+                    <data>122</data>
                     <data>0</data>
                     <data>15</data>
                     <data>0</data>
@@ -124,7 +124,7 @@
                     <data>0</data>
                     <row>
                         <data>ALU1</data>
-                        <data>111</data>
+                        <data>109</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -142,7 +142,7 @@
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
-                        <data>33</data>
+                        <data>64</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -186,7 +186,7 @@
                     </row>
                     <row>
                         <data>Shifter1</data>
-                        <data>238</data>
+                        <data>239</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -217,7 +217,7 @@
                     </row>
                     <row>
                         <data>u_Control</data>
-                        <data>15</data>
+                        <data>17</data>
                         <data>1</data>
                         <data>0</data>
                         <data>0</data>
@@ -247,7 +247,7 @@
                         <data>0</data>
                         <row>
                             <data>CondLogic1</data>
-                            <data>3</data>
+                            <data>5</data>
                             <data>1</data>
                             <data>0</data>
                             <data>0</data>
@@ -1375,7 +1375,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N1813</data>
+                            <data object_valid="true">_N1781</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1423,7 +1423,7 @@
                             <data>0.000</data>
                             <data>5.433</data>
                             <data> </data>
-                            <data object_valid="true">_N426</data>
+                            <data object_valid="true">_N458</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1677,7 +1677,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N1813</data>
+                            <data object_valid="true">_N1781</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1955,7 +1955,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N1813</data>
+                            <data object_valid="true">_N1781</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2843,31 +2843,31 @@ Total I/O ports = 42 of 209 (20.10%)
         </row>
         <row>
             <data>GTP_LUT2                    </data>
-            <data>13</data>
+            <data>12</data>
         </row>
         <row>
             <data>GTP_LUT3                     </data>
-            <data>3</data>
+            <data>5</data>
         </row>
         <row>
             <data>GTP_LUT4                    </data>
-            <data>42</data>
+            <data>11</data>
         </row>
         <row>
             <data>GTP_LUT5                   </data>
-            <data>131</data>
+            <data>162</data>
         </row>
         <row>
             <data>GTP_LUT6                   </data>
-            <data>295</data>
+            <data>262</data>
         </row>
         <row>
             <data>GTP_LUT6CARRY              </data>
-            <data>131</data>
+            <data>162</data>
         </row>
         <row>
             <data>GTP_LUT6D                  </data>
-            <data>100</data>
+            <data>101</data>
         </row>
         <row>
             <data>GTP_MUX2LUT7                </data>
@@ -2915,10 +2915,10 @@ Total I/O ports = 42 of 209 (20.10%)
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:7s</data>
-            <data>0h:0m:7s</data>
+            <data>0h:0m:5s</data>
+            <data>0h:0m:5s</data>
             <data>0h:0m:13s</data>
-            <data>300</data>
+            <data>301</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>

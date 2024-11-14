@@ -27,21 +27,21 @@ module Decoder(
     always @(*) begin
         casex({op,Funct[5],Funct[3],Funct[0]})
             // DP reg
-            5'b000xx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0000xx10011; 
+            5'b00_0xx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0000_xx100_11; 
             // DP imm
-            5'b001xx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0001001x011;
+            5'b00_1xx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0001_001x0_11;
             // STR posImm
-            5'b01x10: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0x110101000;
+            5'b01_x10: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0x11_01010_00;
             // STR negImm
-            5'b01x00: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0x110101001;
+            5'b01_x00: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0x11_01010_01;
             // LDR posImm
-            5'b01x11: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0101011x000;
+            5'b01_x11: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0101_011x0_00;
             // LDR negImm
-            5'b01x01: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0101011x001;
+            5'b01_x01: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0101_011x0_01;
             // Branch
-            5'b10xxx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b1001100x100;
+            5'b10_xxx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b1001_100x1_00;
 
-            default:  {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b00000000000;
+            default:  {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp} = 11'b0000_00000_00;
         endcase
     end
 
@@ -49,21 +49,21 @@ module Decoder(
     always @(*) begin
         casex({ALUOp[1:0],Funct[4:0]})
             // Not DP
-            7'b00xxxxx: {ALUControl,FlagW,NoWrite} = 5'b00000;
-            7'b01xxxxx: {ALUControl,FlagW,NoWrite} = 5'b01000; 
+            7'b00xxxxx: {ALUControl,FlagW,NoWrite} = 5'b00_00_0;
+            7'b01xxxxx: {ALUControl,FlagW,NoWrite} = 5'b01_00_0; 
             // DP
-            7'b1101000: {ALUControl,FlagW,NoWrite} = 5'b00000;
-            7'b1101001: {ALUControl,FlagW,NoWrite} = 5'b00110;
-            7'b1100100: {ALUControl,FlagW,NoWrite} = 5'b01000;
-            7'b1100101: {ALUControl,FlagW,NoWrite} = 5'b01110;
-            7'b1100000: {ALUControl,FlagW,NoWrite} = 5'b10000;
-            7'b1100001: {ALUControl,FlagW,NoWrite} = 5'b10100;
-            7'b1111000: {ALUControl,FlagW,NoWrite} = 5'b11000;
-            7'b1111001: {ALUControl,FlagW,NoWrite} = 5'b11100;
+            7'b1101000: {ALUControl,FlagW,NoWrite} = 5'b00_00_0;
+            7'b1101001: {ALUControl,FlagW,NoWrite} = 5'b00_11_0;
+            7'b1100100: {ALUControl,FlagW,NoWrite} = 5'b01_00_0;
+            7'b1100101: {ALUControl,FlagW,NoWrite} = 5'b01_11_0;
+            7'b1100000: {ALUControl,FlagW,NoWrite} = 5'b10_00_0;
+            7'b1100001: {ALUControl,FlagW,NoWrite} = 5'b10_10_0;
+            7'b1111000: {ALUControl,FlagW,NoWrite} = 5'b11_00_0;
+            7'b1111001: {ALUControl,FlagW,NoWrite} = 5'b11_10_0;
             // CMP/CMN
-            7'b1110101: {ALUControl,FlagW,NoWrite} = 5'b01111;
-            7'b1110111: {ALUControl,FlagW,NoWrite} = 5'b00111;
-            default:    {ALUControl,FlagW,NoWrite} = 5'b00000;
+            7'b1110101: {ALUControl,FlagW,NoWrite} = 5'b01_11_1;
+            7'b1110111: {ALUControl,FlagW,NoWrite} = 5'b00_11_1;
+            default:    {ALUControl,FlagW,NoWrite} = 5'b00_00_0;
         endcase
     end
 

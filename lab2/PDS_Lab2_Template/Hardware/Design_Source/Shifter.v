@@ -14,7 +14,6 @@ module Shifter(
     
     assign LSL1 = Shamt5[4] ? {ShIn[15:0],{16{1'b0}}} : ShIn;
     assign LSL2 = Shamt5[3] ? {LSL1[23:0],{8{1'b0}}} : LSL1;
-    //11abcdef----cdef0000----ef000000----f0000000
     assign LSL3 = Shamt5[2] ? {LSL2[27:0],{4{1'b0}}} : LSL2;
     assign LSL4 = Shamt5[1] ? {LSL3[29:0],{2{1'b0}}} : LSL3;
     assign LSL5 = Shamt5[0] ? {LSL4[30:0],{1{1'b0}}} : LSL4;

@@ -1,20 +1,21 @@
+//控制flag变化
 module CondLogic(
     input CLK,
-    input PCS,
-    input RegW,
-    input MemW,
-    input [1:0] FlagW,
-    input [3:0] Cond,
-    input [3:0] ALUFlags,
+    input PCS,//程序计数器源
+    input RegW,//寄存器写入使能
+    input MemW,//内存写入使能
+    input [1:0] FlagW,//标志位写入控制,高位表示ALUFlags saved
+    input [3:0] Cond,//条件码
+    input [3:0] ALUFlags,//ALU标志位
     input NoWrite,
-    
-    output PCSrc,
-    output RegWrite,
-    output MemWrite
+    output PCSrc,//程序计数器源选择
+    output RegWrite,//寄存器写入信号
+    output MemWrite//内存写入信号
     ); 
     
-    reg CondEx ;
+    reg CondEx ;//执行条件
     reg N = 0, Z = 0, C = 0, V = 0 ;
+    //标志位寄存器更新
     always@(posedge CLK)begin
         if(FlagW[1] & CondEx)begin
             {N,Z} <= ALUFlags[3:2];
@@ -49,11 +50,12 @@ module CondLogic(
             4'b1011: CondEx = N ^ V;
             4'b1100: CondEx = ~Z & ~(N ^ V);
             4'b1101: CondEx = Z | (N ^ V);
-            4'b1110: CondEx = 1;
-            default: CondEx = 0;
+            4'b1110: CondEx = 1'b1;
+            default: CondEx = 1'b0;
         endcase
     end
 
+    //输出
     assign PCSrc = PCS & CondEx;
     assign RegWrite = RegW & CondEx & ~NoWrite;
     assign MemWrite = MemW & CondEx;

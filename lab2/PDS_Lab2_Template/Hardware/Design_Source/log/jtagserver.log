@@ -1964,3 +1964,153 @@
 [Debug] [2024-11-11 16:58:43] progress bar is 100
 [Debug] [2024-11-11 16:58:43] the value in the status register is :2096288
 [Debug] [2024-11-11 16:58:43] cmd operation Program releases locker
+[Info] [2024-11-14 19:01:14] /***************************Start jtagserver***************************/
+[Info] [2024-11-14 19:01:14] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-14 19:01:14] Version: 99559
+[Debug] [2024-11-14 19:01:16] Add a new user_thread, socket descriptor is 1228 user_thread id is 0000000000001950
+[Debug] [2024-11-14 19:01:16] After adding, map size is : 1
+[Debug] [2024-11-14 19:01:16] Add a new user_thread, socket descriptor is 1244 user_thread id is 0000000000001950
+[Debug] [2024-11-14 19:01:16] After adding, map size is : 2
+[Debug] [2024-11-14 19:01:16] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-11-14 19:01:16] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-11-14 19:01:16] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:01:16] _total_bytes_size : 146
+[Debug] [2024-11-14 19:01:16] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:01:16] _total_bytes_size : 96
+[Debug] [2024-11-14 19:01:16] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-11-14 19:01:18] cmd operation get_cable_paras releases locker
+[Debug] [2024-11-14 19:01:18] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:01:18] _total_bytes_size : 101
+[Debug] [2024-11-14 19:01:18] cmd id :20001cmd name : Open config cable
+[Error] [2024-11-14 19:01:18] Hardware handler is invalid
+[Debug] [2024-11-14 19:01:18] cmd operation Open config cable releases locker
+[Info] [2024-11-14 19:01:29] /***************************Start jtagserver***************************/
+[Info] [2024-11-14 19:01:29] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-14 19:01:29] Version: 99559
+[Debug] [2024-11-14 19:01:30] Add a new user_thread, socket descriptor is 1060 user_thread id is 0000000000000728
+[Debug] [2024-11-14 19:01:30] After adding, map size is : 1
+[Debug] [2024-11-14 19:01:30] Add a new user_thread, socket descriptor is 1068 user_thread id is 0000000000000728
+[Debug] [2024-11-14 19:01:30] After adding, map size is : 2
+[Debug] [2024-11-14 19:01:30] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-11-14 19:01:30] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-11-14 19:01:30] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:01:30] _total_bytes_size : 146
+[Debug] [2024-11-14 19:01:30] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:01:30] _total_bytes_size : 96
+[Debug] [2024-11-14 19:01:30] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-11-14 19:01:31] cmd operation get_cable_paras releases locker
+[Debug] [2024-11-14 19:01:31] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:01:31] _total_bytes_size : 101
+[Debug] [2024-11-14 19:01:31] cmd id :20001cmd name : Open config cable
+[Debug] [2024-11-14 19:01:31] the idcode from the scanning is: 0x601899
+[Debug] [2024-11-14 19:01:31] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:01:31] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:01:31] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:01:31] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:01:31] cmd operation Open config cable releases locker
+[Debug] [2024-11-14 19:01:34] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:01:34] _total_bytes_size : 308
+[Debug] [2024-11-14 19:01:34] cmd id :4e22cmd name : Program
+[Debug] [2024-11-14 19:01:34] the idcode from the scanning is: 0x601899
+[Debug] [2024-11-14 19:01:34] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:01:34] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:01:34] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:01:34] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:01:34] begin to read back config registerregAddr is 4
+[Debug] [2024-11-14 19:01:34] progress bar is 6
+[Debug] [2024-11-14 19:01:35] progress bar is 10
+[Debug] [2024-11-14 19:01:35] progress bar is 15
+[Debug] [2024-11-14 19:01:35] progress bar is 20
+[Debug] [2024-11-14 19:01:35] progress bar is 25
+[Debug] [2024-11-14 19:01:35] progress bar is 30
+[Debug] [2024-11-14 19:01:35] progress bar is 35
+[Debug] [2024-11-14 19:01:35] progress bar is 40
+[Debug] [2024-11-14 19:01:35] progress bar is 45
+[Debug] [2024-11-14 19:01:35] progress bar is 50
+[Debug] [2024-11-14 19:01:35] progress bar is 55
+[Debug] [2024-11-14 19:01:35] progress bar is 60
+[Debug] [2024-11-14 19:01:36] progress bar is 65
+[Debug] [2024-11-14 19:01:36] progress bar is 70
+[Debug] [2024-11-14 19:01:36] progress bar is 75
+[Debug] [2024-11-14 19:01:36] progress bar is 80
+[Debug] [2024-11-14 19:01:36] progress bar is 85
+[Debug] [2024-11-14 19:01:36] progress bar is 90
+[Debug] [2024-11-14 19:01:36] progress bar is 95
+[Debug] [2024-11-14 19:01:36] progress bar is 100
+[Debug] [2024-11-14 19:01:36] the value in the status register is :2096288
+[Debug] [2024-11-14 19:01:36] cmd operation Program releases locker
+[Info] [2024-11-14 19:05:38] /***************************Start jtagserver***************************/
+[Info] [2024-11-14 19:05:38] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-14 19:05:38] Version: 99559
+[Debug] [2024-11-14 19:05:40] Add a new user_thread, socket descriptor is 1328 user_thread id is 00000000000006D4
+[Debug] [2024-11-14 19:05:40] After adding, map size is : 1
+[Debug] [2024-11-14 19:05:40] Add a new user_thread, socket descriptor is 1336 user_thread id is 00000000000006D4
+[Debug] [2024-11-14 19:05:40] After adding, map size is : 2
+[Debug] [2024-11-14 19:05:40] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-11-14 19:05:40] IP address of connecting client is : ::ffff:127.0.0.1IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-11-14 19:05:40] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:05:40] _total_bytes_size : 146
+[Debug] [2024-11-14 19:05:40] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:05:40] _total_bytes_size : 96
+[Debug] [2024-11-14 19:05:40] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-11-14 19:05:42] cmd operation get_cable_paras releases locker
+[Debug] [2024-11-14 19:05:42] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:05:42] _total_bytes_size : 101
+[Debug] [2024-11-14 19:05:42] cmd id :20001cmd name : Open config cable
+[Error] [2024-11-14 19:05:42] Hardware handler is invalid
+[Debug] [2024-11-14 19:05:42] cmd operation Open config cable releases locker
+[Info] [2024-11-14 19:05:49] /***************************Start jtagserver***************************/
+[Info] [2024-11-14 19:05:49] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-14 19:05:49] Version: 99559
+[Debug] [2024-11-14 19:05:50] Add a new user_thread, socket descriptor is 1204 user_thread id is 0000000000001D14
+[Debug] [2024-11-14 19:05:50] After adding, map size is : 1
+[Debug] [2024-11-14 19:05:50] Add a new user_thread, socket descriptor is 1076 user_thread id is 0000000000001D14
+[Debug] [2024-11-14 19:05:50] After adding, map size is : 2
+[Debug] [2024-11-14 19:05:50] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-11-14 19:05:50] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-11-14 19:05:50] IP address of connecting client is : ::ffff:127.0.0.1Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:05:50] _total_bytes_size : 146
+[Debug] [2024-11-14 19:05:50] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:05:50] _total_bytes_size : 96
+[Debug] [2024-11-14 19:05:50] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-11-14 19:05:52] cmd operation get_cable_paras releases locker
+[Debug] [2024-11-14 19:05:52] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:05:52] _total_bytes_size : 101
+[Debug] [2024-11-14 19:05:52] cmd id :20001cmd name : Open config cable
+[Debug] [2024-11-14 19:05:52] the idcode from the scanning is: 0x601899
+[Debug] [2024-11-14 19:05:52] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:05:52] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:05:52] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:05:52] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:05:52] cmd operation Open config cable releases locker
+[Debug] [2024-11-14 19:05:54] Remove the header data from the client, index : 0
+[Debug] [2024-11-14 19:05:54] _total_bytes_size : 308
+[Debug] [2024-11-14 19:05:54] cmd id :4e22cmd name : Program
+[Debug] [2024-11-14 19:05:54] the idcode from the scanning is: 0x601899
+[Debug] [2024-11-14 19:05:54] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:05:54] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:05:54] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:05:54] the idcode from the scanning is: 0x0
+[Debug] [2024-11-14 19:05:54] begin to read back config registerregAddr is 4
+[Debug] [2024-11-14 19:05:55] progress bar is 6
+[Debug] [2024-11-14 19:05:55] progress bar is 10
+[Debug] [2024-11-14 19:05:55] progress bar is 15
+[Debug] [2024-11-14 19:05:55] progress bar is 20
+[Debug] [2024-11-14 19:05:55] progress bar is 25
+[Debug] [2024-11-14 19:05:55] progress bar is 30
+[Debug] [2024-11-14 19:05:55] progress bar is 35
+[Debug] [2024-11-14 19:05:55] progress bar is 40
+[Debug] [2024-11-14 19:05:55] progress bar is 45
+[Debug] [2024-11-14 19:05:55] progress bar is 50
+[Debug] [2024-11-14 19:05:55] progress bar is 55
+[Debug] [2024-11-14 19:05:55] progress bar is 60
+[Debug] [2024-11-14 19:05:56] progress bar is 65
+[Debug] [2024-11-14 19:05:56] progress bar is 70
+[Debug] [2024-11-14 19:05:56] progress bar is 75
+[Debug] [2024-11-14 19:05:56] progress bar is 80
+[Debug] [2024-11-14 19:05:56] progress bar is 85
+[Debug] [2024-11-14 19:05:56] progress bar is 90
+[Debug] [2024-11-14 19:05:56] progress bar is 95
+[Debug] [2024-11-14 19:05:56] progress bar is 100
+[Debug] [2024-11-14 19:05:56] the value in the status register is :2096288
+[Debug] [2024-11-14 19:05:56] cmd operation Program releases locker
