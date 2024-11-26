@@ -70,7 +70,7 @@ module tb_MCycle();
     $finish;
   join
 
-  MCycle #(.width(width)) MCycle1(
+  MCycle #(.width(width)) MCycle_u(
     CLK,
     RESET,
     Start,
