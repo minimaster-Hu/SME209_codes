@@ -153,3 +153,696 @@
 [Debug] [2024-11-26 19:32:10] COMMAND[Program] execute successfully, takes 2.0 secs.
 [Debug] [2024-11-26 19:32:10] End to send programming cmd.
 [Info] [2024-11-26 19:32:45] /***************************End Configration***************************/
+[Info] [2024-11-26 20:00:26] /***************************Start Configuration***************************/
+[Info] [2024-11-26 20:00:26] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 20:00:26] Version: 99559
+[Info] [2024-11-26 20:00:27] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:00:27] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:00:30] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 20:00:30] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 20:00:30] Client Local Address:10.13.216.131
+[Debug] [2024-11-26 20:00:30] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 20:00:30] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 20:00:30] Finish.
+[Info] [2024-11-26 20:00:30] Connect server succeeded
+[Debug] [2024-11-26 20:00:30] Send RPC:1
+[Debug] [2024-11-26 20:00:30] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 20:00:31] Send RPC:2
+[Debug] [2024-11-26 20:00:31] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 20:00:31] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 20:00:31] Send RPC:3
+[Debug] [2024-11-26 20:00:31] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 20:00:31] End to send initialize chain cmd.
+[Debug] [2024-11-26 20:00:31] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2024-11-26 20:00:32] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2024-11-26 20:00:32] begin the exec of open cable cmd...
+[Debug] [2024-11-26 20:00:32] Begin to deal with chain from server...
+[Debug] [2024-11-26 20:00:32] Begin to set user chain...
+[Debug] [2024-11-26 20:00:32] End to set user chain.
+[Debug] [2024-11-26 20:00:32] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 20:00:32] End to update graphic item and tree item ...
+[Info] [2024-11-26 20:00:33] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-26 20:00:33] begin to get device info from CFG file...
+[Debug] [2024-11-26 20:00:33] end to get device info from CFG file...
+[Debug] [2024-11-26 20:00:33] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 20:00:33] End to update graphic item and tree item ...
+[Debug] [2024-11-26 20:00:33] End to deal wiht chain from server.
+[Debug] [2024-11-26 20:00:33] end the exec of open cable cmd.
+[Debug] [2024-11-26 20:00:33] COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2024-11-26 20:00:36] Begin to send programming cmd...
+[Debug] [2024-11-26 20:00:36] Send RPC:4
+[Debug] [2024-11-26 20:00:36] Begin to send program data.
+[Debug] [2024-11-26 20:00:36] End to send program data.
+[Debug] [2024-11-26 20:00:36] Send cmd [Program:20002] OK
+[Debug] [2024-11-26 20:00:36] The value of Progress is 6
+[Debug] [2024-11-26 20:00:36] The value of Progress is 10
+[Debug] [2024-11-26 20:00:36] The value of Progress is 15
+[Debug] [2024-11-26 20:00:36] The value of Progress is 20
+[Debug] [2024-11-26 20:00:36] The value of Progress is 25
+[Debug] [2024-11-26 20:00:36] The value of Progress is 30
+[Debug] [2024-11-26 20:00:37] The value of Progress is 35
+[Debug] [2024-11-26 20:00:37] The value of Progress is 40
+[Debug] [2024-11-26 20:00:37] The value of Progress is 45
+[Debug] [2024-11-26 20:00:37] The value of Progress is 50
+[Debug] [2024-11-26 20:00:37] The value of Progress is 55
+[Debug] [2024-11-26 20:00:37] The value of Progress is 60
+[Debug] [2024-11-26 20:00:37] The value of Progress is 65
+[Debug] [2024-11-26 20:00:37] The value of Progress is 70
+[Debug] [2024-11-26 20:00:37] The value of Progress is 75
+[Debug] [2024-11-26 20:00:37] The value of Progress is 80
+[Debug] [2024-11-26 20:00:37] The value of Progress is 85
+[Debug] [2024-11-26 20:00:37] The value of Progress is 90
+[Debug] [2024-11-26 20:00:38] The value of Progress is 95
+[Debug] [2024-11-26 20:00:38] The value of Progress is 100
+[Debug] [2024-11-26 20:00:38] COMMAND[Program] execute successfully, takes 2.3 secs.
+[Debug] [2024-11-26 20:00:38] End to send programming cmd.
+[Info] [2024-11-26 20:01:30] /***************************End Configration***************************/
+[Info] [2024-11-26 20:21:35] /***************************Start Configuration***************************/
+[Info] [2024-11-26 20:21:35] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 20:21:35] Version: 99559
+[Info] [2024-11-26 20:21:36] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:21:36] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:21:40] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 20:21:40] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 20:21:40] Client Local Address:10.13.216.131
+[Debug] [2024-11-26 20:21:40] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 20:21:41] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 20:21:41] Finish.
+[Info] [2024-11-26 20:21:41] Connect server succeeded
+[Debug] [2024-11-26 20:21:41] Send RPC:1
+[Debug] [2024-11-26 20:21:41] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 20:21:41] Send RPC:2
+[Debug] [2024-11-26 20:21:41] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 20:21:41] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 20:21:41] Send RPC:3
+[Debug] [2024-11-26 20:21:41] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 20:21:41] End to send initialize chain cmd.
+[Debug] [2024-11-26 20:21:41] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2024-11-26 20:21:43] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2024-11-26 20:21:43] begin the exec of open cable cmd...
+[Debug] [2024-11-26 20:21:43] Begin to deal with chain from server...
+[Debug] [2024-11-26 20:21:43] Begin to set user chain...
+[Debug] [2024-11-26 20:21:43] End to set user chain.
+[Debug] [2024-11-26 20:21:43] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 20:21:43] End to update graphic item and tree item ...
+[Info] [2024-11-26 20:21:55] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-26 20:21:55] begin to get device info from CFG file...
+[Debug] [2024-11-26 20:21:55] end to get device info from CFG file...
+[Debug] [2024-11-26 20:21:55] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 20:21:55] End to update graphic item and tree item ...
+[Debug] [2024-11-26 20:21:55] End to deal wiht chain from server.
+[Debug] [2024-11-26 20:21:55] end the exec of open cable cmd.
+[Debug] [2024-11-26 20:21:55] COMMAND[Open config cable] execute successfully, takes 13.6 secs.
+[Debug] [2024-11-26 20:21:57] Begin to send programming cmd...
+[Debug] [2024-11-26 20:21:57] Send RPC:4
+[Debug] [2024-11-26 20:21:57] Begin to send program data.
+[Debug] [2024-11-26 20:21:57] End to send program data.
+[Debug] [2024-11-26 20:21:57] Send cmd [Program:20002] OK
+[Debug] [2024-11-26 20:21:58] The value of Progress is 6
+[Debug] [2024-11-26 20:21:58] The value of Progress is 10
+[Debug] [2024-11-26 20:21:58] The value of Progress is 15
+[Debug] [2024-11-26 20:21:58] The value of Progress is 20
+[Debug] [2024-11-26 20:21:58] The value of Progress is 25
+[Debug] [2024-11-26 20:21:58] The value of Progress is 30
+[Debug] [2024-11-26 20:21:58] The value of Progress is 35
+[Debug] [2024-11-26 20:21:58] The value of Progress is 40
+[Debug] [2024-11-26 20:21:58] The value of Progress is 45
+[Debug] [2024-11-26 20:21:58] The value of Progress is 50
+[Debug] [2024-11-26 20:21:58] The value of Progress is 55
+[Debug] [2024-11-26 20:21:59] The value of Progress is 60
+[Debug] [2024-11-26 20:21:59] The value of Progress is 65
+[Debug] [2024-11-26 20:21:59] The value of Progress is 70
+[Debug] [2024-11-26 20:21:59] The value of Progress is 75
+[Debug] [2024-11-26 20:21:59] The value of Progress is 80
+[Debug] [2024-11-26 20:21:59] The value of Progress is 85
+[Debug] [2024-11-26 20:21:59] The value of Progress is 90
+[Debug] [2024-11-26 20:21:59] The value of Progress is 95
+[Debug] [2024-11-26 20:21:59] The value of Progress is 100
+[Debug] [2024-11-26 20:22:00] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2024-11-26 20:22:00] End to send programming cmd.
+[Info] [2024-11-26 20:23:12] /***************************End Configration***************************/
+[Info] [2024-11-26 20:46:11] /***************************Start Configuration***************************/
+[Info] [2024-11-26 20:46:11] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 20:46:11] Version: 99559
+[Info] [2024-11-26 20:46:12] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:46:12] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:46:14] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 20:46:14] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 20:46:14] Client Local Address:10.13.216.131
+[Debug] [2024-11-26 20:46:14] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 20:46:15] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 20:46:15] Finish.
+[Info] [2024-11-26 20:46:15] Connect server succeeded
+[Debug] [2024-11-26 20:46:15] Send RPC:1
+[Debug] [2024-11-26 20:46:15] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 20:46:15] Send RPC:2
+[Debug] [2024-11-26 20:46:15] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 20:46:15] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 20:46:15] Send RPC:3
+[Debug] [2024-11-26 20:46:15] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 20:46:15] End to send initialize chain cmd.
+[Debug] [2024-11-26 20:46:15] COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2024-11-26 20:46:17] COMMAND[get_cable_paras] execute successfully, takes 1.5 secs.
+[Error] [2024-11-26 20:46:17] fail to exec Open config cable cmd...
+[Debug] [2024-11-26 20:46:22] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 20:46:22] Send RPC:4
+[Debug] [2024-11-26 20:46:22] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 20:46:22] End to send initialize chain cmd.
+[Error] [2024-11-26 20:46:22] fail to exec Open config cable cmd...
+[Debug] [2024-11-26 20:46:24] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 20:46:24] Send RPC:5
+[Debug] [2024-11-26 20:46:24] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 20:46:24] End to send initialize chain cmd.
+[Error] [2024-11-26 20:46:24] fail to exec Open config cable cmd...
+[Info] [2024-11-26 20:46:25] /***************************End Configration***************************/
+[Info] [2024-11-26 20:46:26] /***************************Start Configuration***************************/
+[Info] [2024-11-26 20:46:26] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 20:46:26] Version: 99559
+[Info] [2024-11-26 20:46:27] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:46:27] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:46:29] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 20:46:29] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 20:46:29] Client Local Address:10.13.216.131
+[Debug] [2024-11-26 20:46:29] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 20:46:29] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 20:46:29] Finish.
+[Info] [2024-11-26 20:46:29] Connect server succeeded
+[Debug] [2024-11-26 20:46:29] Send RPC:1
+[Debug] [2024-11-26 20:46:29] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 20:46:30] Send RPC:2
+[Debug] [2024-11-26 20:46:30] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 20:46:30] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 20:46:30] Send RPC:3
+[Debug] [2024-11-26 20:46:30] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 20:46:30] End to send initialize chain cmd.
+[Debug] [2024-11-26 20:46:30] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2024-11-26 20:46:31] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2024-11-26 20:46:31] begin the exec of open cable cmd...
+[Debug] [2024-11-26 20:46:31] Begin to deal with chain from server...
+[Debug] [2024-11-26 20:46:31] Begin to set user chain...
+[Debug] [2024-11-26 20:46:31] End to set user chain.
+[Debug] [2024-11-26 20:46:31] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 20:46:31] End to update graphic item and tree item ...
+[Info] [2024-11-26 20:46:32] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-26 20:46:32] begin to get device info from CFG file...
+[Debug] [2024-11-26 20:46:32] end to get device info from CFG file...
+[Debug] [2024-11-26 20:46:32] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 20:46:32] End to update graphic item and tree item ...
+[Debug] [2024-11-26 20:46:32] End to deal wiht chain from server.
+[Debug] [2024-11-26 20:46:32] end the exec of open cable cmd.
+[Debug] [2024-11-26 20:46:32] COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2024-11-26 20:46:33] Begin to send verify cmd in BS mode...
+[Debug] [2024-11-26 20:46:33] Begin to check mask file.
+[Debug] [2024-11-26 20:46:33] End to check mask file.
+[Debug] [2024-11-26 20:46:33] Send RPC:4
+[Debug] [2024-11-26 20:46:33] Begin to send verify data.
+[Debug] [2024-11-26 20:46:33] End to send verify data.
+[Debug] [2024-11-26 20:46:33] Send cmd [Verify:20004] OK
+[Debug] [2024-11-26 20:46:34] The value of Progress is 6
+[Debug] [2024-11-26 20:46:34] The value of Progress is 10
+[Debug] [2024-11-26 20:46:34] The value of Progress is 15
+[Debug] [2024-11-26 20:46:34] The value of Progress is 20
+[Debug] [2024-11-26 20:46:34] The value of Progress is 25
+[Debug] [2024-11-26 20:46:34] The value of Progress is 30
+[Debug] [2024-11-26 20:46:34] Begin to send abort process cmd.
+[Debug] [2024-11-26 20:46:34] Begin to flush aborting cmd. 
+[Debug] [2024-11-26 20:46:34] End to flush aborting cmd. 
+[Debug] [2024-11-26 20:46:34] End to send abort process cmd.
+[Debug] [2024-11-26 20:46:34] End to send verify cmd in BS mode.
+[Error] [2024-11-26 20:46:35] fail to exec Verify cmd...
+[Debug] [2024-11-26 20:46:36] Begin to send programming cmd...
+[Debug] [2024-11-26 20:46:36] Send RPC:5
+[Debug] [2024-11-26 20:46:36] Begin to send program data.
+[Debug] [2024-11-26 20:46:36] End to send program data.
+[Debug] [2024-11-26 20:46:36] Send cmd [Program:20002] OK
+[Debug] [2024-11-26 20:46:36] The value of Progress is 6
+[Debug] [2024-11-26 20:46:36] The value of Progress is 10
+[Debug] [2024-11-26 20:46:36] The value of Progress is 15
+[Debug] [2024-11-26 20:46:36] The value of Progress is 20
+[Debug] [2024-11-26 20:46:36] The value of Progress is 25
+[Debug] [2024-11-26 20:46:36] The value of Progress is 30
+[Debug] [2024-11-26 20:46:36] The value of Progress is 35
+[Debug] [2024-11-26 20:46:36] The value of Progress is 40
+[Debug] [2024-11-26 20:46:37] The value of Progress is 45
+[Debug] [2024-11-26 20:46:37] The value of Progress is 50
+[Debug] [2024-11-26 20:46:37] The value of Progress is 55
+[Debug] [2024-11-26 20:46:37] The value of Progress is 60
+[Debug] [2024-11-26 20:46:37] The value of Progress is 65
+[Debug] [2024-11-26 20:46:37] The value of Progress is 70
+[Debug] [2024-11-26 20:46:37] The value of Progress is 75
+[Debug] [2024-11-26 20:46:37] The value of Progress is 80
+[Debug] [2024-11-26 20:46:37] The value of Progress is 85
+[Debug] [2024-11-26 20:46:37] The value of Progress is 90
+[Debug] [2024-11-26 20:46:37] The value of Progress is 95
+[Debug] [2024-11-26 20:46:37] The value of Progress is 100
+[Debug] [2024-11-26 20:46:38] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2024-11-26 20:46:38] End to send programming cmd.
+[Info] [2024-11-26 20:47:09] /***************************End Configration***************************/
+[Info] [2024-11-26 20:58:07] /***************************Start Configuration***************************/
+[Info] [2024-11-26 20:58:08] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 20:58:08] Version: 99559
+[Info] [2024-11-26 20:58:09] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:58:09] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 20:58:11] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 20:58:11] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 20:58:11] Client Local Address:10.13.216.131
+[Debug] [2024-11-26 20:58:11] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 20:58:12] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 20:58:12] Finish.
+[Info] [2024-11-26 20:58:12] Connect server succeeded
+[Debug] [2024-11-26 20:58:12] Send RPC:1
+[Debug] [2024-11-26 20:58:12] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 20:58:12] Send RPC:2
+[Debug] [2024-11-26 20:58:12] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 20:58:12] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 20:58:12] Send RPC:3
+[Debug] [2024-11-26 20:58:12] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 20:58:12] End to send initialize chain cmd.
+[Debug] [2024-11-26 20:58:12] COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2024-11-26 20:58:14] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2024-11-26 20:58:14] begin the exec of open cable cmd...
+[Debug] [2024-11-26 20:58:14] Begin to deal with chain from server...
+[Debug] [2024-11-26 20:58:14] Begin to set user chain...
+[Debug] [2024-11-26 20:58:14] End to set user chain.
+[Debug] [2024-11-26 20:58:14] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 20:58:14] End to update graphic item and tree item ...
+[Info] [2024-11-26 20:58:15] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-26 20:58:15] begin to get device info from CFG file...
+[Debug] [2024-11-26 20:58:15] end to get device info from CFG file...
+[Debug] [2024-11-26 20:58:15] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 20:58:15] End to update graphic item and tree item ...
+[Debug] [2024-11-26 20:58:15] End to deal wiht chain from server.
+[Debug] [2024-11-26 20:58:15] end the exec of open cable cmd.
+[Debug] [2024-11-26 20:58:15] COMMAND[Open config cable] execute successfully, takes 2.7 secs.
+[Debug] [2024-11-26 20:58:16] Begin to send programming cmd...
+[Debug] [2024-11-26 20:58:16] Send RPC:4
+[Debug] [2024-11-26 20:58:16] Begin to send program data.
+[Debug] [2024-11-26 20:58:16] End to send program data.
+[Debug] [2024-11-26 20:58:16] Send cmd [Program:20002] OK
+[Debug] [2024-11-26 20:58:16] The value of Progress is 6
+[Debug] [2024-11-26 20:58:16] The value of Progress is 10
+[Debug] [2024-11-26 20:58:16] The value of Progress is 15
+[Debug] [2024-11-26 20:58:16] The value of Progress is 20
+[Debug] [2024-11-26 20:58:16] The value of Progress is 25
+[Debug] [2024-11-26 20:58:17] The value of Progress is 30
+[Debug] [2024-11-26 20:58:17] The value of Progress is 35
+[Debug] [2024-11-26 20:58:17] The value of Progress is 40
+[Debug] [2024-11-26 20:58:17] The value of Progress is 45
+[Debug] [2024-11-26 20:58:17] The value of Progress is 50
+[Debug] [2024-11-26 20:58:17] The value of Progress is 55
+[Debug] [2024-11-26 20:58:17] The value of Progress is 60
+[Debug] [2024-11-26 20:58:17] The value of Progress is 65
+[Debug] [2024-11-26 20:58:17] The value of Progress is 70
+[Debug] [2024-11-26 20:58:17] The value of Progress is 75
+[Debug] [2024-11-26 20:58:17] The value of Progress is 80
+[Debug] [2024-11-26 20:58:18] The value of Progress is 85
+[Debug] [2024-11-26 20:58:18] The value of Progress is 90
+[Debug] [2024-11-26 20:58:18] The value of Progress is 95
+[Debug] [2024-11-26 20:58:18] The value of Progress is 100
+[Debug] [2024-11-26 20:58:18] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-11-26 20:58:18] End to send programming cmd.
+[Info] [2024-11-26 20:58:53] /***************************End Configration***************************/
+[Info] [2024-11-26 21:11:19] /***************************Start Configuration***************************/
+[Info] [2024-11-26 21:11:19] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 21:11:19] Version: 99559
+[Info] [2024-11-26 21:11:20] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 21:11:20] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 21:11:22] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 21:11:22] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 21:11:22] Client Local Address:10.13.216.131
+[Debug] [2024-11-26 21:11:22] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 21:11:23] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 21:11:23] Finish.
+[Info] [2024-11-26 21:11:23] Connect server succeeded
+[Debug] [2024-11-26 21:11:23] Send RPC:1
+[Debug] [2024-11-26 21:11:23] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 21:11:23] Send RPC:2
+[Debug] [2024-11-26 21:11:23] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 21:11:23] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 21:11:23] Send RPC:3
+[Debug] [2024-11-26 21:11:23] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 21:11:23] End to send initialize chain cmd.
+[Debug] [2024-11-26 21:11:23] COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2024-11-26 21:11:25] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2024-11-26 21:11:25] begin the exec of open cable cmd...
+[Debug] [2024-11-26 21:11:25] Begin to deal with chain from server...
+[Debug] [2024-11-26 21:11:25] Begin to set user chain...
+[Debug] [2024-11-26 21:11:25] End to set user chain.
+[Debug] [2024-11-26 21:11:25] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 21:11:25] End to update graphic item and tree item ...
+[Info] [2024-11-26 21:11:26] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-26 21:11:26] begin to get device info from CFG file...
+[Debug] [2024-11-26 21:11:26] end to get device info from CFG file...
+[Debug] [2024-11-26 21:11:26] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 21:11:26] End to update graphic item and tree item ...
+[Debug] [2024-11-26 21:11:26] End to deal wiht chain from server.
+[Debug] [2024-11-26 21:11:26] end the exec of open cable cmd.
+[Debug] [2024-11-26 21:11:26] COMMAND[Open config cable] execute successfully, takes 3.3 secs.
+[Debug] [2024-11-26 21:11:28] Begin to send programming cmd...
+[Debug] [2024-11-26 21:11:28] Send RPC:4
+[Debug] [2024-11-26 21:11:28] Begin to send program data.
+[Debug] [2024-11-26 21:11:28] End to send program data.
+[Debug] [2024-11-26 21:11:28] Send cmd [Program:20002] OK
+[Debug] [2024-11-26 21:11:28] The value of Progress is 6
+[Debug] [2024-11-26 21:11:28] The value of Progress is 10
+[Debug] [2024-11-26 21:11:28] The value of Progress is 15
+[Debug] [2024-11-26 21:11:28] The value of Progress is 20
+[Debug] [2024-11-26 21:11:28] The value of Progress is 25
+[Debug] [2024-11-26 21:11:28] The value of Progress is 30
+[Debug] [2024-11-26 21:11:28] The value of Progress is 35
+[Debug] [2024-11-26 21:11:29] The value of Progress is 40
+[Debug] [2024-11-26 21:11:29] The value of Progress is 45
+[Debug] [2024-11-26 21:11:29] The value of Progress is 50
+[Debug] [2024-11-26 21:11:29] The value of Progress is 55
+[Debug] [2024-11-26 21:11:29] The value of Progress is 60
+[Debug] [2024-11-26 21:11:29] The value of Progress is 65
+[Debug] [2024-11-26 21:11:29] The value of Progress is 70
+[Debug] [2024-11-26 21:11:29] The value of Progress is 75
+[Debug] [2024-11-26 21:11:29] The value of Progress is 80
+[Debug] [2024-11-26 21:11:29] The value of Progress is 85
+[Debug] [2024-11-26 21:11:29] The value of Progress is 90
+[Debug] [2024-11-26 21:11:30] The value of Progress is 95
+[Debug] [2024-11-26 21:11:30] The value of Progress is 100
+[Debug] [2024-11-26 21:11:30] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2024-11-26 21:11:30] End to send programming cmd.
+[Info] [2024-11-26 21:11:51] /***************************End Configration***************************/
+[Info] [2024-11-26 21:26:45] /***************************Start Configuration***************************/
+[Info] [2024-11-26 21:26:45] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 21:26:45] Version: 99559
+[Info] [2024-11-26 21:26:46] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 21:26:46] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 21:26:48] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 21:26:48] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 21:26:48] Client Local Address:10.13.216.131
+[Debug] [2024-11-26 21:26:48] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 21:26:49] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 21:26:49] Finish.
+[Info] [2024-11-26 21:26:49] Connect server succeeded
+[Debug] [2024-11-26 21:26:49] Send RPC:1
+[Debug] [2024-11-26 21:26:49] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 21:26:49] Send RPC:2
+[Debug] [2024-11-26 21:26:49] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 21:26:49] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 21:26:49] Send RPC:3
+[Debug] [2024-11-26 21:26:49] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 21:26:49] End to send initialize chain cmd.
+[Debug] [2024-11-26 21:26:49] COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2024-11-26 21:26:51] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2024-11-26 21:26:51] begin the exec of open cable cmd...
+[Debug] [2024-11-26 21:26:51] Begin to deal with chain from server...
+[Debug] [2024-11-26 21:26:51] Begin to set user chain...
+[Debug] [2024-11-26 21:26:51] End to set user chain.
+[Debug] [2024-11-26 21:26:51] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 21:26:51] End to update graphic item and tree item ...
+[Info] [2024-11-26 21:26:53] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-26 21:26:53] begin to get device info from CFG file...
+[Debug] [2024-11-26 21:26:53] end to get device info from CFG file...
+[Debug] [2024-11-26 21:26:53] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 21:26:53] End to update graphic item and tree item ...
+[Debug] [2024-11-26 21:26:53] End to deal wiht chain from server.
+[Debug] [2024-11-26 21:26:53] end the exec of open cable cmd.
+[Debug] [2024-11-26 21:26:53] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2024-11-26 21:26:54] Begin to send programming cmd...
+[Debug] [2024-11-26 21:26:54] Send RPC:4
+[Debug] [2024-11-26 21:26:54] Begin to send program data.
+[Debug] [2024-11-26 21:26:54] End to send program data.
+[Debug] [2024-11-26 21:26:54] Send cmd [Program:20002] OK
+[Debug] [2024-11-26 21:26:54] The value of Progress is 6
+[Debug] [2024-11-26 21:26:54] The value of Progress is 10
+[Debug] [2024-11-26 21:26:54] The value of Progress is 15
+[Debug] [2024-11-26 21:26:54] The value of Progress is 20
+[Debug] [2024-11-26 21:26:55] The value of Progress is 25
+[Debug] [2024-11-26 21:26:55] The value of Progress is 30
+[Debug] [2024-11-26 21:26:55] The value of Progress is 35
+[Debug] [2024-11-26 21:26:55] The value of Progress is 40
+[Debug] [2024-11-26 21:26:55] The value of Progress is 45
+[Debug] [2024-11-26 21:26:55] The value of Progress is 50
+[Debug] [2024-11-26 21:26:55] The value of Progress is 55
+[Debug] [2024-11-26 21:26:55] The value of Progress is 60
+[Debug] [2024-11-26 21:26:55] The value of Progress is 65
+[Debug] [2024-11-26 21:26:55] The value of Progress is 70
+[Debug] [2024-11-26 21:26:55] The value of Progress is 75
+[Debug] [2024-11-26 21:26:55] The value of Progress is 80
+[Debug] [2024-11-26 21:26:56] The value of Progress is 85
+[Debug] [2024-11-26 21:26:56] The value of Progress is 90
+[Debug] [2024-11-26 21:26:56] The value of Progress is 95
+[Debug] [2024-11-26 21:26:56] The value of Progress is 100
+[Debug] [2024-11-26 21:26:56] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2024-11-26 21:26:56] End to send programming cmd.
+[Info] [2024-11-26 21:27:07] /***************************End Configration***************************/
+[Info] [2024-11-26 21:48:10] /***************************Start Configuration***************************/
+[Info] [2024-11-26 21:48:10] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 21:48:10] Version: 99559
+[Info] [2024-11-26 21:48:11] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 21:48:11] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 21:48:13] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 21:48:13] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 21:48:13] Client Local Address:10.13.216.131
+[Debug] [2024-11-26 21:48:13] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 21:48:14] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 21:48:14] Finish.
+[Info] [2024-11-26 21:48:14] Connect server succeeded
+[Debug] [2024-11-26 21:48:14] Send RPC:1
+[Debug] [2024-11-26 21:48:14] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 21:48:14] Send RPC:2
+[Debug] [2024-11-26 21:48:14] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 21:48:14] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 21:48:14] Send RPC:3
+[Debug] [2024-11-26 21:48:14] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 21:48:14] End to send initialize chain cmd.
+[Debug] [2024-11-26 21:48:14] COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2024-11-26 21:48:16] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2024-11-26 21:48:16] begin the exec of open cable cmd...
+[Debug] [2024-11-26 21:48:16] Begin to deal with chain from server...
+[Debug] [2024-11-26 21:48:16] Begin to set user chain...
+[Debug] [2024-11-26 21:48:16] End to set user chain.
+[Debug] [2024-11-26 21:48:16] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 21:48:16] End to update graphic item and tree item ...
+[Info] [2024-11-26 21:48:17] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-26 21:48:17] begin to get device info from CFG file...
+[Debug] [2024-11-26 21:48:17] end to get device info from CFG file...
+[Debug] [2024-11-26 21:48:17] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 21:48:17] End to update graphic item and tree item ...
+[Debug] [2024-11-26 21:48:17] End to deal wiht chain from server.
+[Debug] [2024-11-26 21:48:17] end the exec of open cable cmd.
+[Debug] [2024-11-26 21:48:17] COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2024-11-26 21:48:19] Begin to send programming cmd...
+[Debug] [2024-11-26 21:48:19] Send RPC:4
+[Debug] [2024-11-26 21:48:19] Begin to send program data.
+[Debug] [2024-11-26 21:48:19] End to send program data.
+[Debug] [2024-11-26 21:48:19] Send cmd [Program:20002] OK
+[Debug] [2024-11-26 21:48:19] The value of Progress is 6
+[Debug] [2024-11-26 21:48:19] The value of Progress is 10
+[Debug] [2024-11-26 21:48:19] The value of Progress is 15
+[Debug] [2024-11-26 21:48:19] The value of Progress is 20
+[Debug] [2024-11-26 21:48:19] The value of Progress is 25
+[Debug] [2024-11-26 21:48:19] The value of Progress is 30
+[Debug] [2024-11-26 21:48:19] The value of Progress is 35
+[Debug] [2024-11-26 21:48:19] The value of Progress is 40
+[Debug] [2024-11-26 21:48:20] The value of Progress is 45
+[Debug] [2024-11-26 21:48:20] The value of Progress is 50
+[Debug] [2024-11-26 21:48:20] The value of Progress is 55
+[Debug] [2024-11-26 21:48:20] The value of Progress is 60
+[Debug] [2024-11-26 21:48:20] The value of Progress is 65
+[Debug] [2024-11-26 21:48:20] The value of Progress is 70
+[Debug] [2024-11-26 21:48:20] The value of Progress is 75
+[Debug] [2024-11-26 21:48:20] The value of Progress is 80
+[Debug] [2024-11-26 21:48:20] The value of Progress is 85
+[Debug] [2024-11-26 21:48:20] The value of Progress is 90
+[Debug] [2024-11-26 21:48:20] The value of Progress is 95
+[Debug] [2024-11-26 21:48:20] The value of Progress is 100
+[Debug] [2024-11-26 21:48:21] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2024-11-26 21:48:21] End to send programming cmd.
+[Info] [2024-11-26 21:48:30] /***************************End Configration***************************/
+[Info] [2024-11-26 22:39:17] /***************************Start Configuration***************************/
+[Info] [2024-11-26 22:39:17] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 22:39:17] Version: 99559
+[Info] [2024-11-26 22:39:18] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 22:39:18] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 22:39:20] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 22:39:20] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 22:39:20] Client Local Address:10.27.38.14
+[Debug] [2024-11-26 22:39:20] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 22:39:21] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 22:39:21] Finish.
+[Info] [2024-11-26 22:39:21] Connect server succeeded
+[Debug] [2024-11-26 22:39:21] Send RPC:1
+[Debug] [2024-11-26 22:39:21] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 22:39:21] Send RPC:2
+[Debug] [2024-11-26 22:39:21] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 22:39:21] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 22:39:21] Send RPC:3
+[Debug] [2024-11-26 22:39:21] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 22:39:21] End to send initialize chain cmd.
+[Debug] [2024-11-26 22:39:21] COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2024-11-26 22:39:23] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2024-11-26 22:39:23] begin the exec of open cable cmd...
+[Debug] [2024-11-26 22:39:23] Begin to deal with chain from server...
+[Debug] [2024-11-26 22:39:23] Begin to set user chain...
+[Debug] [2024-11-26 22:39:23] End to set user chain.
+[Debug] [2024-11-26 22:39:23] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 22:39:23] End to update graphic item and tree item ...
+[Info] [2024-11-26 22:39:24] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-26 22:39:24] begin to get device info from CFG file...
+[Debug] [2024-11-26 22:39:24] end to get device info from CFG file...
+[Debug] [2024-11-26 22:39:24] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 22:39:24] End to update graphic item and tree item ...
+[Debug] [2024-11-26 22:39:24] End to deal wiht chain from server.
+[Debug] [2024-11-26 22:39:24] end the exec of open cable cmd.
+[Debug] [2024-11-26 22:39:24] COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2024-11-26 22:39:26] Begin to send programming cmd...
+[Debug] [2024-11-26 22:39:26] Send RPC:4
+[Debug] [2024-11-26 22:39:26] Begin to send program data.
+[Debug] [2024-11-26 22:39:26] End to send program data.
+[Debug] [2024-11-26 22:39:26] Send cmd [Program:20002] OK
+[Debug] [2024-11-26 22:39:27] The value of Progress is 6
+[Debug] [2024-11-26 22:39:27] The value of Progress is 10
+[Debug] [2024-11-26 22:39:27] The value of Progress is 15
+[Debug] [2024-11-26 22:39:27] The value of Progress is 20
+[Debug] [2024-11-26 22:39:27] The value of Progress is 25
+[Debug] [2024-11-26 22:39:27] The value of Progress is 30
+[Debug] [2024-11-26 22:39:27] The value of Progress is 35
+[Debug] [2024-11-26 22:39:27] The value of Progress is 40
+[Debug] [2024-11-26 22:39:27] The value of Progress is 45
+[Debug] [2024-11-26 22:39:27] The value of Progress is 50
+[Debug] [2024-11-26 22:39:27] The value of Progress is 55
+[Debug] [2024-11-26 22:39:27] The value of Progress is 60
+[Debug] [2024-11-26 22:39:28] The value of Progress is 65
+[Debug] [2024-11-26 22:39:28] The value of Progress is 70
+[Debug] [2024-11-26 22:39:28] The value of Progress is 75
+[Debug] [2024-11-26 22:39:28] The value of Progress is 80
+[Debug] [2024-11-26 22:39:28] The value of Progress is 85
+[Debug] [2024-11-26 22:39:28] The value of Progress is 90
+[Debug] [2024-11-26 22:39:28] The value of Progress is 95
+[Debug] [2024-11-26 22:39:28] The value of Progress is 100
+[Debug] [2024-11-26 22:39:28] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-11-26 22:39:28] End to send programming cmd.
+[Info] [2024-11-26 22:42:52] /***************************End Configration***************************/
+[Info] [2024-11-26 23:14:09] /***************************Start Configuration***************************/
+[Info] [2024-11-26 23:14:09] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-26 23:14:09] Version: 99559
+[Info] [2024-11-26 23:14:10] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 23:14:10] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-26 23:14:13] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-26 23:14:13] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-26 23:14:13] Client Local Address:10.27.38.14
+[Debug] [2024-11-26 23:14:13] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-26 23:14:14] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-26 23:14:14] Finish.
+[Info] [2024-11-26 23:14:14] Connect server succeeded
+[Debug] [2024-11-26 23:14:14] Send RPC:1
+[Debug] [2024-11-26 23:14:14] Send cmd [check version information:40005] OK
+[Debug] [2024-11-26 23:14:14] Send RPC:2
+[Debug] [2024-11-26 23:14:14] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-26 23:14:14] Begin to send initialize chain cmd...
+[Debug] [2024-11-26 23:14:14] Send RPC:3
+[Debug] [2024-11-26 23:14:14] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-26 23:14:14] End to send initialize chain cmd.
+[Debug] [2024-11-26 23:14:14] COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2024-11-26 23:14:16] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2024-11-26 23:14:16] begin the exec of open cable cmd...
+[Debug] [2024-11-26 23:14:16] Begin to deal with chain from server...
+[Debug] [2024-11-26 23:14:16] Begin to set user chain...
+[Debug] [2024-11-26 23:14:16] End to set user chain.
+[Debug] [2024-11-26 23:14:16] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 23:14:16] End to update graphic item and tree item ...
+[Info] [2024-11-26 23:14:17] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-26 23:14:17] begin to get device info from CFG file...
+[Debug] [2024-11-26 23:14:17] end to get device info from CFG file...
+[Debug] [2024-11-26 23:14:17] Begin to update graphic item and tree item ...
+[Debug] [2024-11-26 23:14:17] End to update graphic item and tree item ...
+[Debug] [2024-11-26 23:14:17] End to deal wiht chain from server.
+[Debug] [2024-11-26 23:14:17] end the exec of open cable cmd.
+[Debug] [2024-11-26 23:14:17] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2024-11-26 23:14:18] Begin to send programming cmd...
+[Debug] [2024-11-26 23:14:18] Send RPC:4
+[Debug] [2024-11-26 23:14:18] Begin to send program data.
+[Debug] [2024-11-26 23:14:18] End to send program data.
+[Debug] [2024-11-26 23:14:18] Send cmd [Program:20002] OK
+[Debug] [2024-11-26 23:14:19] The value of Progress is 6
+[Debug] [2024-11-26 23:14:19] The value of Progress is 10
+[Debug] [2024-11-26 23:14:19] The value of Progress is 15
+[Debug] [2024-11-26 23:14:19] The value of Progress is 20
+[Debug] [2024-11-26 23:14:19] The value of Progress is 25
+[Debug] [2024-11-26 23:14:19] The value of Progress is 30
+[Debug] [2024-11-26 23:14:19] The value of Progress is 35
+[Debug] [2024-11-26 23:14:19] The value of Progress is 40
+[Debug] [2024-11-26 23:14:19] The value of Progress is 45
+[Debug] [2024-11-26 23:14:19] The value of Progress is 50
+[Debug] [2024-11-26 23:14:20] The value of Progress is 55
+[Debug] [2024-11-26 23:14:20] The value of Progress is 60
+[Debug] [2024-11-26 23:14:20] The value of Progress is 65
+[Debug] [2024-11-26 23:14:20] The value of Progress is 70
+[Debug] [2024-11-26 23:14:20] The value of Progress is 75
+[Debug] [2024-11-26 23:14:20] The value of Progress is 80
+[Debug] [2024-11-26 23:14:20] The value of Progress is 85
+[Debug] [2024-11-26 23:14:20] The value of Progress is 90
+[Debug] [2024-11-26 23:14:20] The value of Progress is 95
+[Debug] [2024-11-26 23:14:20] The value of Progress is 100
+[Debug] [2024-11-26 23:14:20] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-11-26 23:14:20] End to send programming cmd.
+[Info] [2024-11-26 23:16:48] /***************************End Configration***************************/
+[Info] [2024-11-27 14:24:45] /***************************Start Configuration***************************/
+[Info] [2024-11-27 14:24:45] Path: D:/Program Files/PDS/PDS_2022.1/bin
+[Info] [2024-11-27 14:24:45] Version: 99559
+[Info] [2024-11-27 14:24:46] Current Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-27 14:24:46] PDS Dir Path: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source
+[Info] [2024-11-27 14:24:48] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-11-27 14:24:49] Client Local host name:HTY?sLaptop
+[Debug] [2024-11-27 14:24:49] Client Local Address:10.13.216.131
+[Debug] [2024-11-27 14:24:49] Server Address:127.0.0.1, Port:65420
+[Info] [2024-11-27 14:24:50] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-11-27 14:24:50] Finish.
+[Info] [2024-11-27 14:24:50] Connect server succeeded
+[Debug] [2024-11-27 14:24:50] Send RPC:1
+[Debug] [2024-11-27 14:24:50] Send cmd [check version information:40005] OK
+[Debug] [2024-11-27 14:24:54] Send RPC:2
+[Debug] [2024-11-27 14:24:54] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-11-27 14:24:54] Begin to send initialize chain cmd...
+[Debug] [2024-11-27 14:24:54] Send RPC:3
+[Debug] [2024-11-27 14:24:54] Send cmd [Open config cable:20001] OK
+[Debug] [2024-11-27 14:24:54] End to send initialize chain cmd.
+[Debug] [2024-11-27 14:24:54] COMMAND[check version information] execute successfully, takes 4.4 secs.
+[Debug] [2024-11-27 14:24:55] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2024-11-27 14:24:56] begin the exec of open cable cmd...
+[Debug] [2024-11-27 14:24:56] Begin to deal with chain from server...
+[Debug] [2024-11-27 14:24:56] Begin to set user chain...
+[Debug] [2024-11-27 14:24:56] End to set user chain.
+[Debug] [2024-11-27 14:24:56] Begin to update graphic item and tree item ...
+[Debug] [2024-11-27 14:24:56] End to update graphic item and tree item ...
+[Info] [2024-11-27 14:24:58] set OpenLastPath: F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/generate_bitstream/TOP.sbit
+[Debug] [2024-11-27 14:24:58] begin to get device info from CFG file...
+[Debug] [2024-11-27 14:24:58] end to get device info from CFG file...
+[Debug] [2024-11-27 14:24:58] Begin to update graphic item and tree item ...
+[Debug] [2024-11-27 14:24:58] End to update graphic item and tree item ...
+[Debug] [2024-11-27 14:24:58] End to deal wiht chain from server.
+[Debug] [2024-11-27 14:24:58] end the exec of open cable cmd.
+[Debug] [2024-11-27 14:24:58] COMMAND[Open config cable] execute successfully, takes 4.0 secs.
+[Debug] [2024-11-27 14:25:00] Begin to send programming cmd...
+[Debug] [2024-11-27 14:25:00] Send RPC:4
+[Debug] [2024-11-27 14:25:00] Begin to send program data.
+[Debug] [2024-11-27 14:25:00] End to send program data.
+[Debug] [2024-11-27 14:25:00] Send cmd [Program:20002] OK
+[Debug] [2024-11-27 14:25:00] The value of Progress is 6
+[Debug] [2024-11-27 14:25:00] The value of Progress is 10
+[Debug] [2024-11-27 14:25:00] The value of Progress is 15
+[Debug] [2024-11-27 14:25:00] The value of Progress is 20
+[Debug] [2024-11-27 14:25:00] The value of Progress is 25
+[Debug] [2024-11-27 14:25:00] The value of Progress is 30
+[Debug] [2024-11-27 14:25:00] The value of Progress is 35
+[Debug] [2024-11-27 14:25:00] The value of Progress is 40
+[Debug] [2024-11-27 14:25:01] The value of Progress is 45
+[Debug] [2024-11-27 14:25:01] The value of Progress is 50
+[Debug] [2024-11-27 14:25:01] The value of Progress is 55
+[Debug] [2024-11-27 14:25:01] The value of Progress is 60
+[Debug] [2024-11-27 14:25:01] The value of Progress is 65
+[Debug] [2024-11-27 14:25:01] The value of Progress is 70
+[Debug] [2024-11-27 14:25:01] The value of Progress is 75
+[Debug] [2024-11-27 14:25:01] The value of Progress is 80
+[Debug] [2024-11-27 14:25:01] The value of Progress is 85
+[Debug] [2024-11-27 14:25:01] The value of Progress is 90
+[Debug] [2024-11-27 14:25:01] The value of Progress is 95
+[Debug] [2024-11-27 14:25:02] The value of Progress is 100
+[Debug] [2024-11-27 14:25:02] COMMAND[Program] execute successfully, takes 2.3 secs.
+[Debug] [2024-11-27 14:25:02] End to send programming cmd.
+[Info] [2024-11-27 14:28:17] /***************************End Configration***************************/

@@ -9,6 +9,7 @@ module CondLogic(
     input [3:0] ALUFlags,//ALU标志位
     input NoWrite,
     input M_W,
+
     output PCSrc,//程序计数器源选择
     output RegWrite,//寄存器写入信号
     output MemWrite,//内存写入信号

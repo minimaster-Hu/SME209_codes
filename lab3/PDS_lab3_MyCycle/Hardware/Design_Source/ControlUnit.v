@@ -8,11 +8,11 @@ module ControlUnit(
     output ALUSrc,
     output [1:0] ImmSrc,
     output RegWrite,
-    output [1:0] RegSrc,
+    output [2:0] RegSrc,
     output [1:0] ALUControl,	
     output PCSrc,
     output M_Start,
-    output [1:0] MCOp,
+    output MCycleOp,
     output M_Write
     ); 
     
@@ -56,7 +56,7 @@ module ControlUnit(
      .NoWrite(NoWrite),
 //     Mcycle_logic
      .M_Start(M_Start),
-     .MCOp(MCOp),
+     .MCycleOp(MCycleOp),
      .M_W(M_W)
     );
 

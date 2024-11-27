@@ -22,7 +22,7 @@ module ProgramCounter(
         else if (!Busy) begin
             current_PC <= next_PC;
         end
-        else current_PC<=next_PC;
+        else current_PC<=current_PC;
     end
 
 endmodule

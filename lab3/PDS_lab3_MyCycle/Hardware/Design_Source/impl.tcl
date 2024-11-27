@@ -111,3 +111,88 @@ dev_map
 pnr 
 report_timing 
 gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos2 -device PG2L50H -speedgrade -6 -package MBG324
+compile -top_module TOP
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 

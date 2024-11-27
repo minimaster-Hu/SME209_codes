@@ -12,7 +12,23 @@ module RegisterFile(
     );
     
     // declare RegBank
-    reg [31:0] RegBank[0:14] ;
+    reg [31:0] RegBank[0:14] ;//RegBank¼Ä´æÆ÷Êý×é
+    wire [31:0] R0 = RegBank[0];
+    wire [31:0] R1 = RegBank[1];
+    wire [31:0] R2 = RegBank[2];
+    wire [31:0] R3 = RegBank[3];
+    wire [31:0] R4 = RegBank[4];
+    wire [31:0] R5 = RegBank[5];
+    wire [31:0] R6 = RegBank[6];
+    wire [31:0] R7 = RegBank[7];
+    wire [31:0] R8 = RegBank[8];
+    wire [31:0] R9 = RegBank[9];
+    wire [31:0] R10 = RegBank[10];
+    wire [31:0] R11 = RegBank[11];
+    wire [31:0] R12 = RegBank[12];
+    wire [31:0] R13 = RegBank[13];
+    wire [31:0] R14 = RegBank[14];
+
     //read
     assign RD1 = (A1==4'b1111) ? R15 : RegBank[A1];
     assign RD2 = (A2==4'b1111) ? R15 : RegBank[A2];

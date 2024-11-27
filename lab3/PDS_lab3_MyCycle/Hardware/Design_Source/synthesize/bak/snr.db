@@ -34,11 +34,11 @@
         </column_headers>
         <row>
             <data>TOP</data>
-            <data>677</data>
-            <data>93</data>
-            <data>44</data>
+            <data>951</data>
+            <data>162</data>
+            <data>108</data>
             <data>0</data>
-            <data>0</data>
+            <data>0.5</data>
             <data>0</data>
             <data>0</data>
             <data>1</data>
@@ -49,12 +49,12 @@
             <data>0</data>
             <data>0</data>
             <data>0</data>
-            <data>35</data>
+            <data>42</data>
             <data>0</data>
             <data>0</data>
-            <data>131</data>
+            <data>164</data>
             <data>0</data>
-            <data>3</data>
+            <data>14</data>
             <data>0</data>
             <data>0</data>
             <data>0</data>
@@ -64,9 +64,11 @@
             <data>0</data>
             <row>
                 <data>wrapper1</data>
-                <data>619</data>
-                <data>42</data>
-                <data>44</data>
+                <data>869</data>
+                <data>111</data>
+                <data>108</data>
+                <data>0</data>
+                <data>0.5</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -80,11 +82,9 @@
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
+                <data>124</data>
                 <data>0</data>
-                <data>0</data>
-                <data>91</data>
-                <data>0</data>
-                <data>3</data>
+                <data>14</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -94,8 +94,8 @@
                 <data>0</data>
                 <row>
                     <data>ARM1</data>
-                    <data>585</data>
-                    <data>34</data>
+                    <data>755</data>
+                    <data>103</data>
                     <data>44</data>
                     <data>0</data>
                     <data>0</data>
@@ -112,9 +112,9 @@
                     <data>0</data>
                     <data>0</data>
                     <data>0</data>
-                    <data>91</data>
+                    <data>124</data>
                     <data>0</data>
-                    <data>3</data>
+                    <data>14</data>
                     <data>0</data>
                     <data>0</data>
                     <data>0</data>
@@ -124,7 +124,7 @@
                     <data>0</data>
                     <row>
                         <data>ALU1</data>
-                        <data>90</data>
+                        <data>101</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -154,8 +154,39 @@
                         <data>0</data>
                     </row>
                     <row>
+                        <data>MCycle1</data>
+                        <data>101</data>
+                        <data>70</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>33</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                    </row>
+                    <row>
                         <data>Shifter1</data>
-                        <data>181</data>
+                        <data>168</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -186,8 +217,8 @@
                     </row>
                     <row>
                         <data>u_Control</data>
-                        <data>15</data>
-                        <data>2</data>
+                        <data>13</data>
+                        <data>1</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -216,7 +247,7 @@
                         <data>0</data>
                         <row>
                             <data>CondLogic1</data>
-                            <data>2</data>
+                            <data>5</data>
                             <data>1</data>
                             <data>0</data>
                             <data>0</data>
@@ -247,8 +278,8 @@
                         </row>
                         <row>
                             <data>Decoder1</data>
-                            <data>13</data>
-                            <data>1</data>
+                            <data>8</data>
+                            <data>0</data>
                             <data>0</data>
                             <data>0</data>
                             <data>0</data>
@@ -279,7 +310,7 @@
                     </row>
                     <row>
                         <data>u_PC</data>
-                        <data>47</data>
+                        <data>58</data>
                         <data>32</data>
                         <data>0</data>
                         <data>0</data>
@@ -310,7 +341,7 @@
                     </row>
                     <row>
                         <data>u_RegisterFile</data>
-                        <data>76</data>
+                        <data>78</data>
                         <data>0</data>
                         <data>44</data>
                         <data>0</data>
@@ -350,19 +381,226 @@
         </column_headers>
         <row>
             <data>no_clock</data>
-            <data>55</data>
+            <data>157</data>
             <table_container>
                 <table id="no_clock_detailed_report" title="no_clock" column_number="1" tree="">
                     <column_headers>
                         <data>Issues</data>
                     </column_headers>
                     <row>
-                        <data>There are 53 clock pins with no clock driven</data>
+                        <data>There are 156 clock pins with no clock driven</data>
                         <row>
-                            <data>wrapper1/ARM1/u_Control/CondLogic1/Z/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/count[0]/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/u_Control/Decoder1/MCOp[0]/G</data>
+                            <data>wrapper1/ARM1/MCycle1/count[1]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/count[2]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/count[3]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/count[4]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/done/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/state/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[0]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[1]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[2]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[3]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[4]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[5]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[6]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[7]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[8]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[9]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[10]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[11]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[12]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[13]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[14]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[15]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[16]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[17]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[18]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[19]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[20]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[21]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[22]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[23]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[24]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[25]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[26]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[27]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[28]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[29]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[30]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[31]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[32]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[33]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[34]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[35]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[36]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[37]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[38]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[39]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[40]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[41]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[42]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[43]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[44]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[45]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[46]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[47]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[48]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[49]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[50]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[51]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[52]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[53]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[54]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[55]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[56]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[57]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[58]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[59]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[60]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[61]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[62]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/u_Control/CondLogic1/Z/CLK</data>
                         </row>
                         <row>
                             <data>wrapper1/ARM1/u_PC/current_PC[0]/CLK</data>
@@ -494,6 +732,108 @@
                             <data>wrapper1/ARM1/u_RegisterFile/RegBank_16_x2x4/WCLK</data>
                         </row>
                         <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_0/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_1/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_2/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_3/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_4/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_5/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_6/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_7/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_8/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_9/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_10/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_11/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_12/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_13/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_14/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_15/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_16/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_17/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_18/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_19/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_20/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_21/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_22/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_23/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_24/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_25/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_26/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_27/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_28/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_29/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_30/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_a_31/WCLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_b/CLKA</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/DATA_VAR_MEM_b/CLKB</data>
+                        </row>
+                        <row>
                             <data>wrapper1/LED[2]/CLK</data>
                         </row>
                         <row>
@@ -519,12 +859,9 @@
                         </row>
                     </row>
                     <row>
-                        <data>There are 2 nodes without an associated clock assignment.</data>
+                        <data>There are 1 nodes without an associated clock assignment.</data>
                         <row>
                             <data>genblk1.clk_counter[24]/Q</data>
-                        </row>
-                        <row>
-                            <data>wrapper1/ARM1/u_Control/Decoder1/N80_1/Z</data>
                         </row>
                     </row>
                     <row>
@@ -563,14 +900,35 @@
         </row>
         <row>
             <data>no_input_delay</data>
-            <data>2</data>
+            <data>9</data>
             <table_container>
                 <table id="no_input_delay_detailed_report" title="no_input_delay" column_number="1" tree="">
                     <column_headers>
                         <data>Issues</data>
                     </column_headers>
                     <row>
-                        <data>There are 2 input ports with no input delay specified.</data>
+                        <data>There are 9 input ports with no input delay specified.</data>
+                        <row>
+                            <data>DIP[0]</data>
+                        </row>
+                        <row>
+                            <data>DIP[1]</data>
+                        </row>
+                        <row>
+                            <data>DIP[2]</data>
+                        </row>
+                        <row>
+                            <data>DIP[3]</data>
+                        </row>
+                        <row>
+                            <data>DIP[4]</data>
+                        </row>
+                        <row>
+                            <data>DIP[5]</data>
+                        </row>
+                        <row>
+                            <data>DIP[6]</data>
+                        </row>
                         <row>
                             <data>PAUSE_n</data>
                         </row>
@@ -777,17 +1135,14 @@
         </row>
         <row>
             <data>latchs</data>
-            <data>1</data>
+            <data>0</data>
             <table_container>
                 <table id="latchs_detailed_report" title="latchs" column_number="1" tree="">
                     <column_headers>
                         <data>Issues</data>
                     </column_headers>
                     <row>
-                        <data>There are 1 latchs in the design.</data>
-                        <row>
-                            <data>wrapper1/ARM1/u_Control/Decoder1/MCOp[0]</data>
-                        </row>
+                        <data>There are 0 latchs in the design.</data>
                     </row>
                 </table>
             </table_container>
@@ -1230,7 +1585,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N1091</data>
+                            <data object_valid="true">_N2261</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1278,7 +1633,7 @@
                             <data>0.000</data>
                             <data>5.433</data>
                             <data> </data>
-                            <data object_valid="true">_N102</data>
+                            <data object_valid="true">_N449</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1532,7 +1887,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N1091</data>
+                            <data object_valid="true">_N2261</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1810,7 +2165,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N1091</data>
+                            <data object_valid="true">_N2261</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2649,28 +3004,28 @@
         </column_headers>
         <comment>
             <data>
-Total LUTs: 677 of 35800 (1.89%)
-	LUTs as dram: 44 of 9500 (0.46%)
-	LUTs as logic: 633
-Total Registers: 92 of 71600 (0.13%)
-Total Latches: 1
+Total LUTs: 951 of 35800 (2.66%)
+	LUTs as dram: 108 of 9500 (1.14%)
+	LUTs as logic: 843
+Total Registers: 162 of 71600 (0.23%)
+Total Latches: 0
 
 DRM36K/FIFO:
-Total DRM = 0.0 of 85 (0.00%)
+Total DRM = 0.5 of 85 (0.59%)
 
 APMs:
 Total APMs = 0.00 of 120 (0.00%)
 
-Total I/O ports = 35 of 209 (16.75%)
+Total I/O ports = 42 of 209 (20.10%)
 </data>
         </comment>
         <row>
             <data>GTP_DFF_C                   </data>
-            <data>56</data>
+            <data>27</data>
         </row>
         <row>
-            <data>GTP_DFF_CE                  </data>
-            <data>34</data>
+            <data>GTP_DFF_CE                 </data>
+            <data>133</data>
         </row>
         <row>
             <data>GTP_DFF_E                    </data>
@@ -2681,7 +3036,7 @@ Total I/O ports = 35 of 209 (16.75%)
             <data>1</data>
         </row>
         <row>
-            <data>GTP_DLATCH                   </data>
+            <data>GTP_DRM18K_E1                </data>
             <data>1</data>
         </row>
         <row>
@@ -2698,35 +3053,39 @@ Total I/O ports = 35 of 209 (16.75%)
         </row>
         <row>
             <data>GTP_LUT2                     </data>
-            <data>3</data>
+            <data>5</data>
         </row>
         <row>
             <data>GTP_LUT3                     </data>
-            <data>2</data>
+            <data>3</data>
         </row>
         <row>
-            <data>GTP_LUT4                    </data>
-            <data>38</data>
+            <data>GTP_LUT4                   </data>
+            <data>127</data>
         </row>
         <row>
-            <data>GTP_LUT5                   </data>
-            <data>102</data>
+            <data>GTP_LUT5                    </data>
+            <data>86</data>
         </row>
         <row>
             <data>GTP_LUT6                   </data>
-            <data>241</data>
+            <data>342</data>
         </row>
         <row>
             <data>GTP_LUT6CARRY              </data>
-            <data>131</data>
+            <data>164</data>
         </row>
         <row>
             <data>GTP_LUT6D                   </data>
-            <data>85</data>
+            <data>79</data>
         </row>
         <row>
-            <data>GTP_MUX2LUT7                 </data>
-            <data>3</data>
+            <data>GTP_MUX2LUT7                </data>
+            <data>14</data>
+        </row>
+        <row>
+            <data>GTP_RAM128X1SP              </data>
+            <data>32</data>
         </row>
         <row>
             <data>GTP_RAM32X2X4               </data>
@@ -2734,11 +3093,11 @@ Total I/O ports = 35 of 209 (16.75%)
         </row>
         <row>
             <data>GTP_ROM64X1                 </data>
-            <data>24</data>
+            <data>30</data>
         </row>
         <row>
-            <data>GTP_INBUF                  </data>
-            <data>3</data>
+            <data>GTP_INBUF                 </data>
+            <data>10</data>
         </row>
         <row>
             <data>GTP_OUTBUF                </data>
@@ -2766,10 +3125,10 @@ Total I/O ports = 35 of 209 (16.75%)
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:3s</data>
-            <data>0h:0m:3s</data>
-            <data>0h:0m:12s</data>
-            <data>297</data>
+            <data>0h:0m:2s</data>
+            <data>0h:0m:2s</data>
+            <data>0h:0m:13s</data>
+            <data>304</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -2799,9 +3158,6 @@ Total I/O ports = 35 of 209 (16.75%)
             <data message="6">ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab2/PDS_Lab2_Template/Hardware/Constraint_Source/Top.fdc(line number: 207)] | Port SevenSegCatHL[8] has been placed at location B4, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">SDC-2025: Clock source 'n:wrapper1/ARM1/u_Control/Decoder1/ALUOp[1]' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.</data>
-        </row>
-        <row>
             <data message="6">SDC-2025: Clock source 'n:CLK_undiv' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.</data>
         </row>
         <row>
@@ -2811,40 +3167,34 @@ Total I/O ports = 35 of 209 (16.75%)
             <data message="4">Removed bmsADD inst N79 that is redundant to N47</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/N1 (bmsWIDEMUX).</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N69 (bmsWIDEINV).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/N13 (bmsWIDEMUX).</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N73 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/N15 (bmsWIDEMUX).</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N74 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/Extend1/N19 (bmsWIDEINV).</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N75 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/Extend1/N20 (bmsREDAND).</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N76 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/Extend1/N21 (bmsREDAND).</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N77 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/Extend1/N22 (bmsREDAND).</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N78 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/MCycle1/N8_1 (bmsWIDEMUX).</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N79 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/MCycle1/N15 (bmsWIDEINV).</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N80 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on wrapper1/ARM1/MCycle1/N169 (bmsREDAND).</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 31 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Public-4008: Instance 'wrapper1/ARM1/MCycle1/sign' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+            <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N81 (bmsREDAND).</data>
         </row>
         <row>
             <data message="5">Public-4008: Instance 'wrapper1/ARM1/u_Control/CondLogic1/C' of 'bmsWIDEDFFRSE' unit is dangling and will be cleaned.</data>
@@ -2859,226 +3209,10 @@ Total I/O ports = 35 of 209 (16.75%)
             <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/count[5:0] at 5 that is stuck at constant 0.</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/state that is stuck at constant 0.</data>
+            <data message="5">Public-4008: Instance 'wrapper1/ARM1/MCycle1/sign' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 0 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 1 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 2 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 3 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 4 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 5 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 6 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 7 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 8 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 9 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 10 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 11 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 12 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 13 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 14 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 15 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 16 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 17 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 18 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 19 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 20 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 21 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 22 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 23 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 24 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 25 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 26 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 27 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 28 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 29 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 30 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/count[5:0] at 0 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/count[5:0] at 1 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/count[5:0] at 2 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/count[5:0] at 3 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/count[5:0] at 4 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/done that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[0] that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 0 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 1 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 2 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 3 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 4 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 5 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 6 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 7 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 8 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 9 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 10 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 11 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 12 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 13 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 14 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 15 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 16 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 17 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 18 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 19 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 20 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 21 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 22 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 23 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 24 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 25 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 26 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 27 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 28 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 29 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[31:1] at 30 that is stuck at constant 0.</data>
-        </row>
-        <row>
-            <data message="5">pmux inst 'wrapper1/ARM1/MCycle1/N191' has no active select, tie output to 0</data>
-        </row>
-        <row>
-            <data message="5">pmux inst 'wrapper1/ARM1/MCycle1/N142' has no active select, tie output to 0</data>
-        </row>
-        <row>
-            <data message="5">pmux inst 'wrapper1/ARM1/MCycle1/N213' has no active select, tie output to 0</data>
-        </row>
-        <row>
-            <data message="5">Removed GTP_DLATCH inst wrapper1/ARM1/u_Control/Decoder1/MCOp[1] that is stuck at constant 0.</data>
+            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 31 that is stuck at constant 0.</data>
         </row>
         <row>
             <data message="5">Public-4008: Instance 'wrapper1/LED[0]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
@@ -3105,190 +3239,403 @@ Total I/O ports = 35 of 209 (16.75%)
             <data message="5">Public-4008: Instance 'wrapper1/LED[15]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Unable to honor max fanout constraint for gtp_inv driven net RESET</data>
+            <data message="5">Public-4008: Instance 'wrapper1/ARM1/MCycle1/temp_sum[63]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'wrapper1/ARM1/MCycle1/count[5]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
             <data message="5">Unable to honor max fanout constraint for gtp_inv driven net RESET</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_29 is more than 10000 on net R15[31], but wasn't replicated.</data>
+            <data message="5">Unable to honor max fanout constraint for gtp_inv driven net RESET</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_28 is more than 10000 on net R15[30], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_29 is more than 10000 on net R15[31], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_27 is more than 10000 on net R15[29], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_28 is more than 10000 on net R15[30], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_26 is more than 10000 on net R15[28], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_27 is more than 10000 on net R15[29], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_25 is more than 10000 on net R15[27], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_26 is more than 10000 on net R15[28], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_24 is more than 10000 on net R15[26], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_25 is more than 10000 on net R15[27], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_23 is more than 10000 on net R15[25], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_24 is more than 10000 on net R15[26], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_22 is more than 10000 on net R15[24], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_23 is more than 10000 on net R15[25], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_21 is more than 10000 on net R15[23], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_22 is more than 10000 on net R15[24], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_20 is more than 10000 on net R15[22], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_21 is more than 10000 on net R15[23], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_19 is more than 10000 on net R15[21], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_20 is more than 10000 on net R15[22], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_18 is more than 10000 on net R15[20], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_19 is more than 10000 on net R15[21], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_17 is more than 10000 on net R15[19], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_18 is more than 10000 on net R15[20], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_16 is more than 10000 on net R15[18], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_17 is more than 10000 on net R15[19], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_15 is more than 10000 on net R15[17], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_16 is more than 10000 on net R15[18], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_14 is more than 10000 on net R15[16], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_15 is more than 10000 on net R15[17], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_13 is more than 10000 on net R15[15], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_14 is more than 10000 on net R15[16], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_12 is more than 10000 on net R15[14], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_13 is more than 10000 on net R15[15], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_11 is more than 10000 on net R15[13], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_12 is more than 10000 on net R15[14], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_10 is more than 10000 on net R15[12], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_11 is more than 10000 on net R15[13], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_9 is more than 10000 on net R15[11], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_10 is more than 10000 on net R15[12], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_8 is more than 10000 on net R15[10], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_9 is more than 10000 on net R15[11], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_7 is more than 10000 on net R15[9], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_8 is more than 10000 on net R15[10], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_6 is more than 10000 on net R15[8], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_7 is more than 10000 on net R15[9], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_5 is more than 10000 on net R15[7], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_6 is more than 10000 on net R15[8], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_4 is more than 10000 on net R15[6], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_5 is more than 10000 on net R15[7], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_3 is more than 10000 on net R15[5], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_4 is more than 10000 on net R15[6], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_2 is more than 10000 on net R15[4], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_3 is more than 10000 on net R15[5], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_1 is more than 10000 on net R15[3], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_2 is more than 10000 on net R15[4], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_29 is more than 10000 on net R15[31], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_1 is more than 10000 on net R15[3], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_28 is more than 10000 on net R15[30], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_29 is more than 10000 on net R15[31], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_27 is more than 10000 on net R15[29], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_28 is more than 10000 on net R15[30], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_26 is more than 10000 on net R15[28], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_27 is more than 10000 on net R15[29], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_25 is more than 10000 on net R15[27], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_26 is more than 10000 on net R15[28], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_24 is more than 10000 on net R15[26], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_25 is more than 10000 on net R15[27], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_23 is more than 10000 on net R15[25], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_24 is more than 10000 on net R15[26], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_22 is more than 10000 on net R15[24], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_23 is more than 10000 on net R15[25], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_21 is more than 10000 on net R15[23], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_22 is more than 10000 on net R15[24], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_20 is more than 10000 on net R15[22], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_21 is more than 10000 on net R15[23], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_19 is more than 10000 on net R15[21], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_20 is more than 10000 on net R15[22], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_18 is more than 10000 on net R15[20], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_19 is more than 10000 on net R15[21], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_17 is more than 10000 on net R15[19], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_18 is more than 10000 on net R15[20], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_16 is more than 10000 on net R15[18], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_17 is more than 10000 on net R15[19], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_15 is more than 10000 on net R15[17], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_16 is more than 10000 on net R15[18], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_14 is more than 10000 on net R15[16], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_15 is more than 10000 on net R15[17], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_13 is more than 10000 on net R15[15], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_14 is more than 10000 on net R15[16], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_12 is more than 10000 on net R15[14], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_13 is more than 10000 on net R15[15], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_11 is more than 10000 on net R15[13], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_12 is more than 10000 on net R15[14], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_10 is more than 10000 on net R15[12], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_11 is more than 10000 on net R15[13], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_9 is more than 10000 on net R15[11], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_10 is more than 10000 on net R15[12], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_8 is more than 10000 on net R15[10], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_9 is more than 10000 on net R15[11], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_7 is more than 10000 on net R15[9], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_8 is more than 10000 on net R15[10], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_6 is more than 10000 on net R15[8], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_7 is more than 10000 on net R15[9], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_5 is more than 10000 on net R15[7], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_6 is more than 10000 on net R15[8], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_4 is more than 10000 on net R15[6], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_5 is more than 10000 on net R15[7], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_3 is more than 10000 on net R15[5], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_4 is more than 10000 on net R15[6], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_2 is more than 10000 on net R15[4], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_3 is more than 10000 on net R15[5], but wasn't replicated.</data>
         </row>
         <row>
-            <data message="5">syn_maxfan of lutcarry N17_0_1 is more than 10000 on net R15[3], but wasn't replicated.</data>
+            <data message="5">syn_maxfan of lutcarry N21_0_2 is more than 10000 on net R15[4], but wasn't replicated.</data>
+        </row>
+        <row>
+            <data message="5">syn_maxfan of lutcarry N21_0_1 is more than 10000 on net R15[3], but wasn't replicated.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/count[0]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/count[1]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/count[2]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/count[3]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/count[4]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/done/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/state/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[0]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[1]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[2]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[3]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[4]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[5]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[6]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[7]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[8]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[9]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[10]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[11]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[12]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[13]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[14]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[15]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[16]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[17]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[18]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[19]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[20]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[21]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[22]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[23]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[24]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[25]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[26]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[27]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[28]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[29]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[30]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[31]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[32]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[33]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[34]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[35]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[36]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[37]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[38]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[39]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[40]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[41]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[42]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[43]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[44]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[45]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[46]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[47]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[48]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[49]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[50]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[51]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[52]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[53]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[54]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[55]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[56]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[57]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[58]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[59]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[60]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[61]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[62]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_Control/CondLogic1/Z/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_Control/Decoder1/MCOp[0]/G' (GTP_DLATCH.G) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[0]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
@@ -3297,94 +3644,94 @@ Total I/O ports = 35 of 209 (16.75%)
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[1]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[2]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[2]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[3]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[3]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[4]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[4]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[5]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[5]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[6]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[6]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[7]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[7]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[8]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[8]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[9]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[9]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[10]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[10]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[11]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[11]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[12]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[12]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[13]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[13]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[14]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[14]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[15]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[15]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[16]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[16]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[17]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[17]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[18]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[18]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[19]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[19]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[20]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[20]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[21]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[21]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[22]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[22]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[23]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[23]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[24]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[24]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[25]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[25]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[26]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[26]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[27]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[27]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[28]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[28]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[29]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[29]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[30]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[30]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[31]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[31]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_RegisterFile/RegBank_0_x2x4/WCLK' (GTP_RAM32X2X4.WCLK) has no clock, timing propagation is disabled at the pin.</data>
@@ -3418,6 +3765,108 @@ Total I/O ports = 35 of 209 (16.75%)
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_RegisterFile/RegBank_16_x2x4/WCLK' (GTP_RAM32X2X4.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_0/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_1/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_2/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_3/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_4/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_5/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_6/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_7/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_8/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_9/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_10/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_11/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_12/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_13/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_14/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_15/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_16/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_17/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_18/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_19/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_20/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_21/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_22/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_23/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_24/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_25/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_26/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_27/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_28/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_29/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_30/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_a_31/WCLK' (GTP_RAM128X1SP.WCLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_b/CLKA' (GTP_DRM18K_E1.CLKA) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/DATA_VAR_MEM_b/CLKB' (GTP_DRM18K_E1.CLKB) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/LED[2]/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>

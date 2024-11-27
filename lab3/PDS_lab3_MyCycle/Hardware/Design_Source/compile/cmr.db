@@ -191,13 +191,13 @@
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 1)] Elaborating module ARM</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 22)] Elaborating instance u_PC</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 23)] Elaborating instance u_PC</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ProgramCounter.v(line number: 1)] Elaborating module ProgramCounter</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 40)] Elaborating instance u_Control</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 41)] Elaborating instance u_Control</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ControlUnit.v(line number: 1)] Elaborating module ControlUnit</data>
@@ -215,52 +215,31 @@
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 1)] Elaborating module Decoder</data>
         </row>
         <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 41)] Case condition never applies</data>
-        </row>
-        <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 43)] Case condition never applies</data>
-        </row>
-        <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 45)] Case condition never applies</data>
-        </row>
-        <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 47)] Case condition never applies</data>
-        </row>
-        <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 49)] Case condition never applies</data>
-        </row>
-        <row>
-            <data message="5">Verilog-2019: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 49)] Width mismatch between port RegSrc and signal bound to it for instantiated module ControlUnit</data>
-        </row>
-        <row>
-            <data message="5">Verilog-2019: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 54)] Width mismatch between port MCOp and signal bound to it for instantiated module ControlUnit</data>
-        </row>
-        <row>
-            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 66)] Elaborating instance u_RegisterFile</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 67)] Elaborating instance u_RegisterFile</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 1)] Elaborating module RegisterFile</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 87)] Elaborating instance Shifter1</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 88)] Elaborating instance Shifter1</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Shifter.v(line number: 1)] Elaborating module Shifter</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 99)] Elaborating instance Extend1</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 100)] Elaborating instance Extend1</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Extend.v(line number: 1)] Elaborating module Extend</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 110)] Elaborating instance ALU1</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 111)] Elaborating instance ALU1</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ALU.v(line number: 1)] Elaborating module ALU</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 119)] Elaborating instance MCycle1</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 120)] Elaborating instance MCycle1</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/MCycle_template.v(line number: 2)] Elaborating module MCycle</data>
@@ -270,19 +249,13 @@
     width = 32'b00000000000000000000000000100000</data>
         </row>
         <row>
-            <data message="5">Sdm-2004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 15)] Latch is generated for signal MCOp, possible missing assignment in an if or case statement.</data>
-        </row>
-        <row>
             <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Wrapper.v(line number: 149)] Found Ram DATA_VAR_MEM, depth=128, width=32.</data>
         </row>
         <row>
-            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 20)] Found Ram RegBank, depth=16, width=32.</data>
+            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 36)] Found Ram RegBank, depth=16, width=32.</data>
         </row>
         <row>
-            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 20)] Found Ram RegBank, depth=16, width=32.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
+            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 36)] Found Ram RegBank, depth=16, width=32.</data>
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>
@@ -297,36 +270,30 @@
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on ALUOp_1 (bmsWIDEMUX).</data>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on MCycleOp_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on M_Start_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on M_W_1 (bmsWIDEMUX).</data>
         </row>
         <row>
             <data message="4">Constant propagation done on MemW_1 (bmsWIDEMUX).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on RegW_1 (bmsWIDEMUX).</data>
+            <data message="4">Constant propagation done on Branch_1 (bmsWIDEMUX).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on N179 (bmsREDOR).</data>
+            <data message="4">Constant propagation done on RegW_1 (bmsWIDEMUX).</data>
         </row>
         <row>
             <data message="4">Constant propagation done on NoWrite_1 (bmsWIDEMUX).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on N203 (bmsREDAND).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N168 (bmsREDOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N894 (bmsREDOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N897 (bmsREDOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N900 (bmsREDOR).</data>
-        </row>
-        <row>
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
@@ -343,6 +310,15 @@
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N154 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N54[63:32] (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N213 (bmsPMUX).</data>
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>

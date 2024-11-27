@@ -48,6 +48,167 @@
             <data>YES</data>
         </row>
         <row>
+            <data>DIP[0]</data>
+            <data>input</data>
+            <data>R1</data>
+            <data>BANKR5</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>OFF</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>DIP[1]</data>
+            <data>input</data>
+            <data>N4</data>
+            <data>BANKR5</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>OFF</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>DIP[2]</data>
+            <data>input</data>
+            <data>M4</data>
+            <data>BANKR5</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>OFF</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>DIP[3]</data>
+            <data>input</data>
+            <data>R2</data>
+            <data>BANKR5</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>OFF</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>DIP[4]</data>
+            <data>input</data>
+            <data>P2</data>
+            <data>BANKR5</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>OFF</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>DIP[5]</data>
+            <data>input</data>
+            <data>P3</data>
+            <data>BANKR5</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>OFF</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>DIP[6]</data>
+            <data>input</data>
+            <data>P4</data>
+            <data>BANKR5</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>UNUSED</data>
+            <data>OFF</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
             <data>LED[0]</data>
             <data>output</data>
             <data>K2</data>
@@ -2402,36 +2563,36 @@
             <data>IOBD_300_132</data>
             <data>BANKR5</data>
             <data>DIFFIO_R5_G2_13P_GSCLK</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>DIP[6]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>P2</data>
             <data>IOBD_300_120</data>
             <data>BANKR5</data>
             <data>DIFFIO_R5_G2_14P_DQS</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>DIP[4]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>M4</data>
             <data>IOBD_300_108</data>
             <data>BANKR5</data>
             <data>DIFFIO_R5_G2_15P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>DIP[2]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>R1</data>
             <data>IOBD_300_96</data>
             <data>BANKR5</data>
             <data>DIFFIO_R5_G2_16P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>DIP[0]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>M6</data>
@@ -2627,27 +2788,27 @@
             <data>IOBS_300_126</data>
             <data>BANKR5</data>
             <data>DIFFIO_R5_G2_13N_GSCLK</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>DIP[5]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>R2</data>
             <data>IOBS_300_114</data>
             <data>BANKR5</data>
             <data>DIFFIO_R5_G2_14N_DQS</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>DIP[3]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>N4</data>
             <data>IOBS_300_102</data>
             <data>BANKR5</data>
             <data>DIFFIO_R5_G2_15N</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>DIP[1]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>T1</data>
@@ -2770,56 +2931,56 @@
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>241</data>
+            <data>264</data>
             <data>6575</data>
-            <data>4</data>
+            <data>5</data>
             <row>
                 <data>  FF</data>
-                <data>117</data>
+                <data>134</data>
                 <data>52600</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>842</data>
+                <data>897</data>
                 <data>26300</data>
                 <data>4</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>82</data>
+                <data>124</data>
                 <data>26300</data>
                 <data>1</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>43</data>
+            <data>89</data>
             <data>2375</data>
-            <data>2</data>
+            <data>4</data>
             <row>
                 <data>  FF</data>
-                <data>48</data>
+                <data>30</data>
                 <data>19000</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>146</data>
+                <data>289</data>
                 <data>9500</data>
-                <data>2</data>
+                <data>4</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>39</data>
+                <data>18</data>
                 <data>9500</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  Distributed RAM</data>
-                <data>44</data>
+                <data>108</data>
                 <data>9500</data>
-                <data>1</data>
+                <data>2</data>
             </row>
         </row>
         <row>
@@ -2842,9 +3003,9 @@
         </row>
         <row>
             <data>Use of DRM</data>
-            <data>0</data>
+            <data>0.5</data>
             <data>85</data>
-            <data>0</data>
+            <data>1</data>
         </row>
         <row>
             <data>Use of GCLK_INBUF_SYN</data>
@@ -2866,7 +3027,7 @@
         </row>
         <row>
             <data>Use of HARD0</data>
-            <data>74</data>
+            <data>97</data>
             <data>5850</data>
             <data>2</data>
         </row>
@@ -2890,20 +3051,20 @@
         </row>
         <row>
             <data>Use of IO</data>
-            <data>35</data>
+            <data>42</data>
             <data>210</data>
-            <data>17</data>
+            <data>20</data>
             <row>
                 <data>  IOBD</data>
-                <data>18</data>
+                <data>22</data>
                 <data>100</data>
-                <data>18</data>
+                <data>22</data>
             </row>
             <row>
                 <data>  IOBS</data>
-                <data>17</data>
+                <data>20</data>
                 <data>110</data>
-                <data>16</data>
+                <data>19</data>
             </row>
         </row>
         <row>
@@ -2920,9 +3081,9 @@
         </row>
         <row>
             <data>Use of IOLHR</data>
-            <data>35</data>
+            <data>42</data>
             <data>250</data>
-            <data>14</data>
+            <data>17</data>
         </row>
         <row>
             <data>Use of KEYRAM</data>
@@ -3075,21 +3236,21 @@
         </column_headers>
         <row>
             <data>TOP</data>
-            <data>891</data>
-            <data>165</data>
-            <data>44</data>
+            <data>1108</data>
+            <data>164</data>
+            <data>108</data>
+            <data>0</data>
+            <data>0.5</data>
+            <data>0</data>
+            <data>0</data>
+            <data>1</data>
             <data>0</data>
             <data>0</data>
             <data>0</data>
             <data>0</data>
             <data>1</data>
             <data>0</data>
-            <data>0</data>
-            <data>0</data>
-            <data>0</data>
-            <data>1</data>
-            <data>0</data>
-            <data>35</data>
+            <data>42</data>
             <data>0</data>
             <data>0</data>
             <data>0</data>
@@ -3101,11 +3262,11 @@
             <data>1</data>
             <row>
                 <data>wrapper1</data>
-                <data>836</data>
+                <data>1031</data>
                 <data>114</data>
-                <data>44</data>
+                <data>108</data>
                 <data>0</data>
-                <data>0</data>
+                <data>0.5</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -3127,7 +3288,7 @@
                 <data>0</data>
                 <row>
                     <data>ARM1</data>
-                    <data>802</data>
+                    <data>917</data>
                     <data>106</data>
                     <data>44</data>
                     <data>0</data>
@@ -3153,7 +3314,7 @@
                     <data>0</data>
                     <row>
                         <data>ALU1</data>
-                        <data>88</data>
+                        <data>101</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -3180,8 +3341,8 @@
                     </row>
                     <row>
                         <data>MCycle1</data>
-                        <data>222</data>
-                        <data>72</data>
+                        <data>225</data>
+                        <data>73</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -3207,7 +3368,7 @@
                     </row>
                     <row>
                         <data>Shifter1</data>
-                        <data>173</data>
+                        <data>235</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -3234,8 +3395,8 @@
                     </row>
                     <row>
                         <data>u_Control</data>
-                        <data>13</data>
-                        <data>2</data>
+                        <data>24</data>
+                        <data>1</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -3260,7 +3421,7 @@
                         <data>0</data>
                         <row>
                             <data>CondLogic1</data>
-                            <data>4</data>
+                            <data>5</data>
                             <data>1</data>
                             <data>0</data>
                             <data>0</data>
@@ -3287,8 +3448,8 @@
                         </row>
                         <row>
                             <data>Decoder1</data>
-                            <data>9</data>
-                            <data>1</data>
+                            <data>19</data>
+                            <data>0</data>
                             <data>0</data>
                             <data>0</data>
                             <data>0</data>
@@ -3315,7 +3476,7 @@
                     </row>
                     <row>
                         <data>u_PC</data>
-                        <data>50</data>
+                        <data>57</data>
                         <data>32</data>
                         <data>0</data>
                         <data>0</data>
@@ -3342,7 +3503,7 @@
                     </row>
                     <row>
                         <data>u_RegisterFile</data>
-                        <data>79</data>
+                        <data>78</data>
                         <data>0</data>
                         <data>44</data>
                         <data>0</data>
@@ -3382,10 +3543,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:12s</data>
-            <data>0h:0m:14s</data>
-            <data>0h:0m:38s</data>
-            <data>902</data>
+            <data>0h:0m:22s</data>
+            <data>0h:0m:27s</data>
+            <data>0h:0m:41s</data>
+            <data>948</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -3415,43 +3576,19 @@
             <data message="6">ConstraintEditor-2002: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/device_map/TOP.pcf(line number: 33)] | Port SevenSegCatHL[14] has been placed at location B2, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/device_map/TOP.pcf(line number: 36)] Object 'DIP[0]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/device_map/TOP.pcf(line number: 37)] Object 'DIP[1]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/device_map/TOP.pcf(line number: 38)] Object 'DIP[2]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/device_map/TOP.pcf(line number: 39)] Object 'DIP[3]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/device_map/TOP.pcf(line number: 40)] Object 'DIP[4]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/device_map/TOP.pcf(line number: 41)] Object 'DIP[5]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/device_map/TOP.pcf(line number: 42)] Object 'DIP[6]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
             <data message="4">Column Clock Check open.</data>
         </row>
         <row>
-            <data message="4">LUT6D pack result: There are 466 LUT6 in collection, pack success:6</data>
+            <data message="4">LUT6D pack result: There are 585 LUT6 in collection, pack success:7</data>
         </row>
         <row>
-            <data message="4">LUT6D pack result: There are 454 LUT6 in collection, pack success:0</data>
+            <data message="4">LUT6D pack result: There are 571 LUT6 in collection, pack success:1</data>
         </row>
         <row>
             <data message="4">clock_dedicated_route = 0</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from CLMS_207_349:Q3 to CLMA_231_438:CLK is routed by SRB.</data>
-        </row>
-        <row>
-            <data message="6">Route-2036: The clock path from CLMS_237_367:CR1 to CLMS_237_367:CLK is routed by SRB.</data>
+            <data message="6">Route-2036: The clock path from CLMA_285_343:Q3 to CLMS_177_295:CLK is routed by SRB.</data>
         </row>
     </table>
     <general_container id="pnr_settings">

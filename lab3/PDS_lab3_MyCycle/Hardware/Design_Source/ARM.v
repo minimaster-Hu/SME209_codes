@@ -14,7 +14,8 @@ module ARM(
     wire [31:0] Result,ALUResult,MCycle_Result;
     wire [31:0] PC_Plus_4;
     wire MemtoReg;
-    wire M_Start, Busy, M_Write,MCycleOp;
+    wire M_Start, Busy, M_Write;
+    wire MCycleOp;
 
     assign OpResult = M_Write? MCycle_Result: ALUResult;
     assign Result = MemtoReg? ReadData: OpResult;
@@ -24,9 +25,9 @@ module ARM(
         .Reset(Reset),
         .PCSrc(PCSrc),
         .Result(Result),
+        .Busy(Busy),
         .PC(PC),
-        .PC_Plus_4(PC_Plus_4),
-        .Busy(Busy)
+        .PC_Plus_4(PC_Plus_4)
     );
 
     //Control Unit
@@ -49,9 +50,9 @@ module ARM(
         .RegSrc(RegSrc),
         .ALUControl(ALUControl),
         .PCSrc(PCSrc),
-        .M_Write(M_Write),
         .M_Start(M_Start),
-        .MCOp(MCycleOp)
+        .MCycleOp(MCycleOp),
+        .M_Write(M_Write)
     );
 
     //Reg File

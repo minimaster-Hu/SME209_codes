@@ -68,7 +68,7 @@
             <data>0h:0m:0s</data>
             <data>0h:0m:0s</data>
             <data>0h:0m:4s</data>
-            <data>129</data>
+            <data>136</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -191,13 +191,13 @@
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 1)] Elaborating module ARM</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 22)] Elaborating instance u_PC</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 23)] Elaborating instance u_PC</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ProgramCounter.v(line number: 1)] Elaborating module ProgramCounter</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 40)] Elaborating instance u_Control</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 41)] Elaborating instance u_Control</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ControlUnit.v(line number: 1)] Elaborating module ControlUnit</data>
@@ -215,25 +215,180 @@
             <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 1)] Elaborating module Decoder</data>
         </row>
         <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 41)] Case condition never applies</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 67)] Elaborating instance u_RegisterFile</data>
         </row>
         <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 43)] Case condition never applies</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 1)] Elaborating module RegisterFile</data>
         </row>
         <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 45)] Case condition never applies</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 88)] Elaborating instance Shifter1</data>
         </row>
         <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 47)] Case condition never applies</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Shifter.v(line number: 1)] Elaborating module Shifter</data>
         </row>
         <row>
-            <data message="5">Verilog-2038: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Decoder.v(line number: 49)] Case condition never applies</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 100)] Elaborating instance Extend1</data>
         </row>
         <row>
-            <data message="5">Verilog-2019: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 54)] Width mismatch between port MCOp and signal bound to it for instantiated module ControlUnit</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Extend.v(line number: 1)] Elaborating module Extend</data>
         </row>
         <row>
-            <data message="7">Verilog-4088: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 61)] Index 2 of RegSrc is out of range</data>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 111)] Elaborating instance ALU1</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ALU.v(line number: 1)] Elaborating module ALU</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 120)] Elaborating instance MCycle1</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/MCycle_template.v(line number: 2)] Elaborating module MCycle</data>
+        </row>
+        <row>
+            <data message="4">Module instance {TOP.wrapper1.ARM1.MCycle1} parameter value:
+    width = 32'b00000000000000000000000000100000</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Wrapper.v(line number: 149)] Found Ram DATA_VAR_MEM, depth=128, width=32.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 20)] Found Ram RegBank, depth=16, width=32.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 20)] Found Ram RegBank, depth=16, width=32.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on MCycleOp_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on M_Start_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on M_W_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on MemW_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on Branch_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on RegW_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on NoWrite_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N154 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N54[63:32] (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N213 (bmsPMUX).</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
         </row>
     </table>
+    <general_container id="compile_settings">
+        <table_container>
+            <table id="compile_settings" title="Compile Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PG2L50H-6MBG324</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>TOP</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Verilog</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>SystemVerilog</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Allow Duplicate Modules</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Include Path Order: 
+ (Relative to Verilog File)</data>
+                        <data>F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source	</data>
+                    </row>
+                    <row>
+                        <data>Parameters/Generics</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Compiler Directives</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Loop Limit</data>
+                        <data>2000</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Options</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>FSM Compiler</data>
+                        <data>auto</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
 </tables>
