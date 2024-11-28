@@ -67,7 +67,7 @@
         <row>
             <data>0h:0m:0s</data>
             <data>0h:0m:0s</data>
-            <data>0h:0m:4s</data>
+            <data>0h:0m:5s</data>
             <data>136</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
@@ -252,13 +252,10 @@
             <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/Wrapper.v(line number: 149)] Found Ram DATA_VAR_MEM, depth=128, width=32.</data>
         </row>
         <row>
-            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 20)] Found Ram RegBank, depth=16, width=32.</data>
+            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 36)] Found Ram RegBank, depth=16, width=32.</data>
         </row>
         <row>
-            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 20)] Found Ram RegBank, depth=16, width=32.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
+            <data message="4">Sdm-0001: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/RegisterFile.v(line number: 36)] Found Ram RegBank, depth=16, width=32.</data>
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>
@@ -273,16 +270,16 @@
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on MCycleOp_1 (bmsWIDEMUX).</data>
+            <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on M_Start_1 (bmsWIDEMUX).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on M_W_1 (bmsWIDEMUX).</data>
+            <data message="4">Constant propagation done on N241 (bmsWIDEMUX).</data>
         </row>
         <row>
             <data message="4">Constant propagation done on MemW_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N242 (bmsWIDEMUX).</data>
         </row>
         <row>
             <data message="4">Constant propagation done on Branch_1 (bmsWIDEMUX).</data>
@@ -319,6 +316,9 @@
         </row>
         <row>
             <data message="4">Constant propagation done on N213 (bmsPMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N142 (bmsPMUX).</data>
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>

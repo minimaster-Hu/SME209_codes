@@ -28,31 +28,41 @@ module Decoder(
     assign op = Instr[27:26];
     assign Funct = Instr[25:20];
     wire [1:0] M_Instr;// 00: NONE , 01: MULTIPLY, 10: DIVIDE
-    assign     M_Instr[0] = (Instr[25:21] == 5'b00000  && Instr[7:4] == 4'b1001) ;
-    assign     M_Instr[1] = (Instr[25:20] == 6'b111111 && Instr[7:4] == 4'b1111) ;
+    assign     M_Instr[0] = (Instr[25:21] == 5'b00000  && Instr[7:4] == 4'b1001) ? 1'b1 : 1'b0;
+    assign     M_Instr[1] = (Instr[25:20] == 6'b111111 && Instr[7:4] == 4'b1111) ? 1'b1 : 1'b0;
 //main decoder
     always @(*) begin
-        casex({op,M_Instr,Funct[5],Funct[3],Funct[0]})
+        casex ({op, M_Instr, Funct[5], Funct[3], Funct[0]})
             // DP reg
-            7'b00_00_0xx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b0_0_0_0_xx_1_000_11_00; 
+            7'b00_00_0xx: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b0_0_0_0_xx_1_000_11_00;
             // DP imm
-            7'b00_00_1xx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b0_0_0_1_00_1_0x0_11_00;
+            7'b00_00_1xx: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b0_0_0_1_00_1_0x0_11_00;
             // STR posImm
-            7'b01_00_x10: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b0_x_1_1_01_0_010_00_00;
+            7'b01_00_x10: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b0_x_1_1_01_0_010_00_00;
             // STR negImm
-            7'b01_00_x00: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b0_x_1_1_01_0_010_01_00;
+            7'b01_00_x00: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b0_x_1_1_01_0_010_01_00;
             // LDR posImm
-            7'b01_00_x11: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b0_1_0_1_01_1_0x0_00_00;
+            7'b01_00_x11: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b0_1_0_1_01_1_0x0_00_00;
             // LDR negImm
-            7'b01_00_x01: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b0_1_0_1_01_1_0x0_01_00;
+            7'b01_00_x01: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b0_1_0_1_01_1_0x0_01_00;
             // Branch
-            7'b10_00_xxx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b1_0_0_1_10_0_0x1_00_00;
+            7'b10_00_xxx: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b1_0_0_1_10_0_0x1_00_00;
             // M_Instr MUL
-            7'b00_01_xxx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b0_0_0_x_xx_1_10x_00_01;
+            7'b00_01_xxx: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b0_0_0_x_xx_1_10x_00_01;
             // M_Instr DIV
-            7'b01_10_xxx: {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b0_0_0_x_xx_1_10x_00_10;
-
-            default:      {Branch,MemtoReg,MemW,ALUSrc,ImmSrc,RegW,RegSrc,ALUOp,MCOp} = 14'b0_0_0_0_00_0_000_00_00;
+            7'b01_10_xxx: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b0_0_0_x_xx_1_10x_00_10;
+            // Default case
+            default: 
+                {Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp, MCOp} = 14'b0_0_0_0_00_0_000_00_00;
         endcase
     end
 
@@ -78,17 +88,18 @@ module Decoder(
         endcase
     end
 
-    always @(*) begin
-        casex(MCOp)
-            // No MCycle
-            2'b00: {M_Start,MCycleOp,M_W} = 3'b000;
-            // MUL
-            2'b01: {M_Start,MCycleOp,M_W} = 3'b101;
-            // DIV
-            2'b10: {M_Start,MCycleOp,M_W} = 3'b111;
-
-            default: {M_Start,MCycleOp,M_W} = 3'b000;
-        endcase
+    always@(*)begin
+        if(MCOp==2'b01)begin
+            M_Start=1'b1;
+            MCycleOp=1'b0;
+            M_W=1'b1;
+        end
+        else if(MCOp==2'b10)begin
+            M_Start=1'b1;
+            MCycleOp=1'b1;
+            M_W=1'b1;
+        end
+        else {M_Start,MCycleOp,M_W} = 3'b000;
     end
 
     assign PCS = ((Rd == 4'd15) & RegW) | Branch;

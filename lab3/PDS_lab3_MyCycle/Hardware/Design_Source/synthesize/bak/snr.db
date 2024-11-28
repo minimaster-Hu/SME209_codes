@@ -34,8 +34,8 @@
         </column_headers>
         <row>
             <data>TOP</data>
-            <data>951</data>
-            <data>162</data>
+            <data>1119</data>
+            <data>164</data>
             <data>108</data>
             <data>0</data>
             <data>0.5</data>
@@ -52,9 +52,9 @@
             <data>42</data>
             <data>0</data>
             <data>0</data>
-            <data>164</data>
+            <data>266</data>
             <data>0</data>
-            <data>14</data>
+            <data>16</data>
             <data>0</data>
             <data>0</data>
             <data>0</data>
@@ -64,8 +64,8 @@
             <data>0</data>
             <row>
                 <data>wrapper1</data>
-                <data>869</data>
-                <data>111</data>
+                <data>1037</data>
+                <data>113</data>
                 <data>108</data>
                 <data>0</data>
                 <data>0.5</data>
@@ -82,9 +82,9 @@
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
-                <data>124</data>
+                <data>226</data>
                 <data>0</data>
-                <data>14</data>
+                <data>16</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -94,8 +94,8 @@
                 <data>0</data>
                 <row>
                     <data>ARM1</data>
-                    <data>755</data>
-                    <data>103</data>
+                    <data>926</data>
+                    <data>105</data>
                     <data>44</data>
                     <data>0</data>
                     <data>0</data>
@@ -112,9 +112,9 @@
                     <data>0</data>
                     <data>0</data>
                     <data>0</data>
-                    <data>124</data>
+                    <data>226</data>
                     <data>0</data>
-                    <data>14</data>
+                    <data>16</data>
                     <data>0</data>
                     <data>0</data>
                     <data>0</data>
@@ -124,7 +124,7 @@
                     <data>0</data>
                     <row>
                         <data>ALU1</data>
-                        <data>101</data>
+                        <data>102</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -143,6 +143,37 @@
                         <data>0</data>
                         <data>0</data>
                         <data>33</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                    </row>
+                    <row>
+                        <data>Extend1</data>
+                        <data>2</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -155,8 +186,8 @@
                     </row>
                     <row>
                         <data>MCycle1</data>
-                        <data>101</data>
-                        <data>70</data>
+                        <data>223</data>
+                        <data>72</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -173,9 +204,9 @@
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
-                        <data>33</data>
+                        <data>135</data>
                         <data>0</data>
-                        <data>0</data>
+                        <data>1</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -186,7 +217,7 @@
                     </row>
                     <row>
                         <data>Shifter1</data>
-                        <data>168</data>
+                        <data>235</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -217,7 +248,7 @@
                     </row>
                     <row>
                         <data>u_Control</data>
-                        <data>13</data>
+                        <data>31</data>
                         <data>1</data>
                         <data>0</data>
                         <data>0</data>
@@ -247,7 +278,7 @@
                         <data>0</data>
                         <row>
                             <data>CondLogic1</data>
-                            <data>5</data>
+                            <data>4</data>
                             <data>1</data>
                             <data>0</data>
                             <data>0</data>
@@ -278,7 +309,7 @@
                         </row>
                         <row>
                             <data>Decoder1</data>
-                            <data>8</data>
+                            <data>27</data>
                             <data>0</data>
                             <data>0</data>
                             <data>0</data>
@@ -310,7 +341,7 @@
                     </row>
                     <row>
                         <data>u_PC</data>
-                        <data>58</data>
+                        <data>57</data>
                         <data>32</data>
                         <data>0</data>
                         <data>0</data>
@@ -341,7 +372,7 @@
                     </row>
                     <row>
                         <data>u_RegisterFile</data>
-                        <data>78</data>
+                        <data>79</data>
                         <data>0</data>
                         <data>44</data>
                         <data>0</data>
@@ -381,14 +412,14 @@
         </column_headers>
         <row>
             <data>no_clock</data>
-            <data>157</data>
+            <data>159</data>
             <table_container>
                 <table id="no_clock_detailed_report" title="no_clock" column_number="1" tree="">
                     <column_headers>
                         <data>Issues</data>
                     </column_headers>
                     <row>
-                        <data>There are 156 clock pins with no clock driven</data>
+                        <data>There are 158 clock pins with no clock driven</data>
                         <row>
                             <data>wrapper1/ARM1/MCycle1/count[0]/CLK</data>
                         </row>
@@ -406,6 +437,9 @@
                         </row>
                         <row>
                             <data>wrapper1/ARM1/MCycle1/done/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/sign/CLK</data>
                         </row>
                         <row>
                             <data>wrapper1/ARM1/MCycle1/state/CLK</data>
@@ -598,6 +632,9 @@
                         </row>
                         <row>
                             <data>wrapper1/ARM1/MCycle1/temp_sum[62]/CLK</data>
+                        </row>
+                        <row>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[63]/CLK</data>
                         </row>
                         <row>
                             <data>wrapper1/ARM1/u_Control/CondLogic1/Z/CLK</data>
@@ -1585,7 +1622,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N2261</data>
+                            <data object_valid="true">_N15428</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1887,7 +1924,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N2261</data>
+                            <data object_valid="true">_N15428</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2165,7 +2202,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N2261</data>
+                            <data object_valid="true">_N15428</data>
                         </row>
                         <row>
                             <data> </data>
@@ -3004,10 +3041,10 @@
         </column_headers>
         <comment>
             <data>
-Total LUTs: 951 of 35800 (2.66%)
+Total LUTs: 1119 of 35800 (3.13%)
 	LUTs as dram: 108 of 9500 (1.14%)
-	LUTs as logic: 843
-Total Registers: 162 of 71600 (0.23%)
+	LUTs as logic: 1011
+Total Registers: 164 of 71600 (0.23%)
 Total Latches: 0
 
 DRM36K/FIFO:
@@ -3021,11 +3058,11 @@ Total I/O ports = 42 of 209 (20.10%)
         </comment>
         <row>
             <data>GTP_DFF_C                   </data>
-            <data>27</data>
+            <data>28</data>
         </row>
         <row>
             <data>GTP_DFF_CE                 </data>
-            <data>133</data>
+            <data>134</data>
         </row>
         <row>
             <data>GTP_DFF_E                    </data>
@@ -3057,31 +3094,31 @@ Total I/O ports = 42 of 209 (20.10%)
         </row>
         <row>
             <data>GTP_LUT3                     </data>
-            <data>3</data>
+            <data>5</data>
         </row>
         <row>
-            <data>GTP_LUT4                   </data>
-            <data>127</data>
+            <data>GTP_LUT4                    </data>
+            <data>63</data>
         </row>
         <row>
-            <data>GTP_LUT5                    </data>
-            <data>86</data>
+            <data>GTP_LUT5                   </data>
+            <data>138</data>
         </row>
         <row>
             <data>GTP_LUT6                   </data>
-            <data>342</data>
+            <data>366</data>
         </row>
         <row>
             <data>GTP_LUT6CARRY              </data>
-            <data>164</data>
+            <data>266</data>
         </row>
         <row>
-            <data>GTP_LUT6D                   </data>
-            <data>79</data>
+            <data>GTP_LUT6D                  </data>
+            <data>128</data>
         </row>
         <row>
             <data>GTP_MUX2LUT7                </data>
-            <data>14</data>
+            <data>16</data>
         </row>
         <row>
             <data>GTP_RAM128X1SP              </data>
@@ -3093,7 +3130,7 @@ Total I/O ports = 42 of 209 (20.10%)
         </row>
         <row>
             <data>GTP_ROM64X1                 </data>
-            <data>30</data>
+            <data>33</data>
         </row>
         <row>
             <data>GTP_INBUF                 </data>
@@ -3125,10 +3162,10 @@ Total I/O ports = 42 of 209 (20.10%)
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:2s</data>
-            <data>0h:0m:2s</data>
-            <data>0h:0m:13s</data>
-            <data>304</data>
+            <data>0h:0m:4s</data>
+            <data>0h:0m:4s</data>
+            <data>0h:0m:14s</data>
+            <data>307</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -3209,12 +3246,6 @@ Total I/O ports = 42 of 209 (20.10%)
             <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/count[5:0] at 5 that is stuck at constant 0.</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'wrapper1/ARM1/MCycle1/sign' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
-        </row>
-        <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst wrapper1/ARM1/MCycle1/temp_sum[63:32] at 31 that is stuck at constant 0.</data>
-        </row>
-        <row>
             <data message="5">Public-4008: Instance 'wrapper1/LED[0]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
@@ -3237,9 +3268,6 @@ Total I/O ports = 42 of 209 (20.10%)
         </row>
         <row>
             <data message="5">Public-4008: Instance 'wrapper1/LED[15]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
-        </row>
-        <row>
-            <data message="5">Public-4008: Instance 'wrapper1/ARM1/MCycle1/temp_sum[63]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
             <data message="5">Public-4008: Instance 'wrapper1/ARM1/MCycle1/count[5]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
@@ -3443,6 +3471,9 @@ Total I/O ports = 42 of 209 (20.10%)
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/done/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/sign/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/state/CLK' (GTP_DFF_C.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
@@ -3633,6 +3664,9 @@ Total I/O ports = 42 of 209 (20.10%)
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[62]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[63]/CLK' (GTP_DFF_CE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_Control/CondLogic1/Z/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
