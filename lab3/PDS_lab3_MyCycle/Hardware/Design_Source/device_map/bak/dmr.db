@@ -3373,11 +3373,6 @@
             <data>Fanout</data>
         </column_headers>
         <row>
-            <data>wrapper1/ARM1/u_RegisterFile/N11</data>
-            <data>wrapper1/ARM1/u_RegisterFile/N11_4</data>
-            <data>175</data>
-        </row>
-        <row>
             <data>RESET</data>
             <data>N1</data>
             <data>164</data>
@@ -3388,34 +3383,44 @@
             <data>159</data>
         </row>
         <row>
+            <data>wrapper1/ARM1/u_RegisterFile/N11</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N11_4</data>
+            <data>147</data>
+        </row>
+        <row>
             <data>wrapper1/Instr [9]</data>
             <data>wrapper1/N398[8]</data>
-            <data>133</data>
+            <data>138</data>
         </row>
         <row>
             <data>wrapper1/Instr [11]</data>
             <data>wrapper1/N398[10]</data>
-            <data>124</data>
+            <data>129</data>
         </row>
         <row>
             <data>wrapper1/ARM1/Instr [10]</data>
-            <data>wrapper1/ARM1/N19[2]</data>
-            <data>119</data>
+            <data>wrapper1/ARM1/N19[3]</data>
+            <data>121</data>
         </row>
         <row>
-            <data>wrapper1/ARM1/Instr [8]</data>
-            <data>wrapper1/ARM1/N19[3]</data>
-            <data>115</data>
+            <data>wrapper1/Instr [8]</data>
+            <data>wrapper1/N398[7]</data>
+            <data>120</data>
         </row>
         <row>
             <data>wrapper1/ARM1/u_RegisterFile/N10</data>
             <data>wrapper1/ARM1/u_RegisterFile/N10_4</data>
-            <data>85</data>
+            <data>113</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/MCycleOp</data>
+            <data>wrapper1/ARM1/u_Control/Decoder1/N265_1</data>
+            <data>96</data>
         </row>
         <row>
             <data>wrapper1/Instr [4]</data>
-            <data>wrapper1/N398[4]</data>
-            <data>81</data>
+            <data>wrapper1/N398[19]</data>
+            <data>80</data>
         </row>
         <row>
             <data>wrapper1/ARM1/Busy</data>
@@ -3423,9 +3428,19 @@
             <data>72</data>
         </row>
         <row>
+            <data>wrapper1/ARM1/MCycle1/state</data>
+            <data>wrapper1/ARM1/MCycle1/state</data>
+            <data>70</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/MCycle_Result [0]</data>
+            <data>wrapper1/ARM1/MCycle1/temp_sum[0]</data>
+            <data>66</data>
+        </row>
+        <row>
             <data>wrapper1/ARM1/u_Control/Decoder1/N1353</data>
             <data>wrapper1/ARM1/u_Control/Decoder1/N1353</data>
-            <data>65</data>
+            <data>64</data>
         </row>
         <row>
             <data>wrapper1/Instr [6]</data>
@@ -3448,8 +3463,18 @@
             <data>51</data>
         </row>
         <row>
-            <data>wrapper1/ALUResult [4]</data>
-            <data>wrapper1/ARM1/N0[25]</data>
+            <data>wrapper1/WriteData [31]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[31]</data>
+            <data>44</data>
+        </row>
+        <row>
+            <data>wrapper1/PC [2]</data>
+            <data>wrapper1/ARM1/u_PC/current_PC[2]</data>
+            <data>44</data>
+        </row>
+        <row>
+            <data>wrapper1/ALUResult [7]</data>
+            <data>wrapper1/ARM1/N0[22]</data>
             <data>42</data>
         </row>
         <row>
@@ -3458,14 +3483,9 @@
             <data>42</data>
         </row>
         <row>
-            <data>wrapper1/ARM1/MCycle1/state</data>
-            <data>wrapper1/ARM1/MCycle1/state</data>
-            <data>42</data>
-        </row>
-        <row>
-            <data>wrapper1/ALUResult [7]</data>
-            <data>wrapper1/ARM1/N0[22]</data>
-            <data>42</data>
+            <data>wrapper1/ALUResult [5]</data>
+            <data>wrapper1/ARM1/N0[24]</data>
+            <data>41</data>
         </row>
         <row>
             <data>wrapper1/ALUResult [3]</data>
@@ -3473,13 +3493,8 @@
             <data>41</data>
         </row>
         <row>
-            <data>wrapper1/PC [2]</data>
-            <data>wrapper1/ARM1/u_PC/current_PC[2]</data>
-            <data>41</data>
-        </row>
-        <row>
-            <data>wrapper1/ALUResult [5]</data>
-            <data>wrapper1/ARM1/N0[24]</data>
+            <data>wrapper1/ALUResult [4]</data>
+            <data>wrapper1/ARM1/N0[25]</data>
             <data>41</data>
         </row>
         <row>
@@ -3494,23 +3509,13 @@
         </row>
         <row>
             <data>wrapper1/ARM1/u_Control/Decoder1/Branch</data>
-            <data>wrapper1/ARM1/u_Control/Decoder1/N272_6</data>
+            <data>wrapper1/ARM1/u_Control/Decoder1/N272_5</data>
             <data>39</data>
         </row>
         <row>
-            <data>wrapper1/_N15266_1</data>
+            <data>wrapper1/_N2795_1</data>
             <data>wrapper1/ARM1/u_Control/Decoder1/N284_26</data>
             <data>38</data>
-        </row>
-        <row>
-            <data>wrapper1/WriteData [31]</data>
-            <data>wrapper1/ARM1/u_RegisterFile/N7[31]</data>
-            <data>37</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/MCycleOp</data>
-            <data>wrapper1/ARM1/u_Control/Decoder1/N274</data>
-            <data>36</data>
         </row>
         <row>
             <data>wrapper1/ARM1/MCycle1/sign</data>
@@ -3543,24 +3548,9 @@
             <data>32</data>
         </row>
         <row>
-            <data>wrapper1/ARM1/MCycle1/N173</data>
-            <data>wrapper1/ARM1/MCycle1/N142_3</data>
-            <data>31</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/MCycle1/N123</data>
-            <data>wrapper1/ARM1/u_Control/Decoder1/N13_1</data>
-            <data>30</data>
-        </row>
-        <row>
             <data>wrapper1/PC [3]</data>
             <data>wrapper1/ARM1/u_PC/current_PC[3]</data>
             <data>30</data>
-        </row>
-        <row>
-            <data>wrapper1/PC [7]</data>
-            <data>wrapper1/ARM1/u_PC/current_PC[7]</data>
-            <data>29</data>
         </row>
         <row>
             <data>wrapper1/PC [5]</data>
@@ -3578,6 +3568,11 @@
             <data>29</data>
         </row>
         <row>
+            <data>wrapper1/PC [7]</data>
+            <data>wrapper1/ARM1/u_PC/current_PC[7]</data>
+            <data>29</data>
+        </row>
+        <row>
             <data>wrapper1/ARM1/PCSrc</data>
             <data>wrapper1/ARM1/u_Control/CondLogic1/N63</data>
             <data>28</data>
@@ -3590,22 +3585,12 @@
         <row>
             <data>wrapper1/ARM1/M_Write</data>
             <data>wrapper1/ARM1/u_Control/CondLogic1/N68</data>
-            <data>22</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/MCycle_Result [0]</data>
-            <data>wrapper1/ARM1/MCycle1/temp_sum[0]</data>
-            <data>19</data>
+            <data>23</data>
         </row>
         <row>
             <data>wrapper1/ARM1/M_Start</data>
             <data>wrapper1/ARM1/u_Control/Decoder1/N1348_1</data>
             <data>19</data>
-        </row>
-        <row>
-            <data>wrapper1/_N504</data>
-            <data>wrapper1/INSTR_MEM_3_37</data>
-            <data>17</data>
         </row>
         <row>
             <data>wrapper1/ARM1/RA1 [2]</data>
@@ -3623,8 +3608,13 @@
             <data>17</data>
         </row>
         <row>
-            <data>wrapper1/ARM1/RA2 [2]</data>
-            <data>wrapper1/ARM1/N18[2]</data>
+            <data>wrapper1/_N696</data>
+            <data>wrapper1/INSTR_MEM_3_37</data>
+            <data>17</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/RA2 [1]</data>
+            <data>wrapper1/ARM1/N18[1]</data>
             <data>17</data>
         </row>
         <row>
@@ -3633,13 +3623,13 @@
             <data>17</data>
         </row>
         <row>
-            <data>wrapper1/ARM1/RA2 [0]</data>
-            <data>wrapper1/ARM1/N18[0]</data>
+            <data>wrapper1/ARM1/RA2 [2]</data>
+            <data>wrapper1/ARM1/N18[2]</data>
             <data>16</data>
         </row>
         <row>
-            <data>wrapper1/ARM1/RA2 [1]</data>
-            <data>wrapper1/ARM1/N18[1]</data>
+            <data>wrapper1/ARM1/RA2 [0]</data>
+            <data>wrapper1/ARM1/N18[0]</data>
             <data>16</data>
         </row>
         <row>
@@ -3648,53 +3638,193 @@
             <data>16</data>
         </row>
         <row>
-            <data>wrapper1/_N484</data>
+            <data>wrapper1/WriteData [15]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[25]</data>
+            <data>15</data>
+        </row>
+        <row>
+            <data>wrapper1/_N676</data>
             <data>wrapper1/INSTR_MEM_2_4</data>
             <data>14</data>
         </row>
         <row>
-            <data>enable[5]</data>
-            <data>enable[5]</data>
-            <data>12</data>
-        </row>
-        <row>
-            <data>enable[6]</data>
-            <data>enable[6]</data>
-            <data>12</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [31]</data>
-            <data>wrapper1/ARM1/N21_0_29</data>
-            <data>11</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [30]</data>
-            <data>wrapper1/ARM1/N21_0_28</data>
-            <data>11</data>
-        </row>
-        <row>
-            <data>wrapper1/_N501</data>
-            <data>wrapper1/INSTR_MEM_3_34</data>
-            <data>11</data>
-        </row>
-        <row>
             <data>wrapper1/WriteData [1]</data>
             <data>wrapper1/ARM1/u_RegisterFile/N7[28]</data>
-            <data>11</data>
+            <data>14</data>
         </row>
         <row>
-            <data>wrapper1/ARM1/R15 [23]</data>
-            <data>wrapper1/ARM1/N21_0_21</data>
-            <data>11</data>
+            <data>wrapper1/ARM1/R15 [27]</data>
+            <data>wrapper1/ARM1/N21_0_25</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>wrapper1/WriteData [3]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[20]</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [26]</data>
+            <data>wrapper1/ARM1/N21_0_24</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [22]</data>
+            <data>wrapper1/ARM1/N21_0_20</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [21]</data>
+            <data>wrapper1/ARM1/N21_0_19</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>wrapper1/WriteData [0]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[0]</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [29]</data>
+            <data>wrapper1/ARM1/N21_0_27</data>
+            <data>13</data>
         </row>
         <row>
             <data>wrapper1/WriteData [17]</data>
-            <data>wrapper1/ARM1/u_RegisterFile/N7[31]</data>
-            <data>11</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N3[17]</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [14]</data>
+            <data>wrapper1/ARM1/N21_0_12</data>
+            <data>13</data>
         </row>
         <row>
             <data>wrapper1/ARM1/R15 [13]</data>
             <data>wrapper1/ARM1/N21_0_11</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [12]</data>
+            <data>wrapper1/ARM1/N21_0_10</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [15]</data>
+            <data>wrapper1/ARM1/N21_0_13</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [16]</data>
+            <data>wrapper1/ARM1/N21_0_14</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/PC [1]</data>
+            <data>wrapper1/ARM1/u_PC/current_PC[1]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [30]</data>
+            <data>wrapper1/ARM1/N21_0_28</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [19]</data>
+            <data>wrapper1/ARM1/N21_0_17</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [20]</data>
+            <data>wrapper1/ARM1/N21_0_18</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [10]</data>
+            <data>wrapper1/ARM1/N21_0_8</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [8]</data>
+            <data>wrapper1/ARM1/N21_0_6</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [23]</data>
+            <data>wrapper1/ARM1/N21_0_21</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/WriteData [28]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[28]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/WriteData [29]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[29]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [25]</data>
+            <data>wrapper1/ARM1/N21_0_23</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [7]</data>
+            <data>wrapper1/ARM1/N21_0_5</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/WriteData [30]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[30]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [28]</data>
+            <data>wrapper1/ARM1/N21_0_26</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/WriteData [2]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[27]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>enable[5]</data>
+            <data>enable[5]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>enable[6]</data>
+            <data>enable[6]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/WriteData [24]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[24]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/R15 [18]</data>
+            <data>wrapper1/ARM1/N21_0_16</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/WriteData [25]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[25]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>wrapper1/WriteData [9]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N3[9]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>enable[7]</data>
+            <data>enable[7]</data>
+            <data>11</data>
+        </row>
+        <row>
+            <data>wrapper1/ARM1/RA3 [0]</data>
+            <data>wrapper1/ARM1/N19[0]</data>
             <data>11</data>
         </row>
         <row>
@@ -3713,164 +3843,34 @@
             <data>11</data>
         </row>
         <row>
-            <data>wrapper1/ARM1/R15 [12]</data>
-            <data>wrapper1/ARM1/N21_0_10</data>
-            <data>11</data>
-        </row>
-        <row>
             <data>wrapper1/ARM1/RegWrite</data>
             <data>wrapper1/ARM1/u_Control/CondLogic1/N66_2</data>
             <data>11</data>
         </row>
         <row>
-            <data>wrapper1/_N485</data>
+            <data>wrapper1/ARM1/R15 [31]</data>
+            <data>wrapper1/ARM1/N21_0_29</data>
+            <data>11</data>
+        </row>
+        <row>
+            <data>wrapper1/_N677</data>
             <data>wrapper1/INSTR_MEM_2_5</data>
             <data>11</data>
         </row>
         <row>
-            <data>enable[7]</data>
-            <data>enable[7]</data>
+            <data>wrapper1/WriteData [19]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[18]</data>
             <data>11</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/RA3 [0]</data>
-            <data>wrapper1/ARM1/N19[0]</data>
-            <data>11</data>
-        </row>
-        <row>
-            <data>wrapper1/WriteData [28]</data>
-            <data>wrapper1/ARM1/u_RegisterFile/N7[28]</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [14]</data>
-            <data>wrapper1/ARM1/N21_0_12</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [15]</data>
-            <data>wrapper1/ARM1/N21_0_13</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [26]</data>
-            <data>wrapper1/ARM1/N21_0_24</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [29]</data>
-            <data>wrapper1/ARM1/N21_0_27</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/WriteData [0]</data>
-            <data>wrapper1/ARM1/u_RegisterFile/N7[30]</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [22]</data>
-            <data>wrapper1/ARM1/N21_0_20</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [18]</data>
-            <data>wrapper1/ARM1/N21_0_16</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [27]</data>
-            <data>wrapper1/ARM1/N21_0_25</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [11]</data>
-            <data>wrapper1/ARM1/N21_0_9</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [19]</data>
-            <data>wrapper1/ARM1/N21_0_17</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [20]</data>
-            <data>wrapper1/ARM1/N21_0_18</data>
-            <data>10</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/Shifter1/LSL1 [18]</data>
-            <data>wrapper1/ARM1/Shifter1/N2[18]</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/Shifter1/LSL1 [16]</data>
-            <data>wrapper1/ARM1/Shifter1/N2[16]</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>enable[3]</data>
-            <data>enable[3]</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>enable[2]</data>
-            <data>enable[2]</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [3]</data>
-            <data>wrapper1/ARM1/N21_0_1</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [4]</data>
-            <data>wrapper1/ARM1/N21_0_2</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [5]</data>
-            <data>wrapper1/ARM1/N21_0_3</data>
-            <data>9</data>
         </row>
         <row>
             <data>wrapper1/ARM1/R15 [24]</data>
             <data>wrapper1/ARM1/N21_0_22</data>
-            <data>9</data>
+            <data>11</data>
         </row>
         <row>
-            <data>wrapper1/ARM1/R15 [25]</data>
-            <data>wrapper1/ARM1/N21_0_23</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [16]</data>
-            <data>wrapper1/ARM1/N21_0_14</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/WriteData [29]</data>
-            <data>wrapper1/ARM1/u_RegisterFile/N7[29]</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [28]</data>
-            <data>wrapper1/ARM1/N21_0_26</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/_N503</data>
-            <data>wrapper1/INSTR_MEM_3_36</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [7]</data>
-            <data>wrapper1/ARM1/N21_0_5</data>
-            <data>9</data>
-        </row>
-        <row>
-            <data>wrapper1/ARM1/R15 [8]</data>
-            <data>wrapper1/ARM1/N21_0_6</data>
-            <data>9</data>
+            <data>wrapper1/WriteData [16]</data>
+            <data>wrapper1/ARM1/u_RegisterFile/N7[26]</data>
+            <data>11</data>
         </row>
     </table>
     <table id="device_map_resource_usage" title="Resource Usage Summary" column_number="4">
@@ -3894,7 +3894,7 @@
         </row>
         <row>
             <data>LUT</data>
-            <data>1119</data>
+            <data>1171</data>
             <data>35800</data>
             <data>4</data>
         </row>
@@ -4036,10 +4036,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:3s</data>
-            <data>0h:0m:3s</data>
+            <data>0h:0m:6s</data>
+            <data>0h:0m:6s</data>
             <data>0h:0m:12s</data>
-            <data>307</data>
+            <data>308</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -4066,16 +4066,16 @@
             <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/ALU1/N7_1_0/gateop, insts:33.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/MCycle1/N25_0.fsub_0/gateop, insts:34.</data>
+            <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/MCycle1/N22_0.fsub_0/gateop, insts:34.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/MCycle1/N47_0_0/gateop, insts:33.</data>
+            <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/MCycle1/N45_2_0/gateop, insts:34.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/MCycle1/N72_0.fsub_0/gateop, insts:34.</data>
+            <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/MCycle1/N62_0.fsub_0/gateop, insts:34.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/MCycle1/N85_0.fsub_0/gateop, insts:34.</data>
+            <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/MCycle1/N75_1_0/gateop, insts:34.</data>
         </row>
         <row>
             <data message="4">Infer CARRY group, base inst: wrapper1/ARM1/u_PC/N2_1_1/gateop, insts:29.</data>

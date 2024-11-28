@@ -67,7 +67,7 @@
         <row>
             <data>0h:0m:0s</data>
             <data>0h:0m:0s</data>
-            <data>0h:0m:4s</data>
+            <data>0h:0m:5s</data>
             <data>136</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
@@ -83,7 +83,7 @@
             <data message="4">Verilog-0001: Analyzing file F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/MCycle_template.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/MCycle_template.v(line number: 2)] Analyzing module MCycle (library work)</data>
+            <data message="4">Verilog-0002: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/MCycle_template.v(line number: 1)] Analyzing module MCycle (library work)</data>
         </row>
         <row>
             <data message="4">Verilog-0001: Analyzing file F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ALU.v</data>
@@ -242,7 +242,7 @@
             <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/ARM.v(line number: 120)] Elaborating instance MCycle1</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/MCycle_template.v(line number: 2)] Elaborating module MCycle</data>
+            <data message="4">Verilog-0003: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/MCycle_template.v(line number: 1)] Elaborating module MCycle</data>
         </row>
         <row>
             <data message="4">Module instance {TOP.wrapper1.ARM1.MCycle1} parameter value:
@@ -309,16 +309,16 @@
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on N154 (bmsWIDEMUX).</data>
+            <data message="4">Constant propagation done on N146 (bmsWIDEMUX).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on N54[63:32] (bmsWIDEMUX).</data>
+            <data message="4">Constant propagation done on N47[63] (bmsWIDEMUX).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on N213 (bmsPMUX).</data>
+            <data message="4">Constant propagation done on N205 (bmsPMUX).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on N142 (bmsPMUX).</data>
+            <data message="4">Constant propagation done on N227 (bmsPMUX).</data>
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>

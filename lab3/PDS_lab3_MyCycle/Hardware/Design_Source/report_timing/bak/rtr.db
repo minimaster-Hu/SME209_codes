@@ -22,7 +22,7 @@
                             <data>wrapper1/ARM1/MCycle1/count[2]/opit_0_inv_L6Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/count[4]/opit_0_inv_L6QL5Q1_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/count[4]/opit_0_inv_L6QL5Q_perm/CLK</data>
                         </row>
                         <row>
                             <data>wrapper1/ARM1/MCycle1/done/opit_0_inv_L6Q_perm/CLK</data>
@@ -31,7 +31,7 @@
                             <data>wrapper1/ARM1/MCycle1/sign/opit_0_inv_L6Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/state/opit_0_inv_L6Q_LUT6DQL5_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/state/opit_0_inv_L6Q_perm/CLK</data>
                         </row>
                         <row>
                             <data>wrapper1/ARM1/MCycle1/temp_sum[0]/opit_0_inv_L6Q_perm/CLK</data>
@@ -40,94 +40,94 @@
                             <data>wrapper1/ARM1/MCycle1/temp_sum[1]/opit_0_inv_L6Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[2]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[2]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[3]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[3]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[4]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[4]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[5]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[5]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[6]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[6]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[7]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[7]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[8]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[8]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[9]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[9]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[10]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[10]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[11]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[11]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[12]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[12]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[13]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[13]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[14]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[14]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[15]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[15]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[16]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[16]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[17]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[17]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[18]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[18]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[19]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[19]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[20]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[20]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[21]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[21]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[22]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[22]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[23]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[23]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[24]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[24]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[25]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[25]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[26]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[26]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[27]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[27]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[28]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[28]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[29]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[29]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[30]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[30]/opit_0_inv_L7Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[31]/opit_0_inv_L7Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[31]/opit_0_inv_L6Q_perm/CLK</data>
                         </row>
                         <row>
                             <data>wrapper1/ARM1/MCycle1/temp_sum[32]/opit_0_inv_L6Q_perm/CLK</data>
@@ -223,7 +223,7 @@
                             <data>wrapper1/ARM1/MCycle1/temp_sum[62]/opit_0_inv_L6Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/MCycle1/temp_sum[63]/opit_0_inv_L5Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/MCycle1/temp_sum[63]/opit_0_inv_L6Q_perm/CLK</data>
                         </row>
                         <row>
                             <data>wrapper1/ARM1/u_Control/CondLogic1/Z/opit_0_L6Q_perm/CLK</data>
@@ -235,7 +235,7 @@
                             <data>wrapper1/ARM1/u_PC/current_PC[3]/opit_0_inv_L6Q_perm/CLK</data>
                         </row>
                         <row>
-                            <data>wrapper1/ARM1/u_PC/current_PC[4]/opit_0_inv_L6Q_perm/CLK</data>
+                            <data>wrapper1/ARM1/u_PC/current_PC[4]/opit_0_inv_L5Q_perm/CLK</data>
                         </row>
                         <row>
                             <data>wrapper1/ARM1/u_PC/current_PC[5]/opit_0_inv_L6QL5Q1_perm/CLK</data>
@@ -896,9 +896,9 @@
         </column_headers>
         <row>
             <data>TOP|CLK_undiv</data>
-            <data>453.309MHz</data>
+            <data>402.739MHz</data>
             <data>1.000MHz</data>
-            <data>997.794</data>
+            <data>997.517</data>
         </row>
     </table>
     <table id="report_clock_interaction" title="Clock Interaction" column_number="12">
@@ -921,11 +921,11 @@
             <data>TOP|CLK_undiv</data>
             <data>YES</data>
             <data>Timed</data>
-            <data>997.794</data>
+            <data>997.517</data>
             <data>0.000</data>
             <data>0</data>
             <data>84</data>
-            <data>0.252</data>
+            <data>0.212</data>
             <data>0.000</data>
             <data>0</data>
             <data>84</data>
@@ -943,7 +943,7 @@
         <row>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
-            <data>997.794</data>
+            <data>997.517</data>
             <data>0.000</data>
             <data>0</data>
             <data>84</data>
@@ -961,7 +961,7 @@
         <row>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
-            <data>0.252</data>
+            <data>0.212</data>
             <data>0.000</data>
             <data>0</data>
             <data>84</data>
@@ -1014,49 +1014,52 @@
                                                             <row>
                                                                 <data object_valid="true">_N0 (net)</data>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[0]/opit_0_inv_L5Q_perm/CLK (3.041, 3.562, 2.946, 3.451)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[0]/opit_0_inv_L5Q_perm/CLK (3.054, 3.575, 2.959, 3.464)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK (3.042, 3.563, 2.947, 3.452)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK (3.053, 3.574, 2.958, 3.463)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[8]/opit_0_inv_AQ_perm/CLK (3.041, 3.562, 2.946, 3.451)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[8]/opit_0_inv_AQ_perm/CLK (3.051, 3.573, 2.957, 3.462)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/CLK (3.042, 3.563, 2.947, 3.452)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/CLK (3.054, 3.575, 2.959, 3.464)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/CLK (3.041, 3.562, 2.946, 3.451)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/CLK (3.053, 3.574, 2.958, 3.463)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK (3.040, 3.561, 2.945, 3.450)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK (3.050, 3.572, 2.956, 3.461)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK (3.039, 3.560, 2.944, 3.449)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK (3.049, 3.571, 2.955, 3.460)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/CLK (3.043, 3.564, 2.948, 3.453)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/CLK (3.054, 3.575, 2.959, 3.464)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/CLK (3.043, 3.564, 2.948, 3.453)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/CLK (3.054, 3.575, 2.959, 3.464)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CLK (3.043, 3.564, 2.948, 3.453)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CLK (3.054, 3.575, 2.959, 3.464)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/CLK (3.043, 3.564, 2.948, 3.453)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/CLK (3.054, 3.575, 2.959, 3.464)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[7]/opit_0_inv/CLK (3.043, 3.564, 2.948, 3.453)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[7]/opit_0_inv/CLK (3.054, 3.575, 2.959, 3.464)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[20]/opit_0_inv_AQ_perm/CLK (3.064, 3.586, 2.970, 3.475)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK (3.064, 3.586, 2.970, 3.475)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[24]/opit_0_inv_AQ_perm/CLK (3.063, 3.585, 2.969, 3.474)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[20]/opit_0_inv_AQ_perm/CLK (3.063, 3.585, 2.969, 3.474)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">seven_seg_enable/opit_0_inv_L6Q_perm/CLK (3.042, 3.563, 2.947, 3.452)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[24]/opit_0_inv_AQ_perm/CLK (3.062, 3.584, 2.968, 3.473)</data>
+                                                                </row>
+                                                                <row>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">seven_seg_enable/opit_0_inv_L6Q_perm/CLK (3.054, 3.575, 2.959, 3.464)</data>
                                                                 </row>
                                                             </row>
                                                         </row>
@@ -1068,19 +1071,16 @@
                                                             <row>
                                                                 <data object_valid="true">_N1 (net)</data>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[0]/opit_0_inv_L6Q_perm/CLK (3.063, 3.585, 2.969, 3.474)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[0]/opit_0_inv_L6Q_perm/CLK (3.064, 3.586, 2.970, 3.475)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK (3.063, 3.585, 2.969, 3.474)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK (3.064, 3.586, 2.970, 3.475)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[8]/opit_0_inv_AQ_perm/CLK (3.064, 3.586, 2.970, 3.475)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[8]/opit_0_inv_AQ_perm/CLK (3.065, 3.587, 2.971, 3.476)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/CLK (3.065, 3.587, 2.971, 3.476)</data>
-                                                                </row>
-                                                                <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK (3.067, 3.588, 2.972, 3.477)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/CLK (3.067, 3.588, 2.972, 3.477)</data>
                                                                 </row>
                                                             </row>
                                                         </row>
@@ -1118,27 +1118,27 @@
             <data>Route delay</data>
         </column_headers>
         <row>
-            <data>997.794</data>
+            <data>997.517</data>
             <data>2</data>
             <data>4</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[15]/opit_0_inv_AQ_perm/I1</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[15]/opit_0_inv_AQ_perm/I0</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
             <data>rise-rise</data>
-            <data>-0.030</data>
-            <data>3.561</data>
-            <data>3.039</data>
-            <data>0.492</data>
+            <data>0.000</data>
+            <data>3.571</data>
+            <data>3.049</data>
+            <data>0.522</data>
             <data>1000.000</data>
-            <data>1.844</data>
-            <data>0.688 (37.3%)</data>
-            <data>1.156 (62.7%)</data>
+            <data>2.147</data>
+            <data>0.566 (26.4%)</data>
+            <data>1.581 (73.6%)</data>
             <general_container>
-                <data>Path #1: setup slack is 997.794(MET)</data>
+                <data>Path #1: setup slack is 997.517(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.405" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.718" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1229,57 +1229,57 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.471</data>
-                            <data>3.561</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.481</data>
+                            <data>3.571</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/Q3</data>
+                            <data>CLMA_285_391/Q0</data>
                             <data>tco</data>
                             <data>0.213</data>
-                            <data>3.774</data>
+                            <data>3.784</data>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[13]/opit_0_inv_AQ_perm/Q</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=2)</data>
-                            <data>0.593</data>
-                            <data>4.367</data>
+                            <data>0.435</data>
+                            <data>4.219</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[12]</data>
+                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[13]</data>
                         </row>
                         <row>
-                            <data>CLMA_243_384/Y2</data>
-                            <data>td</data>
-                            <data>0.235</data>
-                            <data>4.602</data>
-                            <data>r</data>
-                            <data object_valid="true">N117_11/gateop_LUT6DL5_perm/L6</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.125</data>
-                            <data>4.727</data>
-                            <data> </data>
-                            <data object_valid="true">_N15428</data>
-                        </row>
-                        <row>
-                            <data>CLMA_243_385/Y0</data>
+                            <data>CLMA_285_366/Y1</data>
                             <data>td</data>
                             <data>0.240</data>
-                            <data>4.967</data>
+                            <data>4.459</data>
+                            <data>r</data>
+                            <data object_valid="true">N117_11/gateop_perm/L6</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.708</data>
+                            <data>5.167</data>
+                            <data> </data>
+                            <data object_valid="true">_N3019</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_367/Y1</data>
+                            <data>td</data>
+                            <data>0.113</data>
+                            <data>5.280</data>
                             <data>r</data>
                             <data object_valid="true">N117_inv/LUT6_inst_perm/L6</data>
                         </row>
@@ -1287,22 +1287,22 @@
                             <data/>
                             <data>net (fanout=4)</data>
                             <data>0.438</data>
-                            <data>5.405</data>
+                            <data>5.718</data>
                             <data> </data>
                             <data object_valid="true">N117_inv</data>
                         </row>
                         <row>
-                            <data>CLMA_243_409/C1</data>
+                            <data>CLMA_285_391/C0</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[15]/opit_0_inv_AQ_perm/I1</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[15]/opit_0_inv_AQ_perm/I0</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 1003.199" column_number="6">
+                    <table id="require" title="Data required time is 1003.235" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1393,14 +1393,14 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.397</data>
-                            <data>1003.039</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.407</data>
+                            <data>1003.049</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_409/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
@@ -1410,8 +1410,8 @@
                         <row>
                             <data>clock pessimism</data>
                             <data/>
-                            <data>0.492</data>
-                            <data>1003.531</data>
+                            <data>0.522</data>
+                            <data>1003.571</data>
                             <data/>
                             <data/>
                         </row>
@@ -1419,15 +1419,15 @@
                             <data>clock uncertainty</data>
                             <data/>
                             <data>-0.050</data>
-                            <data>1003.481</data>
+                            <data>1003.521</data>
                             <data/>
                             <data/>
                         </row>
                         <row>
                             <data>Setup time</data>
                             <data/>
-                            <data>-0.282</data>
-                            <data>1003.199</data>
+                            <data>-0.286</data>
+                            <data>1003.235</data>
                             <data/>
                             <data/>
                         </row>
@@ -1436,27 +1436,27 @@
             </general_container>
         </row>
         <row>
-            <data>997.814</data>
+            <data>997.546</data>
             <data>2</data>
             <data>4</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/I0</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/I1</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
             <data>rise-rise</data>
-            <data>-0.030</data>
-            <data>3.561</data>
-            <data>3.039</data>
-            <data>0.492</data>
+            <data>0.000</data>
+            <data>3.571</data>
+            <data>3.049</data>
+            <data>0.522</data>
             <data>1000.000</data>
-            <data>1.844</data>
-            <data>0.688 (37.3%)</data>
-            <data>1.156 (62.7%)</data>
+            <data>2.147</data>
+            <data>0.566 (26.4%)</data>
+            <data>1.581 (73.6%)</data>
             <general_container>
-                <data>Path #2: setup slack is 997.814(MET)</data>
+                <data>Path #2: setup slack is 997.546(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.405" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.718" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1547,57 +1547,57 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.471</data>
-                            <data>3.561</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.481</data>
+                            <data>3.571</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/Q3</data>
+                            <data>CLMA_285_391/Q0</data>
                             <data>tco</data>
                             <data>0.213</data>
-                            <data>3.774</data>
+                            <data>3.784</data>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[13]/opit_0_inv_AQ_perm/Q</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=2)</data>
-                            <data>0.593</data>
-                            <data>4.367</data>
+                            <data>0.435</data>
+                            <data>4.219</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[12]</data>
+                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[13]</data>
                         </row>
                         <row>
-                            <data>CLMA_243_384/Y2</data>
-                            <data>td</data>
-                            <data>0.235</data>
-                            <data>4.602</data>
-                            <data>r</data>
-                            <data object_valid="true">N117_11/gateop_LUT6DL5_perm/L6</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.125</data>
-                            <data>4.727</data>
-                            <data> </data>
-                            <data object_valid="true">_N15428</data>
-                        </row>
-                        <row>
-                            <data>CLMA_243_385/Y0</data>
+                            <data>CLMA_285_366/Y1</data>
                             <data>td</data>
                             <data>0.240</data>
-                            <data>4.967</data>
+                            <data>4.459</data>
+                            <data>r</data>
+                            <data object_valid="true">N117_11/gateop_perm/L6</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.708</data>
+                            <data>5.167</data>
+                            <data> </data>
+                            <data object_valid="true">_N3019</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_367/Y1</data>
+                            <data>td</data>
+                            <data>0.113</data>
+                            <data>5.280</data>
                             <data>r</data>
                             <data object_valid="true">N117_inv/LUT6_inst_perm/L6</data>
                         </row>
@@ -1605,22 +1605,22 @@
                             <data/>
                             <data>net (fanout=4)</data>
                             <data>0.438</data>
-                            <data>5.405</data>
+                            <data>5.718</data>
                             <data> </data>
                             <data object_valid="true">N117_inv</data>
                         </row>
                         <row>
-                            <data>CLMA_243_409/D0</data>
+                            <data>CLMA_285_391/D1</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/I0</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/I1</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 1003.219" column_number="6">
+                    <table id="require" title="Data required time is 1003.264" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1711,14 +1711,14 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.397</data>
-                            <data>1003.039</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.407</data>
+                            <data>1003.049</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_409/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
@@ -1728,8 +1728,8 @@
                         <row>
                             <data>clock pessimism</data>
                             <data/>
-                            <data>0.492</data>
-                            <data>1003.531</data>
+                            <data>0.522</data>
+                            <data>1003.571</data>
                             <data/>
                             <data/>
                         </row>
@@ -1737,15 +1737,15 @@
                             <data>clock uncertainty</data>
                             <data/>
                             <data>-0.050</data>
-                            <data>1003.481</data>
+                            <data>1003.521</data>
                             <data/>
                             <data/>
                         </row>
                         <row>
                             <data>Setup time</data>
                             <data/>
-                            <data>-0.262</data>
-                            <data>1003.219</data>
+                            <data>-0.257</data>
+                            <data>1003.264</data>
                             <data/>
                             <data/>
                         </row>
@@ -1754,27 +1754,27 @@
             </general_container>
         </row>
         <row>
-            <data>997.953</data>
+            <data>997.638</data>
             <data>2</data>
             <data>4</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/I1</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/I3</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
             <data>rise-rise</data>
-            <data>-0.027</data>
-            <data>3.561</data>
-            <data>3.042</data>
+            <data>-0.026</data>
+            <data>3.571</data>
+            <data>3.053</data>
             <data>0.492</data>
             <data>1000.000</data>
-            <data>1.690</data>
-            <data>0.688 (40.7%)</data>
-            <data>1.002 (59.3%)</data>
+            <data>2.128</data>
+            <data>0.566 (26.6%)</data>
+            <data>1.562 (73.4%)</data>
             <general_container>
-                <data>Path #3: setup slack is 997.953(MET)</data>
+                <data>Path #3: setup slack is 997.638(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.251" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.699" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1865,80 +1865,80 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.471</data>
-                            <data>3.561</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.481</data>
+                            <data>3.571</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/Q3</data>
+                            <data>CLMA_285_391/Q0</data>
                             <data>tco</data>
                             <data>0.213</data>
-                            <data>3.774</data>
+                            <data>3.784</data>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[13]/opit_0_inv_AQ_perm/Q</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=2)</data>
-                            <data>0.593</data>
-                            <data>4.367</data>
+                            <data>0.435</data>
+                            <data>4.219</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[12]</data>
+                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[13]</data>
                         </row>
                         <row>
-                            <data>CLMA_243_384/Y2</data>
-                            <data>td</data>
-                            <data>0.235</data>
-                            <data>4.602</data>
-                            <data>r</data>
-                            <data object_valid="true">N117_11/gateop_LUT6DL5_perm/L6</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.125</data>
-                            <data>4.727</data>
-                            <data> </data>
-                            <data object_valid="true">_N15428</data>
-                        </row>
-                        <row>
-                            <data>CLMA_243_385/Y0</data>
+                            <data>CLMA_285_366/Y1</data>
                             <data>td</data>
                             <data>0.240</data>
-                            <data>4.967</data>
+                            <data>4.459</data>
+                            <data>r</data>
+                            <data object_valid="true">N117_11/gateop_perm/L6</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.708</data>
+                            <data>5.167</data>
+                            <data> </data>
+                            <data object_valid="true">_N3019</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_367/Y1</data>
+                            <data>td</data>
+                            <data>0.113</data>
+                            <data>5.280</data>
                             <data>r</data>
                             <data object_valid="true">N117_inv/LUT6_inst_perm/L6</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=4)</data>
-                            <data>0.284</data>
-                            <data>5.251</data>
+                            <data>0.419</data>
+                            <data>5.699</data>
                             <data> </data>
                             <data object_valid="true">N117_inv</data>
                         </row>
                         <row>
-                            <data>CLMA_243_390/A1</data>
+                            <data>CLMA_285_372/A3</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/I1</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/I3</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 1003.204" column_number="6">
+                    <table id="require" title="Data required time is 1003.337" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -2029,25 +2029,25 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.400</data>
-                            <data>1003.042</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.411</data>
+                            <data>1003.053</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_390/CLK</data>
+                            <data>CLMA_285_372/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/CLK</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
                             <data/>
                             <data>0.492</data>
-                            <data>1003.534</data>
+                            <data>1003.545</data>
                             <data/>
                             <data/>
                         </row>
@@ -2055,15 +2055,15 @@
                             <data>clock uncertainty</data>
                             <data/>
                             <data>-0.050</data>
-                            <data>1003.484</data>
+                            <data>1003.495</data>
                             <data/>
                             <data/>
                         </row>
                         <row>
                             <data>Setup time</data>
                             <data/>
-                            <data>-0.280</data>
-                            <data>1003.204</data>
+                            <data>-0.158</data>
+                            <data>1003.337</data>
                             <data/>
                             <data/>
                         </row>
@@ -2093,11 +2093,297 @@
             <data>Route delay</data>
         </column_headers>
         <row>
+            <data>0.212</data>
+            <data>0</data>
+            <data>8</data>
+            <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/D</data>
+            <data/>
+            <data>TOP|CLK_undiv</data>
+            <data>TOP|CLK_undiv</data>
+            <data>rise-rise</data>
+            <data>0.000</data>
+            <data>3.054</data>
+            <data>3.575</data>
+            <data>-0.521</data>
+            <data>0.000</data>
+            <data>0.257</data>
+            <data>0.182 (70.8%)</data>
+            <data>0.075 (29.2%)</data>
+            <general_container>
+                <data>Path #1: hold slack is 0.212(MET)</data>
+                <table_container>
+                    <table id="arrival" title="Data arrival time is 3.311" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock TOP|CLK_undiv (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>P17</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.033</data>
+                            <data>0.033</data>
+                            <data/>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv</data>
+                        </row>
+                        <row>
+                            <data>IOBD_0_162/DIN</data>
+                            <data>td</data>
+                            <data>0.766</data>
+                            <data>0.799</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_0/O</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.799</data>
+                            <data/>
+                            <data object_valid="true">CLK_undiv_ibuf/ntD</data>
+                        </row>
+                        <row>
+                            <data>IOLHR_16_162/DI_TO_CLK</data>
+                            <data>td</data>
+                            <data>0.095</data>
+                            <data>0.894</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_1/DI_TO_CLK</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.783</data>
+                            <data>1.677</data>
+                            <data/>
+                            <data file_id="../TOP_Pango.v" line_number="20">nt_CLK_undiv</data>
+                        </row>
+                        <row>
+                            <data>USCM_167_270/CLKOUT</data>
+                            <data>td</data>
+                            <data>0.150</data>
+                            <data>1.827</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">clkbufg_0/gopclkbufg/CLKOUT</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.557</data>
+                            <data>2.384</data>
+                            <data/>
+                            <data object_valid="true">ntclkbufg_0</data>
+                        </row>
+                        <row>
+                            <data>HCKB_165_229/CLKOUT</data>
+                            <data>td</data>
+                            <data>0.258</data>
+                            <data>2.642</data>
+                            <data>r</data>
+                            <data object_valid="true">HCKBROUTE_0/CLKOUT</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=33)</data>
+                            <data>0.412</data>
+                            <data>3.054</data>
+                            <data/>
+                            <data object_valid="true">_N0</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_366/CLK</data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CLK</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_366/CR2</data>
+                            <data>tco</data>
+                            <data>0.182</data>
+                            <data>3.236</data>
+                            <data>f</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CR0</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=8)</data>
+                            <data>0.075</data>
+                            <data>3.311</data>
+                            <data> </data>
+                            <data file_id="../TOP_Pango.v" line_number="68">enable[4]</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_366/M3</data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>f</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/D</data>
+                        </row>
+                    </table>
+                </table_container>
+                <table_container>
+                    <table id="require" title="Data required time is 3.099" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock TOP|CLK_undiv (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>P17</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.033</data>
+                            <data>0.033</data>
+                            <data/>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv</data>
+                        </row>
+                        <row>
+                            <data>IOBD_0_162/DIN</data>
+                            <data>td</data>
+                            <data>0.897</data>
+                            <data>0.930</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_0/O</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.930</data>
+                            <data/>
+                            <data object_valid="true">CLK_undiv_ibuf/ntD</data>
+                        </row>
+                        <row>
+                            <data>IOLHR_16_162/DI_TO_CLK</data>
+                            <data>td</data>
+                            <data>0.110</data>
+                            <data>1.040</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_1/DI_TO_CLK</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.920</data>
+                            <data>1.960</data>
+                            <data/>
+                            <data file_id="../TOP_Pango.v" line_number="20">nt_CLK_undiv</data>
+                        </row>
+                        <row>
+                            <data>USCM_167_270/CLKOUT</data>
+                            <data>td</data>
+                            <data>0.177</data>
+                            <data>2.137</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">clkbufg_0/gopclkbufg/CLKOUT</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.651</data>
+                            <data>2.788</data>
+                            <data/>
+                            <data object_valid="true">ntclkbufg_0</data>
+                        </row>
+                        <row>
+                            <data>HCKB_165_229/CLKOUT</data>
+                            <data>td</data>
+                            <data>0.302</data>
+                            <data>3.090</data>
+                            <data>r</data>
+                            <data object_valid="true">HCKBROUTE_0/CLKOUT</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=33)</data>
+                            <data>0.485</data>
+                            <data>3.575</data>
+                            <data/>
+                            <data object_valid="true">_N0</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_366/CLK</data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/CLK</data>
+                        </row>
+                        <row>
+                            <data>clock pessimism</data>
+                            <data/>
+                            <data>-0.521</data>
+                            <data>3.054</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clock uncertainty</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>3.054</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>Hold time</data>
+                            <data/>
+                            <data>0.045</data>
+                            <data>3.099</data>
+                            <data/>
+                            <data/>
+                        </row>
+                    </table>
+                </table_container>
+            </general_container>
+        </row>
+        <row>
             <data>0.252</data>
             <data>1</data>
             <data>1</data>
-            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[17]/opit_0_inv_AQ_perm/CIN</data>
+            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[13]/opit_0_inv_AQ_perm/CIN</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
@@ -2111,7 +2397,7 @@
             <data>0.363 (79.8%)</data>
             <data>0.092 (20.2%)</data>
             <general_container>
-                <data>Path #1: hold slack is 0.252(MET)</data>
+                <data>Path #2: hold slack is 0.252(MET)</data>
                 <table_container>
                     <table id="arrival" title="Data arrival time is 3.522" column_number="6">
                         <column_headers>
@@ -2204,7 +2490,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=17)</data>
+                            <data>net (fanout=13)</data>
                             <data>0.425</data>
                             <data>3.067</data>
                             <data/>
@@ -2216,7 +2502,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
                             <data>CLMA_285_301/Q3</data>
@@ -2224,7 +2510,7 @@
                             <data>0.166</data>
                             <data>3.233</data>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/Q</data>
                         </row>
                         <row>
                             <data/>
@@ -2232,7 +2518,7 @@
                             <data>0.092</data>
                             <data>3.325</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="54">genblk1.clk_counter [16]</data>
+                            <data file_id="../TOP_Pango.v" line_number="54">genblk1.clk_counter [12]</data>
                         </row>
                         <row>
                             <data>CLMA_285_301/COUT</data>
@@ -2240,7 +2526,7 @@
                             <data>0.197</data>
                             <data>3.522</data>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/COUT</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/COUT</data>
                         </row>
                         <row>
                             <data/>
@@ -2248,7 +2534,7 @@
                             <data>0.000</data>
                             <data>3.522</data>
                             <data> </data>
-                            <data object_valid="true">_N329</data>
+                            <data object_valid="true">_N660</data>
                         </row>
                         <row>
                             <data>CLMA_285_307/CIN</data>
@@ -2256,7 +2542,7 @@
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[17]/opit_0_inv_AQ_perm/CIN</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[13]/opit_0_inv_AQ_perm/CIN</data>
                         </row>
                     </table>
                 </table_container>
@@ -2352,7 +2638,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
+                            <data>net (fanout=33)</data>
                             <data>0.496</data>
                             <data>3.586</data>
                             <data/>
@@ -2364,7 +2650,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[20]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -2395,27 +2681,27 @@
             </general_container>
         </row>
         <row>
-            <data>0.299</data>
+            <data>0.287</data>
             <data>0</data>
-            <data>4</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[2]/opit_0_inv_AQ_perm/I3</data>
+            <data>7</data>
+            <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/I4</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
             <data>rise-rise</data>
             <data>0.000</data>
-            <data>3.042</data>
-            <data>3.563</data>
+            <data>3.054</data>
+            <data>3.575</data>
             <data>-0.521</data>
             <data>0.000</data>
             <data>0.258</data>
             <data>0.166 (64.3%)</data>
             <data>0.092 (35.7%)</data>
             <general_container>
-                <data>Path #2: hold slack is 0.299(MET)</data>
+                <data>Path #3: hold slack is 0.287(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 3.300" column_number="6">
+                    <table id="arrival" title="Data arrival time is 3.312" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -2506,48 +2792,48 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.400</data>
-                            <data>3.042</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.412</data>
+                            <data>3.054</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_391/CLK</data>
+                            <data>CLMA_285_366/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/CLK</data>
                         </row>
                         <row>
-                            <data>CLMA_243_391/Q0</data>
+                            <data>CLMA_285_366/Q1</data>
                             <data>tco</data>
                             <data>0.166</data>
-                            <data>3.208</data>
+                            <data>3.220</data>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[1]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/Q0</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=4)</data>
+                            <data>net (fanout=7)</data>
                             <data>0.092</data>
-                            <data>3.300</data>
+                            <data>3.312</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[1]</data>
+                            <data file_id="../TOP_Pango.v" line_number="68">enable[1]</data>
                         </row>
                         <row>
-                            <data>CLMA_243_391/B3</data>
+                            <data>CLMA_285_366/A4</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[2]/opit_0_inv_AQ_perm/I3</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/I4</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 3.001" column_number="6">
+                    <table id="require" title="Data required time is 3.025" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -2638,25 +2924,25 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.473</data>
-                            <data>3.563</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.485</data>
+                            <data>3.575</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_391/CLK</data>
+                            <data>CLMA_285_366/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/CLK</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
                             <data/>
                             <data>-0.521</data>
-                            <data>3.042</data>
+                            <data>3.054</data>
                             <data/>
                             <data/>
                         </row>
@@ -2664,301 +2950,15 @@
                             <data>clock uncertainty</data>
                             <data/>
                             <data>0.000</data>
-                            <data>3.042</data>
+                            <data>3.054</data>
                             <data/>
                             <data/>
                         </row>
                         <row>
                             <data>Hold time</data>
                             <data/>
-                            <data>-0.041</data>
-                            <data>3.001</data>
-                            <data/>
-                            <data/>
-                        </row>
-                    </table>
-                </table_container>
-            </general_container>
-        </row>
-        <row>
-            <data>0.299</data>
-            <data>0</data>
-            <data>2</data>
-            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[2]/opit_0_inv_AQ_perm/I3</data>
-            <data/>
-            <data>TOP|CLK_undiv</data>
-            <data>TOP|CLK_undiv</data>
-            <data>rise-rise</data>
-            <data>0.000</data>
-            <data>3.063</data>
-            <data>3.585</data>
-            <data>-0.522</data>
-            <data>0.000</data>
-            <data>0.258</data>
-            <data>0.166 (64.3%)</data>
-            <data>0.092 (35.7%)</data>
-            <general_container>
-                <data>Path #3: hold slack is 0.299(MET)</data>
-                <table_container>
-                    <table id="arrival" title="Data arrival time is 3.321" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock TOP|CLK_undiv (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>P17</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.033</data>
-                            <data>0.033</data>
-                            <data/>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv</data>
-                        </row>
-                        <row>
-                            <data>IOBD_0_162/DIN</data>
-                            <data>td</data>
-                            <data>0.766</data>
-                            <data>0.799</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_0/O</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.799</data>
-                            <data/>
-                            <data object_valid="true">CLK_undiv_ibuf/ntD</data>
-                        </row>
-                        <row>
-                            <data>IOLHR_16_162/DI_TO_CLK</data>
-                            <data>td</data>
-                            <data>0.095</data>
-                            <data>0.894</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_1/DI_TO_CLK</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.783</data>
-                            <data>1.677</data>
-                            <data/>
-                            <data file_id="../TOP_Pango.v" line_number="20">nt_CLK_undiv</data>
-                        </row>
-                        <row>
-                            <data>USCM_167_270/CLKOUT</data>
-                            <data>td</data>
-                            <data>0.150</data>
-                            <data>1.827</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">clkbufg_0/gopclkbufg/CLKOUT</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.557</data>
-                            <data>2.384</data>
-                            <data/>
-                            <data object_valid="true">ntclkbufg_0</data>
-                        </row>
-                        <row>
-                            <data>HCKB_165_180/CLKOUT</data>
-                            <data>td</data>
-                            <data>0.258</data>
-                            <data>2.642</data>
-                            <data>r</data>
-                            <data object_valid="true">HCKBROUTE_1/CLKOUT</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=17)</data>
-                            <data>0.421</data>
-                            <data>3.063</data>
-                            <data/>
-                            <data object_valid="true">_N1</data>
-                        </row>
-                        <row>
-                            <data>CLMA_285_283/CLK</data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK</data>
-                        </row>
-                        <row>
-                            <data>CLMA_285_283/Q0</data>
-                            <data>tco</data>
-                            <data>0.166</data>
-                            <data>3.229</data>
-                            <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[1]/opit_0_inv_AQ_perm/Q</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.092</data>
-                            <data>3.321</data>
-                            <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="54">genblk1.clk_counter [1]</data>
-                        </row>
-                        <row>
-                            <data>CLMA_285_283/B3</data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[2]/opit_0_inv_AQ_perm/I3</data>
-                        </row>
-                    </table>
-                </table_container>
-                <table_container>
-                    <table id="require" title="Data required time is 3.022" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock TOP|CLK_undiv (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>P17</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.033</data>
-                            <data>0.033</data>
-                            <data/>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv</data>
-                        </row>
-                        <row>
-                            <data>IOBD_0_162/DIN</data>
-                            <data>td</data>
-                            <data>0.897</data>
-                            <data>0.930</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_0/O</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.930</data>
-                            <data/>
-                            <data object_valid="true">CLK_undiv_ibuf/ntD</data>
-                        </row>
-                        <row>
-                            <data>IOLHR_16_162/DI_TO_CLK</data>
-                            <data>td</data>
-                            <data>0.110</data>
-                            <data>1.040</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_1/DI_TO_CLK</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.920</data>
-                            <data>1.960</data>
-                            <data/>
-                            <data file_id="../TOP_Pango.v" line_number="20">nt_CLK_undiv</data>
-                        </row>
-                        <row>
-                            <data>USCM_167_270/CLKOUT</data>
-                            <data>td</data>
-                            <data>0.177</data>
-                            <data>2.137</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">clkbufg_0/gopclkbufg/CLKOUT</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.651</data>
-                            <data>2.788</data>
-                            <data/>
-                            <data object_valid="true">ntclkbufg_0</data>
-                        </row>
-                        <row>
-                            <data>HCKB_165_180/CLKOUT</data>
-                            <data>td</data>
-                            <data>0.302</data>
-                            <data>3.090</data>
-                            <data>r</data>
-                            <data object_valid="true">HCKBROUTE_1/CLKOUT</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=17)</data>
-                            <data>0.495</data>
-                            <data>3.585</data>
-                            <data/>
-                            <data object_valid="true">_N1</data>
-                        </row>
-                        <row>
-                            <data>CLMA_285_283/CLK</data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK</data>
-                        </row>
-                        <row>
-                            <data>clock pessimism</data>
-                            <data/>
-                            <data>-0.522</data>
-                            <data>3.063</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clock uncertainty</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>3.063</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>Hold time</data>
-                            <data/>
-                            <data>-0.041</data>
-                            <data>3.022</data>
+                            <data>-0.029</data>
+                            <data>3.025</data>
                             <data/>
                             <data/>
                         </row>
@@ -2983,7 +2983,7 @@
             <data>0.200</data>
             <data>TOP|CLK_undiv</data>
             <data>High Pulse Width</data>
-            <data>CLMA_243_396/CLK</data>
+            <data>CLMA_285_367/CLK</data>
             <data file_id="../TOP_Pango.v" line_number="74">count_fast[0]/opit_0_inv_L5Q_perm/CLK</data>
         </row>
         <row>
@@ -2992,7 +2992,7 @@
             <data>0.200</data>
             <data>TOP|CLK_undiv</data>
             <data>Low Pulse Width</data>
-            <data>CLMA_243_396/CLK</data>
+            <data>CLMA_285_367/CLK</data>
             <data file_id="../TOP_Pango.v" line_number="74">count_fast[0]/opit_0_inv_L5Q_perm/CLK</data>
         </row>
         <row>
@@ -3001,7 +3001,7 @@
             <data>0.200</data>
             <data>TOP|CLK_undiv</data>
             <data>High Pulse Width</data>
-            <data>CLMA_243_391/CLK</data>
+            <data>CLMA_285_373/CLK</data>
             <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK</data>
         </row>
     </table>
@@ -3017,7 +3017,7 @@
         <row>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
-            <data>998.758</data>
+            <data>998.584</data>
             <data>0.000</data>
             <data>0</data>
             <data>84</data>
@@ -3035,7 +3035,7 @@
         <row>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
-            <data>0.150</data>
+            <data>0.148</data>
             <data>0.000</data>
             <data>0</data>
             <data>84</data>
@@ -3088,49 +3088,52 @@
                                                             <row>
                                                                 <data object_valid="true">_N0 (net)</data>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[0]/opit_0_inv_L5Q_perm/CLK (1.929, 2.281, 1.926, 2.276)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[0]/opit_0_inv_L5Q_perm/CLK (1.941, 2.294, 1.939, 2.289)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK (1.930, 2.282, 1.927, 2.277)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK (1.940, 2.293, 1.938, 2.288)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[8]/opit_0_inv_AQ_perm/CLK (1.929, 2.281, 1.926, 2.276)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[8]/opit_0_inv_AQ_perm/CLK (1.939, 2.292, 1.936, 2.287)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/CLK (1.930, 2.282, 1.927, 2.277)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/CLK (1.941, 2.294, 1.939, 2.289)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/CLK (1.929, 2.281, 1.926, 2.276)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/CLK (1.940, 2.293, 1.938, 2.288)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK (1.928, 2.280, 1.925, 2.275)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK (1.938, 2.291, 1.935, 2.286)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK (1.926, 2.279, 1.924, 2.274)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK (1.937, 2.290, 1.934, 2.285)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/CLK (1.931, 2.283, 1.928, 2.278)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/CLK (1.941, 2.294, 1.939, 2.289)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/CLK (1.931, 2.283, 1.928, 2.278)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/CLK (1.941, 2.294, 1.939, 2.289)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CLK (1.931, 2.283, 1.928, 2.278)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CLK (1.941, 2.294, 1.939, 2.289)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/CLK (1.931, 2.283, 1.928, 2.278)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/CLK (1.941, 2.294, 1.939, 2.289)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[7]/opit_0_inv/CLK (1.931, 2.283, 1.928, 2.278)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="89">enable[7]/opit_0_inv/CLK (1.941, 2.294, 1.939, 2.289)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[20]/opit_0_inv_AQ_perm/CLK (1.952, 2.305, 1.949, 2.300)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK (1.952, 2.305, 1.949, 2.300)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[24]/opit_0_inv_AQ_perm/CLK (1.951, 2.303, 1.948, 2.299)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[20]/opit_0_inv_AQ_perm/CLK (1.951, 2.303, 1.948, 2.299)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="74">seven_seg_enable/opit_0_inv_L6Q_perm/CLK (1.930, 2.282, 1.927, 2.277)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[24]/opit_0_inv_AQ_perm/CLK (1.950, 2.302, 1.947, 2.298)</data>
+                                                                </row>
+                                                                <row>
+                                                                    <data file_id="../TOP_Pango.v" line_number="74">seven_seg_enable/opit_0_inv_L6Q_perm/CLK (1.941, 2.294, 1.939, 2.289)</data>
                                                                 </row>
                                                             </row>
                                                         </row>
@@ -3142,19 +3145,16 @@
                                                             <row>
                                                                 <data object_valid="true">_N1 (net)</data>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[0]/opit_0_inv_L6Q_perm/CLK (1.951, 2.303, 1.948, 2.299)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[0]/opit_0_inv_L6Q_perm/CLK (1.952, 2.305, 1.949, 2.300)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK (1.951, 2.303, 1.948, 2.299)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK (1.952, 2.305, 1.949, 2.300)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[8]/opit_0_inv_AQ_perm/CLK (1.952, 2.305, 1.949, 2.300)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[8]/opit_0_inv_AQ_perm/CLK (1.953, 2.306, 1.950, 2.301)</data>
                                                                 </row>
                                                                 <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/CLK (1.953, 2.306, 1.950, 2.301)</data>
-                                                                </row>
-                                                                <row>
-                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK (1.954, 2.307, 1.951, 2.302)</data>
+                                                                    <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/CLK (1.954, 2.307, 1.951, 2.302)</data>
                                                                 </row>
                                                             </row>
                                                         </row>
@@ -3192,27 +3192,27 @@
             <data>Route delay</data>
         </column_headers>
         <row>
-            <data>998.758</data>
+            <data>998.584</data>
             <data>2</data>
             <data>4</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[15]/opit_0_inv_AQ_perm/I1</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[15]/opit_0_inv_AQ_perm/I0</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
             <data>rise-rise</data>
-            <data>-0.017</data>
-            <data>2.280</data>
-            <data>1.926</data>
-            <data>0.337</data>
+            <data>0.000</data>
+            <data>2.290</data>
+            <data>1.937</data>
+            <data>0.353</data>
             <data>1000.000</data>
-            <data>1.041</data>
-            <data>0.372 (35.7%)</data>
-            <data>0.669 (64.3%)</data>
+            <data>1.228</data>
+            <data>0.320 (26.1%)</data>
+            <data>0.908 (73.9%)</data>
             <general_container>
-                <data>Path #1: setup slack is 998.758(MET)</data>
+                <data>Path #1: setup slack is 998.584(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 3.321" column_number="6">
+                    <table id="arrival" title="Data arrival time is 3.518" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -3303,57 +3303,57 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.306</data>
-                            <data>2.280</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.316</data>
+                            <data>2.290</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/Q3</data>
+                            <data>CLMA_285_391/Q0</data>
                             <data>tco</data>
                             <data>0.125</data>
-                            <data>2.405</data>
+                            <data>2.415</data>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[13]/opit_0_inv_AQ_perm/Q</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=2)</data>
-                            <data>0.334</data>
-                            <data>2.739</data>
+                            <data>0.260</data>
+                            <data>2.675</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[12]</data>
+                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[13]</data>
                         </row>
                         <row>
-                            <data>CLMA_243_384/Y2</data>
-                            <data>td</data>
-                            <data>0.122</data>
-                            <data>2.861</data>
-                            <data>f</data>
-                            <data object_valid="true">N117_11/gateop_LUT6DL5_perm/L6</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.075</data>
-                            <data>2.936</data>
-                            <data> </data>
-                            <data object_valid="true">_N15428</data>
-                        </row>
-                        <row>
-                            <data>CLMA_243_385/Y0</data>
+                            <data>CLMA_285_366/Y1</data>
                             <data>td</data>
                             <data>0.125</data>
-                            <data>3.061</data>
+                            <data>2.800</data>
+                            <data>f</data>
+                            <data object_valid="true">N117_11/gateop_perm/L6</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.388</data>
+                            <data>3.188</data>
+                            <data> </data>
+                            <data object_valid="true">_N3019</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_367/Y1</data>
+                            <data>td</data>
+                            <data>0.070</data>
+                            <data>3.258</data>
                             <data>f</data>
                             <data object_valid="true">N117_inv/LUT6_inst_perm/L6</data>
                         </row>
@@ -3361,22 +3361,22 @@
                             <data/>
                             <data>net (fanout=4)</data>
                             <data>0.260</data>
-                            <data>3.321</data>
+                            <data>3.518</data>
                             <data> </data>
                             <data object_valid="true">N117_inv</data>
                         </row>
                         <row>
-                            <data>CLMA_243_409/C1</data>
+                            <data>CLMA_285_391/C0</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[15]/opit_0_inv_AQ_perm/I1</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[15]/opit_0_inv_AQ_perm/I0</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 1002.079" column_number="6">
+                    <table id="require" title="Data required time is 1002.102" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -3467,14 +3467,14 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.256</data>
-                            <data>1001.926</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.267</data>
+                            <data>1001.937</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_409/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
@@ -3484,8 +3484,8 @@
                         <row>
                             <data>clock pessimism</data>
                             <data/>
-                            <data>0.337</data>
-                            <data>1002.263</data>
+                            <data>0.353</data>
+                            <data>1002.290</data>
                             <data/>
                             <data/>
                         </row>
@@ -3493,15 +3493,15 @@
                             <data>clock uncertainty</data>
                             <data/>
                             <data>-0.050</data>
-                            <data>1002.213</data>
+                            <data>1002.240</data>
                             <data/>
                             <data/>
                         </row>
                         <row>
                             <data>Setup time</data>
                             <data/>
-                            <data>-0.134</data>
-                            <data>1002.079</data>
+                            <data>-0.138</data>
+                            <data>1002.102</data>
                             <data/>
                             <data/>
                         </row>
@@ -3510,27 +3510,27 @@
             </general_container>
         </row>
         <row>
-            <data>998.758</data>
+            <data>998.591</data>
             <data>2</data>
             <data>4</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/I0</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/I1</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
             <data>rise-rise</data>
-            <data>-0.017</data>
-            <data>2.280</data>
-            <data>1.926</data>
-            <data>0.337</data>
+            <data>0.000</data>
+            <data>2.290</data>
+            <data>1.937</data>
+            <data>0.353</data>
             <data>1000.000</data>
-            <data>1.041</data>
-            <data>0.372 (35.7%)</data>
-            <data>0.669 (64.3%)</data>
+            <data>1.228</data>
+            <data>0.320 (26.1%)</data>
+            <data>0.908 (73.9%)</data>
             <general_container>
-                <data>Path #2: setup slack is 998.758(MET)</data>
+                <data>Path #2: setup slack is 998.591(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 3.321" column_number="6">
+                    <table id="arrival" title="Data arrival time is 3.518" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -3621,57 +3621,57 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.306</data>
-                            <data>2.280</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.316</data>
+                            <data>2.290</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/Q3</data>
+                            <data>CLMA_285_391/Q0</data>
                             <data>tco</data>
                             <data>0.125</data>
-                            <data>2.405</data>
+                            <data>2.415</data>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[13]/opit_0_inv_AQ_perm/Q</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=2)</data>
-                            <data>0.334</data>
-                            <data>2.739</data>
+                            <data>0.260</data>
+                            <data>2.675</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[12]</data>
+                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[13]</data>
                         </row>
                         <row>
-                            <data>CLMA_243_384/Y2</data>
-                            <data>td</data>
-                            <data>0.122</data>
-                            <data>2.861</data>
-                            <data>f</data>
-                            <data object_valid="true">N117_11/gateop_LUT6DL5_perm/L6</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.075</data>
-                            <data>2.936</data>
-                            <data> </data>
-                            <data object_valid="true">_N15428</data>
-                        </row>
-                        <row>
-                            <data>CLMA_243_385/Y0</data>
+                            <data>CLMA_285_366/Y1</data>
                             <data>td</data>
                             <data>0.125</data>
-                            <data>3.061</data>
+                            <data>2.800</data>
+                            <data>f</data>
+                            <data object_valid="true">N117_11/gateop_perm/L6</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.388</data>
+                            <data>3.188</data>
+                            <data> </data>
+                            <data object_valid="true">_N3019</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_367/Y1</data>
+                            <data>td</data>
+                            <data>0.070</data>
+                            <data>3.258</data>
                             <data>f</data>
                             <data object_valid="true">N117_inv/LUT6_inst_perm/L6</data>
                         </row>
@@ -3679,22 +3679,22 @@
                             <data/>
                             <data>net (fanout=4)</data>
                             <data>0.260</data>
-                            <data>3.321</data>
+                            <data>3.518</data>
                             <data> </data>
                             <data object_valid="true">N117_inv</data>
                         </row>
                         <row>
-                            <data>CLMA_243_409/D0</data>
+                            <data>CLMA_285_391/D1</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/I0</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/I1</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 1002.079" column_number="6">
+                    <table id="require" title="Data required time is 1002.109" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -3785,14 +3785,14 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.256</data>
-                            <data>1001.926</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.267</data>
+                            <data>1001.937</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_409/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
@@ -3802,8 +3802,8 @@
                         <row>
                             <data>clock pessimism</data>
                             <data/>
-                            <data>0.337</data>
-                            <data>1002.263</data>
+                            <data>0.353</data>
+                            <data>1002.290</data>
                             <data/>
                             <data/>
                         </row>
@@ -3811,15 +3811,15 @@
                             <data>clock uncertainty</data>
                             <data/>
                             <data>-0.050</data>
-                            <data>1002.213</data>
+                            <data>1002.240</data>
                             <data/>
                             <data/>
                         </row>
                         <row>
                             <data>Setup time</data>
                             <data/>
-                            <data>-0.134</data>
-                            <data>1002.079</data>
+                            <data>-0.131</data>
+                            <data>1002.109</data>
                             <data/>
                             <data/>
                         </row>
@@ -3828,27 +3828,27 @@
             </general_container>
         </row>
         <row>
-            <data>998.863</data>
+            <data>998.645</data>
             <data>2</data>
             <data>4</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/I1</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/I3</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
             <data>rise-rise</data>
             <data>-0.013</data>
-            <data>2.280</data>
-            <data>1.930</data>
+            <data>2.290</data>
+            <data>1.940</data>
             <data>0.337</data>
             <data>1000.000</data>
-            <data>0.935</data>
-            <data>0.372 (39.8%)</data>
-            <data>0.563 (60.2%)</data>
+            <data>1.210</data>
+            <data>0.320 (26.4%)</data>
+            <data>0.890 (73.6%)</data>
             <general_container>
-                <data>Path #3: setup slack is 998.863(MET)</data>
+                <data>Path #3: setup slack is 998.645(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 3.215" column_number="6">
+                    <table id="arrival" title="Data arrival time is 3.500" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -3939,80 +3939,80 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.306</data>
-                            <data>2.280</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.316</data>
+                            <data>2.290</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/CLK</data>
+                            <data>CLMA_285_391/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[16]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
-                            <data>CLMA_243_403/Q3</data>
+                            <data>CLMA_285_391/Q0</data>
                             <data>tco</data>
                             <data>0.125</data>
-                            <data>2.405</data>
+                            <data>2.415</data>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[12]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[13]/opit_0_inv_AQ_perm/Q</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=2)</data>
-                            <data>0.334</data>
-                            <data>2.739</data>
+                            <data>0.260</data>
+                            <data>2.675</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[12]</data>
+                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[13]</data>
                         </row>
                         <row>
-                            <data>CLMA_243_384/Y2</data>
-                            <data>td</data>
-                            <data>0.122</data>
-                            <data>2.861</data>
-                            <data>f</data>
-                            <data object_valid="true">N117_11/gateop_LUT6DL5_perm/L6</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.075</data>
-                            <data>2.936</data>
-                            <data> </data>
-                            <data object_valid="true">_N15428</data>
-                        </row>
-                        <row>
-                            <data>CLMA_243_385/Y0</data>
+                            <data>CLMA_285_366/Y1</data>
                             <data>td</data>
                             <data>0.125</data>
-                            <data>3.061</data>
-                            <data>r</data>
+                            <data>2.800</data>
+                            <data>f</data>
+                            <data object_valid="true">N117_11/gateop_perm/L6</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.388</data>
+                            <data>3.188</data>
+                            <data> </data>
+                            <data object_valid="true">_N3019</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_367/Y1</data>
+                            <data>td</data>
+                            <data>0.070</data>
+                            <data>3.258</data>
+                            <data>f</data>
                             <data object_valid="true">N117_inv/LUT6_inst_perm/L6</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=4)</data>
-                            <data>0.154</data>
-                            <data>3.215</data>
+                            <data>0.242</data>
+                            <data>3.500</data>
                             <data> </data>
                             <data object_valid="true">N117_inv</data>
                         </row>
                         <row>
-                            <data>CLMA_243_390/A1</data>
+                            <data>CLMA_285_372/A3</data>
                             <data/>
                             <data/>
                             <data/>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/I1</data>
+                            <data>f</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/I3</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 1002.078" column_number="6">
+                    <table id="require" title="Data required time is 1002.145" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -4103,25 +4103,25 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.260</data>
-                            <data>1001.930</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.270</data>
+                            <data>1001.940</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_390/CLK</data>
+                            <data>CLMA_285_372/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[9]/opit_0_inv_L6QL5Q1_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[10]/opit_0_inv_L6QL5Q1_perm/CLK</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
                             <data/>
                             <data>0.337</data>
-                            <data>1002.267</data>
+                            <data>1002.277</data>
                             <data/>
                             <data/>
                         </row>
@@ -4129,15 +4129,15 @@
                             <data>clock uncertainty</data>
                             <data/>
                             <data>-0.050</data>
-                            <data>1002.217</data>
+                            <data>1002.227</data>
                             <data/>
                             <data/>
                         </row>
                         <row>
                             <data>Setup time</data>
                             <data/>
-                            <data>-0.139</data>
-                            <data>1002.078</data>
+                            <data>-0.082</data>
+                            <data>1002.145</data>
                             <data/>
                             <data/>
                         </row>
@@ -4167,11 +4167,297 @@
             <data>Route delay</data>
         </column_headers>
         <row>
+            <data>0.148</data>
+            <data>0</data>
+            <data>8</data>
+            <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/D</data>
+            <data/>
+            <data>TOP|CLK_undiv</data>
+            <data>TOP|CLK_undiv</data>
+            <data>rise-rise</data>
+            <data>0.001</data>
+            <data>1.941</data>
+            <data>2.294</data>
+            <data>-0.352</data>
+            <data>0.000</data>
+            <data>0.176</data>
+            <data>0.123 (69.9%)</data>
+            <data>0.053 (30.1%)</data>
+            <general_container>
+                <data>Path #1: hold slack is 0.148(MET)</data>
+                <table_container>
+                    <table id="arrival" title="Data arrival time is 2.117" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock TOP|CLK_undiv (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>P17</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.033</data>
+                            <data>0.033</data>
+                            <data/>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv</data>
+                        </row>
+                        <row>
+                            <data>IOBD_0_162/DIN</data>
+                            <data>td</data>
+                            <data>0.445</data>
+                            <data>0.478</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_0/O</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.478</data>
+                            <data/>
+                            <data object_valid="true">CLK_undiv_ibuf/ntD</data>
+                        </row>
+                        <row>
+                            <data>IOLHR_16_162/DI_TO_CLK</data>
+                            <data>td</data>
+                            <data>0.073</data>
+                            <data>0.551</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_1/DI_TO_CLK</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.493</data>
+                            <data>1.044</data>
+                            <data/>
+                            <data file_id="../TOP_Pango.v" line_number="20">nt_CLK_undiv</data>
+                        </row>
+                        <row>
+                            <data>USCM_167_270/CLKOUT</data>
+                            <data>td</data>
+                            <data>0.097</data>
+                            <data>1.141</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">clkbufg_0/gopclkbufg/CLKOUT</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.334</data>
+                            <data>1.475</data>
+                            <data/>
+                            <data object_valid="true">ntclkbufg_0</data>
+                        </row>
+                        <row>
+                            <data>HCKB_165_229/CLKOUT</data>
+                            <data>td</data>
+                            <data>0.195</data>
+                            <data>1.670</data>
+                            <data>r</data>
+                            <data object_valid="true">HCKBROUTE_0/CLKOUT</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=33)</data>
+                            <data>0.271</data>
+                            <data>1.941</data>
+                            <data/>
+                            <data object_valid="true">_N0</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_366/CLK</data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CLK</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_366/CR2</data>
+                            <data>tco</data>
+                            <data>0.123</data>
+                            <data>2.064</data>
+                            <data>f</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[3]/opit_0_inv_srl/CR0</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=8)</data>
+                            <data>0.053</data>
+                            <data>2.117</data>
+                            <data> </data>
+                            <data file_id="../TOP_Pango.v" line_number="68">enable[4]</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_366/M3</data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>f</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/D</data>
+                        </row>
+                    </table>
+                </table_container>
+                <table_container>
+                    <table id="require" title="Data required time is 1.969" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock TOP|CLK_undiv (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>P17</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.033</data>
+                            <data>0.033</data>
+                            <data/>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv</data>
+                        </row>
+                        <row>
+                            <data>IOBD_0_162/DIN</data>
+                            <data>td</data>
+                            <data>0.521</data>
+                            <data>0.554</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_0/O</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.554</data>
+                            <data/>
+                            <data object_valid="true">CLK_undiv_ibuf/ntD</data>
+                        </row>
+                        <row>
+                            <data>IOLHR_16_162/DI_TO_CLK</data>
+                            <data>td</data>
+                            <data>0.087</data>
+                            <data>0.641</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_1/DI_TO_CLK</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.588</data>
+                            <data>1.229</data>
+                            <data/>
+                            <data file_id="../TOP_Pango.v" line_number="20">nt_CLK_undiv</data>
+                        </row>
+                        <row>
+                            <data>USCM_167_270/CLKOUT</data>
+                            <data>td</data>
+                            <data>0.115</data>
+                            <data>1.344</data>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="20">clkbufg_0/gopclkbufg/CLKOUT</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.397</data>
+                            <data>1.741</data>
+                            <data/>
+                            <data object_valid="true">ntclkbufg_0</data>
+                        </row>
+                        <row>
+                            <data>HCKB_165_229/CLKOUT</data>
+                            <data>td</data>
+                            <data>0.233</data>
+                            <data>1.974</data>
+                            <data>r</data>
+                            <data object_valid="true">HCKBROUTE_0/CLKOUT</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=33)</data>
+                            <data>0.320</data>
+                            <data>2.294</data>
+                            <data/>
+                            <data object_valid="true">_N0</data>
+                        </row>
+                        <row>
+                            <data>CLMA_285_366/CLK</data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[5]/opit_0_inv_srl/CLK</data>
+                        </row>
+                        <row>
+                            <data>clock pessimism</data>
+                            <data/>
+                            <data>-0.352</data>
+                            <data>1.942</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clock uncertainty</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>1.942</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>Hold time</data>
+                            <data/>
+                            <data>0.027</data>
+                            <data>1.969</data>
+                            <data/>
+                            <data/>
+                        </row>
+                    </table>
+                </table_container>
+            </general_container>
+        </row>
+        <row>
             <data>0.150</data>
             <data>1</data>
             <data>1</data>
-            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[17]/opit_0_inv_AQ_perm/CIN</data>
+            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[13]/opit_0_inv_AQ_perm/CIN</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
@@ -4185,7 +4471,7 @@
             <data>0.235 (80.8%)</data>
             <data>0.056 (19.2%)</data>
             <general_container>
-                <data>Path #1: hold slack is 0.150(MET)</data>
+                <data>Path #2: hold slack is 0.150(MET)</data>
                 <table_container>
                     <table id="arrival" title="Data arrival time is 2.245" column_number="6">
                         <column_headers>
@@ -4278,7 +4564,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=17)</data>
+                            <data>net (fanout=13)</data>
                             <data>0.284</data>
                             <data>1.954</data>
                             <data/>
@@ -4290,7 +4576,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
                             <data>CLMA_285_301/Q3</data>
@@ -4298,7 +4584,7 @@
                             <data>0.103</data>
                             <data>2.057</data>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/Q</data>
                         </row>
                         <row>
                             <data/>
@@ -4306,7 +4592,7 @@
                             <data>0.056</data>
                             <data>2.113</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="54">genblk1.clk_counter [16]</data>
+                            <data file_id="../TOP_Pango.v" line_number="54">genblk1.clk_counter [12]</data>
                         </row>
                         <row>
                             <data>CLMA_285_301/COUT</data>
@@ -4314,7 +4600,7 @@
                             <data>0.132</data>
                             <data>2.245</data>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/COUT</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[12]/opit_0_inv_AQ_perm/COUT</data>
                         </row>
                         <row>
                             <data/>
@@ -4322,7 +4608,7 @@
                             <data>0.000</data>
                             <data>2.245</data>
                             <data> </data>
-                            <data object_valid="true">_N329</data>
+                            <data object_valid="true">_N660</data>
                         </row>
                         <row>
                             <data>CLMA_285_307/CIN</data>
@@ -4330,7 +4616,7 @@
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[17]/opit_0_inv_AQ_perm/CIN</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[13]/opit_0_inv_AQ_perm/CIN</data>
                         </row>
                     </table>
                 </table_container>
@@ -4426,7 +4712,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
+                            <data>net (fanout=33)</data>
                             <data>0.331</data>
                             <data>2.305</data>
                             <data/>
@@ -4438,7 +4724,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[20]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[16]/opit_0_inv_AQ_perm/CLK</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -4469,313 +4755,27 @@
             </general_container>
         </row>
         <row>
-            <data>0.186</data>
+            <data>0.174</data>
             <data>0</data>
-            <data>2</data>
-            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[2]/opit_0_inv_AQ_perm/I3</data>
+            <data>7</data>
+            <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/CLK</data>
+            <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/I4</data>
             <data/>
             <data>TOP|CLK_undiv</data>
             <data>TOP|CLK_undiv</data>
             <data>rise-rise</data>
-            <data>0.000</data>
-            <data>1.951</data>
-            <data>2.303</data>
-            <data>-0.352</data>
-            <data>0.000</data>
-            <data>0.159</data>
-            <data>0.103 (64.8%)</data>
-            <data>0.056 (35.2%)</data>
-            <general_container>
-                <data>Path #2: hold slack is 0.186(MET)</data>
-                <table_container>
-                    <table id="arrival" title="Data arrival time is 2.110" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock TOP|CLK_undiv (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>P17</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.033</data>
-                            <data>0.033</data>
-                            <data/>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv</data>
-                        </row>
-                        <row>
-                            <data>IOBD_0_162/DIN</data>
-                            <data>td</data>
-                            <data>0.445</data>
-                            <data>0.478</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_0/O</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.478</data>
-                            <data/>
-                            <data object_valid="true">CLK_undiv_ibuf/ntD</data>
-                        </row>
-                        <row>
-                            <data>IOLHR_16_162/DI_TO_CLK</data>
-                            <data>td</data>
-                            <data>0.073</data>
-                            <data>0.551</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_1/DI_TO_CLK</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.493</data>
-                            <data>1.044</data>
-                            <data/>
-                            <data file_id="../TOP_Pango.v" line_number="20">nt_CLK_undiv</data>
-                        </row>
-                        <row>
-                            <data>USCM_167_270/CLKOUT</data>
-                            <data>td</data>
-                            <data>0.097</data>
-                            <data>1.141</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">clkbufg_0/gopclkbufg/CLKOUT</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.334</data>
-                            <data>1.475</data>
-                            <data/>
-                            <data object_valid="true">ntclkbufg_0</data>
-                        </row>
-                        <row>
-                            <data>HCKB_165_180/CLKOUT</data>
-                            <data>td</data>
-                            <data>0.195</data>
-                            <data>1.670</data>
-                            <data>r</data>
-                            <data object_valid="true">HCKBROUTE_1/CLKOUT</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=17)</data>
-                            <data>0.281</data>
-                            <data>1.951</data>
-                            <data/>
-                            <data object_valid="true">_N1</data>
-                        </row>
-                        <row>
-                            <data>CLMA_285_283/CLK</data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK</data>
-                        </row>
-                        <row>
-                            <data>CLMA_285_283/Q0</data>
-                            <data>tco</data>
-                            <data>0.103</data>
-                            <data>2.054</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[1]/opit_0_inv_AQ_perm/Q</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.056</data>
-                            <data>2.110</data>
-                            <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="54">genblk1.clk_counter [1]</data>
-                        </row>
-                        <row>
-                            <data>CLMA_285_283/B3</data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[2]/opit_0_inv_AQ_perm/I3</data>
-                        </row>
-                    </table>
-                </table_container>
-                <table_container>
-                    <table id="require" title="Data required time is 1.924" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock TOP|CLK_undiv (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>P17</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.033</data>
-                            <data>0.033</data>
-                            <data/>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv</data>
-                        </row>
-                        <row>
-                            <data>IOBD_0_162/DIN</data>
-                            <data>td</data>
-                            <data>0.521</data>
-                            <data>0.554</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_0/O</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.554</data>
-                            <data/>
-                            <data object_valid="true">CLK_undiv_ibuf/ntD</data>
-                        </row>
-                        <row>
-                            <data>IOLHR_16_162/DI_TO_CLK</data>
-                            <data>td</data>
-                            <data>0.087</data>
-                            <data>0.641</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv_ibuf/opit_1/DI_TO_CLK</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.588</data>
-                            <data>1.229</data>
-                            <data/>
-                            <data file_id="../TOP_Pango.v" line_number="20">nt_CLK_undiv</data>
-                        </row>
-                        <row>
-                            <data>USCM_167_270/CLKOUT</data>
-                            <data>td</data>
-                            <data>0.115</data>
-                            <data>1.344</data>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="20">clkbufg_0/gopclkbufg/CLKOUT</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.397</data>
-                            <data>1.741</data>
-                            <data/>
-                            <data object_valid="true">ntclkbufg_0</data>
-                        </row>
-                        <row>
-                            <data>HCKB_165_180/CLKOUT</data>
-                            <data>td</data>
-                            <data>0.233</data>
-                            <data>1.974</data>
-                            <data>r</data>
-                            <data object_valid="true">HCKBROUTE_1/CLKOUT</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=17)</data>
-                            <data>0.329</data>
-                            <data>2.303</data>
-                            <data/>
-                            <data object_valid="true">_N1</data>
-                        </row>
-                        <row>
-                            <data>CLMA_285_283/CLK</data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[4]/opit_0_inv_AQ_perm/CLK</data>
-                        </row>
-                        <row>
-                            <data>clock pessimism</data>
-                            <data/>
-                            <data>-0.352</data>
-                            <data>1.951</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clock uncertainty</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>1.951</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>Hold time</data>
-                            <data/>
-                            <data>-0.027</data>
-                            <data>1.924</data>
-                            <data/>
-                            <data/>
-                        </row>
-                    </table>
-                </table_container>
-            </general_container>
-        </row>
-        <row>
-            <data>0.187</data>
-            <data>0</data>
-            <data>4</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK</data>
-            <data file_id="../TOP_Pango.v" line_number="74">count_fast[2]/opit_0_inv_AQ_perm/I3</data>
-            <data/>
-            <data>TOP|CLK_undiv</data>
-            <data>TOP|CLK_undiv</data>
-            <data>rise-rise</data>
-            <data>0.000</data>
-            <data>1.930</data>
-            <data>2.282</data>
+            <data>0.001</data>
+            <data>1.941</data>
+            <data>2.294</data>
             <data>-0.352</data>
             <data>0.000</data>
             <data>0.160</data>
             <data>0.103 (64.4%)</data>
             <data>0.057 (35.6%)</data>
             <general_container>
-                <data>Path #3: hold slack is 0.187(MET)</data>
+                <data>Path #3: hold slack is 0.174(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 2.090" column_number="6">
+                    <table id="arrival" title="Data arrival time is 2.101" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -4866,48 +4866,48 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.260</data>
-                            <data>1.930</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.271</data>
+                            <data>1.941</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_391/CLK</data>
+                            <data>CLMA_285_366/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/CLK</data>
                         </row>
                         <row>
-                            <data>CLMA_243_391/Q0</data>
+                            <data>CLMA_285_366/Q1</data>
                             <data>tco</data>
                             <data>0.103</data>
-                            <data>2.033</data>
+                            <data>2.044</data>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[1]/opit_0_inv_AQ_perm/Q</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[1]/opit_0_inv_srl/Q0</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=4)</data>
+                            <data>net (fanout=7)</data>
                             <data>0.057</data>
-                            <data>2.090</data>
+                            <data>2.101</data>
                             <data> </data>
-                            <data file_id="../TOP_Pango.v" line_number="70">count_fast[1]</data>
+                            <data file_id="../TOP_Pango.v" line_number="68">enable[1]</data>
                         </row>
                         <row>
-                            <data>CLMA_243_391/B3</data>
+                            <data>CLMA_285_366/A4</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[2]/opit_0_inv_AQ_perm/I3</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/I4</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 1.903" column_number="6">
+                    <table id="require" title="Data required time is 1.927" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -4998,25 +4998,25 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=29)</data>
-                            <data>0.308</data>
-                            <data>2.282</data>
+                            <data>net (fanout=33)</data>
+                            <data>0.320</data>
+                            <data>2.294</data>
                             <data/>
                             <data object_valid="true">_N0</data>
                         </row>
                         <row>
-                            <data>CLMA_243_391/CLK</data>
+                            <data>CLMA_285_366/CLK</data>
                             <data/>
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK</data>
+                            <data file_id="../TOP_Pango.v" line_number="89">enable[0]/opit_0_inv_L5Q_perm/CLK</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
                             <data/>
                             <data>-0.352</data>
-                            <data>1.930</data>
+                            <data>1.942</data>
                             <data/>
                             <data/>
                         </row>
@@ -5024,15 +5024,15 @@
                             <data>clock uncertainty</data>
                             <data/>
                             <data>0.000</data>
-                            <data>1.930</data>
+                            <data>1.942</data>
                             <data/>
                             <data/>
                         </row>
                         <row>
                             <data>Hold time</data>
                             <data/>
-                            <data>-0.027</data>
-                            <data>1.903</data>
+                            <data>-0.015</data>
+                            <data>1.927</data>
                             <data/>
                             <data/>
                         </row>
@@ -5057,7 +5057,7 @@
             <data>0.200</data>
             <data>TOP|CLK_undiv</data>
             <data>High Pulse Width</data>
-            <data>CLMA_243_396/CLK</data>
+            <data>CLMA_285_367/CLK</data>
             <data file_id="../TOP_Pango.v" line_number="74">count_fast[0]/opit_0_inv_L5Q_perm/CLK</data>
         </row>
         <row>
@@ -5066,7 +5066,7 @@
             <data>0.200</data>
             <data>TOP|CLK_undiv</data>
             <data>Low Pulse Width</data>
-            <data>CLMA_243_396/CLK</data>
+            <data>CLMA_285_367/CLK</data>
             <data file_id="../TOP_Pango.v" line_number="74">count_fast[0]/opit_0_inv_L5Q_perm/CLK</data>
         </row>
         <row>
@@ -5075,7 +5075,7 @@
             <data>0.200</data>
             <data>TOP|CLK_undiv</data>
             <data>High Pulse Width</data>
-            <data>CLMA_243_391/CLK</data>
+            <data>CLMA_285_373/CLK</data>
             <data file_id="../TOP_Pango.v" line_number="74">count_fast[4]/opit_0_inv_AQ_perm/CLK</data>
         </row>
     </table>
@@ -5090,10 +5090,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:8s</data>
-            <data>0h:0m:8s</data>
-            <data>0h:0m:17s</data>
-            <data>821</data>
+            <data>0h:0m:9s</data>
+            <data>0h:0m:9s</data>
+            <data>0h:0m:16s</data>
+            <data>822</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -5108,7 +5108,7 @@
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/count[2]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/count[4]/opit_0_inv_L6QL5Q1_perm/CLK' (gopLUT6QL5Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/count[4]/opit_0_inv_L6QL5Q_perm/CLK' (gopLUT6QL5Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/done/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
@@ -5117,7 +5117,7 @@
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/sign/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/state/opit_0_inv_L6Q_LUT6DQL5_perm/CLK' (gopLUT6QL5.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/state/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[0]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
@@ -5126,94 +5126,94 @@
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[1]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[2]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[2]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[3]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[3]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[4]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[4]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[5]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[5]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[6]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[6]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[7]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[7]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[8]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[8]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[9]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[9]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[10]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[10]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[11]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[11]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[12]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[12]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[13]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[13]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[14]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[14]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[15]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[15]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[16]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[16]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[17]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[17]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[18]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[18]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[19]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[19]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[20]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[20]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[21]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[21]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[22]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[22]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[23]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[23]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[24]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[24]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[25]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[25]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[26]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[26]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[27]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[27]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[28]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[28]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[29]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[29]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[30]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[30]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[31]/opit_0_inv_L7Q_perm/CLK' (gopLUT7QL6AB.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[31]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[32]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
@@ -5309,7 +5309,7 @@
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[62]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[63]/opit_0_inv_L5Q_perm/CLK' (gopLUT6L5Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/MCycle1/temp_sum[63]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_Control/CondLogic1/Z/opit_0_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
@@ -5321,7 +5321,7 @@
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[3]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[4]/opit_0_inv_L6Q_perm/CLK' (gopLUT6Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[4]/opit_0_inv_L5Q_perm/CLK' (gopLUT6L5Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'wrapper1/ARM1/u_PC/current_PC[5]/opit_0_inv_L6QL5Q1_perm/CLK' (gopLUT6QL5Q.CLK) has no clock, timing propagation is disabled at the pin.</data>
