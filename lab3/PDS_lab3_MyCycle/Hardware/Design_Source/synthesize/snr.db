@@ -34,8 +34,8 @@
         </column_headers>
         <row>
             <data>TOP</data>
-            <data>1142</data>
-            <data>164</data>
+            <data>1140</data>
+            <data>162</data>
             <data>108</data>
             <data>0</data>
             <data>0.5</data>
@@ -52,7 +52,7 @@
             <data>42</data>
             <data>0</data>
             <data>0</data>
-            <data>267</data>
+            <data>265</data>
             <data>0</data>
             <data>15</data>
             <data>0</data>
@@ -341,7 +341,7 @@
                     </row>
                     <row>
                         <data>u_PC</data>
-                        <data>56</data>
+                        <data>57</data>
                         <data>32</data>
                         <data>0</data>
                         <data>0</data>
@@ -898,7 +898,7 @@
                     <row>
                         <data>There are 1 nodes without an associated clock assignment.</data>
                         <row>
-                            <data>genblk1.clk_counter[24]/Q</data>
+                            <data>genblk1.clk_counter[22]/Q</data>
                         </row>
                     </row>
                     <row>
@@ -1205,7 +1205,7 @@
             <data>1.000MHz</data>
             <data>0.000</data>
             <data>500.000</data>
-            <data>51</data>
+            <data>49</data>
             <data>0</data>
             <data/>
             <data>{ CLK_undiv }</data>
@@ -1248,17 +1248,17 @@
             <data>997.693</data>
             <data>0.000</data>
             <data>0</data>
-            <data>59</data>
+            <data>57</data>
             <data>0.686</data>
             <data>0.000</data>
             <data>0</data>
-            <data>59</data>
+            <data>57</data>
         </row>
     </table>
     <table id="synthesize_report_clock_network" title="Clock Network" column_number="1" tree="">
         <column_headers/>
         <row>
-            <data>TOP|CLK_undiv (1.00MHZ) (drive 51 loads) (min_rise, max_rise, min_fall, max_fall)</data>
+            <data>TOP|CLK_undiv (1.00MHZ) (drive 49 loads) (min_rise, max_rise, min_fall, max_fall)</data>
             <row>
                 <data file_id="../TOP_Pango.v" line_number="20">CLK_undiv (0.000, 0.000, 0.000, 0.000)</data>
                 <row>
@@ -1412,12 +1412,6 @@
                                 <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[22]/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                             <row>
-                                <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[23]/CLK (3.380, 3.380, 3.281, 3.281)</data>
-                            </row>
-                            <row>
-                                <data file_id="../TOP_Pango.v" line_number="55">genblk1.clk_counter[24]/CLK (3.380, 3.380, 3.281, 3.281)</data>
-                            </row>
-                            <row>
                                 <data file_id="../TOP_Pango.v" line_number="74">seven_seg_enable/CLK (3.380, 3.380, 3.281, 3.281)</data>
                             </row>
                         </row>
@@ -1441,7 +1435,7 @@
             <data>997.693</data>
             <data>0.000</data>
             <data>0</data>
-            <data>59</data>
+            <data>57</data>
         </row>
     </table>
     <table id="synthesize_report_timing_hold" title="Hold Summary" column_number="6">
@@ -1459,7 +1453,7 @@
             <data>0.686</data>
             <data>0.000</data>
             <data>0</data>
-            <data>59</data>
+            <data>57</data>
         </row>
     </table>
     <table id="synthesize_report_timing_mpw" title="Minimum Pulse Width Summary" column_number="5">
@@ -1475,7 +1469,7 @@
             <data>499.800</data>
             <data>0.000</data>
             <data>0</data>
-            <data>51</data>
+            <data>49</data>
         </row>
     </table>
     <table id="synthesize_report_timing_path_setup" title="Setup Path Summary" column_number="17">
@@ -1570,7 +1564,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
@@ -1622,7 +1616,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N16754</data>
+                            <data object_valid="true">_N15926</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1670,7 +1664,7 @@
                             <data>0.000</data>
                             <data>5.433</data>
                             <data> </data>
-                            <data object_valid="true">_N607</data>
+                            <data object_valid="true">_N605</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1758,7 +1752,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>1003.380</data>
                             <data/>
@@ -1872,7 +1866,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
@@ -1924,7 +1918,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N16754</data>
+                            <data object_valid="true">_N15926</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2036,7 +2030,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>1003.380</data>
                             <data/>
@@ -2150,7 +2144,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
@@ -2202,7 +2196,7 @@
                             <data>0.437</data>
                             <data>4.642</data>
                             <data> </data>
-                            <data object_valid="true">_N16754</data>
+                            <data object_valid="true">_N15926</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2314,7 +2308,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>1003.380</data>
                             <data/>
@@ -2449,7 +2443,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
@@ -2541,7 +2535,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
@@ -2655,7 +2649,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
@@ -2747,7 +2741,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
@@ -2861,7 +2855,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
@@ -2953,7 +2947,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=51)</data>
+                            <data>net (fanout=49)</data>
                             <data>2.420</data>
                             <data>3.380</data>
                             <data/>
@@ -3041,10 +3035,10 @@
         </column_headers>
         <comment>
             <data>
-Total LUTs: 1142 of 35800 (3.19%)
+Total LUTs: 1140 of 35800 (3.18%)
 	LUTs as dram: 108 of 9500 (1.14%)
-	LUTs as logic: 1034
-Total Registers: 164 of 71600 (0.23%)
+	LUTs as logic: 1032
+Total Registers: 162 of 71600 (0.23%)
 Total Latches: 0
 
 DRM36K/FIFO:
@@ -3062,7 +3056,7 @@ Total I/O ports = 42 of 209 (20.10%)
         </row>
         <row>
             <data>GTP_DFF_CE                 </data>
-            <data>134</data>
+            <data>132</data>
         </row>
         <row>
             <data>GTP_DFF_E                    </data>
@@ -3094,7 +3088,7 @@ Total I/O ports = 42 of 209 (20.10%)
         </row>
         <row>
             <data>GTP_LUT3                     </data>
-            <data>5</data>
+            <data>3</data>
         </row>
         <row>
             <data>GTP_LUT4                    </data>
@@ -3102,7 +3096,7 @@ Total I/O ports = 42 of 209 (20.10%)
         </row>
         <row>
             <data>GTP_LUT5                   </data>
-            <data>132</data>
+            <data>134</data>
         </row>
         <row>
             <data>GTP_LUT6                   </data>
@@ -3110,7 +3104,7 @@ Total I/O ports = 42 of 209 (20.10%)
         </row>
         <row>
             <data>GTP_LUT6CARRY              </data>
-            <data>267</data>
+            <data>265</data>
         </row>
         <row>
             <data>GTP_LUT6D                  </data>
@@ -3162,10 +3156,10 @@ Total I/O ports = 42 of 209 (20.10%)
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:7s</data>
-            <data>0h:0m:7s</data>
-            <data>0h:0m:14s</data>
-            <data>309</data>
+            <data>0h:0m:5s</data>
+            <data>0h:0m:5s</data>
+            <data>0h:0m:17s</data>
+            <data>308</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
             <data>16</data>
@@ -3198,7 +3192,7 @@ Total I/O ports = 42 of 209 (20.10%)
             <data message="6">SDC-2025: Clock source 'n:CLK_undiv' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.</data>
         </row>
         <row>
-            <data message="6">SDC-2025: Clock source 'n:genblk1.clk_counter [24]' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.</data>
+            <data message="6">SDC-2025: Clock source 'n:genblk1.clk_counter [22]' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.</data>
         </row>
         <row>
             <data message="4">Constant propagation done on wrapper1/ARM1/u_Control/CondLogic1/N69 (bmsWIDEINV).</data>

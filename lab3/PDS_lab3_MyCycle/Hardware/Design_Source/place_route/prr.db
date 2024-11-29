@@ -2931,36 +2931,36 @@
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>280</data>
+            <data>293</data>
             <data>6575</data>
             <data>5</data>
             <row>
                 <data>  FF</data>
-                <data>135</data>
+                <data>93</data>
                 <data>52600</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>937</data>
+                <data>958</data>
                 <data>26300</data>
                 <data>4</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>120</data>
+                <data>83</data>
                 <data>26300</data>
                 <data>1</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>84</data>
+            <data>80</data>
             <data>2375</data>
             <data>4</data>
             <row>
                 <data>  FF</data>
-                <data>29</data>
+                <data>69</data>
                 <data>19000</data>
                 <data>1</data>
             </row>
@@ -2972,7 +2972,7 @@
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>21</data>
+                <data>56</data>
                 <data>9500</data>
                 <data>1</data>
             </row>
@@ -3027,15 +3027,15 @@
         </row>
         <row>
             <data>Use of HARD0</data>
-            <data>90</data>
+            <data>95</data>
             <data>5850</data>
             <data>2</data>
         </row>
         <row>
             <data>Use of HCKB</data>
-            <data>3</data>
+            <data>2</data>
             <data>72</data>
-            <data>5</data>
+            <data>3</data>
         </row>
         <row>
             <data>Use of HCKMUX_TEST</data>
@@ -3236,8 +3236,8 @@
         </column_headers>
         <row>
             <data>TOP</data>
-            <data>1133</data>
-            <data>164</data>
+            <data>1129</data>
+            <data>162</data>
             <data>108</data>
             <data>0</data>
             <data>0.5</data>
@@ -3248,7 +3248,7 @@
             <data>0</data>
             <data>0</data>
             <data>0</data>
-            <data>3</data>
+            <data>2</data>
             <data>0</data>
             <data>42</data>
             <data>0</data>
@@ -3262,8 +3262,8 @@
             <data>1</data>
             <row>
                 <data>wrapper1</data>
-                <data>1055</data>
-                <data>113</data>
+                <data>1054</data>
+                <data>114</data>
                 <data>108</data>
                 <data>0</data>
                 <data>0.5</data>
@@ -3288,8 +3288,8 @@
                 <data>0</data>
                 <row>
                     <data>ARM1</data>
-                    <data>944</data>
-                    <data>105</data>
+                    <data>943</data>
+                    <data>106</data>
                     <data>44</data>
                     <data>0</data>
                     <data>0</data>
@@ -3422,7 +3422,7 @@
                     </row>
                     <row>
                         <data>u_Control</data>
-                        <data>29</data>
+                        <data>30</data>
                         <data>1</data>
                         <data>0</data>
                         <data>0</data>
@@ -3475,7 +3475,7 @@
                         </row>
                         <row>
                             <data>Decoder1</data>
-                            <data>24</data>
+                            <data>25</data>
                             <data>0</data>
                             <data>0</data>
                             <data>0</data>
@@ -3570,9 +3570,9 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
+            <data>0h:0m:15s</data>
             <data>0h:0m:18s</data>
-            <data>0h:0m:21s</data>
-            <data>0h:0m:34s</data>
+            <data>0h:0m:40s</data>
             <data>949</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i7-1255U</data>
@@ -3606,16 +3606,16 @@
             <data message="4">Column Clock Check open.</data>
         </row>
         <row>
-            <data message="4">LUT6D pack result: There are 631 LUT6 in collection, pack success:7</data>
+            <data message="4">LUT6D pack result: There are 631 LUT6 in collection, pack success:10</data>
         </row>
         <row>
-            <data message="4">LUT6D pack result: There are 617 LUT6 in collection, pack success:2</data>
+            <data message="4">LUT6D pack result: There are 611 LUT6 in collection, pack success:1</data>
         </row>
         <row>
             <data message="4">clock_dedicated_route = 0</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from CLMA_171_318:Q3 to CLMA_255_342:CLK is routed by SRB.</data>
+            <data message="6">Route-2036: The clock path from CLMS_255_331:Q1 to CLMA_231_414:CLK is routed by SRB.</data>
         </row>
     </table>
     <general_container id="pnr_settings">
@@ -3881,7 +3881,7 @@
                     <data>clkbufg_0/gopclkbufg</data>
                     <data>USCM_167_270</data>
                     <data>ntclkbufg_0</data>
-                    <data>46</data>
+                    <data>44</data>
                     <data>0</data>
                     <data>CLK_undiv_ibuf/opit_1</data>
                     <data>DI_TO_CLK</data>

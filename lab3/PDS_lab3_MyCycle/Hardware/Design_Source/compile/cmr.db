@@ -171,7 +171,7 @@
     N_LEDs_OUT = 32'b00000000000000000000000000001000
     N_DIPs = 32'b00000000000000000000000000000111
     N_SEVEN_SEG_DIGITs = 32'b00000000000000000000000000001000
-    CLK_DIV_BITS = 32'b00000000000000000000000000011000</data>
+    CLK_DIV_BITS = 32'b00000000000000000000000000010110</data>
         </row>
         <row>
             <data message="4">Verilog-0004: [F:/SME_files/SME309/codes/SME209_codes/lab3/PDS_lab3_MyCycle/Hardware/Design_Source/TOP_Pango.v(line number: 36)] Elaborating instance wrapper1</data>
